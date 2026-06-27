@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
-import { getRotation } from '../data/rotations/index.js'
+import { getRotationMerged } from '../lib/customContent.js'
 import { useLocalStorage } from '../lib/useLocalStorage.js'
 
 function shuffle(arr) {
@@ -16,7 +16,7 @@ const KEYS = ['A', 'B', 'C', 'D', 'E', 'F']
 
 export default function Quiz() {
   const { rotationId } = useParams()
-  const rotation = getRotation(rotationId)
+  const rotation = getRotationMerged(rotationId)
   const [best, setBest] = useLocalStorage(`quizbest:${rotationId}`, null)
 
   const [order, setOrder] = useState([])

@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
-import { getRotation } from '../data/rotations/index.js'
+import { getRotationMerged } from '../lib/customContent.js'
 
 function shuffle(arr) {
   const a = [...arr]
@@ -13,7 +13,7 @@ function shuffle(arr) {
 
 export default function Viva() {
   const { rotationId } = useParams()
-  const rotation = getRotation(rotationId)
+  const rotation = getRotationMerged(rotationId)
 
   const [order, setOrder] = useState([])
   const [idx, setIdx] = useState(0)

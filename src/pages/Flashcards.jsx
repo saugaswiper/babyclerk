@@ -1,12 +1,12 @@
 import { useEffect, useMemo, useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
-import { getRotation } from '../data/rotations/index.js'
+import { getRotationMerged } from '../lib/customContent.js'
 import { useLocalStorage } from '../lib/useLocalStorage.js'
 import { isDue, review } from '../lib/srs.js'
 
 export default function Flashcards() {
   const { rotationId } = useParams()
-  const rotation = getRotation(rotationId)
+  const rotation = getRotationMerged(rotationId)
   const [srs, setSrs] = useLocalStorage(`srs:${rotationId}`, {})
 
   // Build the session queue once on mount: due/new cards first.

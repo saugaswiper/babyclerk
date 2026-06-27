@@ -3,11 +3,11 @@ export default {
   id: 'psychiatry',
   name: 'Psychiatry',
   emoji: '🧠',
-  blurb: 'Risk assessment, the mental state exam, and the Mental Health Act.',
+  blurb: 'Risk assessment, the mental state exam, and the Ontario Mental Health Act.',
   checklist: [
     'Be fluent in the Mental State Examination (MSE) structure',
     'Always perform and document a risk assessment (self/others)',
-    'Know the core sections of the Mental Health Act (your jurisdiction)',
+    'Know the key Ontario Mental Health Act forms (Form 1, 3, 42)',
     'Understand first-line pharmacology for depression, psychosis, bipolar',
     'Be able to screen for suicide risk safely and directly',
     'Know the key drug side-effects and monitoring (lithium, clozapine)',
@@ -34,16 +34,29 @@ export default {
     },
     {
       id: 'psych-note-risk',
-      title: 'Risk & the Mental Health Act',
+      title: 'Risk & the Ontario Mental Health Act',
       topic: 'Core',
       sections: [
         {
           heading: 'Risk assessment',
-          points: ['Risk to self (suicide, self-harm, self-neglect)', 'Risk to others', 'Risk from others (vulnerability/safeguarding)', 'Static vs dynamic/modifiable factors'],
+          points: ['Risk to self (suicide, self-harm, self-neglect)', 'Risk to others', 'Risk from others (vulnerability/abuse)', 'Static vs dynamic/modifiable factors'],
         },
         {
-          heading: 'MHA (England & Wales — adapt to your setting)',
-          points: ['Section 2: assessment, up to 28 days', 'Section 3: treatment, up to 6 months', 'Section 5(2): doctor’s holding power, 72 hours', 'Section 136: police, place of safety'],
+          heading: 'Ontario MHA — key forms',
+          points: [
+            'Form 1: physician’s application for psychiatric assessment — hold up to 72 hours',
+            'Form 3: certificate of involuntary admission — up to 2 weeks',
+            'Form 4: certificate of renewal (then 1, 2, 3 months…)',
+            'Form 42: notice to the patient that a Form 1/3 was completed',
+            'Form 2: justice-of-the-peace order for examination',
+          ],
+        },
+        {
+          heading: 'Form 1 admission criteria (box A or box B)',
+          points: [
+            'Box A: risk of serious harm to self/others or self-neglect, with apparent mental disorder',
+            'Box B: prior treatment + incapacity + likely deterioration (the “community/CTO” criteria)',
+          ],
         },
       ],
     },
@@ -77,7 +90,7 @@ export default {
     { id: 'psych-viva-1', topic: 'Risk', question: 'How do you assess suicide risk in a patient who expresses low mood?', answer: 'Ask directly and empathically — asking does not plant the idea. Explore thoughts, intent, specific plans, preparatory acts, access to means, and protective factors. Combine current (dynamic) factors with static risk factors and any history of attempts. Document clearly, ensure immediate safety, and escalate to senior/psychiatric review when risk is significant.' },
     { id: 'psych-viva-2', topic: 'Assessment', question: 'Walk me through the components of a Mental State Examination.', answer: 'Appearance and behaviour; Speech (rate, volume, form); Emotion split into mood (subjective) and affect (objective); Perception (hallucinations/illusions); Thought form and content (including delusions and obsessions); Insight and judgement; and Cognition. It is a structured snapshot of the patient at the time of assessment.' },
     { id: 'psych-viva-3', topic: 'Pharmacology', question: 'A patient on lithium presents with a coarse tremor and confusion. What are you worried about?', answer: 'Lithium toxicity. Lithium has a narrow therapeutic index, and toxicity causes coarse tremor, ataxia, dysarthria, GI upset, confusion and seizures, often precipitated by dehydration or interacting drugs (NSAIDs, ACEi, diuretics). Check the lithium level and renal function urgently, stop lithium, rehydrate, and consider dialysis in severe cases.' },
-    { id: 'psych-viva-4', topic: 'Core', question: 'When might you use the Mental Health Act, and which sections are most relevant on the wards?', answer: 'When a patient with a mental disorder needs assessment or treatment and lacks the willingness to stay voluntarily while posing a risk to themselves or others. Common sections (England & Wales) are Section 2 (assessment, 28 days), Section 3 (treatment, 6 months), Section 5(2) (doctor’s holding power, 72 hours), and Section 136 (police, place of safety). Always use the least restrictive option and follow local protocol.' },
+    { id: 'psych-viva-4', topic: 'Core', question: 'When might you use the Ontario Mental Health Act, and which forms are most relevant on the wards?', answer: 'When a patient with an apparent mental disorder needs assessment or admission but won’t stay voluntarily and meets the harm/incapacity criteria. A physician completes a Form 1 to hold the patient for a psychiatric assessment of up to 72 hours; if involuntary admission is needed, a Form 3 (certificate of involuntary admission) lasts up to 2 weeks and is renewed with a Form 4. The patient must be given a Form 42 notifying them, and informed of their right to Rights Advice and the Consent and Capacity Board. Always use the least restrictive option.' },
   ],
   mcqs: [
     {
@@ -96,10 +109,10 @@ export default {
     },
     {
       id: 'psych-mcq-3', topic: 'Core',
-      question: 'Under the Mental Health Act (England & Wales), which section allows detention for assessment for up to 28 days?',
-      options: ['Section 2', 'Section 3', 'Section 5(2)', 'Section 136'],
+      question: 'In Ontario, which form is a physician’s application for a psychiatric assessment, allowing a patient to be held for up to 72 hours?',
+      options: ['Form 1', 'Form 3', 'Form 42', 'Form 4'],
       answer: 0,
-      explanation: 'Section 2 is for assessment (up to 28 days); Section 3 is for treatment (up to 6 months).',
+      explanation: 'A Form 1 authorizes holding a patient for psychiatric assessment for up to 72 hours. A Form 3 is the certificate of involuntary admission (up to 2 weeks); a Form 42 is the notice given to the patient.',
     },
     {
       id: 'psych-mcq-4', topic: 'Mood',

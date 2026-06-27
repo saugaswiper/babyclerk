@@ -9,7 +9,8 @@ export default function Home() {
       <div className="page-head">
         <h1>Pick a rotation</h1>
         <p className="sub">
-          Drill flashcards, viva questions, MCQs and high-yield notes so you’re never caught out on the wards.
+          Clerkship prep for Queen’s &amp; the MCCQE — drill flashcards, viva questions, MCQs and
+          high-yield notes so you’re never caught out on the wards.
         </p>
       </div>
 

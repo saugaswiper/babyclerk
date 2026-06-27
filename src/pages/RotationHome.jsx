@@ -1,5 +1,5 @@
 import { useParams, Link } from 'react-router-dom'
-import { getRotation } from '../data/rotations/index.js'
+import { getRotationMerged } from '../lib/customContent.js'
 import { readStored } from '../lib/useLocalStorage.js'
 import { countDue } from '../lib/srs.js'
 
@@ -9,11 +9,13 @@ const MODES = [
   { slug: 'viva', icon: '🗣️', name: 'Viva Drills', desc: 'Tutor-style Q&A' },
   { slug: 'quiz', icon: '✅', name: 'Quiz', desc: 'MCQs with explanations' },
   { slug: 'checklist', icon: '📋', name: 'Prep Checklist', desc: 'Be rotation-ready' },
+  { slug: 'generate', icon: '✨', name: 'AI Generate', desc: 'Fresh questions on demand' },
+  { slug: 'import', icon: '📥', name: 'Import', desc: 'Add your own cards' },
 ]
 
 export default function RotationHome() {
   const { rotationId } = useParams()
-  const rotation = getRotation(rotationId)
+  const rotation = getRotationMerged(rotationId)
 
   if (!rotation) {
     return (
@@ -52,9 +54,13 @@ export default function RotationHome() {
               <h3>{m.name}</h3>
               <p>
                 {m.desc}
-                {' · '}
-                {counts[m.slug]} {m.slug === 'flashcards' ? 'cards' : m.slug === 'quiz' ? 'Qs' : 'items'}
-                {m.slug === 'flashcards' && due > 0 ? ` · ${due} due` : ''}
+                {counts[m.slug] != null && (
+                  <>
+                    {' · '}
+                    {counts[m.slug]} {m.slug === 'flashcards' ? 'cards' : m.slug === 'quiz' ? 'Qs' : 'items'}
+                    {m.slug === 'flashcards' && due > 0 ? ` · ${due} due` : ''}
+                  </>
+                )}
               </p>
             </span>
           </Link>

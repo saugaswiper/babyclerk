@@ -96,7 +96,7 @@ export default {
   ],
   flashcards: [
     { id: 'im-fc-1', topic: 'Cardiology', front: 'ECG criteria for STEMI', back: 'ST elevation ≥1 mm in ≥2 contiguous limb leads, or ≥2 mm in ≥2 contiguous chest leads (≥1.5 mm in women for V2–V3), or new LBBB with ischaemic symptoms.' },
-    { id: 'im-fc-2', topic: 'Endocrine', front: 'Diagnostic thresholds for diabetes (HbA1c & fasting glucose)', back: 'HbA1c ≥48 mmol/mol (6.5%), fasting glucose ≥7.0 mmol/L, or random/2h OGTT ≥11.1 mmol/L. Need two abnormal results if asymptomatic.' },
+    { id: 'im-fc-2', topic: 'Endocrine', front: 'Diagnostic thresholds for diabetes (Diabetes Canada)', back: 'A1C ≥6.5%, fasting glucose ≥7.0 mmol/L, or 2-h OGTT / random ≥11.1 mmol/L. Need a repeat (or second) abnormal test if asymptomatic.' },
     { id: 'im-fc-3', topic: 'Respiratory', front: 'CURB-65 components', back: 'Confusion, Urea >7 mmol/L, RR ≥30, BP <90 systolic or ≤60 diastolic, age ≥65. Each = 1 point; guides admission/severity in pneumonia.' },
     { id: 'im-fc-4', topic: 'Gastro', front: 'First-line management of upper GI bleed (variceal)', back: 'ABC + resuscitate, terlipressin + prophylactic antibiotics, urgent endoscopy (band ligation) within 24h. Risk-stratify with Glasgow-Blatchford.' },
     { id: 'im-fc-5', topic: 'Nephrology', front: 'ECG changes of hyperkalaemia (in order)', back: 'Tall tented T waves → flattened P waves → prolonged PR → widened QRS → sine wave → VF/asystole.' },

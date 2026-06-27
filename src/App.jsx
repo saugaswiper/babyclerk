@@ -6,6 +6,9 @@ import Viva from './pages/Viva.jsx'
 import Quiz from './pages/Quiz.jsx'
 import Notes from './pages/Notes.jsx'
 import Checklist from './pages/Checklist.jsx'
+import Generate from './pages/Generate.jsx'
+import Import from './pages/Import.jsx'
+import Settings from './pages/Settings.jsx'
 
 function TopBar() {
   const navigate = useNavigate()
@@ -24,6 +27,9 @@ function TopBar() {
           ← Back
         </button>
       )}
+      <Link to="/settings" className="icon-btn" title="Settings" aria-label="Settings">
+        ⚙️
+      </Link>
     </header>
   )
 }
@@ -41,6 +47,9 @@ export default function App() {
           <Route path="/r/:rotationId/quiz" element={<Quiz />} />
           <Route path="/r/:rotationId/notes" element={<Notes />} />
           <Route path="/r/:rotationId/checklist" element={<Checklist />} />
+          <Route path="/r/:rotationId/generate" element={<Generate />} />
+          <Route path="/r/:rotationId/import" element={<Import />} />
+          <Route path="/settings" element={<Settings />} />
           <Route path="*" element={<Home />} />
         </Routes>
       </main>
