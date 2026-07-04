@@ -14,6 +14,42 @@ export default {
   ],
   notes: [
     {
+      id: 'fm-note-queens',
+      title: 'Queen’s Rotation Guide — Family Medicine',
+      topic: 'Queen’s',
+      sections: [
+        {
+          heading: 'Format',
+          points: [
+            '~4-week regional rotation (ROMP, ERMEP, or Weeneebayko; or a Longitudinal Integrated Clerkship stream)',
+            'You may need a car; ROMP/ERMEP offer travel reimbursement (forms in the orientation email)',
+            'NO exam. Clinic days typically ~9AM–4PM (varies by preceptor). Email your preceptor 2–4 weeks before to introduce yourself',
+          ],
+        },
+        {
+          heading: 'Assessment',
+          points: [
+            '1 formative + 4 summative case reflections + 1 community reflection (pass = 60%)',
+            '2 longitudinal clinical assessments (LCA) — mid (week 3) and end',
+            'Log all 19 mandatory encounters on Elentra; 1 Mini-CEX',
+          ],
+        },
+        {
+          heading: 'Procedures to be ready for',
+          points: ['IM injections, punch/shave biopsy, simple suturing, Pap smears, conjunctival foreign-body removal, cryotherapy'],
+        },
+        {
+          heading: 'High-yield & resources',
+          points: [
+            'Diagnostic criteria, targets, and meds/doses for HTN, diabetes, dyslipidemia',
+            'Anxiety & depression (criteria, red-flag/SI questions, common meds); acne/psoriasis/eczema; approach to headache & fatigue',
+            'Well-baby visits — know the Rourke Baby Record',
+            'Resources: AAFP algorithms, Rourke Baby Record, UpToDate, your FM clerk guide',
+          ],
+        },
+      ],
+    },
+    {
       id: 'fm-note-consult',
       title: 'The Consultation & ICE',
       topic: 'Consultation',

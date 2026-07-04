@@ -14,6 +14,37 @@ export default {
   ],
   notes: [
     {
+      id: 'psych-note-queens',
+      title: 'Queen’s Rotation Guide — Consult-Liaison Psychiatry',
+      topic: 'Queen’s',
+      sections: [
+        {
+          heading: 'Format',
+          points: [
+            '~4-week Consult-Liaison rotation at KGH (team meets in Burr 4)',
+            'You see patients admitted under other services (medicine, neuro, surgery…), not the Burr 4 inpatient unit (except weekend call rounds)',
+            'New preceptor each week; round ~9AM and again ~1–2PM; you carry the pager and start taking consults by day 2–3',
+            'Call: 2 evening home-call shifts + 1 weekend',
+          ],
+        },
+        {
+          heading: 'On the wards',
+          points: [
+            'Watch the QTc on antipsychotics/antidepressants (long QT → Torsades)',
+            'Do your own chart detective work (EDIS, ConnectingOntario) — don’t trust the labelled diagnosis',
+          ],
+        },
+        {
+          heading: 'Assessment & high-yield',
+          points: [
+            'Psychiatry exam, 1 Mini-CEX, 1 formative mini-clinical encounter, 1 LCA',
+            'High-yield: depression, anxiety, substance use (alcohol, opioids), borderline PD, bipolar, psychosis/schizophrenia, adjustment disorder, pharmacology',
+            'Interview tip: gauge mood via what they enjoy/look forward to; frame suicide questions gently and normalise them',
+          ],
+        },
+      ],
+    },
+    {
       id: 'psych-note-mse',
       title: 'Mental State Examination',
       topic: 'Assessment',

@@ -5,15 +5,54 @@ export default {
   emoji: '🧸',
   blurb: 'Sick child recognition, developmental milestones, and weight-based everything.',
   checklist: [
+    'Complete + log the 12 Aquifer/CLIPP cases on Elentra',
+    'Plan EPAs: COPC week for Preventive Health/Advocacy/Child Otoscopy; Inpatient week for Handover',
+    'Exit exam is 3 hours, ~100 MCQ — pass 60%',
     'Know the paediatric ABCDE and the sick-child traffic-light system',
     'Be able to estimate weight and calculate fluid/drug doses by weight',
     'Memorise key developmental milestones by age',
-    'Know the routine UK/your-country immunisation schedule',
+    'Know the Ontario/Canadian (NACI) immunisation schedule',
     'Recognise non-blanching rash → meningococcal sepsis pathway',
-    'Be confident assessing hydration status in a child',
-    'Always consider safeguarding',
   ],
   notes: [
+    {
+      id: 'paeds-note-queens',
+      title: 'Queen’s Rotation Guide — Paediatrics',
+      topic: 'Queen’s',
+      sections: [
+        {
+          heading: 'Format (4 weeks, Kingston — 4 units)',
+          points: [
+            'Inpatient (KGH Kidd 10, handover ~7:30AM)',
+            'Well Newborn (KGH Kidd 5, NICU)',
+            'Ambulatory clinics (HDH Jeanne Mance 1 + specialty clinics — some are at KGH)',
+            'COPC (children’s ER, HDH JM1)',
+            'Call: 1 NICU weekend, 1 Ward weekend, 2 weekday NICU/Ward/ER shifts, 1 Bilirubin clinic',
+          ],
+        },
+        {
+          heading: 'Assessment',
+          points: [
+            'Log all mandatory encounters + the 12 Aquifer cases on Elentra',
+            '≥4 outpatient assessments, 2 Mini-CEX (easiest early in COPC week), 1 Newborn + 1 Inpatient form, mid + exit meetings',
+            'Pass = 60% on the ~100-MCQ exit exam',
+          ],
+        },
+        {
+          heading: 'High-yield to review',
+          points: [
+            'Approaches to paeds abdo pain, N/V, constipation/diarrhoea, rashes, fever + sore throat, headache',
+            'Weight-based dosing of ibuprofen/acetaminophen',
+            'Asthma, diabetes, common tumours & blood disorders, URTIs, vaccine schedule',
+            'Neonatal jaundice: CPS hyperbilirubinemia guideline + phototherapy nomogram; breastmilk vs breastfeeding jaundice',
+          ],
+        },
+        {
+          heading: 'Resources',
+          points: ['PedsCases + pupdoc.ca', 'Canadian Paediatric Society (cps.ca) documents', 'UCalgary CARDS (case-based exam prep)', 'UpToDate for on-the-fly dosing'],
+        },
+      ],
+    },
     {
       id: 'paeds-note-sickchild',
       title: 'The Acutely Unwell Child',

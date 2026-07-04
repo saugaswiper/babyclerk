@@ -59,34 +59,74 @@ export default function Import() {
     setText('')
   }
 
+  const validFor = (kind) => (it) => {
+    if (kind === 'flashcards') return it.front && it.back
+    if (kind === 'viva') return it.question && it.answer
+    if (kind === 'mcqs') return it.question && Array.isArray(it.options) && typeof it.answer === 'number'
+    return false
+  }
+
+  // Import a parsed value: an object with flashcards/viva/mcqs arrays imports all
+  // kinds at once; a bare array uses the currently-selected kind. Returns count.
+  const importParsed = (data) => {
+    let n = 0
+    if (data && !Array.isArray(data) && (data.flashcards || data.viva || data.mcqs)) {
+      for (const kind of ['flashcards', 'viva', 'mcqs']) {
+        const arr = Array.isArray(data[kind]) ? data[kind].filter(validFor(kind)) : []
+        if (arr.length) {
+          appendCustom(rotation.id, kind, arr)
+          n += arr.length
+        }
+      }
+    } else if (Array.isArray(data)) {
+      const valid = data.filter(validFor(jsonKind))
+      if (valid.length) {
+        appendCustom(rotation.id, jsonKind, valid)
+        n += valid.length
+      }
+    }
+    return n
+  }
+
   const importJson = () => {
     setError('')
     setDone(0)
-    let arr
+    let data
     try {
-      arr = JSON.parse(json)
+      data = JSON.parse(json)
     } catch {
       setError('That isn’t valid JSON.')
       return
     }
-    if (!Array.isArray(arr) || !arr.length) {
-      setError('Expected a non-empty JSON array of objects.')
+    const n = importParsed(data)
+    if (!n) {
+      setError('No items matched the expected shape. Check the format above.')
       return
     }
-    // Light validation per kind.
-    const valid = arr.filter((it) => {
-      if (jsonKind === 'flashcards') return it.front && it.back
-      if (jsonKind === 'viva') return it.question && it.answer
-      if (jsonKind === 'mcqs') return it.question && Array.isArray(it.options) && typeof it.answer === 'number'
-      return false
-    })
-    if (!valid.length) {
-      setError('No items matched the expected shape for ' + jsonKind + '.')
-      return
-    }
-    appendCustom(rotation.id, jsonKind, valid)
-    setDone(valid.length)
+    setDone(n)
     setJson('')
+  }
+
+  const onJsonFile = (e) => {
+    const file = e.target.files?.[0]
+    if (!file) return
+    setError('')
+    setDone(0)
+    const reader = new FileReader()
+    reader.onload = () => {
+      let data
+      try {
+        data = JSON.parse(String(reader.result || ''))
+      } catch {
+        setError('That file isn’t valid JSON.')
+        return
+      }
+      const n = importParsed(data)
+      if (!n) setError('No importable flashcards/viva/MCQs found in that file.')
+      else setDone(n)
+    }
+    reader.readAsText(file)
+    e.target.value = '' // allow re-selecting the same file
   }
 
   return (
@@ -142,13 +182,20 @@ export default function Import() {
         </div>
       ) : (
         <div className="card">
-          <p className="muted" style={{ marginTop: 0, fontSize: '0.88rem' }}>
-            Paste a JSON array. Flashcards: <code>{'{ front, back, topic? }'}</code>. Viva:{' '}
-            <code>{'{ question, answer, topic? }'}</code>. MCQs:{' '}
+          <label className="section-title" style={{ marginTop: 0 }}>Load a file</label>
+          <p className="muted" style={{ margin: '0 0 8px', fontSize: '0.85rem' }}>
+            Pick a <code>.json</code> file (e.g. a Montis deck file). A file with{' '}
+            <code>flashcards</code>/<code>viva</code>/<code>mcqs</code> arrays imports everything at once.
+          </p>
+          <input type="file" accept=".json,application/json" onChange={onJsonFile} className="text-input" />
+
+          <p className="muted" style={{ margin: '14px 0 6px', fontSize: '0.88rem' }}>
+            …or paste JSON. A bare array uses the Kind below. Flashcards:{' '}
+            <code>{'{ front, back, topic? }'}</code>. Viva: <code>{'{ question, answer, topic? }'}</code>. MCQs:{' '}
             <code>{'{ question, options[], answer (index), explanation, topic? }'}</code>.
           </p>
 
-          <label className="section-title">Kind</label>
+          <label className="section-title">Kind (for a pasted bare array)</label>
           <select className="text-input" value={jsonKind} onChange={(e) => setJsonKind(e.target.value)}>
             <option value="flashcards">Flashcards</option>
             <option value="viva">Viva questions</option>

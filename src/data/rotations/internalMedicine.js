@@ -6,15 +6,48 @@ export default {
   emoji: '🩺',
   blurb: 'Workhorse rotation: acute management, chronic disease, and the daily presentation.',
   checklist: [
+    'CTU (KGH Connell 9/10): pass = 60% on the ~100-MCQ exit exam',
+    'Log all mandatory CTU encounters on Elentra early — don’t leave them to the end',
+    'Have a slick CTU consult note ready for ED consults on call (from 5PM)',
     'Be able to present a full SOAP note from memory',
     'Know your patients’ meds, doses, and why they’re on them',
     'Read up on each new admission’s top differential before rounds',
-    'Carry a pocket reference for ACLS / common drug doses',
     'Practice interpreting an ABG and a basic ECG daily',
-    'Review the latest labs and imaging before the attending asks',
     'Have a one-line summary + plan ready for every patient',
   ],
   notes: [
+    {
+      id: 'im-note-queens',
+      title: 'Queen’s Rotation Guide — Medicine Core (CTU)',
+      topic: 'Queen’s',
+      sections: [
+        {
+          heading: 'Format',
+          points: [
+            '~4-week CTU block at KGH (Connell 9 or 10)',
+            'Team (A/B/C/D/G) = you + another clerk, 2–3 residents, an attending (attendings change every 2 weeks)',
+            '4–5 overnight call shifts including at least one weekend; you carry a pager on call',
+            'On call: pick up CTU consults in the ED (“CTU Consult”, Section A) from 5PM; write the consult note, then review with your attending ~7–8AM',
+          ],
+        },
+        {
+          heading: 'Assessment',
+          points: ['Pass = 60% on the CTU exit exam (~100 MCQ)', 'Log all mandatory encounters on Elentra (there are a lot — start early)'],
+        },
+        {
+          heading: 'High-yield to review',
+          points: [
+            'Delirium (DIMS), upper & lower GI bleeds, CHF, anemia, AKI',
+            'Empiric antibiotics for cellulitis, pneumonia, UTI — note inpatient vs outpatient choices',
+            'Structured approaches to shortness of breath, syncope, and weakness/falls',
+          ],
+        },
+        {
+          heading: 'Resources',
+          points: ['UWorld (tough & US-oriented — don’t be discouraged)', 'Toronto Notes + your pre-clerkship notes', 'A pocket/on-call handbook', 'UpToDate (attendings will ask what it says)'],
+        },
+      ],
+    },
     {
       id: 'im-note-cp',
       title: 'Acute Chest Pain Approach',

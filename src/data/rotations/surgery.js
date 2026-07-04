@@ -5,15 +5,48 @@ export default {
   emoji: '🔪',
   blurb: 'Acute abdomen, peri-operative care, and the surgical sieve under pressure.',
   checklist: [
-    'Know the WHO surgical safety checklist',
-    'Be able to take a focused acute-abdomen history fast',
-    'Memorise fluid resuscitation + maintenance for an adult',
-    'Understand NBM/“nil by mouth” and pre-op fasting rules',
+    'Arrive ~10 min early and print the list for the whole team (rounds can start 5:30AM)',
+    'Review the anatomy, main steps, and complications of the day’s cases the night before',
+    'In the OR: introduce yourself, write your name + glove size on the board',
+    'Advocate on baby call — remind the resident you finish at 10PM if a late consult comes',
     'Be slick at scrubbing in and maintaining a sterile field',
+    'Be able to take a focused acute-abdomen history fast',
     'Know your patient’s diagnosis, planned op, and consent issues',
     'Carry a structured post-op complication framework',
   ],
   notes: [
+    {
+      id: 'surg-note-queens',
+      title: 'Queen’s Rotation Guide — Surgery & Periop',
+      topic: 'Queen’s',
+      sections: [
+        {
+          heading: 'General Surgery format',
+          points: [
+            '~2-week block at KGH; assigned to a team: GS1 Colorectal/Critical Care, GS2 Hepatobiliary, GS3 Surg Onc/Breast/Peds, GS4 Acute Care (consult-only), GS5 Thoracic, GS6 Bariatric',
+            'Mix of clinic + OR (± endoscopy); every clerk does at least one day in breast clinic (GS3)',
+            'Call: one baby call to 10PM + one 24-hour call; rounds are early and fast',
+          ],
+        },
+        {
+          heading: 'Assessment',
+          points: ['2 Daily Encounter Forms, 2 Rubric Forms, 1 Mini-CEX (can be done on your other surgery core), mid + exit meetings, final exam', 'Log all mandatory encounters on Elentra'],
+        },
+        {
+          heading: 'Periop / Acute Care 1 — Anesthesia (paired 2-week block)',
+          points: [
+            'Do the pre-anaesthetic assessment on every patient — know the pre-op record (PSS) and what to check',
+            'Practical skills: ECG lead placement (3- and 5-lead), BP cuff, bag-valve-mask, intubation, IVs',
+            'Check when anticoagulants, antihyperglycemics, and ACE inhibitors were stopped before surgery',
+            'Do the Clerkship Anesthesia Module before you start; “Understanding Anesthesia: A Learner’s Handbook” (Raymer) is the text',
+          ],
+        },
+        {
+          heading: 'Prep resources',
+          points: ['First Aid for the Surgical Clerkship', 'Surgical Recall — high-yield pimp questions, review before an OR case or consult', 'Watch/read the procedure and anatomy the night before'],
+        },
+      ],
+    },
     {
       id: 'surg-note-abdo',
       title: 'The Acute Abdomen',

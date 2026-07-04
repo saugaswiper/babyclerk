@@ -14,6 +14,37 @@ export default {
   ],
   notes: [
     {
+      id: 'og-note-queens',
+      title: 'Queen’s Rotation Guide — Obstetrics & Gynaecology',
+      topic: 'Queen’s',
+      sections: [
+        {
+          heading: 'Format',
+          points: [
+            '~4 weeks (Kingston, or 2 weeks regional at Brockville/Peterborough + 2 in Kingston)',
+            'Time split between obstetrics and gynaecology: labour & delivery, clinics (Armstrong 5; colposcopy Dietary 1; cancer Burr 1), and OR days (Connell 2 / HDH)',
+            'Call: 1 weekend + 2 overnight shifts on L&D; schedule comes from the course admin ~1 week ahead',
+          ],
+        },
+        {
+          heading: 'Expectations',
+          points: [
+            'L&D: write progress notes, assess triage patients, scrub for C-sections, assist deliveries, inspect/weigh the placenta',
+            'Clinics: review patients on PCS the night before, present, and complete notes/dictations (clarify who dictates)',
+            'OR: look up your patients/procedures, write the admission note and start the discharge summary, introduce yourself pre-op',
+          ],
+        },
+        {
+          heading: 'Assessment & high-yield',
+          points: [
+            'Log encounters, preceptor forms, 1 Mini-CEX, mid + exit meetings, final exam',
+            'High-yield: gestational diabetes, pre-eclampsia, endometriosis, abnormal uterine bleeding, incontinence',
+            'Do the Elentra modules for urogynaecology, high-risk obstetrics, and teen obstetrics',
+          ],
+        },
+      ],
+    },
+    {
       id: 'og-note-ctg',
       title: 'CTG Interpretation — DR C BRAVADO',
       topic: 'Obstetrics',
