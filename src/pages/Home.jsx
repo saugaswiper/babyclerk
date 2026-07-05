@@ -2,14 +2,14 @@ import { Link } from 'react-router-dom'
 import { rotations } from '../data/rotations/index.js'
 import { getRotationMerged } from '../lib/customContent.js'
 import { readStored } from '../lib/useLocalStorage.js'
-import { countDue } from '../lib/srs.js'
+import { countToday } from '../lib/scheduler.js'
 
 export default function Home() {
   // Merged decks (built-in + your imported/AI cards) so counts match reality.
   const stats = rotations.map((r) => {
     const merged = getRotationMerged(r.id)
     const srsState = readStored(`srs:${r.id}`, {})
-    return { r: merged, due: countDue(merged.flashcards, srsState) }
+    return { r: merged, due: countToday(merged.flashcards, srsState, r.id) }
   })
   const totalDue = stats.reduce((n, s) => n + s.due, 0)
 

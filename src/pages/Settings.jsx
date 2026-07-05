@@ -1,16 +1,18 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { getApiKey, setApiKey, getModel, setModel, MODEL_OPTIONS } from '../lib/settings.js'
+import { getApiKey, setApiKey, getModel, setModel, MODEL_OPTIONS, getNewLimit, setNewLimit } from '../lib/settings.js'
 
 export default function Settings() {
   const [key, setKey] = useState(getApiKey())
   const [model, setModelState] = useState(getModel())
+  const [newLimit, setNewLimitState] = useState(getNewLimit())
   const [saved, setSaved] = useState(false)
   const [backupMsg, setBackupMsg] = useState('')
 
   const save = () => {
     setApiKey(key.trim())
     setModel(model)
+    setNewLimit(Number(newLimit))
     setSaved(true)
     setTimeout(() => setSaved(false), 2000)
   }
@@ -100,6 +102,24 @@ export default function Settings() {
             </option>
           ))}
         </select>
+
+        <label className="section-title" htmlFor="newlimit">
+          New cards per day (per rotation)
+        </label>
+        <input
+          id="newlimit"
+          type="number"
+          min="0"
+          max="200"
+          className="text-input"
+          value={newLimit}
+          onChange={(e) => setNewLimitState(e.target.value)}
+        />
+        <p className="muted" style={{ fontSize: '0.82rem', marginTop: 6 }}>
+          How many brand-new cards a rotation introduces each day (default 20). Keeps the big deck a
+          steady trickle instead of a wall. Reviews of cards you’ve already seen are never capped. Set
+          to 0 to study reviews only.
+        </p>
 
         <div className="btn-row" style={{ marginTop: 18 }}>
           <button className="btn primary" onClick={save}>

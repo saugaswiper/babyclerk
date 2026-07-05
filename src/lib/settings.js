@@ -1,8 +1,26 @@
 // API key + model settings, stored locally in the browser.
 const KEY_API = 'babyclerk:apiKey'
 const KEY_MODEL = 'babyclerk:model'
+const KEY_NEWLIMIT = 'babyclerk:newLimit'
 
 export const DEFAULT_MODEL = 'claude-opus-4-8'
+export const DEFAULT_NEW_LIMIT = 20
+
+// Max brand-new cards introduced per rotation per day (0 = reviews only).
+export function getNewLimit() {
+  try {
+    const raw = localStorage.getItem(KEY_NEWLIMIT)
+    if (raw == null) return DEFAULT_NEW_LIMIT
+    const n = parseInt(raw, 10)
+    return Number.isFinite(n) && n >= 0 ? n : DEFAULT_NEW_LIMIT
+  } catch {
+    return DEFAULT_NEW_LIMIT
+  }
+}
+
+export function setNewLimit(n) {
+  localStorage.setItem(KEY_NEWLIMIT, String(Math.max(0, n | 0)))
+}
 
 export const MODEL_OPTIONS = [
   { id: 'claude-opus-4-8', label: 'Claude Opus 4.8 — most capable' },

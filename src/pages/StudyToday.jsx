@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { collectDue } from '../lib/studyQueue.js'
 import { readStored, writeStored } from '../lib/useLocalStorage.js'
 import { review } from '../lib/srs.js'
+import { noteIntroduced } from '../lib/scheduler.js'
 
 // One session across every rotation: all due cards, graded back into each
 // rotation's own spaced-repetition schedule.
@@ -23,6 +24,7 @@ export default function StudyToday() {
     if (!current) return
     const key = `srs:${current.rotationId}`
     const map = readStored(key, {})
+    if (!map[current.card.id]) noteIntroduced(current.rotationId) // first time seen → today's new budget
     map[current.card.id] = review(map[current.card.id], g)
     writeStored(key, map)
     setReviewed((n) => n + 1)

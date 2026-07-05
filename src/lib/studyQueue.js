@@ -3,17 +3,17 @@
 import { rotations } from '../data/rotations/index.js'
 import { getRotationMerged } from './customContent.js'
 import { readStored } from './useLocalStorage.js'
-import { isDue } from './srs.js'
+import { sessionFor } from './scheduler.js'
 
+// Everything to study now, across rotations — reviews due + each rotation's
+// remaining daily new-card allowance.
 export function collectDue(now = Date.now()) {
   const entries = []
   for (const r of rotations) {
     const merged = getRotationMerged(r.id)
     const srs = readStored(`srs:${r.id}`, {})
-    for (const card of merged.flashcards) {
-      if (isDue(srs[card.id], now)) {
-        entries.push({ rotationId: r.id, rotationName: r.name, emoji: r.emoji, card })
-      }
+    for (const card of sessionFor(merged.flashcards, srs, r.id, now).all) {
+      entries.push({ rotationId: r.id, rotationName: r.name, emoji: r.emoji, card })
     }
   }
   return entries

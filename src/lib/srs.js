@@ -13,6 +13,22 @@ export function isDue(state, now = Date.now()) {
   return new Date(state.due).getTime() <= now
 }
 
+// A card is "new" until it has been graded once (no stored state).
+export function isNew(state) {
+  return !state
+}
+
+// A card is "review-due" only if it has been seen before and its due time has passed.
+export function isReviewDue(state, now = Date.now()) {
+  return !!state && new Date(state.due).getTime() <= now
+}
+
+// Local calendar day (device timezone) used for the daily new-card budget.
+export function todayStr(now = Date.now()) {
+  const d = new Date(now)
+  return `${d.getFullYear()}-${d.getMonth() + 1}-${d.getDate()}`
+}
+
 // grade: 'again' (0) | 'hard' (3) | 'good' (5)
 export function review(state, grade, now = Date.now()) {
   const s = state ? { ...state } : freshState()

@@ -1,7 +1,7 @@
 import { useParams, Link } from 'react-router-dom'
 import { getRotationMerged } from '../lib/customContent.js'
 import { readStored } from '../lib/useLocalStorage.js'
-import { countDue } from '../lib/srs.js'
+import { countToday } from '../lib/scheduler.js'
 
 const MODES = [
   { slug: 'notes', icon: '📖', name: 'Notes', desc: 'High-yield topic notes' },
@@ -27,7 +27,7 @@ export default function RotationHome() {
   }
 
   const srsState = readStored(`srs:${rotation.id}`, {})
-  const due = countDue(rotation.flashcards, srsState)
+  const due = countToday(rotation.flashcards, srsState, rotation.id)
 
   const counts = {
     notes: rotation.notes.length,

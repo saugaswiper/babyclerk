@@ -39,6 +39,8 @@ Open **Settings** (⚙️ top-right) and paste an [Anthropic API key](https://co
 
 The app ships with **~1,929 flashcards** from the **Montis Complete Clerkship** community Anki deck, bundled across Internal Medicine, Surgery, OB/GYN, Paediatrics, and Psychiatry. They're available on every device with no import step, and carry stable IDs so your spaced-repetition history survives updates. Your own edits and imports layer on top. Credit to the Montis deck authors; included here as third-party study material for personal use.
 
+A **daily new-card limit** (default 20 per rotation, set in Settings) introduces new cards as a steady trickle rather than dumping the whole deck as "due" at once. Reviews of cards you've already seen are never capped.
+
 ## Importing your own cards
 
 The **Import** tab accepts:

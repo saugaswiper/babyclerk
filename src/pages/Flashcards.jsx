@@ -2,7 +2,8 @@ import { useEffect, useMemo, useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { getRotationMerged } from '../lib/customContent.js'
 import { useLocalStorage } from '../lib/useLocalStorage.js'
-import { isDue, review } from '../lib/srs.js'
+import { review } from '../lib/srs.js'
+import { sessionFor, noteIntroduced } from '../lib/scheduler.js'
 
 export default function Flashcards() {
   const { rotationId } = useParams()
@@ -17,8 +18,8 @@ export default function Flashcards() {
 
   const buildQueue = (which) => {
     if (!rotation) return []
-    const all = rotation.flashcards
-    const list = which === 'all' ? all : all.filter((c) => isDue(srs[c.id]))
+    // 'all' ignores the daily budget (explicit "review everything"); 'due' applies it.
+    const list = which === 'all' ? rotation.flashcards : sessionFor(rotation.flashcards, srs, rotationId).all
     return list.map((c) => c.id)
   }
 
@@ -35,6 +36,7 @@ export default function Flashcards() {
 
   const grade = (g) => {
     if (!current) return
+    if (!srs[current.id]) noteIntroduced(rotationId) // first time seen → counts against today's new budget
     setSrs((prev) => ({ ...prev, [current.id]: review(prev[current.id], g) }))
     setReviewed((n) => n + 1)
     setFlipped(false)
