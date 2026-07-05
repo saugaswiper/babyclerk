@@ -6,12 +6,59 @@ export default function Settings() {
   const [key, setKey] = useState(getApiKey())
   const [model, setModelState] = useState(getModel())
   const [saved, setSaved] = useState(false)
+  const [backupMsg, setBackupMsg] = useState('')
 
   const save = () => {
     setApiKey(key.trim())
     setModel(model)
     setSaved(true)
     setTimeout(() => setSaved(false), 2000)
+  }
+
+  // Everything except the API key: SRS schedule, quiz bests, checklists,
+  // imported/AI cards, and the model choice.
+  const exportBackup = () => {
+    const data = {}
+    for (let i = 0; i < localStorage.length; i++) {
+      const k = localStorage.key(i)
+      if (k && k.startsWith('babyclerk:') && k !== 'babyclerk:apiKey') data[k] = localStorage.getItem(k)
+    }
+    const payload = { app: 'babyclerk', version: 1, exported: new Date().toISOString(), data }
+    const blob = new Blob([JSON.stringify(payload, null, 1)], { type: 'application/json' })
+    const a = document.createElement('a')
+    a.href = URL.createObjectURL(blob)
+    a.download = `babyclerk-backup-${new Date().toISOString().slice(0, 10)}.json`
+    a.click()
+    URL.revokeObjectURL(a.href)
+    setBackupMsg(`Exported ${Object.keys(data).length} items.`)
+  }
+
+  const importBackup = (e) => {
+    const file = e.target.files?.[0]
+    if (!file) return
+    const reader = new FileReader()
+    reader.onload = () => {
+      try {
+        const payload = JSON.parse(String(reader.result || ''))
+        if (payload?.app !== 'babyclerk' || !payload.data) {
+          setBackupMsg('That doesn’t look like a BabyClerk backup file.')
+          return
+        }
+        let n = 0
+        for (const [k, v] of Object.entries(payload.data)) {
+          if (k.startsWith('babyclerk:') && k !== 'babyclerk:apiKey' && typeof v === 'string') {
+            localStorage.setItem(k, v)
+            n++
+          }
+        }
+        setBackupMsg(`Restored ${n} items — reloading…`)
+        setTimeout(() => window.location.reload(), 800)
+      } catch {
+        setBackupMsg('Could not read that file.')
+      }
+    }
+    reader.readAsText(file)
+    e.target.value = ''
   }
 
   return (
@@ -62,6 +109,27 @@ export default function Settings() {
             Done
           </Link>
         </div>
+      </div>
+
+      <div className="card" style={{ marginTop: 16 }}>
+        <label className="section-title" style={{ marginTop: 0 }}>Backup &amp; transfer</label>
+        <p className="muted" style={{ margin: '0 0 12px', fontSize: '0.85rem' }}>
+          All progress lives in this browser. Export a backup file to protect your spaced-repetition
+          history and imported cards, or to move everything to another device (export here → import
+          there). Your API key is never included.
+        </p>
+        <div className="btn-row">
+          <button className="btn primary" onClick={exportBackup}>
+            Export backup
+          </button>
+          <label className="btn" style={{ cursor: 'pointer' }}>
+            Restore from file
+            <input type="file" accept=".json,application/json" onChange={importBackup} style={{ display: 'none' }} />
+          </label>
+        </div>
+        {backupMsg && (
+          <p className="muted" style={{ marginTop: 10, fontSize: '0.85rem' }}>{backupMsg}</p>
+        )}
       </div>
 
       <p className="kbd-hint">

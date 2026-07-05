@@ -1,9 +1,18 @@
 import { Link } from 'react-router-dom'
 import { rotations } from '../data/rotations/index.js'
+import { getRotationMerged } from '../lib/customContent.js'
 import { readStored } from '../lib/useLocalStorage.js'
 import { countDue } from '../lib/srs.js'
 
 export default function Home() {
+  // Merged decks (built-in + your imported/AI cards) so counts match reality.
+  const stats = rotations.map((r) => {
+    const merged = getRotationMerged(r.id)
+    const srsState = readStored(`srs:${r.id}`, {})
+    return { r: merged, due: countDue(merged.flashcards, srsState) }
+  })
+  const totalDue = stats.reduce((n, s) => n + s.due, 0)
+
   return (
     <>
       <div className="page-head">
@@ -14,23 +23,29 @@ export default function Home() {
         </p>
       </div>
 
+      {totalDue > 0 && (
+        <Link to="/study" className="card tile" style={{ marginBottom: 16, borderColor: 'var(--primary)' }}>
+          <h3 style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+            <span className="tile-emoji" style={{ fontSize: '1.4rem' }}>▶</span>
+            Study due now — {totalDue} card{totalDue === 1 ? '' : 's'}
+          </h3>
+          <p>One session, every rotation. Ten minutes and you’re caught up.</p>
+        </Link>
+      )}
+
       <div className="grid">
-        {rotations.map((r) => {
-          const srsState = readStored(`srs:${r.id}`, {})
-          const due = countDue(r.flashcards, srsState)
-          return (
-            <Link key={r.id} to={`/r/${r.id}`} className="card tile">
-              <span className="tile-emoji">{r.emoji}</span>
-              <h3>{r.name}</h3>
-              <p>{r.blurb}</p>
-              <div className="tile-stat">
-                <span>{r.flashcards.length} cards</span>
-                <span>{r.mcqs.length} MCQs</span>
-                {due > 0 && <span className="due">{due} due</span>}
-              </div>
-            </Link>
-          )
-        })}
+        {stats.map(({ r, due }) => (
+          <Link key={r.id} to={`/r/${r.id}`} className="card tile">
+            <span className="tile-emoji">{r.emoji}</span>
+            <h3>{r.name}</h3>
+            <p>{r.blurb}</p>
+            <div className="tile-stat">
+              <span>{r.flashcards.length} cards</span>
+              <span>{r.mcqs.length} MCQs</span>
+              {due > 0 && <span className="due">{due} due</span>}
+            </div>
+          </Link>
+        ))}
       </div>
 
       <p className="kbd-hint">

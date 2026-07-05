@@ -9,6 +9,8 @@ import Checklist from './pages/Checklist.jsx'
 import Generate from './pages/Generate.jsx'
 import Import from './pages/Import.jsx'
 import Settings from './pages/Settings.jsx'
+import StudyToday from './pages/StudyToday.jsx'
+import Search from './pages/Search.jsx'
 
 function TopBar() {
   const navigate = useNavigate()
@@ -27,6 +29,9 @@ function TopBar() {
           ← Back
         </button>
       )}
+      <Link to="/search" className="icon-btn" title="Search" aria-label="Search">
+        🔍
+      </Link>
       <Link to="/settings" className="icon-btn" title="Settings" aria-label="Settings">
         ⚙️
       </Link>
@@ -50,6 +55,8 @@ export default function App() {
           <Route path="/r/:rotationId/generate" element={<Generate />} />
           <Route path="/r/:rotationId/import" element={<Import />} />
           <Route path="/settings" element={<Settings />} />
+          <Route path="/study" element={<StudyToday />} />
+          <Route path="/search" element={<Search />} />
           <Route path="*" element={<Home />} />
         </Routes>
       </main>

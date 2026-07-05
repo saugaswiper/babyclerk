@@ -36,3 +36,12 @@ export function readStored(key, fallback) {
     return fallback
   }
 }
+
+// One-off write (used by cross-rotation flows like Study Today).
+export function writeStored(key, value) {
+  try {
+    localStorage.setItem(PREFIX + key, JSON.stringify(value))
+  } catch {
+    /* storage full or unavailable — fail silently */
+  }
+}

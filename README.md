@@ -4,6 +4,13 @@ A study companion for medical clerkship rotations — so you never feel unprepar
 
 Built as a fast, mobile-friendly web app. All your progress (spaced-repetition schedule, quiz scores, checklist ticks, and any cards you add) is saved locally in your browser.
 
+## Daily use
+
+- **▶ Study due** — one tap on the home screen runs every due card across all rotations in a single spaced-repetition session.
+- **🔍 Search** — instant lookup across every flashcard, viva question, MCQ, and note (including your imported cards).
+- **📱 Installable PWA** — works offline. On your phone, open the site → Share → *Add to Home Screen*; it launches like a native app with no connection needed.
+- **💾 Backup** — Settings → Export backup saves all progress + imported cards to a file; Restore imports it on any device (API key excluded).
+
 ## Study modes
 
 Each rotation gives you several ways to learn the same high-yield material:
