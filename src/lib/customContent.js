@@ -1,6 +1,7 @@
 // Stores user-added study content (from AI generation or import) in localStorage,
 // layered on top of the built-in seeded rotation content.
 import { getRotation } from '../data/rotations/index.js'
+import { montisCards } from '../data/montis/index.js'
 
 const PREFIX = 'babyclerk:custom:'
 
@@ -51,14 +52,23 @@ export function clearCustom(rotationId, kind) {
   saveCustom(rotationId, current)
 }
 
-// Returns the rotation with user content merged into the built-in arrays.
+// Returns the rotation with the bundled Montis deck + your own content merged
+// into the built-in arrays. Order: seeded → Montis → your imports/AI cards.
 export function getRotationMerged(rotationId) {
   const base = getRotation(rotationId)
   if (!base) return base
   const custom = loadCustom(rotationId)
+  const montis = montisCards(rotationId)
+
+  // Guard against double-loading for anyone who imported the Montis files
+  // before they were bundled: drop custom flashcards that duplicate a Montis
+  // card by content.
+  const montisKeys = new Set(montis.map((c) => c.front + '||' + c.back))
+  const customCards = custom.flashcards.filter((c) => !montisKeys.has(c.front + '||' + c.back))
+
   return {
     ...base,
-    flashcards: [...base.flashcards, ...custom.flashcards],
+    flashcards: [...base.flashcards, ...montis, ...customCards],
     viva: [...base.viva, ...custom.viva],
     mcqs: [...base.mcqs, ...custom.mcqs],
   }

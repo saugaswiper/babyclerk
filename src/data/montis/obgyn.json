@@ -1,0 +1,3260 @@
+[
+{
+"id":"montis-35e2cada239f",
+"topic":"<20 Wk Bleeding in Obstetrics",
+"front":"most common site for an ectopic pregnancy",
+"back":"tubal/ampullary"
+},
+{
+"id":"montis-dc5ccd13bb21",
+"topic":"<20 Wk Bleeding in Obstetrics",
+"front":"some primary risk factors for ectopic pregnancy",
+"back":"inflammation resulting in tubal damage (salpingitis, acute chlamydial infection or even the presence of chlamydial antigens)\npregnancy after tubal sterilization\nprior ectopic pregnancy \nprior tubal surgery\nendocrine factors (t1dm)"
+},
+{
+"id":"montis-73984edba901",
+"topic":"<20 Wk Bleeding in Obstetrics",
+"front":"the classic symptoms of ectopic pregnancy",
+"back":"amenorrhea followed by vaginal bleeding and abdominal pain on the affected side\ncan also have some bleeding or decidual cast"
+},
+{
+"id":"montis-5ae8b89b498c",
+"topic":"<20 Wk Bleeding in Obstetrics",
+"front":"clinical findings of an ectopic pregnancy",
+"back":"before rupture: mainly based on lab and u/s\nat rupture: tenderness on abdo/pelvic exam, worsened w cervical manipulation\nmay palpate a pelvic mass, but little role for the physical exam"
+},
+{
+"id":"montis-154a64356f45",
+"topic":"<20 Wk Bleeding in Obstetrics",
+"front":"when is it important to have ectopic pregnancy on the ddx?",
+"back":"any sexually active woman of repro age w pain, irregular bleeding and amenorrhea should be worked up"
+},
+{
+"id":"montis-080bae26df30",
+"topic":"<20 Wk Bleeding in Obstetrics",
+"front":"dx procedures for ectopic pregnancy",
+"back":"TVS and serial hCG mesaurements \na neg pregnancy test excludes the possibility for an ectopic pregnancy"
+},
+{
+"id":"montis-8d40d64bf37b",
+"topic":"<20 Wk Bleeding in Obstetrics",
+"front":"describe how serum hCG levels change in ectopic pregnancy",
+"back":"in normal pregnancy, b hcg levels rise in a log-linear way until about 60-80d after the last menses, levels then plateau at 100,000\n- a 53% inc of bhcg should happen every 48h \nanything less than this sus for an ectopic"
+},
+{
+"id":"montis-1d27e07d8469",
+"topic":"<20 Wk Bleeding in Obstetrics",
+"front":"at what hCG level can TVS detect an intauterine gestation?",
+"back":"at about 1000 to 2000\nif no pregnancy detected at these levels, suspect ectopic"
+},
+{
+"id":"montis-5eab029bcc27",
+"topic":"<20 Wk Bleeding in Obstetrics",
+"front":"some primary etiologic factors of spontaneous abortion",
+"back":"infectious: chlamydia, listeria, HIV, GBS colonization\nendocrine: thyroid autoantibodies, poorly controlled T1DM\nenviro: cigarette smoking, alcohol, large amount of rads exposure\nuterine: large and multiple uterine leiomyomas or Asherman syndrome"
+},
+{
+"id":"montis-c555aaf56b40",
+"topic":"<20 Wk Bleeding in Obstetrics",
+"front":"threatened abortion",
+"back":"bleeding in the first trimester w/o loss of fluid or tissue; about 1/2 of these women will go on to have a spontaneous abortion\nusually poor prognosis indicated by persistent bleeding and pain"
+},
+{
+"id":"montis-cbdf71e9ee21",
+"topic":"<20 Wk Bleeding in Obstetrics",
+"front":"inevitable abortion",
+"back":"vaginal bleeding or gross rupture of the membranes in the presence of cervical dilation, followed by uterine contractions\nshould not attempt to prolong pregnancy"
+},
+{
+"id":"montis-9d76c5f40268",
+"topic":"<20 Wk Bleeding in Obstetrics",
+"front":"incomplete vs complete abortion",
+"back":"incomplete: internal cervical os opens and allows the passage of blood and some tissue; some tissue is retained and needs to be extracted \ncomplete: documented pregnancy that spontaneously passes all contents of the uterus"
+},
+{
+"id":"montis-98eef426b233",
+"topic":"<20 Wk Bleeding in Obstetrics",
+"front":"missed abortion",
+"back":"retention of a failed intrauterine pregnancy for an extended period, mostly no symptoms and will proceed to expul spontaneously"
+},
+{
+"id":"montis-b02eb7d7bc33",
+"topic":"<20 Wk Bleeding in Obstetrics",
+"front":"options for first-trimester medical abortion",
+"back":"mifepristone/methotrexate/misoprostol work to increase uterine contractility and reverse progresterone-induced contraction inhibition"
+},
+{
+"id":"montis-29afd650a814",
+"topic":"<20 Wk Bleeding in Obstetrics",
+"front":"options for second-trimester abortion",
+"back":"mostly done by d&c\nmedical is uncommon after 70d gestation"
+},
+{
+"id":"montis-beb48727d8cb",
+"topic":"<20 Wk Bleeding in Obstetrics",
+"front":"most common complications associated w induced abortion",
+"back":"uterine perforation, cervical laceration, hemorrhage, septic abortion"
+},
+{
+"id":"montis-9155bc92b8b3",
+"topic":"<20 Wk Bleeding in Obstetrics",
+"front":"what is gestational trophoblastic neoplasia?",
+"back":"variation pregnancy of unknown etiology and presents as neoplasms that derive from abnormal placental (trophoblastic) proliferation"
+},
+{
+"id":"montis-e6f7ef0da064",
+"topic":"<20 Wk Bleeding in Obstetrics",
+"front":"three key features of a GTN",
+"back":"1. clinical presentation as pregnancy \n2. dx by ultrasound findings \n3. hCG present"
+},
+{
+"id":"montis-a98080be4bd3",
+"topic":"<20 Wk Bleeding in Obstetrics",
+"front":"complete vs partial hydatidiform moles",
+"back":"complete: no embryonic or fetal structures present in the placental trophoblastic tissue; more common to become malignant\npartial: placental degen and identifiable fetal structures"
+},
+{
+"id":"montis-ec28fff2ccb3",
+"topic":"<20 Wk Bleeding in Obstetrics",
+"front":"the most common presenting symptoms/findings of a molar pregnancy",
+"back":"confirmed pregnancy + abnormal bleeding are most characteristic \n\"snowstorm\" appearance on u/s\nhighly elevated hCG"
+},
+{
+"id":"montis-e2dbf944cd2d",
+"topic":"<20 Wk Bleeding in Obstetrics",
+"front":"when should molar pregnancy be immediately suspected?",
+"back":"someone presents w severe htn in before 20wks of pregnancy"
+},
+{
+"id":"montis-549656411b0f",
+"topic":"<20 Wk Bleeding in Obstetrics",
+"front":"postmolar or persistent GTN",
+"back":"when hCG levels do not fall appropriately after a molar pregnancy or regular pregnancy\noften indicative of malignancy"
+},
+{
+"id":"montis-c0804e65e09e",
+"topic":"<20 Wk Bleeding in Obstetrics",
+"front":"choriocarcinomas",
+"back":"malignant transformation of trophoblastic tissue"
+},
+{
+"id":"montis-d47b7adc14a6",
+"topic":"<20 Wk Bleeding in Obstetrics",
+"front":"what should you do if someone has abnormal bleeding for >6wks after pregnancy?",
+"back":"evaluate w HCG test to exclude new pregnancy or GTN"
+},
+{
+"id":"montis-3b02676e2d07",
+"topic":"<20 Wk Bleeding in Obstetrics",
+"front":"what is alloimmunization",
+"back":"the formation of maternal antibodies against a fetal blood group inherited by the father but not possessed by the mother \nleads to hemolytic disease of the newborn"
+},
+{
+"id":"montis-997b6222608c",
+"topic":"<20 Wk Bleeding in Obstetrics",
+"front":"when can Rh alloimmunization occur?",
+"back":"when a Rh neg woman is pregnant w a fetus that interited the father's Rh antigen"
+},
+{
+"id":"montis-0d958262dcd3",
+"topic":"<20 Wk Bleeding in Obstetrics",
+"front":"what can trigger a maternal immune response due to Rh?",
+"back":"anything that causes maternal exposure to RBCs due to fetal-maternal bleeding, like childbirth, ectopic pregnancy, amniocentesis, abdo trauma e"
+},
+{
+"id":"montis-3fdced6d6272",
+"topic":"<20 Wk Bleeding in Obstetrics",
+"front":"prevention of Rh alloimmunzation",
+"back":"pregnant Rh D- mother w Rh + fetus given anti-D immunoglobulin either prophylactically or <72h after delivery"
+},
+{
+"id":"montis-a1e6a548fda2",
+"topic":"Pregnancy and Antenatal Care",
+"front":"maternal mortality",
+"back":"Death of individual from pregnancy- related cause while pregnant or within 42 days of end of pregnancy"
+},
+{
+"id":"montis-ad5e10eb733c",
+"topic":"Pregnancy and Antenatal Care",
+"front":"primary causes of pregnancy-associated mortality in North America",
+"back":"- embolic events (fluid or pulmonary embolus) \n- htn disorders \n- hemorrhage\n- infection\n- anaesthetic complications"
+},
+{
+"id":"montis-aaec6ab3885d",
+"topic":"Pregnancy and Antenatal Care",
+"front":"some main factors that contribute to pregnancy-associated mortality",
+"back":"medical comorbidities like DM and htn, adv maternal age \nmental health\nsubstance use \nmarginalized pops \naccess"
+},
+{
+"id":"montis-533579360440",
+"topic":"Pregnancy and Antenatal Care",
+"front":"perinatal mortality",
+"back":"= fetal death rate (>20 weeks) + neonatal death rate (first 28 days of life)\nabout half and half, most common cause is prematurity"
+},
+{
+"id":"montis-4585a8561545",
+"topic":"Pregnancy and Antenatal Care",
+"front":"some key elements to assess in preconception care",
+"back":"- ID risk from medical or past obstetrics hx \n- ensure infectious disease immunity\n- address substance use \n- vitamin/folic acid intake"
+},
+{
+"id":"montis-b8b25b640ced",
+"topic":"Pregnancy and Antenatal Care",
+"front":"preconception care",
+"back":"- ideally, pregnancies are planned and medical conditions are optimized prior to conception \n- includes ensuring meds have lowest teratogenicity"
+},
+{
+"id":"montis-0e10e616914e",
+"topic":"Pregnancy and Antenatal Care",
+"front":"the three pages of the antenatal record",
+"back":"1. historical data \n2. physical exam and investigations \n3. ongoing monitoritng\n4. resource provision\n5. postpartum care"
+},
+{
+"id":"montis-535f486e9dd7",
+"topic":"Pregnancy and Antenatal Care",
+"front":"what is gravidity vs parity",
+"back":"[image]"
+},
+{
+"id":"montis-284fc885e302",
+"topic":"Pregnancy and Antenatal Care",
+"front":"some of the most common symptoms of pregnancy",
+"back":"- amenorrhea\n- fatigue\n- n/v\n- breast tenderness \n- urinary frequency"
+},
+{
+"id":"montis-ee810e637798",
+"topic":"Pregnancy and Antenatal Care",
+"front":"describe the lab tests to dx pregnancy",
+"back":"urine: pos by first day of missed menstrual period \nserum: pos >5 IU"
+},
+{
+"id":"montis-05565d647e2f",
+"topic":"Pregnancy and Antenatal Care",
+"front":"using LMP to est gestational age",
+"back":"duration of pregnancy is usally 40 weeks from day of lmp"
+},
+{
+"id":"montis-c704ac6af9e5",
+"topic":"Pregnancy and Antenatal Care",
+"front":"using physical exam to est gestational age",
+"back":"- uterine size \n- USS \n- often complicated by multiple gestation, uterine fibroids, molar pregnancy, wrong dates"
+},
+{
+"id":"montis-778a02a6e5ef",
+"topic":"Pregnancy and Antenatal Care",
+"front":"gold standart for est gest age",
+"back":"pelvic ultrasound scan \n- earliest scan is the most accurate after 7wks or crl of 10mm\n- CRL in 1st trimester\n- BPD in 2nd trimester"
+},
+{
+"id":"montis-da53e6a6e7f3",
+"topic":"Pregnancy and Antenatal Care",
+"front":"main increased nutrient needs in pregnancy",
+"back":"- inc caloric needs \n- inc need for folic acid, iron and calcium"
+},
+{
+"id":"montis-1d757f08ed0b",
+"topic":"Pregnancy and Antenatal Care",
+"front":"foods to avoid in pregnancy",
+"back":"- raw fish and shellfish\n- undercooked meat \n-deli meat \n- raw or lightly cooked eggs \n- sprouts \n- unpasteurized foods \nnot a lot of good data to back up these, based on mostly observation"
+},
+{
+"id":"montis-6a4d1a5b8ebd",
+"topic":"Pregnancy and Antenatal Care",
+"front":"recommended wt gain in pregnancy",
+"back":"about 16kg or 25-35 lbs"
+},
+{
+"id":"montis-8cbc297dfcc1",
+"topic":"Pregnancy and Antenatal Care",
+"front":"tobacco associations w pregnancy",
+"back":"- impaired fetal growth \n- preterm labour \n- preterm rupture of membranes \n- SIDS etc \n- better to use the nicotine patch, no meds"
+},
+{
+"id":"montis-c5b0b5edcf89",
+"topic":"Pregnancy and Antenatal Care",
+"front":"specific cocaine-associated preg complications",
+"back":"associated with PTL, IUGR,\nplacental abruption, congenital anomalies,\nneonatal seizures"
+},
+{
+"id":"montis-9da36bd82b7d",
+"topic":"Pregnancy and Antenatal Care",
+"front":"specific narcotic use-associated outcomes in pregnancy",
+"back":"adverse outcomes, neonatal\nabstinence syndrome improved with\nmethadone"
+},
+{
+"id":"montis-a3bfde882676",
+"topic":"Pregnancy and Antenatal Care",
+"front":"if you have a hx of alcohol use in current pregnancy...",
+"back":"must assess extent of dependency"
+},
+{
+"id":"montis-2ba312e440db",
+"topic":"Pregnancy and Antenatal Care",
+"front":"describe the pelvic exam in pregnancy",
+"back":"exam at the first prenatal visit \n- inspection of the lower genital tract for lesions \n- pap smear and cervical swabs/urine NAAT\n- bimanual exam for adnexal abnormalities and uterine size"
+},
+{
+"id":"montis-500e5c4f9298",
+"topic":"Pregnancy and Antenatal Care",
+"front":"full hx and px to do at the first prenatal visit",
+"back":"[image]"
+},
+{
+"id":"montis-9895de2a1524",
+"topic":"Pregnancy and Antenatal Care",
+"front":"routine investigations to do in the first trimester",
+"back":"- Hb and ferritin\n- ABO and Rh\n- ab screen \n- rubella \n- HBsAg \n- Syphilis \n- HIV\n- gonorrhea and chlamydia \n- urine C&s"
+},
+{
+"id":"montis-de76dc152a5b",
+"topic":"Pregnancy and Antenatal Care",
+"front":"visit schedule for pregnancy",
+"back":"[image]"
+},
+{
+"id":"montis-d63c1c155b83",
+"topic":"Pregnancy and Antenatal Care",
+"front":"key things to ask during prenatal visits",
+"back":"[image]"
+},
+{
+"id":"montis-6520014297cc",
+"topic":"Pregnancy and Antenatal Care",
+"front":"some main nuisance symptoms to ask about on hx",
+"back":"- varicose veins\n- edema \n- dyspnea\n- constipation\n- heartburn"
+},
+{
+"id":"montis-b910a406a4fb",
+"topic":"Pregnancy and Antenatal Care",
+"front":"important things to do during follow-up prenatal visits",
+"back":"[image]"
+},
+{
+"id":"montis-d8cb3bbd6ff8",
+"topic":"Pregnancy and Antenatal Care",
+"front":"describe uterine palpation",
+"back":"- above symp pubis at 12w\n- usually grows 1cm per week; midway to umbilicus at 16w \n- at umbilicus at 20w, SFH = GA +/- 3cm"
+},
+{
+"id":"montis-f7b023e5ffb7",
+"topic":"Pregnancy and Antenatal Care",
+"front":"Leopolds maneuvres",
+"back":"determine the \n- lie of the baby (longitudinal, transverse, oblique) \n- presentation (vertex, breech, shoulder"
+},
+{
+"id":"montis-0cf0118af2a2",
+"topic":"Pregnancy and Antenatal Care",
+"front":"three types of breech presentation",
+"back":"[image] \nincreased risk of birth injury due to cord prolapse, entrapment etc"
+},
+{
+"id":"montis-0a44264aa132",
+"topic":"Pregnancy and Antenatal Care",
+"front":"when do you need to know breech birth pres by? why?",
+"back":"need to know by 36 weeks \n- allow you to offer ecv and to plan the delivery either as c section or vaginal birth"
+},
+{
+"id":"montis-0902089607e4",
+"topic":"Pregnancy and Antenatal Care",
+"front":"routine second trimester investigations",
+"back":"- hemoglobin \n- glucose screen for gest diabetes \n- vagino-rectal swab for GBS\n- USS to look for anatomy \n- retest for syphilis"
+},
+{
+"id":"montis-7dec1559eee4",
+"topic":"Pregnancy and Antenatal Care",
+"front":"describe nausea and vomiting during pregnancy",
+"back":"- 80% of individuals experience \n- limited to 1st trimester \n- higher bhcg levels means more?"
+},
+{
+"id":"montis-65987b3602e8",
+"topic":"Pregnancy and Antenatal Care",
+"front":"tx of nausea and vomiting in pregnancy",
+"back":"- dietary: eat whatever appeals in small amounts \n- inc rest \n- ginger \n- diclectin, gravol \n- vitamin supplementation intake"
+},
+{
+"id":"montis-e0ab9975806d",
+"topic":"Pregnancy and Antenatal Care",
+"front":"hyperemesis gravidarum",
+"back":"Protracted vomiting associated withdehydration, electrolyte imbalance,ketonemia\nOften requires IV rehydration, sometimes hospitalization \nCan be associated with high hCG states: multiple gestation, molar pregnancies"
+},
+{
+"id":"montis-6b91cce5d649",
+"topic":"Pregnancy and Antenatal Care",
+"front":"management of hyperemesis gravidarum",
+"back":"- add pharm like ondansetron, phenothiazines \n- systemic ccs if severe \n- may need temporary TPN \n- rare complications: liver/renal damage, malnutrition"
+},
+{
+"id":"montis-cee176b9d1ee",
+"topic":"Pregnancy and Antenatal Care",
+"front":"the five classes of meds in pregnancy",
+"back":"A: no evidence of risk in pregnancy \nB: animal studies show no risk and no human studies have ever been done \nC: no data, or animal studies show risk but human studies not donw \nD: potential fetal risk but may be required \nX: risk>benefit in all cases"
+},
+{
+"id":"montis-15ed1f2e5083",
+"topic":"Pregnancy and Antenatal Care",
+"front":"the pathophysiology of Rh alloimmunization",
+"back":"[image]"
+},
+{
+"id":"montis-d9be6fccf1eb",
+"topic":"Pregnancy and Antenatal Care",
+"front":"effects of Rh isoimmunization effects on the fetus and newborn",
+"back":"- hemolysis \n- anemia\n- hydrops \n- death in utero \n- hemolytic disease of the newborn\n- neonatal death"
+},
+{
+"id":"montis-66fc5b3afaee",
+"topic":"Pregnancy and Antenatal Care",
+"front":"how do fetal cells reach placental circulation for Rh exposure?",
+"back":"- delivery of fetus or placenta \n- antepartum bleeding \n- spontaneous, induced abortion, ectopic \n- CVS, amnio etc"
+},
+{
+"id":"montis-76f38a967790",
+"topic":"Pregnancy and Antenatal Care",
+"front":"prevention of Rh sensitization",
+"back":"- Rh immunue globulin, standard dose is 300ug IM for every 30 mL of fetal blood"
+},
+{
+"id":"montis-be54795f7141",
+"topic":"Pregnancy and Antenatal Care",
+"front":"mgmt of non-sensitized pregnancies",
+"back":"- initial bloodwork \n- repeat ab screen at 26 weeks\n- give winrho at 28 weeks if screen negative \n- postpartum winrho if the baby is Rh positive"
+},
+{
+"id":"montis-97056ac49e73",
+"topic":"Pregnancy and Antenatal Care",
+"front":"dx of Rh sensitization",
+"back":"[image]"
+},
+{
+"id":"montis-290bb139c5ed",
+"topic":"Pregnancy and Antenatal Care",
+"front":"rubella vaccination in pregnancy",
+"back":"- live vaccine should be avoided during pregnancy \n- no need to counsel ab abortion if accidental vaccination \n- avoid pregnancy for 4wks after immunization \nMMR given postpartum if not immunne"
+},
+{
+"id":"montis-98dfeebcdbbf",
+"topic":"Pregnancy and Antenatal Care",
+"front":"pertussis, RSV, influenza and covid vaccines during pregnancy",
+"back":"TDaP shoudl be offered during 2nd or 3rd trimester, irresepctive immunization hx \nRSV coming soon!\ninfluenza and covid should be offered"
+},
+{
+"id":"montis-36416e59c4ad",
+"topic":"Infections in Pregnancy",
+"front":"rubella testing in pregnancy",
+"back":"10-15% of people will be non-immune, so should test at the first prenatal visit \nif not pregnant, should be given right away or should be given vaccine postpartum"
+},
+{
+"id":"montis-3ed3f292ed0a",
+"topic":"Infections in Pregnancy",
+"front":"symptoms of rubella in pregnant women",
+"back":"hx: rash, malaise, headache, arthralgia"
+},
+{
+"id":"montis-b6992d09b59c",
+"topic":"Infections in Pregnancy",
+"front":"dx and tx of rubella in pregnant ppl",
+"back":"dx with IgM \ntx is symptomatic"
+},
+{
+"id":"montis-9166dafb757b",
+"topic":"Infections in Pregnancy",
+"front":"congenital rubella syndrome, manifestations",
+"back":"very high if contracted in the first trimester and better as older \ndeafness, eye defects, cardiac defects, CNS defects, HSM, jaundice"
+},
+{
+"id":"montis-bc611fc1c0e9",
+"topic":"Infections in Pregnancy",
+"front":"dx and tx of congenital rubella syndrome",
+"back":"dx: u/s can see iugr, microcephaly, cardiac changes\nif pt infection: do amnio, CVS \nmost dx after birth \nno treatment"
+},
+{
+"id":"montis-7c104f9b422e",
+"topic":"Infections in Pregnancy",
+"front":"symptoms of acute HBV infection",
+"back":"only 50% symptomatic with jaundice \nmost resolve \nchronic HBV: >20% die from cirrhosis/hepat carcinoma"
+},
+{
+"id":"montis-a0c7a470f548",
+"topic":"Infections in Pregnancy",
+"front":"testing for hbv in pregnancy and tx",
+"back":"should be immunized, should have HBsAg testing preconception or 1st visit \n [image] \ntx is antivirals"
+},
+{
+"id":"montis-67dbb79e020d",
+"topic":"Infections in Pregnancy",
+"front":"risk to fetus/neonate of HBV",
+"back":"vertical transmission w no prophylaxis is 10-90%; far more likely to become a chronic carrier"
+},
+{
+"id":"montis-2146c960fa16",
+"topic":"Infections in Pregnancy",
+"front":"tx of neborns born to a hbv pos mother",
+"back":"hbig and hbv within 12h of birth \nrepeat hbv vaccine at 1 and 6 mos \nfollow up titer 1 mo later \nc/s not indicated to prevent vertical transmission \nbreastfeeding not contraindicated"
+},
+{
+"id":"montis-5074a71d7542",
+"topic":"Infections in Pregnancy",
+"front":"screening for syphilis in pregnancy",
+"back":"screen all pts at preconception or 1st antenatal visit \nnow also at 28-32 weeks and delivery"
+},
+{
+"id":"montis-64a3e528c189",
+"topic":"Infections in Pregnancy",
+"front":"treatment for syphilis in pregnancy",
+"back":"penicillin and if allergic, should desensitize"
+},
+{
+"id":"montis-4ba0a2610212",
+"topic":"Infections in Pregnancy",
+"front":"risk of congenital syphilis",
+"back":"can infect fetus in any trimester \n50% vertical transmission with untreated 1st, 2nd, early latent \n10% vertical w late latent \nearly/late complications"
+},
+{
+"id":"montis-742fb2651316",
+"topic":"Infections in Pregnancy",
+"front":"the dx of congenital syphilis",
+"back":"large placenta but small fetus \nhydrops, placentomegaly, IUGR, microcephaly, HSM"
+},
+{
+"id":"montis-b8d07b23bea2",
+"topic":"Infections in Pregnancy",
+"front":"tx and prevention of congenital syphilis",
+"back":"tx is penicilin if dx after delivery \nway more effective to try and treat while baby is still in utero"
+},
+{
+"id":"montis-6d2e172bfcb1",
+"topic":"Infections in Pregnancy",
+"front":"HIV testing in pregnancy",
+"back":"pregnancy does not impact course of HIV \ntest w eia and western blot to confirm"
+},
+{
+"id":"montis-00d81214aba9",
+"topic":"Infections in Pregnancy",
+"front":"risk of vertical transmission in HIV",
+"back":"most common intrapartum \nabout 25% if no intervention\n12-14% if breastfeeding"
+},
+{
+"id":"montis-ce11b7477bf0",
+"topic":"Infections in Pregnancy",
+"front":"how to reduce risk of HIV transmission to the fetus",
+"back":"1) art; antepartum haart, intrapartum iv azt and po azt for 6wks for neonates \n2) elective c/s at 38wks \n3) no breastfeeding \ncan do vaginal delivery if viral load is low"
+},
+{
+"id":"montis-03b4c322304a",
+"topic":"Infections in Pregnancy",
+"front":"testing of chlamydia in pregnant ppl",
+"back":"all patients should have cervical swab or urine testing at first antenatal visit \ndx is usually naat"
+},
+{
+"id":"montis-b57247f11465",
+"topic":"Infections in Pregnancy",
+"front":"tx of chlamydia in pregnant ppl",
+"back":"azithro 1g po single dose \ntest for cure in pregnant ppl"
+},
+{
+"id":"montis-7ffff5290cd0",
+"topic":"Infections in Pregnancy",
+"front":"risk of chlamydia in neonates",
+"back":"opthalamia neonatorum, treatment w erythromycin base po \npneumonia onset 1-3 mos postpartum \ntx is also erythro"
+},
+{
+"id":"montis-c1300b9d13b5",
+"topic":"Infections in Pregnancy",
+"front":"testing for gonorrhea in pregnant ppl",
+"back":"all ppl should have cervical swab or urine tested at 1st antenatal visit"
+},
+{
+"id":"montis-9258389f2466",
+"topic":"Infections in Pregnancy",
+"front":"dx and tx of gonorrhea in pregnant ppl",
+"back":"[image]"
+},
+{
+"id":"montis-589ecce4051b",
+"topic":"Infections in Pregnancy",
+"front":"some of the risks of gonorrhea in infants",
+"back":"also opthalamis neonatorum asap prophylactic eye ointment and tx with ceftriaxone \ndisseminated gonococcal infection; tx with ceftriax"
+},
+{
+"id":"montis-e0b7c17b3746",
+"topic":"Infections in Pregnancy",
+"front":"acute vs chronic hcv infection",
+"back":"Acute HCV --- 1% fulminant, 80% chronic n Chronic HCV---25% cirrhosis in 25 y, 75% asymptomatic\nway more common for hcv ppl to become chronic"
+},
+{
+"id":"montis-70a2581370d8",
+"topic":"Infections in Pregnancy",
+"front":"dx for hcv",
+"back":"anti-hcv antibody \ndoes NOT prevent transmission or confer immunity \nif pt is pos, should test for other hepatities or other STIs and vax for a and b"
+},
+{
+"id":"montis-f2518063c565",
+"topic":"Infections in Pregnancy",
+"front":"tx for hcv",
+"back":"antivirals, can be considered and continued in pregnancy"
+},
+{
+"id":"montis-6ae6815f2be6",
+"topic":"Infections in Pregnancy",
+"front":"how to deal with hcv in neonates",
+"back":"no vaccine or immune prophylaxis effectuve \nroutine prenatal screening not needed \nvaginal birth or breastfeeding not contraindicated \nneonates should receive HBV vaccine series at birth, 1mo and 6mo \ntesting for HCV at 1 month"
+},
+{
+"id":"montis-75074a08d900",
+"topic":"Infections in Pregnancy",
+"front":"primary vs nonprimary episode of HSV",
+"back":"only 1/3 symptomatic, dysuria, inguinal adenopathy, painful, vesicles \nnonprimary is fewer vesicles, less pain and less systemic"
+},
+{
+"id":"montis-d4718efe3ff5",
+"topic":"Infections in Pregnancy",
+"front":"recurrent HSV",
+"back":"prodrome, <5 vesicles, same area (dermatome), no systemic infection"
+},
+{
+"id":"montis-70b23235e31a",
+"topic":"Infections in Pregnancy",
+"front":"dx of herpes",
+"back":"viral culture from fresh vesicle"
+},
+{
+"id":"montis-a24d548845be",
+"topic":"Infections in Pregnancy",
+"front":"acquisition of neonatal herpes",
+"back":"intrauterine infection is rare; most acquired during birth\nprimary infection risk is up to 30-50%\nrecurrent is 2-4% \nmost cases are in pts with no hx of herpes"
+},
+{
+"id":"montis-48e8eef77405",
+"topic":"Infections in Pregnancy",
+"front":"presentation of neonatal herpes and tx",
+"back":"[image]"
+},
+{
+"id":"montis-2db03ea3b403",
+"topic":"Infections in Pregnancy",
+"front":"how to screen for HSV in prenatal care",
+"back":"all pts should have a hx of genital herpes \nif in labour, look for active lesions and try to bypass the vagina through c section"
+},
+{
+"id":"montis-3809e327a52f",
+"topic":"Infections in Pregnancy",
+"front":"if someone is pregnant and has herpes hx, what should you do?",
+"back":"- acyclovir from 36 weeks to prevent recurrence"
+},
+{
+"id":"montis-387138b10764",
+"topic":"Infections in Pregnancy",
+"front":"the features of varicella zoster in pregnant ppl",
+"back":"Fever, malaise, rash = crops of pruritic macules-- papules--vesicles--crust (trunk to extremities)\nno routine screening \ncan also manifest as pneumonia and encephalitis"
+},
+{
+"id":"montis-d4d41a8a567e",
+"topic":"Infections in Pregnancy",
+"front":"the dx and tx of chickenpox",
+"back":"dx is clinical or vesicle culture \ntx: if exposed, can give varicella immune glob and if infected, acyclovir \nnote that shingles poses no risk"
+},
+{
+"id":"montis-46a5383183a0",
+"topic":"Infections in Pregnancy",
+"front":"congenital varicella",
+"back":"happens if the pts gets chickenpox early on in pregnancy (<13wks)\nvaricella embryopathy: cutaneous scars, lymb hypoplasia, muscle atrophy, microcepathy, cataracts"
+},
+{
+"id":"montis-2aab0e877c5d",
+"topic":"Infections in Pregnancy",
+"front":"neonatal varicella",
+"back":"mothers who have acute varicella within the period from 5d before or 2d after delivery \nno pt antibodies \ndisseminated visceral and CNS disease, can be fatal \ntx is VZIG"
+},
+{
+"id":"montis-348e2372b105",
+"topic":"Infections in Pregnancy",
+"front":"parvovirus b19 hx and px",
+"back":"common among elementary and daycare school population, can pass to pregnant caregivers \nfever, malaise, adenopathy, polyarthritis, slapped cheek rash"
+},
+{
+"id":"montis-0387e2099d24",
+"topic":"Infections in Pregnancy",
+"front":"immune serology testing for PB19",
+"back":"both IgM and IgG; if pos for both then immune and should retest if both neg"
+},
+{
+"id":"montis-99943e88581a",
+"topic":"Infections in Pregnancy",
+"front":"risk to fetus for parvo b19 to fetus and tx",
+"back":"risk much higher if <20 wks, fetal hydrops, death, viral infection of bone marrow and aplastic anemia \nsx is u/s weekly for 14 wks looking for hydrops \nif hydrops, do cordocentesis and transfusion"
+},
+{
+"id":"montis-236229f7672a",
+"topic":"Normal Labour and Delivery",
+"front":"what is labour?",
+"back":"the onset of regular (painful) uterine contractions that increase in intensity and frequency that leads to progressive cervical dilation, effacement and descent of the presenting part"
+},
+{
+"id":"montis-241e4a641e13",
+"topic":"Normal Labour and Delivery",
+"front":"what causes/permits labour?",
+"back":"the uterus: becomes increasingly sensitive to prostaglandins, oxytocin, withdrawl of progesterone"
+},
+{
+"id":"montis-1a381bf389f2",
+"topic":"Normal Labour and Delivery",
+"front":"the four stages of labour",
+"back":"1: onset of dilatation to full dilatation of the cervix \n2: full dilatation of the cervix to delivery of the fetus \n3: delivery of the fetus to delivery of placenta \n4: first 1h after delivery of the placenta"
+},
+{
+"id":"montis-c65c2da42aa7",
+"topic":"Normal Labour and Delivery",
+"front":"two phases of the first stage of labour",
+"back":"latent: first part of labour from the onset to cervical dilatation (slow) \nactive: 4-6cm to 10cm (fully dilatated) \nmore rapid dilatation"
+},
+{
+"id":"montis-6ddab81acd0b",
+"topic":"Normal Labour and Delivery",
+"front":"lie of the fetus",
+"back":"the relationship of the long axis of the fetus to the long axis of the patient (baby spine to the pt spine)\nlongitudinal, transverse, oblique (45 deg angle)"
+},
+{
+"id":"montis-d44db042d4b9",
+"topic":"Normal Labour and Delivery",
+"front":"presentation of labour",
+"back":"the part of the fetus that comes first (ie lies over the pelvic inlet) \ncephalic, breech, foot, shoulder, cord"
+},
+{
+"id":"montis-c048dbca7ba1",
+"topic":"Normal Labour and Delivery",
+"front":"station of the baby",
+"back":"relative descent of the presenting part compared to the ischial spines"
+},
+{
+"id":"montis-00e95e9131b1",
+"topic":"Normal Labour and Delivery",
+"front":"leopold's maneuvres",
+"back":"[image]"
+},
+{
+"id":"montis-d6b49ed11d97",
+"topic":"Normal Labour and Delivery",
+"front":"the three categories of the ischial spines",
+"back":"[image] x"
+},
+{
+"id":"montis-9909fda6d480",
+"topic":"Normal Labour and Delivery",
+"front":"what are the three types of denominator",
+"back":"vertex (cephalic/flexed): fetal occiput (back of the head)\nface: fetal mentum (use the chin as the red point) \nbreech: use the sacrum"
+},
+{
+"id":"montis-d3917d927284",
+"topic":"Normal Labour and Delivery",
+"front":"the eight cardinal movements of delivery",
+"back":"[image]"
+},
+{
+"id":"montis-60f17d0cfb14",
+"topic":"Normal Labour and Delivery",
+"front":"some key things to do during catching a baby",
+"back":"- support perineum to prevent tearing \n- allow head to externally rotate \n- push head to floor to deliver the ant shoulder and pull baby upwards to delivery the shoulder \n- put hands on side of head towards the eye\n- make sure you have one hand on the neck and at least one leg \n- place baby on pts abdo"
+},
+{
+"id":"montis-04caea7aee0a",
+"topic":"Normal Labour and Delivery",
+"front":"three signs of placental separation",
+"back":"fresh blood \nlenghtening of the cord \nuterus becomes firm and globular"
+},
+{
+"id":"montis-f3012ade732c",
+"topic":"Normal Labour and Delivery",
+"front":"active management of the 3rd stage of labour",
+"back":"use of oxytocin or misoprisrol \none hand on the uterus, gentle traction on the cord \nif placenta is palpable in the vagina, it's detached from the uterus and must come out otherwise you risk hemorrhage!"
+},
+{
+"id":"montis-a2bd559a88b6",
+"topic":"Normal Labour and Delivery",
+"front":"some pros of episiotomy",
+"back":"- speed up delivery, sometimes prevent worse tear, limits damage to pelvic floor, prevents anal sphincter tears?"
+},
+{
+"id":"montis-1a776c28291f",
+"topic":"Normal Labour and Delivery",
+"front":"cons to eoisiotomy",
+"back":"doesnt protect the pelvic floor or anal sphincter tears \nmakes a certain laceration from a possible one \ninc pain and blood loss"
+},
+{
+"id":"montis-39604e71f2b5",
+"topic":"Normal Labour and Delivery",
+"front":"the three main types of episiotomy",
+"back":"midline (can create a path for furher tear) \nright mediolateral \nleft mediolateral"
+},
+{
+"id":"montis-bf6910504219",
+"topic":"Normal Labour and Delivery",
+"front":"the four degree of perineal lacerations",
+"back":"1st degree: vaginal mucosa or perineal skin \n2nd degree: fascia or perineal musculature (bulbocav/superficial transverse perineal muscles) \n3rd: anal spincter \n4th: rectal mucosa"
+},
+{
+"id":"montis-53a789be6988",
+"topic":"Normal Labour and Delivery",
+"front":"some pharm/nonpharm options for pain relief in labour",
+"back":"non-pharm: ambulation, bath/shower, tens, support \npharm: NO, narcotics, epidural"
+},
+{
+"id":"montis-5ba9a68ae958",
+"topic":"Normal Labour and Delivery",
+"front":"the normal presentation of most babies",
+"back":"in longitudinal lie, cephalic presentation, flexed attitude (vertex) and OA position."
+},
+{
+"id":"montis-0a5da39feb63",
+"topic":"Abnormal Labour and Delivery",
+"front":"dystocia",
+"back":"labour that is longer than normal or not progressing"
+},
+{
+"id":"montis-da6aeed03cec",
+"topic":"Abnormal Labour and Delivery",
+"front":"the four causes of dystocia",
+"back":"power: contraction\npassenger: fetus\npassage: patient pelvis\npsyche: neg effects, pain, suffering"
+},
+{
+"id":"montis-a5e508a31206",
+"topic":"Abnormal Labour and Delivery",
+"front":"abnormal latent phase",
+"back":"latent phase defined by...\npatient: onset of contractions \nactual: onset of dilation secondary to contractions \nabnormal: nulliparous >20h, parous >14h"
+},
+{
+"id":"montis-db17f38e2975",
+"topic":"Abnormal Labour and Delivery",
+"front":"some of the most common cause of an abnormal latent phase",
+"back":"not in labour or false labour \ndysfunctional contractions (not regular, frequent, strong enough) \nforeshadowing (abnormal fetal presentation, cephalopelvic disproportion)"
+},
+{
+"id":"montis-1d87d6ee92d7",
+"topic":"Abnormal Labour and Delivery",
+"front":"mgmt of abnormal latent phase",
+"back":"definitive diagnosis is often difficult\nsend home, ambulate, hydration, nutrition, narcotics to allow to sleep \nsweep membranes; no artificial membrane rupture"
+},
+{
+"id":"montis-1e07cf17e0c9",
+"topic":"Abnormal Labour and Delivery",
+"front":"what is considered abnormal active phase labour",
+"back":"nulliparous <1.2 cm/hr\nparous <1.5 cm/hr"
+},
+{
+"id":"montis-4360739b9ccd",
+"topic":"Abnormal Labour and Delivery",
+"front":"power problems in abnormal active phase labour",
+"back":"want contractions q2-3 mins with contractions lasting 45-60 min\n- strong to palpation"
+},
+{
+"id":"montis-475432311ac4",
+"topic":"Abnormal Labour and Delivery",
+"front":"passenger problems in active phase labour",
+"back":"- macrosomic infant \n- abnormal presentation \n- deflexed head \n- hydrocephalus/soft tissue tumours"
+},
+{
+"id":"montis-cbcda9f73da8",
+"topic":"Abnormal Labour and Delivery",
+"front":"passage problems that can happen w abn active phase labour",
+"back":"- bony pelvis (non-gynecoid pelvis; the gynecoid is wider and broader) \n- pt obseity\n- obstructing lesions (full bladder, uterine fibroids, pelvic tumours, uterine abnormalities)"
+},
+{
+"id":"montis-5cce1305a87a",
+"topic":"Abnormal Labour and Delivery",
+"front":"mgmt of abnormal active phase labour",
+"back":"management: can only fix power problems \nartificial membrane rupture, oxytocin \nif power is already max, c section"
+},
+{
+"id":"montis-8d5d0a5e70c2",
+"topic":"Abnormal Labour and Delivery",
+"front":"how does artifical membrane rupture",
+"back":"[image]"
+},
+{
+"id":"montis-0b50d87f95fb",
+"topic":"Abnormal Labour and Delivery",
+"front":"how does oxytocin work to stim labour?",
+"back":"powerful uterine stimulant; uterine sensitivity varies and increases towards term \nrisk of exogenous: hyperstimulation of the uterus and fetal hypoxia \ndosing is in milliunits"
+},
+{
+"id":"montis-c51e527aaad8",
+"topic":"Abnormal Labour and Delivery",
+"front":"starting dose of oxytocin",
+"back":"[image]"
+},
+{
+"id":"montis-537824c2d5f7",
+"topic":"Abnormal Labour and Delivery",
+"front":"when do use c section in labour?",
+"back":"[image]"
+},
+{
+"id":"montis-b0caafe59deb",
+"topic":"Abnormal Labour and Delivery",
+"front":"what is the 1-2-2-3 rule?",
+"back":"[image]"
+},
+{
+"id":"montis-ccee23cfa4b4",
+"topic":"Abnormal Labour and Delivery",
+"front":"abnormal power in the second stage of labour",
+"back":"[image] exactly the same as in the first stage"
+},
+{
+"id":"montis-ff43e06e3c30",
+"topic":"Abnormal Labour and Delivery",
+"front":"how to assess pushing in the second stage of labour",
+"back":"- 3 long, hard pushes per contraction\n- in the right spot, any fetal descent?\n- how long, any energy left?"
+},
+{
+"id":"montis-3b9e052349c8",
+"topic":"Abnormal Labour and Delivery",
+"front":"abnormal passenger causes in the second stage of labour",
+"back":"- macrosomic \n- presentation\n- position (OT/OP)\n- hydrocephalys/soft tissue"
+},
+{
+"id":"montis-ca59a56b654e",
+"topic":"Abnormal Labour and Delivery",
+"front":"abnormal passage conditions in the second stage of labour",
+"back":"- bony pelvis abnormalities \n- pt obseity\n- obstructing lesions"
+},
+{
+"id":"montis-403b6b4b2677",
+"topic":"Abnormal Labour and Delivery",
+"front":"mgmt of abnormal second stage of labour",
+"back":"[image]"
+},
+{
+"id":"montis-4ca9761bd700",
+"topic":"Abnormal Labour and Delivery",
+"front":"assisted vaginal delivery",
+"back":"[image]"
+},
+{
+"id":"montis-dfb927b85339",
+"topic":"Abnormal Labour and Delivery",
+"front":"when is vacuum management needed?",
+"back":"- safe \n- often not used properly; only for traction and not for rotation\n- vertex presentation only \n- can fail or lead to subgaleal hemorrhage"
+},
+{
+"id":"montis-cc41e60f02cd",
+"topic":"Abnormal Labour and Delivery",
+"front":"why should you treat dystocia?",
+"back":"[image]"
+},
+{
+"id":"montis-92ab53258fd5",
+"topic":"Diabetes and Pregnancy",
+"front":"how does blood glucose change in the first trimester",
+"back":"• First trimester is characterized by increased\ninsulin sensitivity \n• Fasting glucose levels decline in the person\nwithout diabetes \n• Fetus is a continuous drain on parental\nglucose\n-blood glucose falls"
+},
+{
+"id":"montis-3b991854bb70",
+"topic":"Diabetes and Pregnancy",
+"front":"how does blood glucose change in the 2nd and 3rd trimesters?",
+"back":"- characterized by insulin resistance due to increases in human placental lactogen and progesterone \n- facilitate parental transfer of maternal nutrients\n• In the person without diabetes, pancreas\ncompensates with increased insulin secretion\n• In the person with diabetes on insulin,\ninsulin requirements typically double by term"
+},
+{
+"id":"montis-cf42e17eb097",
+"topic":"Diabetes and Pregnancy",
+"front":"how does high parental glucose cause macrosomia?",
+"back":"- parental insulin does not cross the placenta\n- fetal insulin production begins at 8-10 wks and high fetal insulin leads to macrosomia"
+},
+{
+"id":"montis-3c4620a9db64",
+"topic":"Diabetes and Pregnancy",
+"front":"the risk of spontaneous abortion with poor glycemic control",
+"back":"• incidence of spontaneousabortion in general population = 15 to 20% • increases with age \n• up to 40% in a person with diabetes with poor glycemic control\n• hyperglycemia is only cause of spontaneous abortion readily amenable to therapy"
+},
+{
+"id":"montis-f3b3520ed0a3",
+"topic":"Diabetes and Pregnancy",
+"front":"when do most internal organs form? why is this a problem?",
+"back":"form at 7/8 weeks and most ppl dont know they are pregnant by then. \nthis can lead to poor glycemic control during the first few weeks of pregnancy, leading to a high rate of congenital malformations"
+},
+{
+"id":"montis-299ab2569381",
+"topic":"Diabetes and Pregnancy",
+"front":"how long before becoming pregnant should someone have good glycemic control",
+"back":"3mos"
+},
+{
+"id":"montis-f2187a820558",
+"topic":"Diabetes and Pregnancy",
+"front":"the preconception glycemic control needed in type 1 diabetes",
+"back":"– multiple daily insulin injections with rapid-acting insulin before\neach meal and basal insulin OR insulin pump \n– A1C every 2 months \n– Stress importance of being prepared for hypoglycemia\n• short hypoglycemic episodes do not harm fetus"
+},
+{
+"id":"montis-68c45cb4ab41",
+"topic":"Diabetes and Pregnancy",
+"front":"preconception glycemic control in someone with type 2 diabates",
+"back":"- stay on metformin or glyburide until pregnant if good glycemic control\n- switch ppl on other antihyperglycemic agents to insulin \n- otherwise maintain non-insulon antihyperglycemic agents until seen in clinic by the team to avoid deterioration in the 1st trimester"
+},
+{
+"id":"montis-0a9edaf8afa4",
+"topic":"Diabetes and Pregnancy",
+"front":"folic acid supplementation in ppl w diabetes",
+"back":"• Used to reduce risk of neural tube defects, pregnant people with type 1 or type 2 diabetes should:\n• Take a multivitamins containing 1 mg folic\nacid at least 3 months preconception \n• continue until at least 3 months postconception"
+},
+{
+"id":"montis-2394f4a0f343",
+"topic":"Diabetes and Pregnancy",
+"front":"retinopathy in pregnancy",
+"back":"- there is an inc risk of retinopathy progression during pregnancy \n- optho assessments are really important before conception, during 1st trimester, prn during pregnancy and w/in 1yr postpartum"
+},
+{
+"id":"montis-ad9cd300190a",
+"topic":"Diabetes and Pregnancy",
+"front":"how to monitor for CKD in pregnant ppl w diabetes",
+"back":"- screen pre-conception/each trimester w random urine ACR/eGFR\n- proteinuria can increase during pregnancy but in women w normal GFR, there is no significant risk \n- in ppl w sig CKD, maybe best to postpone pregnancy"
+},
+{
+"id":"montis-c40d6ce29e8b",
+"topic":"Diabetes and Pregnancy",
+"front":"screening for cardiovascular disease in diabetic pregnant pts",
+"back":"[image]"
+},
+{
+"id":"montis-5b4123d9d6a5",
+"topic":"Diabetes and Pregnancy",
+"front":"autoimmune diseases to look for in ppl w T1D",
+"back":"[image]"
+},
+{
+"id":"montis-4e693ca77bd3",
+"topic":"Diabetes and Pregnancy",
+"front":"drugs to stop preconception in diabetic pts",
+"back":"stop ACEis, ARBs and statins \nreplace w labetolol, CCBs, BBs"
+},
+{
+"id":"montis-8b0bf3ec1aee",
+"topic":"Diabetes and Pregnancy",
+"front":"four possible contraindications to pregnancy",
+"back":"[image]"
+},
+{
+"id":"montis-f3a748ca18d4",
+"topic":"Diabetes and Pregnancy",
+"front":"risk of t1dm in offspring",
+"back":"2% if the mother has t1\n6% if the father has t1"
+},
+{
+"id":"montis-dcd1cae609e6",
+"topic":"Diabetes and Pregnancy",
+"front":"when should you screen for fetal malformations",
+"back":"16-20 wks \nparental serum alpha-fetoprotein \n- detailed u/s \n- fetal echo"
+},
+{
+"id":"montis-90d91cc7cf70",
+"topic":"Diabetes and Pregnancy",
+"front":"some of the problems with labour and delivery to infants of diabetic mothers",
+"back":"- intrauterine demise \n- macrosomia and shoulder dystocia \n- neonatal hypoglycemia"
+},
+{
+"id":"montis-02bac5401454",
+"topic":"Diabetes and Pregnancy",
+"front":"two main points of comprehensive management of pregestational diabetes",
+"back":"- self monitoring of blood glucose \n- intensive insulin program (requirements inc dramatically after 20th week gestation; by 30th week, insulin dose may be 2-3x)\n- sudden fall in insulin req may be indicative of dec in placental function"
+},
+{
+"id":"montis-33504231f1e6",
+"topic":"Diabetes and Pregnancy",
+"front":"some complications of pregestational diabetes and delivery",
+"back":"[image]"
+},
+{
+"id":"montis-a2771ec59b87",
+"topic":"Diabetes and Pregnancy",
+"front":"mgmt of blood glucose on labour and delivery",
+"back":"• maintain blood glucose 4 to 7 mmol/L with insulin infusion as needed \n• insulin requirements typically small due to exercise effect of labour \n• watch for neonatal hypoglycemia"
+},
+{
+"id":"montis-40ea8f23600a",
+"topic":"Diabetes and Pregnancy",
+"front":"some important postpartum complications with diabetic mothers",
+"back":"- breastfeeding reduces the risk of offspring obseity and t2dm \n- for ppl w t1dm, reduce to pre-preg insulin doses \n- be prepared for hypoglycemia when alone w an infant"
+},
+{
+"id":"montis-6d8957bf13e0",
+"topic":"Diabetes and Pregnancy",
+"front":"complications of gestational diabetes",
+"back":"– Late-term intrauterine fetal death\n– Fetal macrosomia\n– Neonatal hypoglycemia and/or jaundice\n– Parental hypertension\n– Future diabetes and/or obesity in child"
+},
+{
+"id":"montis-9c9714669568",
+"topic":"Diabetes and Pregnancy",
+"front":"risk factors for gestational diabetes",
+"back":"[image]"
+},
+{
+"id":"montis-edbfe52a41c9",
+"topic":"Diabetes and Pregnancy",
+"front":"screening for gestational diabetes in pregancy, when does it happen?",
+"back":"[image]"
+},
+{
+"id":"montis-0dd1bc983569",
+"topic":"Diabetes and Pregnancy",
+"front":"how to screen for gestational diabetes",
+"back":"1h plasma glucose after a 50g oral glucose load\nif moderate, you should retest"
+},
+{
+"id":"montis-f6971b713fec",
+"topic":"Diabetes and Pregnancy",
+"front":"the confirmatory test for gestational diabetes",
+"back":"75g OGTT and three measurements [image]"
+},
+{
+"id":"montis-7dd98bd0a7ed",
+"topic":"Diabetes and Pregnancy",
+"front":"some clues that someone has undiagnosed t1dm",
+"back":"• lean person\n• diabetic ketoacidosis\n• severe hyperglycemia\n• Positive GAD antibodies\n• Low C-peptide levels"
+},
+{
+"id":"montis-897a0c3916c0",
+"topic":"Diabetes and Pregnancy",
+"front":"how to nutritionally counsel ppl w diabetes",
+"back":"- 3 meals and 3 snacks daily \n- omit foods high in sugars \n- replace high glycemic index foods w low glycemic ones"
+},
+{
+"id":"montis-3e87dcbf24d5",
+"topic":"Diabetes and Pregnancy",
+"front":"if someone w gestational diabetes exceed target levels in >2 occasions in one week...",
+"back":"start insulin\nmetformin can be used as an additive before 30wks"
+},
+{
+"id":"montis-44fd906b579e",
+"topic":"Diabetes and Pregnancy",
+"front":"how to initiate insulin therapy for someone w diabetes",
+"back":"[image]"
+},
+{
+"id":"montis-64c444c0a31b",
+"topic":"Diabetes and Pregnancy",
+"front":"gestational diabetes is a risk factor for...",
+"back":"type 2 diabetes"
+},
+{
+"id":"montis-bbc7236a0b4e",
+"topic":"Diabetes and Pregnancy",
+"front":"postpartum care for someone w gestational diabetes",
+"back":"[image]"
+},
+{
+"id":"montis-876fda889da0",
+"topic":"Diabetes and Pregnancy",
+"front":"postpartum care for subsequent pregnancies for someone w gestational diabetes",
+"back":"[image]"
+},
+{
+"id":"montis-f1d5258a97cb",
+"topic":"Preterm Birth",
+"front":"definition of preterm birth",
+"back":"birth after 20 weeks and before 37 weeks"
+},
+{
+"id":"montis-f4721efc0a85",
+"topic":"Preterm Birth",
+"front":"preterm labour",
+"back":"painful contractions and cervical change (effacement, dilatation, between 20-37 weeks)"
+},
+{
+"id":"montis-f16b88fbbe5c",
+"topic":"Preterm Birth",
+"front":"the main causes of preterm birth",
+"back":"iatrogenic \nspontaneous: membranes intact \nspontaneous: PPROM (preterm premature rupture of membranes, should cue you to think of possible infection)"
+},
+{
+"id":"montis-a818ca5e77f3",
+"topic":"Preterm Birth",
+"front":"some of the main consequences of preterm birth",
+"back":"- surfactant deficiency \n- intraventricular hemorrhage \n- necrotizing enterocolitis \n- cerebral palsy \n- sepsis"
+},
+{
+"id":"montis-afa129c2e9fa",
+"topic":"Preterm Birth",
+"front":"some of the primary risk factors for preterm birth",
+"back":"- multiple gestation (iatrogenic) \n- chorioamnionitis/PPROM\n- placental abruption\n- prev preterm birth\n- cervical factors such as LEEP"
+},
+{
+"id":"montis-0e2af8be42ce",
+"topic":"Preterm Birth",
+"front":"some of the main symptoms of preterm labour",
+"back":"the difference is that you come into the hospital with these symptoms at an earlier gestation\n- inc discharge \n- cramping \n- low back pain\n- contraction\n- cervical changes"
+},
+{
+"id":"montis-3faf64f45442",
+"topic":"Preterm Birth",
+"front":"the steps of assessing suspected preterm labour",
+"back":"1. determine gestational age\n2. frequency and strength of contractions\n3. presence of vaginal bleeding \n4. presence of membrane rupture \n5. assessment of fetal position\n6. assess for possible causes of contractile activity (bacteriuria, UTI etc)"
+},
+{
+"id":"montis-3747d8c77533",
+"topic":"Preterm Birth",
+"front":"need to differentiate those women who are having symptoms _____ and those who will _____",
+"back":"that may lead to preterm birth; deliver at term"
+},
+{
+"id":"montis-d2d8435aaf6f",
+"topic":"Preterm Birth",
+"front":"what can be used to assess the onset of preterm labour",
+"back":"as long as no other test has been done, can do a fetal fibronectin \nreally good negative predictive value (if neg, person is unlikely to go into preterm labour)\npt must have had no vaginal exams in last 24h"
+},
+{
+"id":"montis-3b55dd41daac",
+"topic":"Preterm Birth",
+"front":"the main goals of managing preterm labour",
+"back":"- delay delivery until transfer to an appropriate centre can be facilitated/antenatal ccs can be admin \n- reduce the neonatal consequences of preterm birth"
+},
+{
+"id":"montis-9b496dd722c7",
+"topic":"Preterm Birth",
+"front":"meds that can help to delay delivery",
+"back":"tocolytics\n- mg sulfate\n- indomethacin \n- ccb\n- oxytocin antagonists \n- nitroglycerine patch (easily reversible)\nhelp us delay labour until reach a tertiary care centre and can admin antenatal steroids + 48h"
+},
+{
+"id":"montis-36dcce9fa900",
+"topic":"Preterm Birth",
+"front":"how do we reduce neonatal consequences of preterm birth?",
+"back":"1. antenatal ccs \n2. mg sulfate \n2. antenatal abx against GBS"
+},
+{
+"id":"montis-21a40280418b",
+"topic":"Preterm Birth",
+"front":"describe the administration of antenatal corticosteroids",
+"back":"betamethasone or dex\n24 weeks to 34 weeks +6d\ngiven with delivery is expected within 7d, pref >24 h before delivery"
+},
+{
+"id":"montis-6924e7015c9d",
+"topic":"Preterm Birth",
+"front":"dosing and use of mg sulfate",
+"back":"- up to 33+6wks \n- in active labour w cervix >4cm if planned preterm birth \n- pref w/in 4h of birth"
+},
+{
+"id":"montis-910af0c619b0",
+"topic":"Post-Term Pregnancy",
+"front":"what is considered to be post-term pregnancy?",
+"back":">42 weeks, but start recommending induction at 42 weeks"
+},
+{
+"id":"montis-a71222aba414",
+"topic":"Post-Term Pregnancy",
+"front":"what is the most accurate way to date a pregnancy?",
+"back":"first-trimester ultrasound"
+},
+{
+"id":"montis-3dac7c555d02",
+"topic":"Post-Term Pregnancy",
+"front":"some possible etiologies of post-term pregnancy",
+"back":"- errors in dating \n- unknown\n- anencephaly (neural tube defect associated with a lack of development in the brain and head, mostly prevented by folic acid)\n- placental sulfatase deficiency"
+},
+{
+"id":"montis-a9bc6a185f1a",
+"topic":"Post-Term Pregnancy",
+"front":"the fetal risks associated with post-term pregnancy",
+"back":"macrosomia (usually >4000g); neonatal hypoglycemia \nbirth injuries (shoulder dystocia, brachial plexus injury, clavicle fractures, hypoxia)"
+},
+{
+"id":"montis-9904ecbfc14c",
+"topic":"Post-Term Pregnancy",
+"front":"what is post-maturity syndrome?",
+"back":"the complications that can result due to a post-term fetus \n- oligohyrdamnios \n- subcu tissue wasting\n- meconim \n- dry, peeling skin\n- long nails"
+},
+{
+"id":"montis-d47e0f10e145",
+"topic":"Post-Term Pregnancy",
+"front":"what does post-maturity syndrome lead to an increased risk of?",
+"back":"- relative placental insuff leads to an inc risk of hypoxia, meconium aspiration and in utero death"
+},
+{
+"id":"montis-1e7c3487281d",
+"topic":"Post-Term Pregnancy",
+"front":"some maternal risks posed from a postpartum pregnancy",
+"back":"inc risk of operative delivery via vacuum/forceps or c section"
+},
+{
+"id":"montis-a10446b7ab3c",
+"topic":"Post-Term Pregnancy",
+"front":"the three types of management approaches to postpartum preg",
+"back":"- expectant (seldom chosen) \n- induction of labour \n- inc fetal surveillance through u/s"
+},
+{
+"id":"montis-9bef930a26db",
+"topic":"Post-Term Pregnancy",
+"front":"how to induce labour",
+"back":"- cervical assessment; has to be 3 cm (can do w a foley catheter), can then rupture the amniotic sac and give pitocin"
+},
+{
+"id":"montis-2ea10be317e4",
+"topic":"Post-Term Pregnancy",
+"front":"how can we be sure that a fetus is safe from a cardiac perspective",
+"back":"- should be baseline at 120-160 with good variability"
+},
+{
+"id":"montis-b42075808f14",
+"topic":"Post-Term Pregnancy",
+"front":"what is the biophysical profile of the fetus",
+"back":"done by u/s \n [image]"
+},
+{
+"id":"montis-e2b1ff58e15a",
+"topic":"Post-Term Pregnancy",
+"front":"some of the primary fetal causes of fetal demise",
+"back":"• in utero asphyxia (ex cord accident / abruption) \n• chromosomal anomalies (aneuploidy) \n• congenital anomalies (esp. cardiac) \n• infection (TORCH) \n• hydrops (fetal anemia) \n• unknown"
+},
+{
+"id":"montis-40e8cef48ed1",
+"topic":"Post-Term Pregnancy",
+"front":"some placental causes of fetal demise",
+"back":"- in utero asphyxia (placental abruption, uteroplacental insuff, cord event, vasa previa)\n- unknown"
+},
+{
+"id":"montis-30ce796fa3fa",
+"topic":"Post-Term Pregnancy",
+"front":"mgmt of fetal demise",
+"back":"- initial investigations: CBC, TORCH screen, hba1c\n- deliver the baby \n- consider DIC if >20 weeks \n- emotional support and pain relief"
+},
+{
+"id":"montis-3b3675981b66",
+"topic":"Third Trimester Bleeding",
+"front":"main causes of bleeding in the second half of pregnancy",
+"back":"- vulvar trauma \n- varicose veins \n- tears or lacerations in the vagina\n- cervical polyp \n- cervicitis \n- carcinoma of the cervix"
+},
+{
+"id":"montis-ffcc5da8de76",
+"topic":"Third Trimester Bleeding",
+"front":"the character of bleeding that occurs with a cervical polyp",
+"back":"- tends to be lighter\n- often post-coital\n- we tend to not remove or treat in pregnancy due to risk of heavy bleeding"
+},
+{
+"id":"montis-b26637e8e388",
+"topic":"Third Trimester Bleeding",
+"front":"bleeding associated with cervicitis",
+"back":"- tends to be lighter bleeding \n- associated w abnormal discharge"
+},
+{
+"id":"montis-9f57587dafb0",
+"topic":"Third Trimester Bleeding",
+"front":"the bleeding/characteristics associated with invasive cervical cancer",
+"back":"- bleeding may be heavy \n- cervix appears necrotic \n- colpo can be performed to r/o malignant lesions"
+},
+{
+"id":"montis-cc2d109ada20",
+"topic":"Third Trimester Bleeding",
+"front":"primary non-gyn causes of bleeding",
+"back":"hemorrhoids \nurethral path"
+},
+{
+"id":"montis-0ca5184c2fc8",
+"topic":"Third Trimester Bleeding",
+"front":"some of the primary obstetrical causes of bleeding in the third trimester",
+"back":"uterine: intrauterine, labour, uterine rupture \nplacental: placental previa, abruption, accreta/increta/percreta, vasa previa"
+},
+{
+"id":"montis-bc6ad402763e",
+"topic":"Third Trimester Bleeding",
+"front":"describe some of the primary risks of uterine rupture",
+"back":"- most cases occur at the site of a previous uterine cesarean delivery scar \n- fetal mortality is high and maternal risks included hemorrhage, DIC, hysterectomy, death\n- survival depends on rapid access to c section"
+},
+{
+"id":"montis-89c2a05f0802",
+"topic":"Third Trimester Bleeding",
+"front":"when is someone safe for a vaginal birth after a cesarean",
+"back":"- delivery date should be >18 mos after ces\n- should not have 2 or more ces\n- no hx of prev rupture \n- no prev sig gyn sx \n- if all these are met, the risk of rupture is low with VBAC"
+},
+{
+"id":"montis-489a7fad9ebc",
+"topic":"Third Trimester Bleeding",
+"front":"some signs of uterine rupture",
+"back":"- stopped contractions and faliure to progress in labour \n- hypotension\n- fetal distress\n- loss of presenting fetal part \n- bleeding"
+},
+{
+"id":"montis-b81fe6476bbb",
+"topic":"Third Trimester Bleeding",
+"front":"what is placenta previa",
+"back":"placenta location close to or over the internal cervical os \nmay be partial or complete \nusually dx on the 18-20 wk anatomy scan"
+},
+{
+"id":"montis-f3188c777cb4",
+"topic":"Third Trimester Bleeding",
+"front":"the classic clinical picture of placenta previa and mgmt",
+"back":"- painless vaginal bleeding in the 3rd trimester \n- never do a vaginal exam unless you are aware of the placental location (NEVER do a vaginal exam on someone w previa)\n- complete previa needs a c section"
+},
+{
+"id":"montis-1d930f3606ef",
+"topic":"Third Trimester Bleeding",
+"front":"primary risk factors for previa",
+"back":"- prev previa \n- prev cesarean\n- prev uterine surgery\n- adv maternal age \n- smoking"
+},
+{
+"id":"montis-81158b71e597",
+"topic":"Third Trimester Bleeding",
+"front":"mgmt of stable and premature placental previa",
+"back":"[image]"
+},
+{
+"id":"montis-88cfef76aa59",
+"topic":"Third Trimester Bleeding",
+"front":"mgmt of unstable placental previa",
+"back":"[image]"
+},
+{
+"id":"montis-162ace218420",
+"topic":"Third Trimester Bleeding",
+"front":"what is placenta acreta, increta, percreta",
+"back":"- placenta abnormally adherent to the uterine wall\n- rare \n- inc risk of hysterectomy and bleeding"
+},
+{
+"id":"montis-ab8567107323",
+"topic":"Third Trimester Bleeding",
+"front":"what is placental abruption",
+"back":"abnormal premature separation of an otherwise normal implanted placenta \ncomplete or partial \n1/100"
+},
+{
+"id":"montis-19c33a69166f",
+"topic":"Third Trimester Bleeding",
+"front":"presentation of a placental abruption",
+"back":"- vaginal bleeding w abdo pain \n- can have bleeding only \n- fetal compromise or demise; fetal risk HR lags behind contractions"
+},
+{
+"id":"montis-d41c26db4cfa",
+"topic":"Third Trimester Bleeding",
+"front":"some of the risk factors for placental abruption",
+"back":"[image]"
+},
+{
+"id":"montis-e13476b4179f",
+"topic":"Third Trimester Bleeding",
+"front":"the dx of placental abruption",
+"back":"- often clinical because need to work very fast \n- can order a kleihauer-betke test to look for fetal cells in maternal circulation"
+},
+{
+"id":"montis-42a58494066d",
+"topic":"Third Trimester Bleeding",
+"front":"management of a placental abruption",
+"back":"have to consider if the mother/fetus are unstable \n- urgent cesarean section\n- fluid resus\n- blood products and factors \n- manage DIC"
+},
+{
+"id":"montis-a2f6aa36c3b4",
+"topic":"Third Trimester Bleeding",
+"front":"vasa previa",
+"back":"- fetal blood vessels cross or come near to the cervical os \n- if the vessels are disrupted, babies can lose their blood volume very quickly \n- delivered early and steroid optimized; do not want these pts to go into labour \n- deliver around 34 weeks"
+},
+{
+"id":"montis-f4150e128251",
+"topic":"Third Trimester Bleeding",
+"front":"mgmt of vasa previa",
+"back":"- fetal steroids \n- hospitalize at 32 weeks\n- delivery by c section at 35 wks"
+},
+{
+"id":"montis-971bce845a58",
+"topic":"Normal Labour and Delivery",
+"front":"what is a normal fetal heart rate",
+"back":"about 120, faster if the fetus is stressed"
+},
+{
+"id":"montis-1e83e2ac6793",
+"topic":"Normal Labour and Delivery",
+"front":"what is the most accurate way to date a pregnancy",
+"back":"- an u/s scan around 12-18 weeks"
+},
+{
+"id":"montis-cc060ac8f3f3",
+"topic":"Normal Labour and Delivery",
+"front":"what is pre-eclampsia",
+"back":"high blood pressure after 20 weeks gestation and some other feature, classically proteinuria"
+},
+{
+"id":"montis-9be1a14113c8",
+"topic":"Normal Labour and Delivery",
+"front":"some meds we can use to manage preeclampsia",
+"back":"- labetolol \n- mg sulfate"
+},
+{
+"id":"montis-20793b105235",
+"topic":"Normal Labour and Delivery",
+"front":"some meds we would not want to use in pregnancy",
+"back":"- acei\n- arb\n- diuretics arent directly contraindicated but may be irritating to the pt"
+},
+{
+"id":"montis-db8e3e7e9075",
+"topic":"Normal Labour and Delivery",
+"front":"what characterizes the biophysical profile of fetal wellbeing",
+"back":"fluid around the fetus, tone, gross body movemets, breathing done"
+},
+{
+"id":"montis-b00b7f83314f",
+"topic":"Hypertensive Disorders in Pregnancy",
+"front":"the four main htn disorders in pregnancy",
+"back":"- chronic htn\n- preeclampsia/eclampsia\n- gestational htn\n- preeclampsia superimposed on chronic htn"
+},
+{
+"id":"montis-a8da1d6ee563",
+"topic":"Hypertensive Disorders in Pregnancy",
+"front":"define chronic htn",
+"back":"- htn preceding pregnancy or before 20 weeks \n- htn persists 6 weeks postpartum \n- BP >140/90 at leat 2 times"
+},
+{
+"id":"montis-fc7af92ad1b3",
+"topic":"Hypertensive Disorders in Pregnancy",
+"front":"define transient/gestational htn",
+"back":"- htn after 20wks pregnancy with no proteinuria \n- bp >140/90\n- may be at-risk for postpartum htn"
+},
+{
+"id":"montis-4726351eb14c",
+"topic":"Hypertensive Disorders in Pregnancy",
+"front":"define preeclampsia",
+"back":"-htn after 20wks gestation and protein in the urine (>300mg/24h)\n- eclampsia is the seizures assoc w this"
+},
+{
+"id":"montis-e98616d213ba",
+"topic":"Hypertensive Disorders in Pregnancy",
+"front":"what is eclampsia?",
+"back":"- grand-mal seizures in the antepartum, intrapartum or postpartum period \n- may be characterized by the presence of clonus or persistent headaches\n- risk of fetal hypoxemia/acidemia"
+},
+{
+"id":"montis-b7adf672b0c6",
+"topic":"Hypertensive Disorders in Pregnancy",
+"front":"what defines preeclampsia superimposed on chronic htn",
+"back":"-worsening htn after 20wks\n- proteinuria >300 mg/24h\nOR worsening preexisting proteinuria \nrecommended 24h urine to see what baseline proteinuria is"
+},
+{
+"id":"montis-2eac9837c49d",
+"topic":"Hypertensive Disorders in Pregnancy",
+"front":"some of the main problems w classification of htn disorders in pregnancy",
+"back":"- the use of the absolute BP is flawed;doesnt take into account lower baseline \n-normal rise in BP in late pregnancy \n- ppl who dev gestational htn may just have preproteinuric htn"
+},
+{
+"id":"montis-705dbe7e9771",
+"topic":"Hypertensive Disorders in Pregnancy",
+"front":"what are the normal changes in BP in pregnancy",
+"back":"normal decrease in the begnning of pregnancy but marked increase in the end of pregnancy"
+},
+{
+"id":"montis-c5a90f6135c4",
+"topic":"Hypertensive Disorders in Pregnancy",
+"front":"the impact of chronic htn tx on maternal/fetal morbidity",
+"back":"- if diastolic >100mmHg can lead to chronic risks or >110mmHg diastolic can lead to acute problems \n- if maternal BP is this high, there is evidence to treat for maternal reasons\n- goal is to keep the diastolic between 90 and 100"
+},
+{
+"id":"montis-0dff4f7c6aa9",
+"topic":"Hypertensive Disorders in Pregnancy",
+"front":"what characterizes severe preeclampsia",
+"back":"having one of the following\n- BP >160/110\n-proteinuria > 3g/24h\n- HELLP syndrome: hemolysis, elevated liver enzymes,low platelets \n- eclampsia"
+},
+{
+"id":"montis-4a1a383121b0",
+"topic":"Hypertensive Disorders in Pregnancy",
+"front":"conditions that put someone at higher risk of preeclampsia",
+"back":"anything that leads to abnormal placental perfusion\nabsolute:diabetes, chronic htn, SLE\nrelative (eg large placenta): diabetes, multiple gestations, molar preg, hydrops"
+},
+{
+"id":"montis-d0e4ec0ab2fd",
+"topic":"Hypertensive Disorders in Pregnancy",
+"front":"typical presentation of a pregnant person w htn",
+"back":"[image]"
+},
+{
+"id":"montis-72256f6969d8",
+"topic":"Hypertensive Disorders in Pregnancy",
+"front":"lab investigations you want to do for someone w preg and htn",
+"back":"- look for HELLP, drop in platelet count \n [image]"
+},
+{
+"id":"montis-39e503eb0460",
+"topic":"Hypertensive Disorders in Pregnancy",
+"front":"some things you want to assess in terms of fetal status in someone w preeclampsia",
+"back":"[image] later preeclampsia can lead to a larger fetus"
+},
+{
+"id":"montis-aa4f0a1c811e",
+"topic":"Hypertensive Disorders in Pregnancy",
+"front":"mgmt of preeclampsia",
+"back":"[image]"
+},
+{
+"id":"montis-37ab8567d7e5",
+"topic":"Hypertensive Disorders in Pregnancy",
+"front":"what is the definitive cure for preeclampsia?",
+"back":"delivery\nalways benefits the mother, sometimes benefits baby"
+},
+{
+"id":"montis-cccade2de4dd",
+"topic":"Hypertensive Disorders in Pregnancy",
+"front":"when would you want to do an induction vs c section in someone w preeclampsia",
+"back":"induction: if conditon is stable and favourable \nc section: if someone is unstable, not progressing fast enough and has severe HELLP syndrome"
+},
+{
+"id":"montis-ce6772253654",
+"topic":"Hypertensive Disorders in Pregnancy",
+"front":"what is important to do for all ppl w preeclampsia?",
+"back":"should give dose of ccs at 24-34 weeks to improve maturation of the fetal lungs \nmonitor! admit or frequent visits"
+},
+{
+"id":"montis-2d9cf240242f",
+"topic":"Hypertensive Disorders in Pregnancy",
+"front":"antihypertensives to give a pregnant person",
+"back":"- labetolol \n- nifedipine (CCB)\n- acute: IV hydralizine"
+},
+{
+"id":"montis-fb7d1f7fbb18",
+"topic":"Hypertensive Disorders in Pregnancy",
+"front":"which BP-controlling drugs not to give to preg pts",
+"back":"- ACEis/ARBs\n- diuretics"
+},
+{
+"id":"montis-3f8f6cf0c60a",
+"topic":"Hypertensive Disorders in Pregnancy",
+"front":"seizure prevention in preeclampsia",
+"back":"- MgSO4\n- valium (diazepam), ativan (lorazepam)\n- phenytoin (dilantin)\n- phenobarbitol"
+},
+{
+"id":"montis-b9f29a152b42",
+"topic":"Hypertensive Disorders in Pregnancy",
+"front":"some future health considerations for ppl w preeclampsia",
+"back":"- risk of dev in a future pregnancy (usually later and less severe though)\n- have to screen for underlying cardiovascular risk factors postpartum"
+},
+{
+"id":"montis-554991da2f54",
+"topic":"Maternal Physiology",
+"front":"main cardio changes that happen during pregnancy",
+"back":"[image]"
+},
+{
+"id":"montis-67cc27650e76",
+"topic":"Maternal Physiology",
+"front":"main resp changes that happen during pregnancy",
+"back":"[image]"
+},
+{
+"id":"montis-d2f86c17a623",
+"topic":"Maternal Physiology",
+"front":"main gi changes that happen during pregnancy",
+"back":"[image]"
+},
+{
+"id":"montis-45e191456dc7",
+"topic":"Maternal Physiology",
+"front":"main renal changes that happen during pregnancy",
+"back":"[image]"
+},
+{
+"id":"montis-2b1483442199",
+"topic":"Maternal Physiology",
+"front":"main heme changes that happen during pregnancy",
+"back":"[image]"
+},
+{
+"id":"montis-7cb156070832",
+"topic":"Maternal Physiology",
+"front":"main endo changes that happen during pregnancy",
+"back":"[image]"
+},
+{
+"id":"montis-e489e648f57d",
+"topic":"Maternal Physiology",
+"front":"main intergumentary changes that happen during pregnancy",
+"back":"[image]"
+},
+{
+"id":"montis-9254b5e9423e",
+"topic":"Maternal Physiology",
+"front":"main msk changes that happen during pregnancy",
+"back":"[image]"
+},
+{
+"id":"montis-ea3591bab164",
+"topic":"Fetal Growth",
+"front":"Fetal growth restriction",
+"back":"the failure of a fetus to meet its growth potential due to a pathological factor"
+},
+{
+"id":"montis-29f8f6223048",
+"topic":"Fetal Growth",
+"front":"what is small for gestational age",
+"back":"any fetus that is less than a specific wt cutoff but not due to a path factor"
+},
+{
+"id":"montis-98973882ea78",
+"topic":"Fetal Growth",
+"front":"maternal causes of fgr",
+"back":"hypoxemia\nsmoking\nsubstance use\nmalabsorption (due to roux-en-y procedure, crohn's) \nenviro toxins"
+},
+{
+"id":"montis-7b215e8e6722",
+"topic":"Fetal Growth",
+"front":"placental factors of fgr",
+"back":"- maternal vascular malperfison\n- fetal vascular malperfusion\n- chronic placental inflammation\n- confined placental mosaicism"
+},
+{
+"id":"montis-97cc38814c4b",
+"topic":"Fetal Growth",
+"front":"umbilical cord causes of fgr",
+"back":"- inc coliling\n- inc cord length\n- true cord knot\n- single umbilical artery"
+},
+{
+"id":"montis-c39e7e053169",
+"topic":"Fetal Growth",
+"front":"some fetal causes of fgr",
+"back":"- genetic disorders\n- structural anomaoles \n- teratogen exp\n- infectious agents (torch)"
+},
+{
+"id":"montis-84dd048ba453",
+"topic":"Fetal Growth",
+"front":"risks of fetal growth restruction",
+"back":"prenatal: stillbirth, preeclampsia, preterm birth\nbirth complications: labour abnormalities, hypoxic ischemic \nneonatal mortality and morbidity"
+},
+{
+"id":"montis-d5cf8d325df6",
+"topic":"Maternal Physiology",
+"front":"the cardiac changes that happen in the first few weeks of pregnancy",
+"back":"- 6wks: circ maternal blood vol begins to increase\n- 8wks: CO increases by 15025%"
+},
+{
+"id":"montis-f6fb392983c9",
+"topic":"Maternal Physiology",
+"front":"changes in heart position during pregnancy",
+"back":"displaced up and left; becomes more horizontal"
+},
+{
+"id":"montis-60ddeff54dc8",
+"topic":"Maternal Physiology",
+"front":"changes in heart size that occur during pregnancy",
+"back":"inc LA/LV size"
+},
+{
+"id":"montis-ca6296e1665c",
+"topic":"Maternal Physiology",
+"front":"changes in SVR during pregnancy",
+"back":"- falls sig during pregnancy due to impacts of progesterone and prostaglandins/NO/ANP etc"
+},
+{
+"id":"montis-a55cb53847bc",
+"topic":"Maternal Physiology",
+"front":"changes in blood pressure that occur during preg",
+"back":"7wks: decline in bp\nlowering until 26 weeks, max dec of 10mmhg \nblood pressures increases back to baseline after this"
+},
+{
+"id":"montis-f3adf662d616",
+"topic":"Maternal Physiology",
+"front":"changes in CO during pregnancy",
+"back":"- from baseline, 30-50% inc in CO and 40% inc during labour"
+},
+{
+"id":"montis-e15c78a7f1e4",
+"topic":"Maternal Physiology",
+"front":"IVC syndrome in pregnancy",
+"back":"symptoms of lightheadedness/dizziness, fainting\ncan be relieved by lying on their side"
+},
+{
+"id":"montis-aafd88809243",
+"topic":"Maternal Physiology",
+"front":"changes in the chest that occur during preg",
+"back":"- chest diam and circumference increase \n- subcostal angle widens"
+},
+{
+"id":"montis-798b366da789",
+"topic":"Maternal Physiology",
+"front":"changes in TLC/Vt/residual vol during preg",
+"back":"TLC decreases \ninc tidal vol\nFRC and RV both decrease"
+},
+{
+"id":"montis-f9a3183c7c77",
+"topic":"Maternal Physiology",
+"front":"a dangerous CO2 level in pregnancy?",
+"back":"a value of 40 (normal in non-pregnancy) is dangerous and a sign of impending resp failure"
+},
+{
+"id":"montis-61e52182ac37",
+"topic":"Maternal Physiology",
+"front":"while the GI structures in pregnancy are displaced...",
+"back":"they are not enlarged and if this occurs, pathology should be sought"
+},
+{
+"id":"montis-2dd3a11cd0a8",
+"topic":"Maternal Physiology",
+"front":"changes in the esoph sphincter/GI motility/gallbladder in preg",
+"back":"esoph sphincter: relaxation of the LES\nGI mot: decreased motility to allow for more time for nutrients to be absorbed \ngallbladder: impaired contractility"
+},
+{
+"id":"montis-35f7b97b6775",
+"topic":"Maternal Physiology",
+"front":"some of the primary adverse GI effects of pregnancy (4)",
+"back":"gallstones \ncholestasis \ngerd \nconstipation"
+},
+{
+"id":"montis-f042b8b11c0c",
+"topic":"Maternal Physiology",
+"front":"how do the kidneys change in pregnancy",
+"back":"lenghten by 1cm in pregnancy\nrenal collection system also dilates"
+},
+{
+"id":"montis-b20a61b912d2",
+"topic":"Maternal Physiology",
+"front":"how does the bladder change during pregnancy?",
+"back":"compressed by the uterus so cannot hold as much urine; also have decreased bladder tone"
+},
+{
+"id":"montis-3fd66e607b9d",
+"topic":"Maternal Physiology",
+"front":"how do renal plasma flow/gfr change in pregnancy?",
+"back":"inc in both of them, 75% inc in plasma and 50% inc in gfr"
+},
+{
+"id":"montis-5f2d4864e1de",
+"topic":"Maternal Physiology",
+"front":"why is there an increased risk of bacturia during preg?",
+"back":"bacteria can more easily ascend, more urinary stasis and ureteral dilation leads to more pyelo risk"
+},
+{
+"id":"montis-a69a78d1432c",
+"topic":"Maternal Physiology",
+"front":"what is normal to find in small amounts in pregnant urine",
+"back":"glucose and protein due to inc gfr"
+},
+{
+"id":"montis-8c3a7783f10c",
+"topic":"Maternal Physiology",
+"front":"how do plasma vol/RBC vol/coag factors change during pregnancy",
+"back":"plasma vol: increase in plasma vol \nRBC vol: 30% increase\ncoag factors: inc in coag factors"
+},
+{
+"id":"montis-b8a64cd8f078",
+"topic":"Maternal Physiology",
+"front":"why is there often anemia in pregnancy",
+"back":"dilution of blood due to the increase in plasma volume\nleads to a dec hbg concentration and hematorit"
+},
+{
+"id":"montis-ce9a34a6d062",
+"topic":"Maternal Physiology",
+"front":"recommended daily fe intake during pregnancy",
+"back":"- 60mg elemental iron daily \n- if anemic: 60-120 mg"
+},
+{
+"id":"montis-461c2b71b94b",
+"topic":"Maternal Physiology",
+"front":"changes in wbc and platelet count during pregnancy",
+"back":"wbc: inc slightly \nplatelet: dec slightly"
+},
+{
+"id":"montis-22c2a94ae957",
+"topic":"Maternal Physiology",
+"front":"changes in fibrinogen/coag inhibitors during pregnancy",
+"back":"50% inc in fibrinogen (raises concern for DIC)\ncoag inhibitors: dec in key inhibitors of coag (protein C and protein S);should be measured 6 wks after delivery to see if really abnormal"
+},
+{
+"id":"montis-b3f20cd5cfc4",
+"topic":"Maternal Physiology",
+"front":"how does hCG change TSH?",
+"back":"the biol structure of hCG is similar to TSH\nin the 1st trim, hCG stim inc secretion of maternal free T4 \nresulting rise in free T4 leads to a suppression of TSH"
+},
+{
+"id":"montis-0ea35856ccd2",
+"topic":"Maternal Physiology",
+"front":"how do t3 and t4 levels change during pregnancy?",
+"back":"estrogen stim the liver to inc the production of TBG\ninc total T4 and T3 levels (bound hormone increases but free hormone stays the same)"
+},
+{
+"id":"montis-d0412e054182",
+"topic":"Maternal Physiology",
+"front":"how does estrogen change serum cortisol levels during pregnancy?",
+"back":"- induces hepatic synthesis of cortisol-binding globulin, leading to an inc in serum cortisol"
+},
+{
+"id":"montis-cecfd35e5c37",
+"topic":"Maternal Physiology",
+"front":"spider angiomatas",
+"back":"occur when capillaries/arteries in the skin become dilated due to progesterone and turn the surrounding skin red"
+},
+{
+"id":"montis-20315a5f781a",
+"topic":"Maternal Physiology",
+"front":"hyperpigmentation during pregnancy",
+"back":"due to high estrogen and MSH, which shares a structural similarity w hCG\ncommonly see this with a linea nigra (dark line in the middle of the abdomen)"
+},
+{
+"id":"montis-6e8fc61026ef",
+"topic":"Maternal Physiology",
+"front":"change in the low back that occurs w pregnancy",
+"back":"- lumbar lordosis; inward curve of the spine that compensates for the uterus by shifting the maternal centre of gravity over the legs \ncause of low back pain"
+},
+{
+"id":"montis-df3bab8ffe84",
+"topic":"Maternal Physiology",
+"front":"why does diastis of the pubis symphysis occur?",
+"back":"progestetone and relaxin work to relax the ligaments of the pelvis to allow it to accomodate delivery\nthese hormones can also have impacts on other ligs such as the tendons of the ankle, causing unsteady gait"
+},
+{
+"id":"montis-51428dfedfff",
+"topic":"Maternal Physiology",
+"front":"what is the normal ratio for placental wt",
+"back":"normally 1:7 for the wt of the fetus"
+},
+{
+"id":"montis-7265c2d5e42c",
+"topic":"Maternal Physiology",
+"front":"main mech of substrate transport across the placenta",
+"back":"facilitated transport: glucose, AAs, FFA\nreceptor-mediated endocytosis: insulin, IgG, transferrin, LDL"
+},
+{
+"id":"montis-b2d690e1c92a",
+"topic":"Fetal Growth",
+"front":"criteria for fetal growth restriction under 32 weeks",
+"back":"- EFW or AC <3rd percentile or UA w absent/reversed diastolic flow"
+},
+{
+"id":"montis-23fb776a5095",
+"topic":"Fetal Growth",
+"front":"criteria for fetal growth restriction over 32 weeks",
+"back":"[image]"
+},
+{
+"id":"montis-1f8538759b99",
+"topic":"Fetal Growth",
+"front":"some common maternal causes of excessive fetal growth",
+"back":"- elevated maternal wt \n- excessive gestational wt gain \n-abnormal glucose"
+},
+{
+"id":"montis-89ca5486d7f8",
+"topic":"Fetal Growth",
+"front":"some fetal causes of excessive growth",
+"back":"- genetic potential\n- male fetus \n- prolonged pregnancy \n- genetic disorders"
+},
+{
+"id":"montis-eb456800abb2",
+"topic":"Fetal Growth",
+"front":"some long-term consequences of fetal growth restriction",
+"back":"- neurodev disorders\n- metabolic syndromes such as obseity, htn, diabetes, htn, cv disease"
+},
+{
+"id":"montis-d03d08b9feab",
+"topic":"Fetal Growth",
+"front":"prenatal risks of exessive fetal growth",
+"back":"- stillbirth\n- polyhydramnios\n- prematurity"
+},
+{
+"id":"montis-cfda76a3330c",
+"topic":"Fetal Growth",
+"front":"some birth/labour complications of excessive fetal growth",
+"back":"- more c sections\n- shoulder dystocia \n- maternal birth trauma (perineal lacerations, postpartum hemorrhage)"
+},
+{
+"id":"montis-618f89768938",
+"topic":"Fetal Growth",
+"front":"how do we assess/measure fetal growth",
+"back":"clinical assessment via serial symphysis fundal height measurements \nu/s for estimated fetal weight"
+},
+{
+"id":"montis-9faaf9d37e2b",
+"topic":"Fetal Growth",
+"front":"four standard measurements of fetal biometry",
+"back":"Biparietal diameter (BPD) 2. Head circumference (HC) 3. Abdominal circumference (AC) 4. Femur length (FL)"
+},
+{
+"id":"montis-15e86f1d1225",
+"topic":"Fetal Growth",
+"front":"the first and second things we need to decide when we see fetal growth that is less than optimal?",
+"back":"1. is this SGA or FGR \n2. what addl testing/follow-up is recommended"
+},
+{
+"id":"montis-8c735c2c9623",
+"topic":"Fetal Growth",
+"front":"what kind of monitoring is recommended for SGA babies?",
+"back":"serial EFWs (every 2-4 weeks), along with assessment for evolving GFR"
+},
+{
+"id":"montis-e0ac7de5d6ee",
+"topic":"Fetal Growth",
+"front":"monitor that should be done for SGA/FGR",
+"back":"- EFW\n- BPP\n- amniotic fluid volume \n- dopplers: umbilical artery, middle cerebral artery, venous)"
+},
+{
+"id":"montis-5379e2078dd7",
+"topic":"Fetal Growth",
+"front":"what makes up a BPP profile assessment?",
+"back":"[image]"
+},
+{
+"id":"montis-892614f83ae7",
+"topic":"Fetal Growth",
+"front":"what should you do if an infant scores 4/10 or lower on the BPP scale?",
+"back":"want to deliver for fetal indications"
+},
+{
+"id":"montis-80ca0961ed37",
+"topic":"Fetal Growth",
+"front":"what do umbilical artery dopplers assess?",
+"back":"fetal-placental circulation [image] want patterns like A or B"
+},
+{
+"id":"montis-0c55b81e0fed",
+"topic":"Fetal Growth",
+"front":"what is the third decison we need to make when fetal growth is less than optimal",
+"back":"how often do we need to monitor?"
+},
+{
+"id":"montis-49e651d8bf3c",
+"topic":"Fetal Growth",
+"front":"fourth decision we need to make in less than optimal fetal growth?",
+"back":"when should we deliver the small baby?\nshould do this when the risk of mortality/morbidity inside the uterus is more than that outside the uterus"
+},
+{
+"id":"montis-fbf4bace3da2",
+"topic":"Fetal Growth",
+"front":"when might you consider offering a c section for heavy babies?",
+"back":"[image]"
+},
+{
+"id":"montis-946658e86538",
+"topic":"Fetal Growth",
+"front":"some of the main symptoms of pregnancy",
+"back":"- fatiuge, n/v, breast tenderness \n- hx of 1 or more missed menstrual periods after sexual activity"
+},
+{
+"id":"montis-23bf21c0a3c3",
+"topic":"Fetal Growth",
+"front":"some of the findings o/e of pregnancy",
+"back":"-softening/enlargement of the pregnant uterus around 6wks\n- 12wks: uterus can be palpated \ncongestion/bluish discolouration of the cervix and vagina; softening of the cervix"
+},
+{
+"id":"montis-e992f2cbc479",
+"topic":"Fetal Growth",
+"front":"when are fetal movements typically first felt?",
+"back":"16-18wks"
+},
+{
+"id":"montis-6ec6f8dc72f8",
+"topic":"Fetal Growth",
+"front":"when do lab urine preg tests become positive? are home pregnancy tests accurate?",
+"back":"urine lab tests become pos 4wks after the LMP\nhome urine tests: have a tendency to have a low false pos but a high false neg rate"
+},
+{
+"id":"montis-54bd98d34c64",
+"topic":"Fetal Growth",
+"front":"mean doubling time for hCG in a viable pregnancy",
+"back":"about 1.5 to 2.0"
+},
+{
+"id":"montis-e250ad597371",
+"topic":"Fetal Growth",
+"front":"when is a fetal HR typically audible?",
+"back":"with non-doppler: 18-20\ndoppler: 20wks"
+},
+{
+"id":"montis-8d787d3d1f78",
+"topic":"Fetal Growth",
+"front":"what should be done during the first prenatal physical",
+"back":"full physical and also should assess the diameters of the bony pelvis, assessment of the cervix length/consistency/dilation/effacement"
+},
+{
+"id":"montis-ff5128498bb1",
+"topic":"Fetal Growth",
+"front":"how to calculate the EDD?",
+"back":"• \nadd 7 days to\nthe first day of the last normal menstrual flow and subtract 3 months."
+},
+{
+"id":"montis-5a9a27478f65",
+"topic":"Fetal Growth",
+"front":"what is the hCG cutoff at which an intrauterine pregnancy should be visualized",
+"back":"shoud be able to visualize using TVUS at about 1,500"
+},
+{
+"id":"montis-4f2a769b8183",
+"topic":"Fetal Growth",
+"front":"what is very important to attain at the first antepartum visit, why?",
+"back":"baseline blood pressure and urine protein levels \nthis is bc after 20weeks gestation, a persistently evelated sbp over 140 or diastolic >90w/o proteinuria can indicate gestational htn"
+},
+{
+"id":"montis-b634c8a14512",
+"topic":"Fetal Growth",
+"front":"wt gain for someone of a normal weight during pregnancy? obese women?",
+"back":"25-35lb; 11-20lb"
+},
+{
+"id":"montis-1306ec85a04b",
+"topic":"Fetal Growth",
+"front":"normal fetalHR",
+"back":"110-160"
+},
+{
+"id":"montis-078ca6fc67f7",
+"topic":"Fetal Growth",
+"front":"the ten meds to absolutely never give someone who is pregnant",
+"back":"tetracyclines, sulfonamides, quinolones,\nwarfarin, phenytoin, valproic acid/carbamazipine, SSRI’s, ACE inhibitors,\nNSAIDs, Isotretinoin"
+},
+{
+"id":"montis-0c66b01929dd",
+"topic":"Fetal Growth",
+"front":"what is the max recommended fetal exposure to rads?",
+"back":"-should limit to no more than 5 rad"
+},
+{
+"id":"montis-3de7f01888c3",
+"topic":"Fetal Growth",
+"front":"the three things that characterize FAS",
+"back":"• \nGrowth restriction (which may occur in the prenatal period, the\npostnatal period, or both)\n\n• \nFacial abnormalities, including shortened palpebral fissures, low-set\nears, midfacial hypoplasia, a smooth philtrum, and a thin upper lip\n\n• \nCentral nervous system dysfunction including microcephaly,\nintellectual disability, and behavioral disorders such as attention deficit\ndisorder"
+},
+{
+"id":"montis-b301d3b7bdf1",
+"topic":"Fetal Growth",
+"front":"some of the most common nuisance symptoms experienced in pregnancy",
+"back":"- headaches (tx w acetaminophen)\n- nausea/vomiting (manage w ginger, vit b6, unless hyperemesis gravidum)\n- gastric reflux (mg w antacids)\n- constipation\n- back pain\n- leg cramps"
+},
+{
+"id":"montis-9e7963a9e161",
+"topic":"Fetal Growth",
+"front":"what makes up IUGR?",
+"back":"a fetus or infant whose weight is less than the 10th percentile of a specific population at a given gestational age"
+},
+{
+"id":"montis-8cd073485a03",
+"topic":"Fetal Growth",
+"front":"uteroplacental insufficiency",
+"back":"- late onset growth restriction related to decreased function and nurient transport of uteroplacental unit"
+},
+{
+"id":"montis-ddfd6fa17a60",
+"topic":"Fetal Growth",
+"front":"the four main conditions that you need to watch for/treat in IUGR infants",
+"back":"- hyperviscosity syndrome (increased hematocrit due to poor placental oxygen)\n- hypothermia \n- neonatal respiratory compromise\n- hypoglycemia"
+},
+{
+"id":"montis-7233dd9abb50",
+"topic":"Fetal Growth",
+"front":"what typically quantifies LGA",
+"back":"- birth wt >90% for a given gestational age"
+},
+{
+"id":"montis-d3552b867655",
+"topic":"Fetal Growth",
+"front":"fetal risk factors for LGA",
+"back":"• \nGenetic potential\n\n• \nSpecific gene disorders\n\n• \nMale sex"
+},
+{
+"id":"montis-f7076679a80b",
+"topic":"Fetal Growth",
+"front":"maternal risk factors for LGA",
+"back":"• \nHistory of previous macrosomic pregnancy\n\n• \nMetabolism (pre-existing diabetes)\n\n• \nBody composition\n\n• \nPregnancy weight gain\n\n• \nParity"
+},
+{
+"id":"montis-3d7b2592d982",
+"topic":"Fetal Growth",
+"front":"how to dx macrosomia",
+"back":"should combine measurements of symphysis-fundal heights with clinical palpation"
+},
+{
+"id":"montis-552e7336c166",
+"topic":"Hypertensive Disorders in Pregnancy",
+"front":"some risk factors for preeclampsia",
+"back":"- nulliparity\n- multifetal gestation\n- chronic htn\n- pregestational diabetes \n- IVF\n- obseity"
+},
+{
+"id":"montis-0f07ff26776e",
+"topic":"Hypertensive Disorders in Pregnancy",
+"front":"the four tiers of asthma mgmt during pregnancy",
+"back":"mild intermittent: no daily meds, laba as needed \nmild persistent: ics or ltra \nmoderate persistent: low dose ics and laba \nsevere persistent: high dose ics and laba and oral ccs prn"
+},
+{
+"id":"montis-82f73e4dc2d5",
+"topic":"Hypertensive Disorders in Pregnancy",
+"front":"in mose cases, severe preeclampsia is an indication for...",
+"back":"deliver, regardless of gestational age or maturity"
+},
+{
+"id":"montis-a5e292ae28e0",
+"topic":"Hypertensive Disorders in Pregnancy",
+"front":"HELLP syndrome is...",
+"back":"an indication for delivery"
+},
+{
+"id":"montis-69def4a27910",
+"topic":"Hypertensive Disorders in Pregnancy",
+"front":"what is the predominant pathophys finding in preeclampsia/gestational htn",
+"back":"maternal vasospasm"
+},
+{
+"id":"montis-8e31034b8579",
+"topic":"Hypertensive Disorders in Pregnancy",
+"front":"what characteries abnormal edema in pregnancy",
+"back":"persistent edema unresponsive to resting in the supine position is not normal, especially when it involves the upper extremities,sacral region and face"
+},
+{
+"id":"montis-d95703e2e281",
+"topic":"Hypertensive Disorders in Pregnancy",
+"front":"blood pressure at which you would want to manage hrn",
+"back":"Antihypertensive medication in women with chronic hypertension is\n\ngenerally recommended when the systolic blood pressure is ≥160 mmHg or diastolic is >105 mmHg"
+},
+{
+"id":"montis-eca59c143ede",
+"topic":"Hypertensive Disorders in Pregnancy",
+"front":"management of eclampsia",
+"back":"padded tongue\nblade, restraining gently as needed, providing oxygen, assuring\nmaintenance of an adequate airway, and gaining IV access. \ninitiation of magnesium therapy (4 to 6 g slowly, IV) to prevent further\nseizures. If a patient receiving magnesium sulfate experiences a seizure,\nadditional magnesium sulfate (usually 2 g slowly)"
+},
+{
+"id":"montis-6819cbfd7afb",
+"topic":"Hypertensive Disorders in Pregnancy",
+"front":"delivery in pts with severe cardiac conditions",
+"back":"should try not to delivery by c section due to the inc cardiac risk"
+},
+{
+"id":"montis-e5aaca8b405c",
+"topic":"Hypertensive Disorders in Pregnancy",
+"front":"goal of asthma mgmt in pregnant pts?",
+"back":"- maintain adequate fetal oxygenation by preventing hypoxic episodes in the mother"
+},
+{
+"id":"montis-49a5482d172e",
+"topic":"Preterm Birth",
+"front":"difference between braxton-hicks and true contractions",
+"back":"B-H: shorter in duration, less intense and can resolve w ambulation/hydration/analgesia\ntrue: over uterine fundus, discomfort to the low back and lower abdomen; become increasingly intense and frequent"
+},
+{
+"id":"montis-4bdf65761053",
+"topic":"Pregnancy and Antenatal Care",
+"front":"how to determone fetal station?",
+"back":"id the level of the fetal presenting part in the birth canal, relative to the ischial spines \nif at the level of the ischial spines, considered to be zero station"
+},
+{
+"id":"montis-4d6c38f6e2d6",
+"topic":"Pregnancy and Antenatal Care",
+"front":"how often should you evaluate the fetal heart rate during labor",
+"back":"every 30 mins during the first stage and every 15 in the second stage"
+},
+{
+"id":"montis-b24e99ab35fe",
+"topic":"Abnormal Labour and Delivery",
+"front":"what is optimal intrauterine pressure?",
+"back":"50-60mmhg"
+},
+{
+"id":"montis-29f2aa55f78e",
+"topic":"Abnormal Labour and Delivery",
+"front":"some of the main risks associated with dystocia",
+"back":"infection (chorioamnionitis), fetal infection and bacteremia, including pneumonia by aspiration of infected amniotic fluid"
+},
+{
+"id":"montis-75a9ad733fe0",
+"topic":"Abnormal Labour and Delivery",
+"front":"two types of labour abnormalities",
+"back":"protraction disorders: labour is slow to progress \narrest disorders: where labour ceases to progresses"
+},
+{
+"id":"montis-5511b04bbdb8",
+"topic":"Abnormal Labour and Delivery",
+"front":"three things that mgmt of abnormal labour depends on",
+"back":"• \nAdequacy of uterine contractions\n\n• \nFetal malposition or cephalopelvic disproportion\n\n• Other clinical conditions, such as nonreassuring fetal status or\n\nchorioamnionitis"
+},
+{
+"id":"montis-ac19631309f0",
+"topic":"Abnormal Labour and Delivery",
+"front":"when is someone considered to have second stage arrest?",
+"back":"no descent after 1h of pushing"
+},
+{
+"id":"montis-42a63dd16345",
+"topic":"Abnormal Labour and Delivery",
+"front":"how to tx hyperthyroidism in pregnancy",
+"back":"- treated w thionamides and methimazole"
+},
+{
+"id":"montis-dd22ed9d0c45",
+"topic":"Abnormal Labour and Delivery",
+"front":"how to tx hypothyroidism in pregnancy",
+"back":"admin levothyrox to normalize TSH levels"
+},
+{
+"id":"montis-d1f9461989ef",
+"topic":"Abnormal Labour and Delivery",
+"front":"when might we do an episiotomy?",
+"back":"if we plan for an operative vaginal delivery (eg forceps) \ncan also perform if the delivery is taking a long time (eg fetal distress)"
+},
+{
+"id":"montis-172a0e73364f",
+"topic":"Infections in Pregnancy",
+"front":"the vaccines that are ok vs not ok in pregnancy",
+"back":"[image]"
+},
+{
+"id":"montis-043dcc89129a",
+"topic":"<20 Wk Bleeding in Obstetrics",
+"front":"how to manage a spontaneous abortion",
+"back":"expectant: wait for the pregnancy to resolve\nmedical: misoprostol"
+},
+{
+"id":"montis-7c62b718aa1a",
+"topic":"<20 Wk Bleeding in Obstetrics",
+"front":"when do we typically give WinRho?",
+"back":"given after first trim bleeding/ectopic \nnormally at 28 weeks \nmay be given postpartum"
+},
+{
+"id":"montis-0ac589c26ca3",
+"topic":"<20 Wk Bleeding in Obstetrics",
+"front":"what indicated an increased risk of bleeding in placenta previa",
+"back":"when the leading edge of the placenta is 2cm from the internal os as measured by the vaginal ultrasound"
+},
+{
+"id":"montis-ba32f6c63913",
+"topic":"<20 Wk Bleeding in Obstetrics",
+"front":"how to differentiate abruption vs previa",
+"back":"abruption is typically painful while previa is painless"
+},
+{
+"id":"montis-56d0d947831c",
+"topic":"Third Trimester Bleeding",
+"front":"when is DIC treatment needed?",
+"back":"seen in PPH, placental abruption, obstetrical hemorrhage, obstetrical trauma"
+},
+{
+"id":"montis-268521a739a6",
+"topic":"Hypertensive Disorders in Pregnancy",
+"front":"what is the cure for preeclampsia",
+"back":"delivery!\nalways good for the mother, not always good for the baby"
+},
+{
+"id":"montis-e09204b74017",
+"topic":"Hypertensive Disorders in Pregnancy",
+"front":"MgSo4 other uses (other than eclampsia)",
+"back":"neuroprotection in preterm birth"
+},
+{
+"id":"montis-649abe21b310",
+"topic":"Hypertensive Disorders in Pregnancy",
+"front":"why might someone w preeclampsia have RUQ pain",
+"back":"liver capsule swelling; risk of rupture"
+},
+{
+"id":"montis-5ba5cce2d696",
+"topic":"Hypertensive Disorders in Pregnancy",
+"front":"difference between SGA and IUGR",
+"back":"SGA: [image] \nIUGR: [image]"
+},
+{
+"id":"montis-0d6283842e36",
+"topic":"Hypertensive Disorders in Pregnancy",
+"front":"difference in symmetric vs asymmetric IUGR",
+"back":"symm: something that happened early on in the pregnancy, global dex in the number of cells (eg chromosomal) \nasymm: late onset, decrease in the size of the cells, uroplacental insuff"
+},
+{
+"id":"montis-2a6c0f8dd437",
+"topic":"Postpartum Complications",
+"front":"most common causes of maternal mortality",
+"back":"in canada, hypertensive complications\nglobally, hemorrhage and infection"
+},
+{
+"id":"montis-6039718586b2",
+"topic":"Postpartum Complications",
+"front":"normal blood loss during delivery",
+"back":"spontaneous vaginal delivery:<500cc\nc section: <1000cc"
+},
+{
+"id":"montis-0c2ffb7eac76",
+"topic":"Postpartum Complications",
+"front":"the three stages of pph",
+"back":"[image]"
+},
+{
+"id":"montis-48a7da32c540",
+"topic":"Postpartum Complications",
+"front":"the four causes of pph",
+"back":"(uterine) tone, tissue, trauma, thrombin"
+},
+{
+"id":"montis-ceee28043844",
+"topic":"Postpartum Complications",
+"front":"what is uterine tone?",
+"back":"uterine overdistention (eg multiple gestation), uterine exhaustion, infection, dysfunctional uterine activity"
+},
+{
+"id":"montis-3ca0bb066ea2",
+"topic":"Postpartum Complications",
+"front":"tissue causes of pph",
+"back":"retained products of conception, esp the placenta"
+},
+{
+"id":"montis-a50d77c6e62f",
+"topic":"Postpartum Complications",
+"front":"trauma causes of pph",
+"back":"laceration of cervix, vagina, perineum\nuterine rupture\nuterine inversion"
+},
+{
+"id":"montis-f3db924066ef",
+"topic":"Postpartum Complications",
+"front":"thrombin causes of pph",
+"back":"pre-existing states (VWD)\nacquired in pregnancy (preeclampia, dic, abruption)\niatrogenic (eg w warf)"
+},
+{
+"id":"montis-11b92147f5cb",
+"topic":"Postpartum Complications",
+"front":"a risk assessment for pph",
+"back":"documed in a checklist about the risk factors of pph \nalso antenatal anemia id and treated"
+},
+{
+"id":"montis-63b3b8c7f04f",
+"topic":"Postpartum Complications",
+"front":"active mgmt of 3ds stage of labour",
+"back":"you give a uterine tonic of oxytocin after the delivery of the ant shoulder"
+},
+{
+"id":"montis-0c738922f65b",
+"topic":"Postpartum Complications",
+"front":"what should you do immediately for a pt who begins to bleed after delivery",
+"back":"[image]"
+},
+{
+"id":"montis-9d44fa17afd3",
+"topic":"Postpartum Complications",
+"front":"some of the second line uterotonics",
+"back":"ergot, longer lasting (ab 2hrs)\ncontraindicated in htn, HIV meds\ncarboprost (60 min duration), causes diarrhea and caution in asthmatic pts \nmisoprostol/tranexamic acid"
+},
+{
+"id":"montis-05791ad982b7",
+"topic":"Postpartum Complications",
+"front":"some things you can do if conservative/med mgmt dont stop pph",
+"back":"bakri balloon\nsurgical sutures or uterine artery/internal iliac ligation\nuterine artery embolization"
+},
+{
+"id":"montis-31745f03956b",
+"topic":"Postpartum Complications",
+"front":"risk factors for retained placenta",
+"back":"[image]"
+},
+{
+"id":"montis-ec1e7cb8d315",
+"topic":"Postpartum Complications",
+"front":"tx of retained placenta",
+"back":"[image]"
+},
+{
+"id":"montis-c6a9299c1e7d",
+"topic":"Postpartum Complications",
+"front":"risk factors for lacerations",
+"back":"[image]"
+},
+{
+"id":"montis-fdd1c00b5db4",
+"topic":"Postpartum Complications",
+"front":"define postpartum fever",
+"back":">38 C on any 2 of the 10 days first postpartum \nexclusive of the first 24hrs"
+},
+{
+"id":"montis-52f6f03f7759",
+"topic":"Postpartum Complications",
+"front":"sites for pp fever",
+"back":"[image]"
+},
+{
+"id":"montis-701a86b48764",
+"topic":"Postpartum Complications",
+"front":"RFs for uterine infections",
+"back":"- prolonged labour\n- prolonged labour w c section\n- bacteria strep, e coli, sa, chlamydia, anaerobes"
+},
+{
+"id":"montis-72f62c698297",
+"topic":"Postpartum Complications",
+"front":"pp depression criteria",
+"back":"have to be self limited in 6mos, commonly recurrent and tx w SSRIs"
+},
+{
+"id":"montis-80fc87243328",
+"topic":"Postpartum Complications",
+"front":"what to ask in the postpartum visit",
+"back":"[image]"
+},
+{
+"id":"montis-0038e4391772",
+"topic":"Toronto Notes",
+"front":"the pharmacologic management of T1 n/v",
+"back":"pyridoxine or diclectin (doxylamine/pyridoxine) combo therapy\nup to maximum of 8 tabs/day\ncan also use metoclopramide or zofran if all other therapies fail\nconsider PPI if severe as well"
+},
+{
+"id":"montis-086ba8352ae3",
+"topic":"Toronto Notes",
+"front":"what is the etiology and investigations needed for hyperemesis gravidarum",
+"back":"intractable nausea/vomiting in T1\nmay be 2/2 rising bhcg and estrogen levels\nr/o all systemic causes like pyelo, OBS cases like GTN or multiple gestation"
+},
+{
+"id":"montis-790ae119c9fa",
+"topic":"Toronto Notes",
+"front":"the management of hyperemesis gravidarium",
+"back":"thiamine supplementation\ndiclectin w adjuvants\nzofran (no steroids in T1)\nadmit if severe"
+},
+{
+"id":"montis-4b0728bfff8a",
+"topic":"Toronto Notes",
+"front":"what does the NIPT analyze?",
+"back":"analyzes maternal blood for circulating fetal DNA\nhigh accuracy for detection of genetic abnormalities like trisomies"
+},
+{
+"id":"montis-50a262780c25",
+"topic":"Toronto Notes",
+"front":"indications for amniocentesis or CVS",
+"back":"age >35y\nabnormal prenatal screen in the form of IPS/MSS/NIPT\nabnormal u.s\npmhx several genetic disorders, ++spontaneous abortions"
+},
+{
+"id":"montis-7d2a6bf7f089",
+"topic":"Toronto Notes",
+"front":"what are some isoimmunization screening tests used",
+"back":"indirect Coombs: blood group, Ph\nKleihauer-Betke test to assess extent of fetal-maternal hemorrhage (amt of fetal blood in maternal circulation)\nU/s for hydrops\nmiddle cerebral artery dopplers for degree of fetal anemia"
+},
+{
+"id":"montis-d178ee1105c7",
+"topic":"Toronto Notes",
+"front":"what is the role of the K-B test",
+"back":"should be done to assess the extent of fetal cells in maternal circulation and see if more rhogam is needed"
+},
+{
+"id":"montis-9f475e1bf2af",
+"topic":"Toronto Notes",
+"front":"what is the criteria for fetal movement counts, when does the baby movements typically start to be felt",
+"back":"should feel >6 in 2h\nusually felt at 18-20wk"
+},
+{
+"id":"montis-4b5db13e6953",
+"topic":"Toronto Notes",
+"front":"what is a non-stress test",
+"back":"FHR tracing >20mins and using an external doppler to assess FHR\nneed 2 accels >15 bpm from baseline and lasting >15 sec"
+},
+{
+"id":"montis-c6d0785eafb6",
+"topic":"Toronto Notes",
+"front":"if you have no accels or FM in the first 20mins of a NST...",
+"back":"you should stimulate the fetus and try for another 30mins"
+},
+{
+"id":"montis-086be95c2382",
+"topic":"Toronto Notes",
+"front":"at what BPP should you continue to watch vs deliver",
+"back":"6-8/10 w abnormal fluid: watch and wait until >34 wks\n6/10 with normal fluid: repeat in 24h\n0-4/10:consider delivery"
+},
+{
+"id":"montis-0a290aff4446",
+"topic":"Toronto Notes",
+"front":"how much caffeine is safe during pregnancy",
+"back":"<300mg/d"
+},
+{
+"id":"montis-9050f307160c",
+"topic":"Toronto Notes",
+"front":"what can occur if you take an ACEi during pregnancy",
+"back":"fetal renal defects, oligohydramnios, IUGR"
+},
+{
+"id":"montis-ec1b5d2a14cf",
+"topic":"Toronto Notes",
+"front":"mean onset of bleeding in placenta previa",
+"back":"30wk GA\npainless vaginal bleeding\ndon't perform exam!!"
+},
+{
+"id":"montis-461f5d239a28",
+"topic":"Toronto Notes",
+"front":"dx of placenta previa",
+"back":"TVUS is most accurate way to dx"
+},
+{
+"id":"montis-b215e5be380d",
+"topic":"Toronto Notes",
+"front":"management of placenta previa",
+"back":"<37wk: expectant management,deliver when fetus is mature or hemorrhage indicates\n>37wks: deliver"
+},
+{
+"id":"montis-b90833025e1c",
+"topic":"Toronto Notes",
+"front":"management of placental abruption",
+"back":"K-B test to determine Rhogam dosing\nif mild and <37: serial hct to quantify bleeding, deliver when fetus is mature or hemorrgae dictates; if >37 deliver\nif abruption is severe: should stabilize and can deliver vaginally if no complications, CD if fetal-maternal distress, fails to progress etc"
+},
+{
+"id":"montis-132647552d8b",
+"topic":"Toronto Notes",
+"front":"management of vasa previa",
+"back":"planned CD (35-36wks GA) or emergency (bleeding is coming from fetus so small amt can be catatrophic)"
+},
+{
+"id":"montis-04b560400dae",
+"topic":"Toronto Notes",
+"front":"what defines preterm labour?",
+"back":"labour between 20 and 37wks GA"
+},
+{
+"id":"montis-e21e0c935f44",
+"topic":"Toronto Notes",
+"front":"the mgmt options for prevention of PTL",
+"back":"cervical cerclage: cervical sutures placed at the internal os\nprogesterone\nlifestyle mods like smoking cessation"
+},
+{
+"id":"montis-7065cfe26a37",
+"topic":"Toronto Notes",
+"front":"if a fetal fibronectin is negative in someone in PTL...",
+"back":"unlikely to deliver within 7-14d\nbut you should do it if they are having s/sx of PTL"
+},
+{
+"id":"montis-53f4443030d5",
+"topic":"Toronto Notes",
+"front":"some of the s/sx of PTL",
+"back":"regular ctx (2 in 10mins)\ncervix >1cm dilated or >80% effaced"
+},
+{
+"id":"montis-c21edc98fdf0",
+"topic":"Toronto Notes",
+"front":"main mgmt of PTL",
+"back":"1. analgesia, avoid repeat exams\n2. tocolysis (not if fetal distress or IUGR): nifedipine, indomethacin\n3. antenatal ccs 24-34+6wk\n4. MgSO4"
+},
+{
+"id":"montis-60f2610cf605",
+"topic":"Toronto Notes",
+"front":"PPROM vs PROM",
+"back":"PPROM=prelabour rupture >37wks\nPROM=rupture before labour at any gestation"
+},
+{
+"id":"montis-06efa62c259a",
+"topic":"Toronto Notes",
+"front":"most important risk factor for IUGR",
+"back":"previous pregnancy w IUGR"
+},
+{
+"id":"montis-128ceb994cc4",
+"topic":"Toronto Notes",
+"front":"oligohydramnios vs polyhydramnios",
+"back":"oligo: AFI <5cm and single deepest pocket <2cm\npoly: AFI >25cm and deepest pocket >8cm"
+},
+{
+"id":"montis-533cc1c0ab39",
+"topic":"Toronto Notes",
+"front":"some of the complications of polyhydram. + mgmt",
+"back":"large uterus that is overdistended,cord prolapse, abruption\nmgmt: screen underlying cause, if moderate monito, severe, ?amniocentesis"
+},
+{
+"id":"montis-0e9499e1a418",
+"topic":"Toronto Notes",
+"front":"some of the complications/mgmt of oligohydram.",
+"back":"cord compression, small uterus, fetal complications, infants may not tol. labour\nr/o ROM, fetal monitoring,maternal hydration, delivery if term"
+},
+{
+"id":"montis-e96dcc05b1c2",
+"topic":"Toronto Notes",
+"front":"when can you vaginally deliver twins?",
+"back":"if twin A is vertex and growth discrepancy <25%, otherwise CD"
+},
+{
+"id":"montis-c778a63e6086",
+"topic":"Toronto Notes",
+"front":"overall prognosis of breech infants",
+"back":"regardless of delivery (CD vs vaginal), have lower birth weights and higher rates of perinatal mortality, cord prolapse"
+},
+{
+"id":"montis-45c5fd446b25",
+"topic":"Toronto Notes",
+"front":"if PET is severe...",
+"back":"should deliver regardless of GA\nif severe during labour, should do continuous monitoring"
+},
+{
+"id":"montis-af55ef92f262",
+"topic":"Toronto Notes",
+"front":"_____ are most effective at determining the likelihood of macrosomia or other adverse outcomes in pregnancy in suspected DM",
+"back":"post-prandial glucose levels"
+},
+{
+"id":"montis-e9a6f5ab9330",
+"topic":"Toronto Notes",
+"front":"when should you deliver in mothers with DM",
+"back":"induce by 38-39 wks for uncomplicated/preexisting DM, earlier if poor glycemic control\nconsider elective CD for babies >4500g"
+},
+{
+"id":"montis-aaf3476cab0e",
+"topic":"Toronto Notes",
+"front":"when should you initiate insulin in GDM?",
+"back":"lifestyle measures not effective in controlling w/in 2wks"
+},
+{
+"id":"montis-200ff15de6aa",
+"topic":"Toronto Notes",
+"front":"abx used for GBS tx",
+"back":"Pen G 4h before delivery"
+},
+{
+"id":"montis-c010c822c749",
+"topic":"Toronto Notes",
+"front":"tx for UTI in pregnancy",
+"back":"amox 250-500mg x7d\nor nitro"
+},
+{
+"id":"montis-66581d541c40",
+"topic":"Toronto Notes",
+"front":"pref tx of DVT in pregnancy",
+"back":"LMWH, d/x >24h before delibery"
+},
+{
+"id":"montis-0e9d5ca6c16e",
+"topic":"Toronto Notes",
+"front":"the definition of true labour",
+"back":"the onset of regular and painful ctx with progressive dilation/effacement and advancement of presenting part"
+},
+{
+"id":"montis-29652d01c068",
+"topic":"Toronto Notes",
+"front":"the two phases of the first stage of labour",
+"back":"latent: uterine ctx slow, infrequent \nactive: rapid cervical dilation and painful ctx"
+},
+{
+"id":"montis-a82082969a71",
+"topic":"Toronto Notes",
+"front":"when is fetal scalp monitoring indicated?",
+"back":"in conjunction with electronic fetal heart monitoring and contraction monitoring when there are abn or atypical patterns"
+},
+{
+"id":"montis-a14ec4420969",
+"topic":"Toronto Notes",
+"front":"some maternal factors that can cause fetal brady",
+"back":"hypothermia, hypotn, umbilical cord occlusion"
+},
+{
+"id":"montis-ba5b5bc1aee0",
+"topic":"Toronto Notes",
+"front":"some fetal factors that can cause fetal brady",
+"back":"rapid descent, dysrhythmia, hypoxia, heart block, acidosis"
+},
+{
+"id":"montis-7006602d42b2",
+"topic":"Toronto Notes",
+"front":"rule of 60s for severe variable decels",
+"back":"decel <60 BPM\n>60 BPM below baseline\n> 60s in duration w slow return to baseline"
+},
+{
+"id":"montis-fae67eed9e49",
+"topic":"Toronto Notes",
+"front":"what can cause/characterize variable decel?",
+"back":"abrupt drop in FHR >15 BPM\nusually 2/2 cord compression or forceful pusing"
+},
+{
+"id":"montis-4e1f1c3a82ef",
+"topic":"Toronto Notes",
+"front":"when is fetal scalp sampling indicated",
+"back":"atypical FHR suggested by clinical parameters *eg heavy mec, low variability, complex variable decels or fetal cardiac arrhythmias\nmeasures pH/lactate\n<7.20=delivery indicated"
+},
+{
+"id":"montis-dff5d86761ba",
+"topic":"Toronto Notes",
+"front":"what is a late decel?",
+"back":"ominous sign\noccurs after peak contraction and often 2/2 fetal hypoxia/acidemia"
+},
+{
+"id":"montis-4486a4ceed3a",
+"topic":"Toronto Notes",
+"front":"what does the Bishop score tell us",
+"back":"likelihood of success with labour induction (>6)"
+},
+{
+"id":"montis-7d483187f4e6",
+"topic":"Toronto Notes",
+"front":"some indications for IOL",
+"back":"late/postdates (39-41 wks)\nmaternal factors: DM, gestational htn, PET\nmaternal-fetal: PROM, chorio, isoimmunization\nfetal factors:at risk for fetal demise"
+},
+{
+"id":"montis-83af8fbd74b7",
+"topic":"Toronto Notes",
+"front":"what can be used to augment labour?",
+"back":"oxytocin or AROM"
+},
+{
+"id":"montis-68f1fdd33b4d",
+"topic":"Toronto Notes",
+"front":"tx of umb cord prolapse",
+"back":"when the cord descends to a level below/adjacent to the presenting part\nemergency CD if possible\nalleviate pressure of presenting part on the cord\nkeep cord warm/moist"
+},
+{
+"id":"montis-87b2884173ad",
+"topic":"Toronto Notes",
+"front":"the presentation of uterine rupture and tx",
+"back":"prolonged fetal brady\nlow back pain\nabn vaginal bleeding/uterine ctx, IA hemorrhage\nloss of presenting part\nshould r/o placental abruption and immediately deliver"
+},
+{
+"id":"montis-ef30b60fec5a",
+"topic":"Toronto Notes",
+"front":"pres and tx of chorio",
+"back":"maternal fever, odor to cervical discharge, uterine tenderness\ntx with ampicillin + anaerobic coverage like clinda"
+},
+{
+"id":"montis-b70e120f740a",
+"topic":"Toronto Notes",
+"front":"some contraindications to vacuum extraction",
+"back":"fetal head deflexed, fetus req rotation,<34wks or SGA"
+},
+{
+"id":"montis-5b5623f02f43",
+"topic":"Toronto Notes",
+"front":"maternal indications for c/s",
+"back":"obstruction of descent (eg fibroids),active lesion of HSV on vulva, invasive cervical ca, past CD, underlying severe maternal illness"
+},
+{
+"id":"montis-05d5803231c9",
+"topic":"Toronto Notes",
+"front":"maternal-fetal indications for c/s",
+"back":"failure to prpgress\nplacental abrup/previa, vasa previa"
+},
+{
+"id":"montis-8ab4029c6773",
+"topic":"Toronto Notes",
+"front":"fetal indications for c/s",
+"back":"abnormal fetal heart tracing, malpresentation, cord prolapse, certain congenital anomalies, and multiple pregnancy"
+},
+{
+"id":"montis-2a7f160a7ce0",
+"topic":"Toronto Notes",
+"front":"meds that can be used to manage PPH",
+"back":"oxytocin 10 IU IM or long-acting version, carbetocin\nTXA as well"
+},
+{
+"id":"montis-b696d74c3f3e",
+"topic":"Toronto Notes",
+"front":"most common causes of PP fever",
+"back":"endometritis\nwound infxn\nUTI\natelectasis\nDVT, thrombophlebitis"
+},
+{
+"id":"montis-265d6474c4ae",
+"topic":"Toronto Notes+",
+"front":"some of the main indications for hysterectomy",
+"back":"- uterine fibroids\n- endometriosis\n- uterine prolapse\n- pelvic pain\n- cancer"
+},
+{
+"id":"montis-2080327d4175",
+"topic":"Toronto Notes+",
+"front":"if you progestin challenge someone with amenorrhea and they have a withdrawal bleed, what could this mean? what should you do next?",
+"back":"should test LH/FSH\nif high:likely PCOS\nlow/normal: HPO-axis deficiency (the ovaries are working but there is something wrong)"
+},
+{
+"id":"montis-77a9ce374145",
+"topic":"Toronto Notes+",
+"front":"if you progestin challenge someone with amenorrhea and they do not have a withdrawal bleed, what could this mean?",
+"back":"likely some form of primary ovarian insufficiency or uterine defect, Asherman syndrome"
+},
+{
+"id":"montis-e1f53bc21c62",
+"topic":"Toronto Notes+",
+"front":"what does having a withdrawal bleed mean physiologically>",
+"back":"means you have enough estrogen to thicken the endometrium and lack of progesterone results in bleeding\nno bleed=lack of estrogen, excessive androgens etx"
+},
+{
+"id":"montis-0f6e91da91a9",
+"topic":"Toronto Notes+",
+"front":"some of the main s/sx prolactinoma",
+"back":"galactorrhea\nvisual changes\nheadache"
+},
+{
+"id":"montis-a552f751499a",
+"topic":"Toronto Notes+",
+"front":"what should you screen for if somoene has premature ovarian failure",
+"back":"screen for DM, hypoth, hypocortolism"
+},
+{
+"id":"montis-70d0d8565904",
+"topic":"Toronto Notes+",
+"front":"what is irregular vs regular cycles",
+"back":"has to be within 20 days"
+},
+{
+"id":"montis-40caa1c63273",
+"topic":"Toronto Notes+",
+"front":"main structural causes of abn uterine bleeding",
+"back":"polyps\nadenomyosis\nleiomyoma\nmalig/hyperplasia"
+},
+{
+"id":"montis-b8ca5bd1575b",
+"topic":"Toronto Notes+",
+"front":"non-structural causes of AUB",
+"back":"coagulopathy\novulatory dysfxn\nendometrial\niatrogenic \nCOEIN"
+},
+{
+"id":"montis-c0a8ebfcb7d7",
+"topic":"Toronto Notes+",
+"front":"tx of severe AUB",
+"back":"- estrogen with gravol and then taper gradually\nthen maintain on OCP"
+},
+{
+"id":"montis-653843a5558c",
+"topic":"Toronto Notes+",
+"front":"the main difference between primauy vs secondary dysmenorrhea",
+"back":"primary: no demonstratable disease\n2ndary: pain attributed to an underlying disease"
+},
+{
+"id":"montis-04c962e0c7c8",
+"topic":"Toronto Notes+",
+"front":"the 4 dys of endometriosis",
+"back":"dysmenorrhea\ndyspareunia\ndyschezia\ndysuria"
+},
+{
+"id":"montis-900c6f2cb457",
+"topic":"Toronto Notes+",
+"front":"some of the main features on exam that is seen in endometriosis",
+"back":"infertility\nendometrioma (mass): tender uterine ligaments on rectovaginal exam/firm fixed adnexal mass"
+},
+{
+"id":"montis-e6502d7e2a06",
+"topic":"Toronto Notes+",
+"front":"how to definitively dx endometriosis",
+"back":"need laparoscopy!"
+},
+{
+"id":"montis-bf248e31bb4e",
+"topic":"Toronto Notes+",
+"front":"what is adenomyosis",
+"back":"extension of areas of the endometrial glands/stroma into the myometrium"
+},
+{
+"id":"montis-03c613541ec0",
+"topic":"Toronto Notes+",
+"front":"some of the primary features of uterine fibroids",
+"back":"most asymptomatic\nAUB\npressure/bulk symptoms such as pelvic pressure, LUTS\nacute pelvic pain"
+},
+{
+"id":"montis-c2744f14518b",
+"topic":"Toronto Notes+",
+"front":"when do you tx fibroids?",
+"back":"only if symptomatic (heavy MB, bulk sx), rapidly enlarging\nwatch and wait if small, stable or not submucosal"
+},
+{
+"id":"montis-c63936a36167",
+"topic":"Toronto Notes+",
+"front":"how to tx AUB from fibroids",
+"back":"antiprostaglandins (ibuprofen)\nTXA\nCHC, IUS or depo\nsx is definitive"
+},
+{
+"id":"montis-5ae08f13d0a7",
+"topic":"Toronto Notes+",
+"front":"3 main CHC methods",
+"back":"CHC pills\ntransdermal\nrings"
+},
+{
+"id":"montis-3560b6771830",
+"topic":"Toronto Notes+",
+"front":"main progestin-only contraceptive methods",
+"back":"progestin-only pill (need to take at exactly the same time every day)\nIUS (mirena/kyleena)\ndepo\nnexplanon"
+},
+{
+"id":"montis-56f676cad088",
+"topic":"Toronto Notes+",
+"front":"to what GA can you use medical abortion? (how many days)",
+"back":"up to 49d after LMP"
+},
+{
+"id":"montis-8394591e09e0",
+"topic":"Toronto Notes+",
+"front":"contraindications to medical abortion",
+"back":"absolute: ectopic, chronic adrenal failure\nrelative: unconfirmed GA, IUD, bleeding disorder"
+},
+{
+"id":"montis-d341012fbf0d",
+"topic":"Toronto Notes+",
+"front":"when should you expectantly manage an ectopic vs mtx vs surgery?",
+"back":"expectant: bhcg low, no fetal heart rate\nmtx: low bhcg, no FHR, unruptured ectopic, no hepatic/renal disease\nsurgery: does not meet other criteria"
+},
+{
+"id":"montis-afd4579661ed",
+"topic":"Toronto Notes+",
+"front":"some of the main factors contributing to female infertility",
+"back":"age\nchemotherapy\novulatory dysfxn (hypothalamic like stress, pituitary or ovarian like PCOS)\noutflow tract abnormality (tubal factors like PID, uterine factors like Asherman, cervical factors)\nendometriosis"
+},
+{
+"id":"montis-e25403a07174",
+"topic":"Toronto Notes+",
+"front":"when to investigate someone for infertility?",
+"back":"<35: after 1yr of trying\n35-40:after 6mos of trying\n>40: immediately\nearlier if hx PID, sx, chemo etc"
+},
+{
+"id":"montis-d5e762fd8a3c",
+"topic":"Toronto Notes+",
+"front":"medical tx of infertility",
+"back":"ovulation induction with clomid; helps to increase FSH/LH\nletrozole\ncorrect any medical issues"
+},
+{
+"id":"montis-58b51535e642",
+"topic":"Toronto Notes+",
+"front":"some of the main treatments for infertility in PCOS",
+"back":"the use of letrozole (blocks the conversion of estrogen to testosterone) and metformin is also often used, plus spironolactone"
+},
+{
+"id":"montis-77ac3786ec32",
+"topic":"Toronto Notes+",
+"front":"some of the main long-term consequences of PCOS",
+"back":"hyperlipidemia\nDM\nendometrial hyperplasia\nsubfertility\nobseity\nOSA"
+},
+{
+"id":"montis-5b8a3ffe983f",
+"topic":"Toronto Notes+",
+"front":"some of the main s/sx of vulvovaginal candidiasis",
+"back":"intense pruritis\nswollen/inflamed genitals\nvulvar burning and dysuria\nwhite/cottage cheese discharge \ntx clotrimazole"
+},
+{
+"id":"montis-b9ca501da0a8",
+"topic":"Toronto Notes+",
+"front":"the s/sx of BV vs trich",
+"back":"BV: fishy, grey and thin discharge and no irritation\ntrich: yellow-green, frothy discharge, petichae and dysuria"
+},
+{
+"id":"montis-8359a9493252",
+"topic":"Toronto Notes+",
+"front":"tx chlamydia",
+"back":"doxy BID 100 for 7d"
+},
+{
+"id":"montis-a07c1c8c099e",
+"topic":"Toronto Notes+",
+"front":"tx of gonorrhea",
+"back":"single dose ctx IM and azithro PO"
+},
+{
+"id":"montis-66a1490ab77f",
+"topic":"Toronto Notes+",
+"front":"the HPV subtype associated with genital warts",
+"back":"6 and 11 BUT 16 and 18 are most oncogenic"
+},
+{
+"id":"montis-a8f89f23d2fd",
+"topic":"Toronto Notes+",
+"front":"most common substrain of HSV that causes vulvar disease...avg incubation period? tx?",
+"back":"HSV2 largely\nusually 4d incubation post-exposure and presents as painful and small vesicles \ntx acyc 200mg five times daily, TID for recurrence"
+},
+{
+"id":"montis-2fbfc9130735",
+"topic":"Toronto Notes+",
+"front":"how to tx bartholin gland abscess",
+"back":"I&D under local and placement of catheter for drainage \nabx reserved for ++ complicated infections"
+},
+{
+"id":"montis-1536b74a9d60",
+"topic":"Toronto Notes+",
+"front":"the usual microbiology assoc w PID",
+"back":"chlamydia/gonorrhea\nmycobacterium genitalium \ne coli sometimes"
+},
+{
+"id":"montis-cd7518b8089c",
+"topic":"Toronto Notes+",
+"front":"the main dx criteria for PID",
+"back":"cervical motion tenderness\nuterine tenderness\nadnexal tenderness\nIN ADDITION TO fever, leukocytosis, organism documented \ndefinitive is with laparoscopy"
+},
+{
+"id":"montis-9c0608e08006",
+"topic":"Toronto Notes+",
+"front":"the definitive dx of PID",
+"back":"endometrial bx with evidence\nTVUS w fluid filled tubes demonstrated\nlaparoscopy"
+},
+{
+"id":"montis-b59eaf803918",
+"topic":"Toronto Notes+",
+"front":"when should you tx PID inpt",
+"back":"mod-severe illness, complicating factors, atypical infxn or adnexal infxn"
+},
+{
+"id":"montis-7287ddf19249",
+"topic":"Toronto Notes",
+"front":"approach to mgmt of abn FHR",
+"back":"position (LLPD)\nO2 to mother\nIV fluids\nfetal scalp stim, electrode and pH\nvaginal exam to r/o cord prolapse and r/o serious causes"
+},
+{
+"id":"montis-54950680c7a9",
+"topic":"Toronto Notes",
+"front":"what fetal blood pH is dangerous?",
+"back":"<7.20 indicates acidosis and delivery"
+},
+{
+"id":"montis-8adc156ed533",
+"topic":"Toronto Notes",
+"front":"describe the main pathophys of menopause",
+"back":"degenerating cells fail to react to exog gonadotropins (FSH/LH)\nless estrogen production and decreased negative feedback on HPA axis\nincreased FSH/LH\nstromal cells keep producing androgens as a result of inc LH"
+},
+{
+"id":"montis-1e909f6ed4a7",
+"topic":"Toronto Notes",
+"front":"what is the primary indication of HRT in menopause?",
+"back":"for the treatment of vasomotor instability and other symptoms, rather than the prevention of chronic disease"
+},
+{
+"id":"montis-3b28c24c3e28",
+"topic":"Toronto Notes",
+"front":"what is the single most important health hazard assoc w menopause?",
+"back":"osteoporosis"
+},
+{
+"id":"montis-12024a2e4af8",
+"topic":"Toronto Notes",
+"front":"the two components of MHT",
+"back":"estrogen via PO or transderma gel\nprogestin: only if they have a uterus to prevent endometrial hyperplasia"
+},
+{
+"id":"montis-8d5c50048f0a",
+"topic":"Toronto Notes",
+"front":"absolute contraindications to MHT",
+"back":"ABCD:\nAcute liver disease\nUndx vaginal bleeding\nCancer (breast/uterine)\nDVT/thromboembolic dz"
+},
+{
+"id":"montis-702f87304052",
+"topic":"Toronto Notes",
+"front":"some of the relative contraindications to MHT",
+"back":"uncontrolled HTN\nuterine fibroids/endometriosis\nDM\nfmhx estrogen-dependent cancer"
+},
+{
+"id":"montis-453132287730",
+"topic":"Toronto Notes",
+"front":"complication of ARM",
+"back":"umbilical cord prolapse"
+},
+{
+"id":"montis-2dced273e501",
+"topic":"Toronto Notes",
+"front":"some of the features of cystocele (anterior vaginal wall prolapse)",
+"back":"LUTS\nincomplete emptying\ninc incidence of UTIs"
+},
+{
+"id":"montis-d2729552ab6b",
+"topic":"Toronto Notes",
+"front":"what is an enterocele?",
+"back":"the only \"true\" hernia of the pelvis\nprotrusion of the apex of the vaginal vault into the vagina, post-hysterectomy\nsame s/sx as uterine prolapse\ntx with general conservative treatment"
+},
+{
+"id":"montis-ff4800984164",
+"topic":"Toronto Notes",
+"front":"some of the primary meds that can be used to treat overactive bladder",
+"back":"oxybutynin, mirabegron (beta-adrenergic agonist)\ncan also sometimes try detrusor botox injection"
+},
+{
+"id":"montis-68f4e268489c",
+"topic":"Toronto Notes",
+"front":"primary risk factors for endometrial ca",
+"back":"COLD NUT\ncancer (ovarian, breast,colon)\nobesity\nlate menopause\nDM\nNulliparity\nUnopposed estrogen (PCOS, HRT)\nTamoxifen"
+},
+{
+"id":"montis-0ae3d991151c",
+"topic":"Toronto Notes",
+"front":"type 1 vs type 2 endometrial ca",
+"back":"1: related to unopposed estrogen (much more common and all of the RFs correlate to this one)\n2: non-estrogen related and non-endometrioid (serous, grade 4, undifferentiated; poorer prognosis"
+},
+{
+"id":"montis-c1d0afed8ddc",
+"topic":"Toronto Notes",
+"front":"some of the main prognostic factors associated with endometrial ca",
+"back":"FIGO stage\nage\ngrade\nhisto subtype\ndepth of invasion"
+},
+{
+"id":"montis-804ba5b328d4",
+"topic":"Toronto Notes+",
+"front":"the three main pure types of uterine sarcoma",
+"back":"leiomyosarcoma (most common, often w rapidly enlarging fibroids)\nendometrial stromal sarcoma\nundiff sarcoma"
+},
+{
+"id":"montis-55ef0130dcec",
+"topic":"Toronto Notes+",
+"front":"the four main kinds of ovarian tumours",
+"back":"germ cell\nepithelial\nmetastatic\nsex cord stromal"
+},
+{
+"id":"montis-6702f3bdb5fc",
+"topic":"Toronto Notes+",
+"front":"what are tumour markers for epithelial ovarian tumours",
+"back":"CA-125, main one for both serous and endometroid"
+},
+{
+"id":"montis-de5f0652a26a",
+"topic":"Toronto Notes+",
+"front":"some of the main tumour markers for germ cell ovarian tumours",
+"back":"yolk sac: AFP\nchoriocarcinoma: bhcg\nteratomas have none!"
+},
+{
+"id":"montis-8ec1a81be147",
+"topic":"Toronto Notes+",
+"front":"diagnosis of ovarian tumours requires...",
+"back":"surgical pathology"
+},
+{
+"id":"montis-862d9ebfa3d7",
+"topic":"Toronto Notes+",
+"front":"some of the primary risk factors for epithelial ovarian cancers",
+"back":"early menarche/late menopause\nBRCA or Lynch\nhx of breast/colon/endometrial ca"
+},
+{
+"id":"montis-3ca6a4662ec1",
+"topic":"Toronto Notes+",
+"front":"tx of most ovarian epithelial tumours",
+"back":"debulking sx, TAH-BSO, omentectomy\nneo-adjuvant chemo + adjuvant chemo"
+},
+{
+"id":"montis-5d36c8ed0e6a",
+"topic":"Toronto Notes+",
+"front":"main types of functional ovarian tumours",
+"back":"follicular cyst\nCL cyst\ntheca-lutein cyst\nendometrioma\npolycystic ovaries"
+},
+{
+"id":"montis-0e0572e1b88c",
+"topic":"Toronto Notes+",
+"front":"what is the most common benign germ cell tumour",
+"back":"benign cystic teratoma; contains dermal appendages (like teeth and hair)"
+},
+{
+"id":"montis-6c49f4a99439",
+"topic":"Toronto Notes+",
+"front":"the main types of epithelial ovarian tumours",
+"back":"serous (most common)\nmucinous (poor response)\nclear cell (poor response)\nendometrioid (good response)"
+},
+{
+"id":"montis-adccfa7a239a",
+"topic":"Toronto Notes+",
+"front":"how to investigate a suspicious ovarian mass",
+"back":"full panel of normal stuff plus CA-125, inhibin, AFP, androgens\nbx generally not recommended to avoid tumour spillage\nTVUS + CTAP best imaging"
+},
+{
+"id":"montis-2c827590f277",
+"topic":"Toronto Notes+",
+"front":"some of the main s/sx of cervical ca",
+"back":"early: asx, watery/red discharge, postcoital bleeding\nlate: abn vaginal bleeding, bladder/bowel sx or pelvic pain\nfriable/red cervix on exam"
+},
+{
+"id":"montis-a40acc860ba8",
+"topic":"Toronto Notes+",
+"front":"how to dx cervical ca",
+"back":"colopo! \nacetic acid applied and ID any abn lesions\nendocervical curretage (scraping) for abn lesion\nLEEP anything otherwise sus"
+},
+{
+"id":"montis-08899d1c6624",
+"topic":"Toronto Notes+",
+"front":"three of the most common non-neoplastic vulvar disorders + tx",
+"back":"1. lichen sclerosis (thin/atrophic labia)\n2. lichen simplex chronicus (thickened labia, pruritis/burning)\n3. lichen planus (autoimmune)\nall of these are treated with some form of steroid type situation"
+},
+{
+"id":"montis-17986296565e",
+"topic":"Toronto Notes+",
+"front":"some of the risk factors for suspicious vulvar lesions",
+"back":"HPV infection\nVIN (precancerous, presents as white plaque on vulva)\nhx cervical ca\nimmunodef"
+},
+{
+"id":"montis-22f81087f0ed",
+"topic":"Toronto Notes+",
+"front":"the clinical features of vulvar malignancies",
+"back":"local pruritis or a lesion the most common features\nmost common to have lesions on the labia \noften will spread locally and then to the inguinal LN"
+},
+{
+"id":"montis-a691a835d635",
+"topic":"Toronto Notes+",
+"front":"tx of VIN (CIS/HSIL)",
+"back":"surgical excision vs laser tx"
+},
+{
+"id":"montis-1d35fbd19987",
+"topic":"Toronto Notes+",
+"front":"tx of stage 1A vulvar ca",
+"back":"if invasion is <1mm\nradical local excision\nNO groin node dissection needed"
+},
+{
+"id":"montis-751d6fdfa684",
+"topic":"Toronto Notes+",
+"front":"tx of stage 1B/2/3 vulvar ca",
+"back":"need radical WLE and unilateral groin LN dissection IF\nvulvar lesion is <1cm from midline and <3cm in size"
+},
+{
+"id":"montis-f9d6bea18dcf",
+"topic":"Toronto Notes+",
+"front":"a lesion > what is assoc w a poor prog in vulvar ca",
+"back":">4cm"
+},
+{
+"id":"montis-ca9ba944853a",
+"topic":"Toronto Notes+",
+"front":"main treatment for stage 1 GTN",
+"back":"single agent chemotherapy or mtx-based regimen\ncan consider mixed agent if severe or if bhcg does not return to normal with treatment"
+}
+]

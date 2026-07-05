@@ -35,6 +35,10 @@ Open **Settings** (⚙️ top-right) and paste an [Anthropic API key](https://co
 
 > ⚠️ This is a static site that calls Anthropic **directly from your browser** using your key, which is stored only in your browser's local storage. That's fine for personal use on your own device — don't enter your key on a shared/public computer.
 
+## Built-in card deck
+
+The app ships with **~1,929 flashcards** from the **Montis Complete Clerkship** community Anki deck, bundled across Internal Medicine, Surgery, OB/GYN, Paediatrics, and Psychiatry. They're available on every device with no import step, and carry stable IDs so your spaced-repetition history survives updates. Your own edits and imports layer on top. Credit to the Montis deck authors; included here as third-party study material for personal use.
+
 ## Importing your own cards
 
 The **Import** tab accepts:

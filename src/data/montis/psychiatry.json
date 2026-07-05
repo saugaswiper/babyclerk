@@ -1,0 +1,884 @@
+[
+{
+"id":"montis-e7602a731939",
+"topic":"Psychiatry",
+"front":"affect vs mood",
+"back":"affect is the observable behavioural expression of the mood state\nhow you experience the patient's mood state vs how they describe it to you, eg affect can be described as congruent w mood, intensity, appropriateness to situation, range, reactivity etc"
+},
+{
+"id":"montis-eff8e462c9cb",
+"topic":"Psychiatry",
+"front":"what are the four main types of mood episodes",
+"back":"major depressive episode\nmanic episode\nhypomanic episode\nmixed episode"
+},
+{
+"id":"montis-86e0e62c8baf",
+"topic":"Psychiatry",
+"front":"what does MSIGECAPS stand for",
+"back":"moods, sleep, interest, guilt, energy, concentration, appetite, psychomotor, suicide"
+},
+{
+"id":"montis-ff0982a28dce",
+"topic":"Psychiatry",
+"front":"definition of a MDE",
+"back":"5+ MSIGECAPS sx over the same two week period\nat least one of which is depressed mood or anhedonia\nsymptoms cause dysfunction\nnot due to other factors like substance use disorder"
+},
+{
+"id":"montis-ba7af986e317",
+"topic":"Psychiatry",
+"front":"criteria for MDD",
+"back":"prsence of a single/recurrent MDE not better accounted for by another disorder\nnever any mania or hypomania\nremember you can have a MDE without this being MDD"
+},
+{
+"id":"montis-f00bb06b3a3c",
+"topic":"Psychiatry",
+"front":"some of the main risk factors for depression",
+"back":"sex (F>M), family hx, substance use, personal hx\nlife stressors (neg home environment etc), lack of relationships, low SES"
+},
+{
+"id":"montis-3f28d3994683",
+"topic":"Psychiatry",
+"front":"some atypical features for MDD",
+"back":"wt gain, hypersomnia, leaden paralysis or mood responsive to life situations vs the typical neurovegetative symptoms"
+},
+{
+"id":"montis-8920786554e6",
+"topic":"Psychiatry",
+"front":"what are the criteria for persistent depressive disorder",
+"back":"depressed mood most of the day for more days than not for <2 years\nshould have at least 2 symptoms of depression + depressed mood, never euthymia for >2mths"
+},
+{
+"id":"montis-d31593801a02",
+"topic":"Psychiatry",
+"front":"the two criteria that have to be met for sleep disorders",
+"back":"1. must cause sig distress or impairment in normal functioning\n2. sleep patterns not d/t medical conditions or drugs"
+},
+{
+"id":"montis-fd24823776d0",
+"topic":"Psychiatry",
+"front":"some of the main SSRIs/SNRIs to treat depression",
+"back":"cipralex (escitalopram), zoloft (sertraline), effexor (venlafaxine), prozac (fluoxetine), wellbutrin (bupropion)"
+},
+{
+"id":"montis-11b2e012c45d",
+"topic":"Psychiatry",
+"front":"three med classes that are firstline for the tx of depression",
+"back":"SSRIs/SNRIs, NDRIs (no sexual side effects)\nTCAs less pref due to anticholinergic side effects"
+},
+{
+"id":"montis-bcb00350e523",
+"topic":"Psychiatry",
+"front":"the suggested length recommended for SSRI use",
+"back":"6-9 mths"
+},
+{
+"id":"montis-6362c7b6f7c9",
+"topic":"Psychiatry",
+"front":"what characterizes bipolar 1 disorder",
+"back":"elevated mood w at least one manic ep lasting 7+ days\nmay/may not have depression/hypomania"
+},
+{
+"id":"montis-149817f872e7",
+"topic":"Psychiatry",
+"front":"the DIGFAST acronym for mania",
+"back":"distractibility, impulsivity/indecision, grandiosity, flight of ideas, activity, sleep deficits, talkativeness"
+},
+{
+"id":"montis-f4f1960a4f3b",
+"topic":"Psychiatry",
+"front":"what does a bona fide manic episode require?",
+"back":"3+ manic symptoms need to be present"
+},
+{
+"id":"montis-f17ec2dfe6f4",
+"topic":"Psychiatry",
+"front":"difference between mania vs hypomania",
+"back":"hypomania still needs 3+ digfast, but does not cause impairment in function but is still observable by others"
+},
+{
+"id":"montis-f113c8544260",
+"topic":"Psychiatry",
+"front":"what characterizes a mixed episode?",
+"back":"full manic or hypomanic symptoms or depressive symptoms met, plus 3 of sx of opposite polarity disorder met at the same time\nrepresent a change in usual behaviour"
+},
+{
+"id":"montis-d4733696e6eb",
+"topic":"Psychiatry",
+"front":"some things you should order for someone presenting w mania/hypomania",
+"back":"CBC and diff lytes, TSH, BUN, Cr\nurine drug screen + levels"
+},
+{
+"id":"montis-e59b408a9ce7",
+"topic":"Psychiatry",
+"front":"two manistays of tx of bipolar tx",
+"back":"mood stabilizers + atypical antipsychotics"
+},
+{
+"id":"montis-7732ccc13356",
+"topic":"Psychiatry",
+"front":"some of the main drugs that are useful for the tx of mania",
+"back":"monotherapy: lithium, seroquel, aripiprazole, risperidone\ncombo: lithium PLUS one of quetiapine (seroquel), ari, risperi"
+},
+{
+"id":"montis-7feb93a58c8d",
+"topic":"Psychiatry",
+"front":"the tx of depression in BPD",
+"back":"Ls\nLithium\nseroqueL\nLamotrigine\nLurasidone"
+},
+{
+"id":"montis-8435fc5b098f",
+"topic":"Psychiatry",
+"front":"monitoring needed for pts on lithium",
+"back":"eGFR and Cr\nLith levels\nTSH and free T4"
+},
+{
+"id":"montis-d6ef47b22bd1",
+"topic":"Psychiatry",
+"front":"lithium use in pregnancy",
+"back":"lithium is associated with a higher risk of congenital malformations such as Ebstein's abnormality in the first trimester of pregnancy"
+},
+{
+"id":"montis-6c248fc14e8d",
+"topic":"Psychiatry",
+"front":"how do neurotransmitters impact the development of psychosis",
+"back":"serotonin exess causes postitive and negative psychosis symptoms"
+},
+{
+"id":"montis-32810e74bdc5",
+"topic":"Psychiatry",
+"front":"some positive symptoms of psychotic disorders",
+"back":"delusions\ndisorganized speech and thought\nhallucinations"
+},
+{
+"id":"montis-a6fdb343429b",
+"topic":"Psychiatry",
+"front":"negative symptoms of psychosis",
+"back":"affective flattening\nanhedonia\navolition\nalogia (can't speak)\nasociality"
+},
+{
+"id":"montis-52b31e565829",
+"topic":"Psychiatry",
+"front":"what is catatonia?",
+"back":"immobility\nmutism\nposturing\nnegativism"
+},
+{
+"id":"montis-3f79cf5d90ae",
+"topic":"Psychiatry",
+"front":"some features of disorganized speech/thought",
+"back":"circumstantial thought: indirect, delayed in reaching the point\necholalia (repetition of words spoken by someone else)\nneologism"
+},
+{
+"id":"montis-a8af32c8748c",
+"topic":"Psychiatry",
+"front":"the dx criteria for schizophrenia",
+"back":"classic features of schizophrenia that lead to functional impairment and are present for 6 mths min"
+},
+{
+"id":"montis-92c87aa3d97e",
+"topic":"Psychiatry",
+"front":"what characterizes schizoaffective disorder",
+"back":"criterion A sx of schizophrenia + period of mood disorder (BPD vs MDD)"
+},
+{
+"id":"montis-b880991b42ca",
+"topic":"Psychiatry",
+"front":"what is the criteria for schizophreniform disorder",
+"back":"criterion A schizophrenia symptoms lasting for 1mth but shorter than 6mths"
+},
+{
+"id":"montis-ad25c1f8ca1e",
+"topic":"Psychiatry",
+"front":"some of the primary first gen antipsychotics used in the tx of schizophrenia/psychosis",
+"back":"haloperidol, loxapine, perphenazine, fluphenazine etc"
+},
+{
+"id":"montis-7c95865fc7b0",
+"topic":"Psychiatry",
+"front":"some second generation antipsychotics used in the tx of schizophrenia, (dis)advantages?",
+"back":"have a lower risk of extrapyramidal side effects and less tardive dyskinesia, but have more metabolic side effects\nlike olanzapine, quetiapine, risperidone, aripiprazole, clozapine"
+},
+{
+"id":"montis-053f45887d33",
+"topic":"Psychiatry",
+"front":"which antipsychotic has the highest risk of EPS/TD?",
+"back":"risperidone"
+},
+{
+"id":"montis-a391c44a18b9",
+"topic":"Psychiatry",
+"front":"what is most effective for treatment resistant schizophrenia?",
+"back":"clozapine; watch for agranulocytosis"
+},
+{
+"id":"montis-35540e7a69bf",
+"topic":"Psychiatry",
+"front":"what does the stress response involve, physiologically",
+"back":"deactivation of the prefrontal cortex (shift of decision making to short term\nactivation of hypothalamic-pituitary-adrenal axis\nencoding of the stressor as a memory + storage in the hippocampus"
+},
+{
+"id":"montis-bd80abc5ebe2",
+"topic":"Psychiatry",
+"front":"what are the diagnostic criteria for adjustment disorder?",
+"back":"dev of emotional/behavioural symptoms in response to an identifiable stressor occurring w/in 3mos of onset of the stressors\nsx do not persist once the stressor is removed"
+},
+{
+"id":"montis-a8c32731e14d",
+"topic":"Psychiatry",
+"front":"dx criteria for GAD",
+"back":"excessive anxiety/worry occurring more days than not for at least 6 mos and over a variety of settings\ndifficult to control and assoc w physical symptoms\nnot better explained by something else"
+},
+{
+"id":"montis-3b41ef0ce723",
+"topic":"Psychiatry",
+"front":"dx criteria for PTSD",
+"back":"- exposure to severe situation\n- presence of symptoms like intrusive symptoms, neg alterations to cognition/mood, dissociation/avoidance\n- sx persist for one month"
+},
+{
+"id":"montis-2ea029f354bd",
+"topic":"Psychiatry",
+"front":"main tx for adjustment disorder",
+"back":"CBT and supportive psychotherapy"
+},
+{
+"id":"montis-396f37b202d8",
+"topic":"Psychiatry",
+"front":"what is acute stress disorder?",
+"back":"pts must have been exposed to a traumatic event with symptoms such as negative mood and avoidance symptoms present for 3 days, up to 4 wks\nsx must cause sig distress for the patient"
+},
+{
+"id":"montis-777c3515498b",
+"topic":"Psychiatry",
+"front":"PTSD criteria A: Exposure",
+"back":"exposed to a traumatic event via directly experiencing, witnessing, learning of the events or experiencing repeated/extreme exposure to adverse details of a traumatic event"
+},
+{
+"id":"montis-87b8aee886c3",
+"topic":"Psychiatry",
+"front":"criteria B for PTSD: Intrusion",
+"back":"experiences symptoms after the event occured: \n- reccurrent/distressing memories\n- recurrent/distressing dreams related\n- dissociative rxns\n- reaction/distress to cues that represent an aspect of the traumatic event"
+},
+{
+"id":"montis-dd16983d3f2b",
+"topic":"Psychiatry",
+"front":"PTSD criteria C: avoidance",
+"back":"avoidance of stimuli associated w the traumatic event\n- avoidance of distressing memories/thoughts of the event\n- avoidance of reminders of the event"
+},
+{
+"id":"montis-842f760e5bd1",
+"topic":"Psychiatry",
+"front":"PTSD criteria D: neg cognition and mood",
+"back":"- cannot remember important aspects of the event\n- detachment/estrangement from others\n- inability to experience positive emotions"
+},
+{
+"id":"montis-0578fe5d6030",
+"topic":"Psychiatry",
+"front":"PTSD criteria E: changes in arousal",
+"back":"- irritable behaviour/angry outbursts\n- reckless/self destructive behaviour\n- hypervigilance\n- sleep disturbance"
+},
+{
+"id":"montis-551327700748",
+"topic":"Psychiatry",
+"front":"TRAUMA acronym for PTSD",
+"back":"Traumatic event experienced\nRe-experiencing of the event is common\nAvoidance symptoms \nUnable to function\nMonth (one month of symptoms)\nArousal (inc arousal like startle response, poor concentration, irritable mood, insomnia)"
+},
+{
+"id":"montis-4d814f853bfe",
+"topic":"Psychiatry",
+"front":"four first line meds for PTSD tx",
+"back":"sertraline (zoloft)\nfluoxetine (prozac)\nparoxetine (paxil)\nvenlafaxine (effexor)"
+},
+{
+"id":"montis-d7b9e8029966",
+"topic":"Psychiatry",
+"front":"therapy that can be helpful for PTSD",
+"back":"CBT (trauma-focused or exposure)\neye movement desensitization and reprocessing"
+},
+{
+"id":"montis-a01e79947bfe",
+"topic":"Psychiatry",
+"front":"clonazepam",
+"back":"benzo useful in the tx of acute panic disorder, epilepsy etx"
+},
+{
+"id":"montis-bc2d9e461a52",
+"topic":"Psychiatry",
+"front":"bupropion",
+"back":"an atypical antidepressant that is indicated in the tx of MDD, SAD, smoking cessation\noften an add-on when SSRIs are not effective\nbrand name Wellbutrin"
+},
+{
+"id":"montis-5e3c325eca95",
+"topic":"Psychiatry",
+"front":"the dx criteria for pathological social anxiety disorder",
+"back":"1. out of proportion to the threat\n2. persistent for >6 mos\n3. causing distress or impairment"
+},
+{
+"id":"montis-1130f77cbf60",
+"topic":"Psychiatry",
+"front":"what characterizes general anxiety disorder",
+"back":"excessive anxiety across multiple settings\nphysical (restlessness, fatigue) and cognitive (troubles concentrating) symptoms\ndifficulty controlling the worry"
+},
+{
+"id":"montis-5d5f1f899a0c",
+"topic":"Psychiatry",
+"front":"when do panic attacks become panic disorder",
+"back":"requires recurrent + unexpected panic attacks and maladaptive behaviour following the panic attacks"
+},
+{
+"id":"montis-591eaf204222",
+"topic":"Psychiatry",
+"front":"what is the overall most common anxiety disorder",
+"back":"specific phobia"
+},
+{
+"id":"montis-2550e96c0921",
+"topic":"Psychiatry",
+"front":"CBT is a firstline treatment for...",
+"back":"mood + anxiety disorders, plus OCD, eating disorders and insomnia"
+},
+{
+"id":"montis-8e9404b078b2",
+"topic":"Psychiatry",
+"front":"the two components of CBT",
+"back":"cognitive: help patients examine their thought record and see if it is realistic or not via writing down thoughts and identifying arguments that support vs do not support these\nbehavioural: help patients recognize and modify unwanted behaviour"
+},
+{
+"id":"montis-5930c14524ab",
+"topic":"Psychiatry",
+"front":"some of the main SSRIs",
+"back":"cipralex (escitalopram)\nprozac (fluoxetine)\ncitalopram\nzoloft (sertraline)\npaxil (paroxetine)"
+},
+{
+"id":"montis-c3d8deaadf7d",
+"topic":"Psychiatry",
+"front":"some of the important side effects of SSRIs",
+"back":"headaches, dizziness, somnolence, GI upset\nmonitor Na for hyponatremia\nlibido dec \nQTc prolonging"
+},
+{
+"id":"montis-10857873af9f",
+"topic":"Psychiatry",
+"front":"the five main drug classes used to tx anxiety",
+"back":"SSRIs\nSNRIs\nTCAs\nbenzos\nantipsychotics"
+},
+{
+"id":"montis-9da5c2ade5d3",
+"topic":"Psychiatry",
+"front":"main examples of SNRIs",
+"back":"cymbalta (dulozetine)\neffexor (venlaxfaxine)"
+},
+{
+"id":"montis-c046cae4b64d",
+"topic":"Psychiatry",
+"front":"some of the important side effects of SNRIs",
+"back":"the same as SSRIs pretty much\nheadaches, GI upset, low Na, issues w libido, serotonin syndrome, QTc"
+},
+{
+"id":"montis-6c594f2af9d8",
+"topic":"Psychiatry",
+"front":"main TCAs",
+"back":"amitryptyline\nnortriptylene\ndoxepin\nclomipramine"
+},
+{
+"id":"montis-b39eeb93fbe6",
+"topic":"Psychiatry",
+"front":"side effects of TCAs",
+"back":"anticholinergic (drowsiness confusion, dry mouth)\nantihistaminergic (wt gain)\nNa channel blockade can lead to coma/seizure"
+},
+{
+"id":"montis-281046ff889f",
+"topic":"Psychiatry",
+"front":"two main benzos",
+"back":"lorazepam\nclonazepam"
+},
+{
+"id":"montis-0cf3bd0f66ce",
+"topic":"Psychiatry",
+"front":"first line tx for anxiety disorders",
+"back":"SSRIs and SNRIs"
+},
+{
+"id":"montis-7e59eedc7323",
+"topic":"Psychiatry",
+"front":"how soon should you f/u after starting an SSRI",
+"back":"one week, due to inc suicide risk"
+},
+{
+"id":"montis-9fd85ec07c6b",
+"topic":"Psychiatry",
+"front":"starting dose of sertraline",
+"back":"sertraline 25mg po daily"
+},
+{
+"id":"montis-6d6146196ff6",
+"topic":"Psychiatry",
+"front":"the dx criteria for OCD",
+"back":"need to have at least one obsession or one compulsion that is time consuming/distressing, no time period for which they have to be present for"
+},
+{
+"id":"montis-31a071825909",
+"topic":"Psychiatry",
+"front":"the specific type of CBT that is indicated for OCD",
+"back":"exposure response prevention\nexpose to the feared scenariois and provide relaxation techniques along the way"
+},
+{
+"id":"montis-ced272c8e068",
+"topic":"Psychiatry",
+"front":"what is firstline for medication in the tx of OCD",
+"back":"SSRIs"
+},
+{
+"id":"montis-c38f13fd4716",
+"topic":"Psychiatry",
+"front":"one of the most effective ways to reduce sexual side effects from SSRIs",
+"back":"add on a small dose of bupropion or mirtazapine"
+},
+{
+"id":"montis-d212d80d2105",
+"topic":"Psychiatry",
+"front":"the two symptom \"buckets\" for ADHD",
+"back":"inattentive: losing/forgetting things, distractability, careless mistakes\nhyperactive/impulsive: fidgety, impulsive, issues w anger, issues taking turns"
+},
+{
+"id":"montis-83a76116380e",
+"topic":"Psychiatry",
+"front":"three symptom buckets for ODD",
+"back":"irritable/angry mood: loses temper, easily annoyed, angry/resentful\nargumentative/defiant: argues w authority figures, annoys others\nvindictiveness\nall for > 6mos"
+},
+{
+"id":"montis-c2ff47e5b636",
+"topic":"Psychiatry",
+"front":"when is DBT effective in a peds population?",
+"back":"good for reducing suicidal ideation/self harm + eating disorders/ODD"
+},
+{
+"id":"montis-9a8fa4e0836e",
+"topic":"Psychiatry",
+"front":"what does IPT do differently than CBT?",
+"back":"looks at the person's social environment and tries to help them modify the environment by forming new connections \nexternal whereas CBT is internal"
+},
+{
+"id":"montis-8dcf6af7ede9",
+"topic":"Psychiatry",
+"front":"an important risk you should counsel children/adolescents on before they start SSRIs",
+"back":"the increased risk of suicidality"
+},
+{
+"id":"montis-ebcdd0f7c6d5",
+"topic":"Psychiatry",
+"front":"which psychotropic meds are approved for use in peds populations?",
+"back":"none, all use is off label"
+},
+{
+"id":"montis-fe88d47d453e",
+"topic":"Psychiatry",
+"front":"three important SSRIs for the treatment of anxiety/depression in children",
+"back":"fluoxetine, sertraline, escitalopram"
+},
+{
+"id":"montis-400323be533d",
+"topic":"Psychiatry",
+"front":"why is fluoxetine the best choice for the tx of anx/depression in peds populations",
+"back":"has a ++ long half life of five days, so you dont get withdrawal if you forget to take it"
+},
+{
+"id":"montis-9fa5b419e447",
+"topic":"Psychiatry",
+"front":"why is fluoxetine a less desirable choice in elderly pts?",
+"back":"has a strong drug-drug interaction profile via the CYPs\ninhibits metabolism of BBs/warf, eg"
+},
+{
+"id":"montis-3b44de8df0f8",
+"topic":"Psychiatry",
+"front":"what is a positive prognostic factor in the tx of anxiety disorders in children",
+"back":"early initiation of tx and ability to maintain school attendance"
+},
+{
+"id":"montis-54569771fef1",
+"topic":"Psychiatry",
+"front":"some conditions in children that can cause ADHD-like symptoms",
+"back":"anxiety disorders \nlack of sleep\nseizure disorder (absence seizures)"
+},
+{
+"id":"montis-9f99524a3b0f",
+"topic":"Psychiatry",
+"front":"describe the use of stimulants for the tx of ADHD",
+"back":"amphetamines (vyvanse (long acting), dexedrine (short acting))\nmethylphenidate (concerta/biphentin (LA) or ritalin (SA))\nhave to watch for side effects of growth restriction, appetite suppression, inc BP/HR"
+},
+{
+"id":"montis-223e651a8cbe",
+"topic":"Psychiatry",
+"front":"some non-stimulants that can be used in the treatment of ADHD",
+"back":"alpha 2 agonists that prevent the secretion of excess norepi\nguanfacine and clonidine are the main examples\ncan lead to low BP, sedation\nselective NE reuptate inhibs can increase the level of baseline NE that is important for sustaining attention"
+},
+{
+"id":"montis-10b5ec0dc4cb",
+"topic":"Psychiatry",
+"front":"why are long acting simulants generally pref over short acting for treating adolescents with ADHD",
+"back":"only need to take them once in the AM\nless risk of side effects with slow/extended release\nless risk of diversion/dose spikes"
+},
+{
+"id":"montis-29a97b9960a1",
+"topic":"Psychiatry",
+"front":"what is the minimum age recommended to start stimulant meds`",
+"back":"generally no age, but not recommended in children <6"
+},
+{
+"id":"montis-9ff9b8152ee9",
+"topic":"Psychiatry",
+"front":"ADHD symptoms need to be consistent in...",
+"back":">2 settings for >6 months"
+},
+{
+"id":"montis-64e5dd2bf356",
+"topic":"Psychiatry",
+"front":"what is one important tool for screening for risk of suicide",
+"back":"the modified sad persons scale\n>/= 6 means need to be admitted"
+},
+{
+"id":"montis-bbf29b7185b0",
+"topic":"Psychiatry",
+"front":"some protective factors for suicide",
+"back":"access to MH care\nfeeling connected to community supports\nproblem solving/positive coping skills\nstrong belief system"
+},
+{
+"id":"montis-d4e1d0f5944d",
+"topic":"Psychiatry",
+"front":"some of the key components for successful suicide risk management",
+"back":"1. best dispo for safety\n2. access to psychotropic meds\n3. social services\n4. documentation"
+},
+{
+"id":"montis-c57d1fc41822",
+"topic":"Psychiatry",
+"front":"the three steps in de-escalation of violence in the ED",
+"back":"1. verbal\n2. chemical\n3. mechanical"
+},
+{
+"id":"montis-62147cd1dba2",
+"topic":"Psychiatry",
+"front":"some common meds used as chemical restaints",
+"back":"[image]"
+},
+{
+"id":"montis-61cebb7e0832",
+"topic":"Psychiatry",
+"front":"form 1; criteria for it",
+"back":"allows a MD who has seen the pt within the last 7 days to detain a patient for up to 72h; need to have \n1. risk or harm to self/others/through physical impairment\n2. psych/neurocognitive disorder related to the risk"
+},
+{
+"id":"montis-efe80c98a568",
+"topic":"Psychiatry",
+"front":"what is a form 42",
+"back":"notice to the patient that they are being detained after being issued a form 1"
+},
+{
+"id":"montis-514b6364ffbf",
+"topic":"Psychiatry",
+"front":"what does a form 3 do?",
+"back":"means you are allowed to physically detain someone for three weeks d/t risk of harm with a psych disorder related to this risk\none doctor cannot complete a form 1 and form 3 for the same patient"
+},
+{
+"id":"montis-a32998629d2e",
+"topic":"Psychiatry",
+"front":"box a vs box b form 1 criteria",
+"back":"box b is only for patients who have received tx for a simiar psych disorder for the symptoms they are presenting with right now"
+},
+{
+"id":"montis-eec908381a0b",
+"topic":"Psychiatry",
+"front":"what are some of the key differences between dementia vs normal aging",
+"back":"normal aging = some challenges with problem-solving, processing info correctly etc\ndementia = short term memory loss leading to difficulties with ADLs and behavioural/personality changes"
+},
+{
+"id":"montis-27c6412b3742",
+"topic":"Psychiatry",
+"front":"mild vs major neurocognitive disorder",
+"back":"mild=no true impact on daily life; still able to complete most tasks and cope well\nmajor=significant cognitive decline and substantial loss of independence"
+},
+{
+"id":"montis-cde09c339c2e",
+"topic":"Psychiatry",
+"front":"the two most common etiologies of neurocognitive disorders",
+"back":"alzheimer's disease\nvascular dementia"
+},
+{
+"id":"montis-df61f7390a11",
+"topic":"Psychiatry",
+"front":"what types of memory changes are associated with alzheimer's disease",
+"back":"slow progression\nshort term memory lost first \nimpaired exec functions and judgement"
+},
+{
+"id":"montis-8400a51a08ad",
+"topic":"Psychiatry",
+"front":"what is characteristic of frontotemporal lobar degeneration",
+"back":"changes in personality/behaviour (rude or inapprorpriate)\naphasia \nbinge eating"
+},
+{
+"id":"montis-96bea9c45732",
+"topic":"Psychiatry",
+"front":"what is characteristic of vascular dementia",
+"back":"vascular RFs such as dyslipidemia/diab + stepwise cognitive decline\nacute neuro event like a stroke"
+},
+{
+"id":"montis-723b0316e542",
+"topic":"Psychiatry",
+"front":"what is characteristic of LBD",
+"back":"extrapyramidal motor symptoms\nfluctuating course\nREM sleep behaviour\nvisual hallucinations\nworse after receiving antipsychotics"
+},
+{
+"id":"montis-ae5ee17d69f0",
+"topic":"Psychiatry",
+"front":"the DEMENTIA acronym for the etiologies of cognitive impairment",
+"back":"drugs\nemotional\nmetabolic \neyes/ears\nneuro\ntrauma/tumours\ninfection\nanemia"
+},
+{
+"id":"montis-365772e8e912",
+"topic":"Psychiatry",
+"front":"korsakoff syndrome",
+"back":"an alc-induced neurocognitive disorder characterized by anterograde amnesia and confabulation\nreversible w thiamine"
+},
+{
+"id":"montis-4a89e4f848e2",
+"topic":"Psychiatry",
+"front":"drug + adjuvants that can be useful for the treatment of dementia",
+"back":"acetylcholinesterase inhibs that work to inc ach levels in the brain\nmemantine, vit E or other psych meds like antidepressants vs mood stabilizers can be helpful"
+},
+{
+"id":"montis-2e6dec52cdd1",
+"topic":"Psychiatry",
+"front":"the dx criteria for delirium",
+"back":"an acute onset disturbance in attention/awareness and cognition not better explained by other disorders"
+},
+{
+"id":"montis-17b3f97ab40d",
+"topic":"Psychiatry",
+"front":"the I WATCH DEATH acronym for delirium",
+"back":"infection\nwithdrawal\nacute metabolic changes\ntrauma\ncns (stroke, parkinson's)\nhypoxia\ndeficiency\nendocrinopathies (thyroid)\nacute vascular changes (hypertensive encephalopathy)\ntoxins\nheavy metals"
+},
+{
+"id":"montis-8f7ccdb0c03e",
+"topic":"Psychiatry",
+"front":"an important med for the management of delirium + monitoring",
+"back":"haloperidol; QTc prolonging so need baseline ECG"
+},
+{
+"id":"montis-bec6d5e08cda",
+"topic":"Psychiatry",
+"front":"what is ++ important to monitor for after giving a first gen antipsychotic",
+"back":"should monitor for extrapyramidal side effects"
+},
+{
+"id":"montis-01de640ffbf1",
+"topic":"Psychiatry",
+"front":"side effects to watch for in geri patients with SSRIs",
+"back":"sexual dfxn\ninc risk of falls\nhypoNa\nQTc prolongation"
+},
+{
+"id":"montis-08dc78856fbe",
+"topic":"Psychiatry",
+"front":"some common SSRIs used in geri patients",
+"back":"duloxetine can also help with muscular pain\nmirtazapine can help with wt gain\nshould always start low and go slow!"
+},
+{
+"id":"montis-af65fde77166",
+"topic":"Psychiatry",
+"front":"what feature of MDD is most common in children",
+"back":"irritability"
+},
+{
+"id":"montis-0635396450ee",
+"topic":"Psychiatry",
+"front":"what is the firstline treatment for narcissistic personality disorder",
+"back":"psychotherapy, CBT or psychodynamic"
+},
+{
+"id":"montis-22cde31c79c9",
+"topic":"Psychiatry",
+"front":"the treatment ladder for panic attacks",
+"back":"CBT to SSRI (sertraline or escitalopram) to intermittent tx with a benzo"
+},
+{
+"id":"montis-ac3557934efe",
+"topic":"Psychiatry",
+"front":"what are some of the most common extrapyramidal symptoms (4)\nName a treatment for each of them",
+"back":"Tardive dyskinesia: should change to a different antipsychotic\nDystonia: benztropine (anticholinergic)\nAkathisia (restlessness): benzo or BB\nParkinsonism: Benztropine"
+},
+{
+"id":"montis-7d1cb03402b1",
+"topic":"Psychiatry",
+"front":"when is IPT usually used?",
+"back":"for depression, improves interpersonal relationships"
+},
+{
+"id":"montis-e79cb0fcb01d",
+"topic":"Psychiatry",
+"front":"the sx and tx of opioid withdrawal",
+"back":"sx: tachy, dilated pupils, plioerection, fluids from everywhere, agitation\ntx: methadone or suboxone"
+},
+{
+"id":"montis-e605b92c8a1a",
+"topic":"Psychiatry",
+"front":"what are the main indications for ECT",
+"back":"severe and tx resistant MH conditions like severe depression, schizophrenia/schizoaffective disorder, bipolar or catatonia"
+},
+{
+"id":"montis-a194528a6de1",
+"topic":"Psychiatry",
+"front":"what are some meds that decrease the effectiveness of ECT",
+"back":"lithium and valproate/other antiepileptics"
+},
+{
+"id":"montis-ca83b19ccf50",
+"topic":"Psychiatry",
+"front":"what is the most common comorbidity for social anxiety disorder",
+"back":"substance use disorder"
+},
+{
+"id":"montis-0241eac583ee",
+"topic":"Psychiatry",
+"front":"what should you monitor for a paitent on epival",
+"back":"should always monitor the levels of plasma valproate and also CBC and LFTs"
+},
+{
+"id":"montis-5d1f2aa55190",
+"topic":"Psychiatry",
+"front":"third line tx for resistant MDD",
+"back":"ECT"
+},
+{
+"id":"montis-18561d6f699e",
+"topic":"Psychiatry",
+"front":"which antipsychotic does not cause weight gain",
+"back":"abilify"
+},
+{
+"id":"montis-94a4b91f2873",
+"topic":"Psychiatry",
+"front":"if someone uses SSRIs and they have sexual dysfunction",
+"back":"should switch the dose and drug!"
+},
+{
+"id":"montis-bbb671cb8ad9",
+"topic":"Psychiatry",
+"front":"what is the most common comorbid condition to ODD",
+"back":"ADHD"
+},
+{
+"id":"montis-b9afc62f6bf8",
+"topic":"Psychiatry",
+"front":"dissociation vs depersonalization vs derealization",
+"back":"dissociation: disconnection from thoughts/identity/consciousness/memories, trauma response\ndepersonalization: sense of detachment from a sense of self, perception of thoughts/emotions as disconnected\nderealization: distorted perception of the external world where surroundings feel not real/dreamlike"
+},
+{
+"id":"montis-1332943dadd4",
+"topic":"Psychiatry",
+"front":"three main meds used in the treatment of insomnia",
+"back":"trazodone, mirtazapine, zopiclone"
+},
+{
+"id":"montis-416dba46dcae",
+"topic":"Psychiatry",
+"front":"the difference between schizotypal vs schizoid personality disorder",
+"back":"schizoid means they have trouble forming close relationships with anyone, dont desire close relationships\nschizotypal PD means they have ++ odd/eccentric views and odd speech"
+},
+{
+"id":"montis-b6bdd89336b5",
+"topic":"Psychiatry",
+"front":"some investigations you should order for kids before they start ADHD meds",
+"back":"measure HR, BP, ht/wt, check for cardiac family hx"
+},
+{
+"id":"montis-7fa839146c5b",
+"topic":"Psychiatry",
+"front":"what are some of the most common side effects of lithium",
+"back":"thirst/polyuria, fine tremor, nausea/diarrhea\nhypothyroid, dehydration, cognitive slowing and ataxia"
+},
+{
+"id":"montis-d2854c9d1430",
+"topic":"Psychiatry",
+"front":"the main meds used to treat OCD",
+"back":"SSRIs, duh!"
+},
+{
+"id":"montis-3780a89915c4",
+"topic":"Psychiatry",
+"front":"what is the difference in the presentation of social anxiety disorder vs avoidant personality disorder",
+"back":"social anxiety disorder: where the person has intense fear of judgement in social settings and exhibits avoidant behaviour as a result\navoidant PD: low self esteem and unwilling to be involved in relationships unless they know they will be successful, need +++ reassurance"
+},
+{
+"id":"montis-b4b31acf14a3",
+"topic":"Psychiatry",
+"front":"someone is still exhibiting dystonia after being given loxapine and ativan, what else would you try next?",
+"back":"benztropine"
+},
+{
+"id":"montis-bc93d650f054",
+"topic":"Psychiatry",
+"front":"is lithium safe in pregnancy?",
+"back":"you have to monitor levels, but overall, yeah"
+},
+{
+"id":"montis-d89af20d29fb",
+"topic":"Psychiatry",
+"front":"what differentiates schizophrenia from other delusional disorders",
+"back":"the presence of visual or auditory hallucinations"
+},
+{
+"id":"montis-e6c1869ca38c",
+"topic":"Psychiatry",
+"front":"the three main sx of normal pressure hydrocephalus",
+"back":"dementia/gait disturbance/urinary incontinence\nwet/wobbly/wonky"
+},
+{
+"id":"montis-315f2c7230e8",
+"topic":"Psychiatry",
+"front":"what is the difference between normal grief and persistent complex bereavement disorder?",
+"back":"PCBD is grief but prolonged >12 mths and with impairment"
+},
+{
+"id":"montis-7fa390ccdc93",
+"topic":"Psychiatry",
+"front":"some of the most common symptoms of serotonin syndrome",
+"back":"the risk increases with the person being on more serotoninergic meds\n++ diverse clinical presentation\nanxiety, GI upset/vomiting, tachy, diarrhea, hyperreflexia, myoclonus"
+},
+{
+"id":"montis-aad13a5751de",
+"topic":"Psychiatry",
+"front":"the difference in side effect profiles for 1st vs 2nd gen antipsychotics",
+"back":"1st: EPS \n2nd: EPS and metabolic"
+},
+{
+"id":"montis-b2a3cc78f2e4",
+"topic":"Psychiatry",
+"front":"what is an investigation NOT reommended for patients on psychostimulants",
+"back":"ECG routinely"
+},
+{
+"id":"montis-90c1d660d87b",
+"topic":"Psychiatry",
+"front":"what is the DATER approach",
+"back":"A way to assess older adults when they have an unsatisfactory response to tx\nDosage: med at high enough dose?\nAll: All meds within higher line of tx been attempted? \nTime: Enough time given to try examine for response vs side effects\nExamine: Specific targets for tx and to measure change?\nReview: Dx reviewed potential comorbidity/lifestyle issues?"
+},
+{
+"id":"montis-b4348c99db0d",
+"topic":"Psychiatry",
+"front":"which meds are safe for pregnant pts to take??",
+"back":"SSRIs and SNRIs (except paroxetine) are all fine to use\nLithium should have a careful risk benefit analysis done, should not breastfeed with it\nLamotrigine is the safest mood stabilizer in pregnancy \nAntipsychotics should not be stopped\nBenzos are usually safe"
+},
+{
+"id":"montis-ae0c85526bc5",
+"topic":"Psychiatry",
+"front":"in general, what are the main meds contraindicated in pregnancy?",
+"back":"alproate, lithium, and some antidepressants like paroxetine"
+},
+{
+"id":"montis-5e839337ca69",
+"topic":"Psychiatry",
+"front":"what is the greatest risk factor for eating disorders",
+"back":"female gender"
+},
+{
+"id":"montis-82bdc441d3d8",
+"topic":"Psychiatry",
+"front":"what is transferance vs countertransferance",
+"back":"Transference is when the client redirects (transfers) an unconscious feeling, desire, or expectation from another person toward their therapist.\nCountertransference can be defined as the therapist's emotional reaction to the client"
+}
+]

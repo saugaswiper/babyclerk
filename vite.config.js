@@ -27,4 +27,18 @@ export default defineConfig({
     }),
   ],
   base: process.env.DEPLOY_TARGET === 'gh-pages' ? '/babyclerk/' : '/',
+  build: {
+    chunkSizeWarningLimit: 900,
+    rollupOptions: {
+      output: {
+        // Separate rarely-changing data/vendor from app code so a code update
+        // only re-downloads a small chunk (matters for the offline SW + mobile data).
+        manualChunks(id) {
+          if (id.includes('/src/data/montis/')) return 'montis'
+          if (id.includes('@anthropic-ai')) return 'anthropic'
+          if (id.includes('node_modules')) return 'vendor'
+        },
+      },
+    },
+  },
 })

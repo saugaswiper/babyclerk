@@ -1,0 +1,1034 @@
+[
+{
+"id":"montis-74e64cfc7f4f",
+"topic":"Peds",
+"front":"some unique pathogen/exposure routes for peds",
+"back":"transplacental: drugs or pathogens \nbreastfeeding \n6m-3y: non-nutritive ingestions/putting things in their mouth"
+},
+{
+"id":"montis-293850d94a7d",
+"topic":"Peds",
+"front":"some things that are really important to include in a pediatric hx",
+"back":"- prenatal and birth hx \n- immunization\n- nutrition hx\n- developmental hx\n- social hx like custody, parental employment status, childcare"
+},
+{
+"id":"montis-0f4ab2795561",
+"topic":"Peds",
+"front":"the rule for the LLN of the systolic BP of kids >1",
+"back":"70 + (their age in years x2)"
+},
+{
+"id":"montis-530e8697052b",
+"topic":"Peds",
+"front":"the growth rate of newborns",
+"back":"newborns grow 15-20g/day\nback to birth weight by 10-14 days of life"
+},
+{
+"id":"montis-c00ecc309b47",
+"topic":"Peds",
+"front":"what is faltering growth (aka failure to thrive)",
+"back":"Defined as failure to grow at a rate consistent with expected standards for infants and toddlers younger than 3 yo (in practice we define it as crossing two percentile lines on the growth chart)"
+},
+{
+"id":"montis-2d5fa346b610",
+"topic":"Peds",
+"front":"three things that contribute to failure to thrive",
+"back":"inadequate caloric intake\nmalabsorption\ninc metabolic demand"
+},
+{
+"id":"montis-f2a3b93c1cd0",
+"topic":"Peds",
+"front":"when does celiac disease usually present in kids?",
+"back":"6-8 months, because this is when you switch to introducing solid foods and the child begins being exposed to gluten/lose weight"
+},
+{
+"id":"montis-3652127cd213",
+"topic":"Peds",
+"front":"some especially concerning red flags for failure to thrive",
+"back":"- cardiac findings\n- dev delay\n- dysmorphic features\n- organomegaly\n- recurrent infections\n- recurrent vomiting/diarrhea"
+},
+{
+"id":"montis-3c7e858f6dac",
+"topic":"Peds",
+"front":"formula for mid parental height",
+"back":"[image]"
+},
+{
+"id":"montis-29f3e6e53f40",
+"topic":"Peds",
+"front":"the ddx of school difficulties",
+"back":"- ADHD\n- Learning disability\n- Sensory impairment\n- Sleep apnea\n- ODD"
+},
+{
+"id":"montis-26e1abc7db0d",
+"topic":"Peds",
+"front":"the ADHD assessment tool is called...",
+"back":"the SNAP assessment"
+},
+{
+"id":"montis-3eb0d1ad0ea3",
+"topic":"Peds",
+"front":"what is ADHD?",
+"back":"[image]"
+},
+{
+"id":"montis-c0a3120cf3e0",
+"topic":"Peds",
+"front":"one of the most common causes of features without source in kids",
+"back":"UTIs, should continue with a urine culture/sensitivity and urinalysis"
+},
+{
+"id":"montis-8fc802ca9c12",
+"topic":"Peds",
+"front":"presentation of UTIs in infants-2yo",
+"back":"fever alone\ncan also have vomiting, diarrhea, constipation, poor feeding, irritability"
+},
+{
+"id":"montis-457b2cf6cb4c",
+"topic":"Peds",
+"front":"what are the 4 Cs of capacity",
+"back":"context \nchoices (\"tell me in your own words each of the different options we talk about\")\nconsequences (pros and cons of each of the options)\nconsistency (do they fluctuate between options)"
+},
+{
+"id":"montis-a29334cdac6e",
+"topic":"Peds",
+"front":"some red flags for risk of learning disability",
+"back":"hx of maternal illness or substance abuse\ndelivery complications\nhx of head trauma\nparental hx of challenges at school"
+},
+{
+"id":"montis-9e1acc3fd50f",
+"topic":"Peds",
+"front":"main side effects of adhd meds in children",
+"back":"appetite suppression\ninsomnia\ndec growth velocity"
+},
+{
+"id":"montis-72d8c1a89d5c",
+"topic":"Peds",
+"front":"screening guidelines for T2Dm in overweight children",
+"back":"children >10 with BMI >95th %ile or children w bmi between 85th-95th%ile w RFs for T2DM and NAFLD every 2 years or sooner\nuse a1c, ogtt or fasting serum glucose\nshould also get ALT and fasting lipid profile"
+},
+{
+"id":"montis-f543f27c6640",
+"topic":"Peds",
+"front":"some of the causes of secondary htn in children",
+"back":"umbilical arterial or venous access in infancy\nUTIs \npheo\nfmhx renal disease"
+},
+{
+"id":"montis-cfacbc1f52dc",
+"topic":"Peds",
+"front":"which children w htn should be tx with meds?",
+"back":"BP remains >90%ile despite 3-6 mos of conservative measures"
+},
+{
+"id":"montis-45748a420d89",
+"topic":"Peds",
+"front":"definition of fever of unknown origin",
+"back":"fever of at least 8d with no dx after w/u"
+},
+{
+"id":"montis-4bc0ce263b5c",
+"topic":"Peds",
+"front":"some of the main signs of fever in infants <12 mos",
+"back":"fever\nhypothermia\nbulging fontanelles\nlethargy\nparoxysmal crying when picked up\npoor feeding\nseizures"
+},
+{
+"id":"montis-b9ff71d44d55",
+"topic":"Peds",
+"front":"some of the most common ddx of infant w a fever",
+"back":"UTI\npneumonia\nsepsis/bacteremia\noccult bacteremia\nbacterial/viral meningitis\nroseola\notitis media"
+},
+{
+"id":"montis-81cd1e5ed147",
+"topic":"Peds",
+"front":"when should an LP be performed on kids in fever w/o source?",
+"back":"infant <21d old w fever >38, regardless of appearance\ninfant 22-60d with fever >38 if appears ill\nchildren >2 if appears ill"
+},
+{
+"id":"montis-22ced5116576",
+"topic":"Peds",
+"front":"best empiric abx to treat UTI in children",
+"back":"ctx as parenteral \nkeflex if PO"
+},
+{
+"id":"montis-3726ba154669",
+"topic":"Peds",
+"front":"when is renal u/s indicated in peds?",
+"back":"first febrile UTI in patients <2\nchildren w recurrent febrile UTIs"
+},
+{
+"id":"montis-34a38355d494",
+"topic":"Peds",
+"front":"the main tx that are used for GAB strep pharyngitis",
+"back":"pen V: firstline\npen G if may have trouble completing whole course\namox also firstline (50mg/kg daily)\nmacrolides or keflex if have ++ sensitivity to penicillin"
+},
+{
+"id":"montis-df5bcfa3fe57",
+"topic":"Peds",
+"front":"main ddx for fever and rash",
+"back":"adenovirus infection\nkawasaki disease\nmeningococcemia\nmeasles\nscarlet fever\nenterovirus infection (coxsackievirus)\nerythema infectiosum (pb19)\nroseola (human herpesvirus 6)"
+},
+{
+"id":"montis-77e441648022",
+"topic":"Peds",
+"front":"strawberry tongue is a classic finding in...",
+"back":"scarlet fever\nkawasaki disease\nTSS"
+},
+{
+"id":"montis-b8c72573cedd",
+"topic":"Peds",
+"front":"ddx criteria for kawasaki disease",
+"back":"changes in oral mucosa (dry/cracked lips/injected pharynx, strawberry tongue)\nextremity changes (redness/swelling)\ncervical lymphadenopathy\nrash\nconjunctivitis"
+},
+{
+"id":"montis-5cdb67ec0df1",
+"topic":"Peds",
+"front":"some of the main lab findings in kawasaki disease",
+"back":"elevated WBC with L shift \nnormocytic anemia\nlow albumin\nelevated ESR (N ESR has strong NPV)"
+},
+{
+"id":"montis-b2fed7c8947a",
+"topic":"Peds",
+"front":"some of the most common complications of Kawasaki disease",
+"back":"aseptic meningitis\ncoronary artery aneurysm 2/2 vasculitis, and an important cause of acquired heart disease in children"
+},
+{
+"id":"montis-58e5d26f1216",
+"topic":"Peds",
+"front":"treatment of kawasaki disease",
+"back":"moderate-high dose ASA, d/c once no longer febrile\nplus single-dose IVIG to decrease incidence of coronary artery aneurysm"
+},
+{
+"id":"montis-69b9463c0c66",
+"topic":"Peds",
+"front":"how much weight do breastfed infants lose during first 4-5d of life? when should they regain it by?",
+"back":"7-10% of birth weight; regain by two wks of age"
+},
+{
+"id":"montis-342632b3d89f",
+"topic":"Peds",
+"front":"how much weight should infants gain per first three/6/12 months of life?",
+"back":"one ounce (28g)/day for first three months\ndouble birth weight by 6mos\ntriple by 1y"
+},
+{
+"id":"montis-8dd851b22009",
+"topic":"Peds",
+"front":"what characterizes growth/weight faltering?",
+"back":"<5th %tile for weight or weight for length\nor rate of growth crossing 2 maj lines"
+},
+{
+"id":"montis-894a6b7d263b",
+"topic":"Peds",
+"front":"some of the main causes (4) of infant growth faltering",
+"back":"inadequate caloric intake\ninadequate caloric absorption\ninc caloric expenditure (congenital heart disease, thyroid disease)\ninability to use calories"
+},
+{
+"id":"montis-0448e4f14f07",
+"topic":"Peds",
+"front":"how long do infants who are breast/bottle fed typically feed for?",
+"back":"breastfeeding: 10-30 mins at a time q1-2g\nbottle fed less often"
+},
+{
+"id":"montis-5d1cbb7604a1",
+"topic":"Peds",
+"front":"_____ murmurs are always pathologic in children",
+"back":"diastolic"
+},
+{
+"id":"montis-afe409940a19",
+"topic":"Peds",
+"front":"most common cyanotic congenital heart defect",
+"back":"ToF\nTGA is much less common"
+},
+{
+"id":"montis-1977553369e2",
+"topic":"Peds",
+"front":"peds murmurs that are holosystolic",
+"back":"VSD, MR and TR"
+},
+{
+"id":"montis-75e8ca9be7c5",
+"topic":"Peds",
+"front":"what is the hallmark heart sound of ASD?",
+"back":"wide split S2"
+},
+{
+"id":"montis-1e637de408c9",
+"topic":"Peds",
+"front":"the most common innocent murmur in children",
+"back":"Still's murmur\nbest heard at LLSB"
+},
+{
+"id":"montis-624bddf63de7",
+"topic":"Peds",
+"front":"some of the most common causes of hepatomegaly in infancy",
+"back":"CHF\nhepatitis\ncongenital infections\ninborn errors of metabolism"
+},
+{
+"id":"montis-601df7424d55",
+"topic":"Peds",
+"front":"some of the classic signs of CHF in an infant",
+"back":"dyspnea with feeds\ndiaphoresis\npoor growth\nactive precordium\nhepatomegaly"
+},
+{
+"id":"montis-f796034fb554",
+"topic":"Peds",
+"front":"common pediatric heart defects that can cause CHF",
+"back":"VSD \nsevere AS\ncoarctation of the aorta\nlarge PDA"
+},
+{
+"id":"montis-6f3b335d44e5",
+"topic":"Peds",
+"front":"what are the downstream consequences of a VSD?",
+"back":"a L to R shunt of blood during systole leads to inc pulmonary blood flow, inc pulm venous return and LV overload"
+},
+{
+"id":"montis-7636436b17cb",
+"topic":"Peds",
+"front":"tx for CHF in an infant",
+"back":"furosemide 1mg/kg/dose po bid \nalso may add an ACEi to decrease SVR and promote forward flow"
+},
+{
+"id":"montis-1504a5a19257",
+"topic":"Peds",
+"front":"how does IgA vasculitis usually present in children?",
+"back":"URI preceds the diagnosis and clinically manifests as purpura (mainly on the lower extremities), arthralgias and colicky abdominal pain + renal disease"
+},
+{
+"id":"montis-4b0969e59029",
+"topic":"Peds",
+"front":"how does ITP usually present in peds populations",
+"back":"generalized petechie and mucosal bleeding\nnonspecific URI often preceeds"
+},
+{
+"id":"montis-65fa390e3801",
+"topic":"Peds",
+"front":"some of the main reasons for a palpable spleen in a young child",
+"back":"viral infections such as EBV and CMV\nleukemia\nhemolysis, such as in sickle cell disease"
+},
+{
+"id":"montis-877b2b49f192",
+"topic":"Peds",
+"front":"what are some causes for poor academic performance in children with ADHD",
+"back":"up to 40% of children with ADHD also have a concurrent learning disorder that can inhibit performance"
+},
+{
+"id":"montis-1e2baed8a683",
+"topic":"Peds",
+"front":"one feature that is 100% distinugishing between ADHD and autism",
+"back":"the social aspect of autism does not present in ADHD"
+},
+{
+"id":"montis-bc57aa144753",
+"topic":"Peds",
+"front":"how does ITP typically present in peds patients?",
+"back":"isolated thrombocytopenia\npetechaie and nonpalpable purpura\nmucosal bleeding as well\noften preceeding nonspecific URI as well"
+},
+{
+"id":"montis-99c258898a48",
+"topic":"Peds",
+"front":"what is the main diagnostic study indicated in the dx of IgA vasculitis",
+"back":"urinalysis \nrenal function panel only in the event of elevated BP or positive UA"
+},
+{
+"id":"montis-b18e29a2d512",
+"topic":"Peds",
+"front":"what is the classic presentation of intussuception in peds patients",
+"back":"paroxysms of severe abdominal pain\npassage of \"currant jelly\" stool with blood + mucous\n'sausage shaped' mass in the R abdomen\nu/s is the best investigation"
+},
+{
+"id":"montis-fee2694e2da6",
+"topic":"Peds",
+"front":"can IgA vasculitis recur?",
+"back":"yes, recurrence of the rash/new lesions can occur in about 30% of patients\nthe only real indication for treatment with steroids is ++ severe pain or bowel concerns"
+},
+{
+"id":"montis-76c4426e6f6e",
+"topic":"Peds",
+"front":"what is a normal HR for an infant approx 2 mos old? RR? BP?",
+"back":"HR 110-160 BPM\nRR 30-60\nBP 65-86/45-55"
+},
+{
+"id":"montis-c4553ba76039",
+"topic":"Peds",
+"front":"what defines infant colic?",
+"back":"crying several hours/day, usually in the evening, >5 nights/week, etiology unknown"
+},
+{
+"id":"montis-078c230e168c",
+"topic":"Peds",
+"front":"some of the main causes of apnea in infants",
+"back":"CNS: Seizures, breath-holding spells, tumour/trauma/infection\nCardiac: Brady (2/2 congenital heart block or long QT), congenital heart disease such as ToF\nResp: RSV (most common), pertussis or other LRTIs\nOther: Sepsis, metabolism errors"
+},
+{
+"id":"montis-cd1140134a32",
+"topic":"Peds",
+"front":"what is a brief, resolved unexplained event?",
+"back":"event occuring in an infant <1 characterized by cyanosis/pallor, absent/dec/irreg breathing, marked change in tone or alt LOC\nonly used to describe events when no cause is known"
+},
+{
+"id":"montis-5de40d8889ae",
+"topic":"Peds",
+"front":"some developmental milestones for a two-year-old infant",
+"back":"• Can fix and follow easily with their eyes;\n\n• Exhibit a meaningful smile in response to voices;\n\n• Have a strong suck; and\n\n• Are beginning to coo."
+},
+{
+"id":"montis-ba4672d611c6",
+"topic":"Peds",
+"front":"how do subdural hematomas usually result in infants?",
+"back":"accidental or nonaccidental head trauma\nshaken baby syndrome is a common cause"
+},
+{
+"id":"montis-c966a6cfc817",
+"topic":"Peds",
+"front":"some skeletal survey findings that raise the suspicion for nonaccidental trauma",
+"back":"inconsistent with the mech of injury or abilities of child\nfractures at different stages of healing\nposterior rib fractures\nskull fracture in infant\nfemur fracture in non-walking child"
+},
+{
+"id":"montis-dd6e4a8be9e2",
+"topic":"Peds",
+"front":"red flags for headache in children",
+"back":"SNOOPY\nsystemic s/sx (fever, wt loss, rash)\nneurological s/sx (focal weakness, ataxia, seizures)\nonset (max at onset, thunderclap)\npattern (progressive/new, precipitated by valsalva, positional)\nyoung age (<6)"
+},
+{
+"id":"montis-95ea0180aa38",
+"topic":"Peds",
+"front":"what is the most common type of headache seen in children",
+"back":"migraine w/o aura"
+},
+{
+"id":"montis-003d23849c01",
+"topic":"Peds",
+"front":"post-infectious cerebellitis",
+"back":"dx of exclusion\noccurs in the setting of ataxia 2/2 recent viral infection\npresents w ataxia, vomiting, nystagmus"
+},
+{
+"id":"montis-3947edacafcd",
+"topic":"Peds",
+"front":"infectious cerebellitis",
+"back":"viral or bacterial in etiology\noften EBV or enteroviruses, s.pneumo, n. meng\nfever, ataxia, mental status changes"
+},
+{
+"id":"montis-45fc40f0f0ee",
+"topic":"Peds",
+"front":"ataxia is most commonly associated with brain tumours where",
+"back":"the posterior fossa"
+},
+{
+"id":"montis-1b1f8c21ed24",
+"topic":"Peds",
+"front":"the type of headache + ataxia associated with hydrocephalus",
+"back":"insidious in onset, chronic + loss of coordination\nassoc w headache/vomiting"
+},
+{
+"id":"montis-19a9792a4935",
+"topic":"Peds",
+"front":"what is the most common pediatric brain tumour",
+"back":"medulloblastoma"
+},
+{
+"id":"montis-358af78b1658",
+"topic":"Peds",
+"front":"weight gain averages ____ /day in newborns",
+"back":"20-30g"
+},
+{
+"id":"montis-b44942974fe3",
+"topic":"Peds",
+"front":"what is a really negative sign for weight gain/loss in infants",
+"back":"if they cross percentiles in a downward direction"
+},
+{
+"id":"montis-fbe8e18ec8aa",
+"topic":"Peds",
+"front":"define failure to thrive in terms of three parameters",
+"back":"• Weight falls below the 3rd percentile\n\n• Weight for height/length falls below the 3rd percentile\n\n• The rate of weight gain slows compared with previous growth, crossing two or more major percentiles on the growth chart in a downward direction."
+},
+{
+"id":"montis-2e38cd1e8e3e",
+"topic":"Peds",
+"front":"organic vs non-organic FTT",
+"back":"organic: acute or chronic disorder that results in inadequate nutrient intake/malabsorption\ninorganic: no underlying disorder contributing\nmain reason is inadequate calories to meet metabolic needs"
+},
+{
+"id":"montis-459be5bc08bb",
+"topic":"Peds",
+"front":"how many cals/day do healthy full-term infants need for the first 4 mths of life to grow?",
+"back":"100-110 cal/kg/24h"
+},
+{
+"id":"montis-ce9fe9e9d504",
+"topic":"Peds",
+"front":"the main ddx in failure to thrive",
+"back":"CHF\nformula allergy\ngastroenteritis\nhypothyroidism\nmalabsorption"
+},
+{
+"id":"montis-d421ef419096",
+"topic":"Peds",
+"front":"what is the single best test for CF?",
+"back":"sweat chloride test\nvery sensitive/specific"
+},
+{
+"id":"montis-45e7633ea013",
+"topic":"Peds",
+"front":"the inheritance pattern of CF",
+"back":"autosomal recessive"
+},
+{
+"id":"montis-2f2a9dcb2038",
+"topic":"Peds",
+"front":"some of the most common causes of hypotonia in infants",
+"back":"brain: chromosomal disorders\nmotor neuron disorders\nNM junction disorders\ncongenital muscular dystrophy"
+},
+{
+"id":"montis-15a9ee9ddd75",
+"topic":"Peds",
+"front":"some of the most common medical complications that can occur in children with down syndrome",
+"back":"congenital cataracts\ncongenital hearing loss\ncongenital heart disease\nGI atresia\nhip dysplasia"
+},
+{
+"id":"montis-30c3525a9252",
+"topic":"Peds",
+"front":"what is the most common familial cause of intellectual disability?",
+"back":"fragile X syndrome"
+},
+{
+"id":"montis-8abd26625dfd",
+"topic":"Peds",
+"front":"what are some features of Turner syndrome?",
+"back":"webbed neck\nlow ear placement\nedema of the hands and feet\nhypperconvex nails\nwide-spaced nipples"
+},
+{
+"id":"montis-c94fc222c383",
+"topic":"Peds",
+"front":"why is penicillin prophylaxis given to children with sickle cell disease?",
+"back":"decreased splenic function means they are more susecptible to sepsis caused by encapsulated organisms (S pneumo, HIV, n meng)\nusually needed until pneumovax series completed at 5yrs"
+},
+{
+"id":"montis-dc98b3ff68c2",
+"topic":"Peds",
+"front":"some of the main expected complications in children w sickle cell disease",
+"back":"jaundice (inc RBC breakdown)\nanemia\ninc stroke risk\nfevers should always be tx w broad spectrum abx\nresp problems: vaso-occlusive crises or acute chest syndrome"
+},
+{
+"id":"montis-fe3430f94e15",
+"topic":"Peds",
+"front":"additional vaccines that should be given to patients with sickle cell disease in childhood",
+"back":"the pneumococcal vaccine and meningococcal vaccine"
+},
+{
+"id":"montis-0ce5d126c2ec",
+"topic":"Peds",
+"front":"inheritance pattern of sickle cell disease",
+"back":"autosomal recessive"
+},
+{
+"id":"montis-82652276be0c",
+"topic":"Peds",
+"front":"some important points on physical exam for children with sickle cell disease",
+"back":"splenomegaly\nsclera\nneuro exam"
+},
+{
+"id":"montis-4f949ebeb144",
+"topic":"Peds",
+"front":"when to seek emergency care for children with sickle cell disease",
+"back":"fever\nsplenic enlargement (may indicate splenic sequestreation crisis)\nslurred speech\nchest pain\ntachypnea (acute chest)\nincreased pallor suddenly\nincreased jaundice"
+},
+{
+"id":"montis-dc069c1336a9",
+"topic":"Peds",
+"front":"some of the main findings on XR of acute chest syndrome",
+"back":"multilobar infiltrates\neffusions\natelectasis"
+},
+{
+"id":"montis-5516e6540c12",
+"topic":"Peds",
+"front":"what is the only way to reverse the sickling seen in acute chest syndrome?",
+"back":"RBC transfusion"
+},
+{
+"id":"montis-2da8174261e2",
+"topic":"Peds",
+"front":"what is the most common cause of conjunctivitis in children <6?",
+"back":"bacterial is more common than viral\nnote that bacterial more commonly produces a purulent exudate with the eyelids crusted closed"
+},
+{
+"id":"montis-65d03ef00380",
+"topic":"Peds",
+"front":"what is one of the first signs of hypoalbuminemia in kids?",
+"back":"periorbital edema"
+},
+{
+"id":"montis-a97efbd2a1c4",
+"topic":"Peds",
+"front":"the four main signs/sx that make up nephotic syndrome in peds pts",
+"back":"1. nephrotic range proteinuria\n2. hypoalbuminemia\n3. edema\n4. hyperlipidemia"
+},
+{
+"id":"montis-594411b0ee30",
+"topic":"Peds",
+"front":"what are some of the classic signs of nephrotic syndrome in peds pts",
+"back":"edema\nperiorbital edema\ngravity dependent edema (lower extremity edema)\nfatigue, dec appetite"
+},
+{
+"id":"montis-9e441e4e8231",
+"topic":"Peds",
+"front":"the treatment of minimal change disease",
+"back":"corticosteroids (pred) and Na restriction"
+},
+{
+"id":"montis-1f59942dbb8a",
+"topic":"Peds",
+"front":"describe the four steps of fetal circulation",
+"back":"1. Oxygenated blood flows through the umbilical vein to the R side of the heart via the IVC\n2. Half of IVC blood shunts across PFO to LA: o2 blood to the heart and the brain\n3. Other 1/2 of IVC blood mixes w SVC blood (intermediate levels of oxygenation) and flows through pulmonary artery\n4. B/c PVR is so high, blood in pulm artery is shunted across PDA to descending aorta to supply visceral organs and lower extremities"
+},
+{
+"id":"montis-b096179de04f",
+"topic":"Peds",
+"front":"what happens in failure of normal transition to adult circulation in fetuses?",
+"back":"no effective breathing established at birth\nlungs remain poorly inflated\npulmonary vascular resistance is high and pulmonary blood flow is low \nthe L sided pressures are lower, leading the PFO to remain open and flow remains L to R shunting through the PDA\nIVC blood contains even less oxygen as it now is not oxygenated by the placenta"
+},
+{
+"id":"montis-8ace8c4ff0ce",
+"topic":"Peds",
+"front":"what is the most dangerous cause of head bump/bleed in the newborn",
+"back":"subgaleal hemorrhage can be very catastrophic \nwhere blood collects between the scalp and the periosteum of the skull"
+},
+{
+"id":"montis-f462fed97b25",
+"topic":"Peds",
+"front":"cyanosis is typically present when the reduced hemoglobin concentration is less than....",
+"back":"3 g/L"
+},
+{
+"id":"montis-0ee8a75ebdde",
+"topic":"Peds",
+"front":"the presence of cyanosis depends on the absolute concentration of _____ rather than the ratio of _____ to _____",
+"back":"reduced hemoglobin; reduced hemoglobin; oxygenated hemoglobin"
+},
+{
+"id":"montis-03b1a4f328eb",
+"topic":"Peds",
+"front":"what are the three main categories of conditions that can cause cyanosis in infants?",
+"back":"inadequate ventilation: infection, RDS or meconium aspiration\nR to L shunting: b/c the blood will just bypass the lungs!\nOther: poor perfusion"
+},
+{
+"id":"montis-bee181ceb96e",
+"topic":"Peds",
+"front":"how can you keep the ductus arteriosus open?",
+"back":"by using prostaglandins, only short-term management"
+},
+{
+"id":"montis-31f1bb66bf4a",
+"topic":"Peds",
+"front":"some of the conditions most commonly detected by pulse ox",
+"back":"hypoplastic L heart syndrome\npulm atresia\nToF\ntotal anamalous pulm venous return \nTGA\ntricuspid atresia\ntruncus arteriosis"
+},
+{
+"id":"montis-d5b707ec3128",
+"topic":"Peds",
+"front":"how and when is CCHD screening done?",
+"back":"done measuring the O2 sat in the R hand and either foot\nshould be done just before discharge, better if >24h"
+},
+{
+"id":"montis-d6abc6d890f1",
+"topic":"Peds",
+"front":"what is hypoplastic L heart synfrome",
+"back":"underdevelopment of the L sided heart structures \nL heart is unable to support systemic circulation\nsystemic circulation depends on the DA being open"
+},
+{
+"id":"montis-d69b0d2ed7af",
+"topic":"Peds",
+"front":"describe the defects present in pulmonary atresia",
+"back":"complete obstruction of the RV outflow tract 2/2 no pulmonary valve! \nno communication between RV and pulm artery\nthe blood flow to pulmonaries usually depends on a PDA"
+},
+{
+"id":"montis-1f31c97098db",
+"topic":"Peds",
+"front":"the four cardinal defects of tetralogy of fallot",
+"back":"1. Large VSD\n2. Right ventricular outflow tract obstruction\n3. Aorta that receives blood from both ventricles\n4. RVH 2/2 RVOT obstruction"
+},
+{
+"id":"montis-69d4339a4371",
+"topic":"Peds",
+"front":"the clinical presentation of ToF",
+"back":"cyanosis, systolic murmur, hypoxic spells"
+},
+{
+"id":"montis-75709ea6c598",
+"topic":"Peds",
+"front":"what characterizes the defect in total anomalous pulm venous return?",
+"back":"failure of the pulmonary veins to connect to the LA, instead, you have the pulm veins draining into the RA or systemic circulation and you have subsequent desats + oxygenated/deoxygenated blood mixing"
+},
+{
+"id":"montis-5826fe80e45e",
+"topic":"Peds",
+"front":"what happens anatomically in TGA",
+"back":"the aorta arises from the RV and the pulmonary artery arises from the LV \n\"egg on a string\" appearance on CXR"
+},
+{
+"id":"montis-1da0a64614d2",
+"topic":"Peds",
+"front":"what do you have to give babies with TGA after birth?",
+"back":"since they rely on a PDA for some oxygenation to reach systemic circulation, need to give them prostaglandins to keep this open until definitive surgical managenent"
+},
+{
+"id":"montis-b88d5968ebd1",
+"topic":"Peds",
+"front":"describe the malformation in tricuspid atresia",
+"back":"complete absence of the tricuspid valve, leading to total communication between the RA and RV\ncauses hypoplasia of the RV and systemic venous return passes through an ASD or VSD, which allows some blood to reach pulm circulation"
+},
+{
+"id":"montis-84fe4a0a2652",
+"topic":"Peds",
+"front":"how does blood reach pulmonary circulation in tricuspid atresia?",
+"back":"since you don't have a tricuspid valve, you rely totally on there being a VSD that allows some blood passage between the LV and the RV"
+},
+{
+"id":"montis-2bf4a35ba1e8",
+"topic":"Peds",
+"front":"describe the anatomy in truncus arteriosus",
+"back":"you have one arterial trunk that supplies the systemic, pulmonary and venous circulations + subtruncal VSD"
+},
+{
+"id":"montis-ad73bd7e2931",
+"topic":"Peds",
+"front":"what are some mechanisms by which hyperbili can occur in the newborn?",
+"back":"increased production of unconj bili (2/2 inc refal RBC and shorter lifespan)\nimpaired bili conjugation: decreased UGT1A1 enzyme activity\ndecreased excretion due to issues with the bile ducts"
+},
+{
+"id":"montis-0411c6fccaf0",
+"topic":"Peds",
+"front":"how does the use of phototherapy change the excretion of bilirubin?",
+"back":"allows the bili to be broken down into products that can be eliminated in both the bile and urine"
+},
+{
+"id":"montis-035592d4070f",
+"topic":"Peds",
+"front":"red baby generally means that the baby had...",
+"back":"chronic oxygen deprivation in-utero, leading to polycythemia"
+},
+{
+"id":"montis-e1472352c1cd",
+"topic":"Peds",
+"front":"two conditions that are often associated with polycythemia",
+"back":"IUGR and IDM"
+},
+{
+"id":"montis-3696260be244",
+"topic":"Peds",
+"front":"some of the main conditions associated with IDM",
+"back":"polycythemia\nmacrosomia (increased adipose tissue)\nhypoglycemia (beta cell hyperplasia and increased insulin availability)\nRDS 2/2 surfactant deficiency\nhyperbili from birth trauma and inc RBC mass"
+},
+{
+"id":"montis-94c336a4101e",
+"topic":"Peds",
+"front":"three categories of infants at risk for hypoglycemia",
+"back":"big babies: IDM or LGA\nsmall babies: SGA, premature\nsick babies: sepsis, RDS, NPO infants"
+},
+{
+"id":"montis-8551d0c6c127",
+"topic":"Peds",
+"front":"some of the symptoms of hypoglycemia in infants",
+"back":"jitteriness, lethargy, apnea/seizures, hypotonia, resp distress"
+},
+{
+"id":"montis-23560d33f3cf",
+"topic":"Peds",
+"front":"what is characterized as low birth weight for infants?",
+"back":"<2500g"
+},
+{
+"id":"montis-a384546405f2",
+"topic":"Peds",
+"front":"what is categorized as preterm birth?",
+"back":"born before 37 weeks' gestation"
+},
+{
+"id":"montis-920fb30213dd",
+"topic":"Peds",
+"front":"what does IUGR mean?",
+"back":"growth parameters in <10th percentile for gestational age\nindicates a pathological process, rather than SGA which could just be constitutionally small size"
+},
+{
+"id":"montis-31c72daa53cd",
+"topic":"Peds",
+"front":"asymmetric vs symmetric IUGR",
+"back":"asymmetric IUGR is where there is head sparing; only weight and length are restricted\nsymmetric, all three are decreasex"
+},
+{
+"id":"montis-b2b84fb0f44e",
+"topic":"Peds",
+"front":"asymmetric strongly suggests a ___ cause",
+"back":"maternal"
+},
+{
+"id":"montis-7110f9d8faa5",
+"topic":"Peds",
+"front":"symmetric IUGR is often cause by",
+"back":"factors intrinsic to the fetus"
+},
+{
+"id":"montis-3f707ffef849",
+"topic":"Peds",
+"front":"some of the main conditions that are associated with symmetric IUGR",
+"back":"congenital infections (toxo, rubella , CMV, HSV)\ngenetic abnormalities"
+},
+{
+"id":"montis-4238c593745b",
+"topic":"Peds",
+"front":"some of the most common causes of asymmetric IUGR",
+"back":"placental insufficiency caused by smoking, chronic htn, renal or vascular dosease"
+},
+{
+"id":"montis-642322f859f2",
+"topic":"Peds",
+"front":"some of the main respiratory complications that can happen in preterm infants",
+"back":"respiratory disress syndrome 2/2 surfactant deficiency\nbronchopulm dysplasia: caused by alveolar overinflation 2/2 mech vent (should remember to provide very gentle resp support!)\ncan also lead to chronic lung injury that leads to the need for o2 support after discharge"
+},
+{
+"id":"montis-471c408b7394",
+"topic":"Peds",
+"front":"a very serious bowel complication that can develop in premature infants",
+"back":"necrotizing enterocolitis, causing abdo distention, hypotension and resp failure\ndilated loops of bowel on XR"
+},
+{
+"id":"montis-0b01384c8555",
+"topic":"Peds",
+"front":"how to treat NEC in premature infants?",
+"back":"should stop feeds, suction the stomach, IV fluids, TPN and broad spec abx"
+},
+{
+"id":"montis-3ff921d97e37",
+"topic":"Peds",
+"front":"how do infants with a PDA usually present?",
+"back":"there is a L to R shunt, which means that you will have excess pulm blood flow and lung congestion\ntachypnea, inc o2 requirements \noften have to fluid restrict/diurese them"
+},
+{
+"id":"montis-8b9432ffb545",
+"topic":"Peds",
+"front":"how does neonatal sepsis often occur?",
+"back":"usually ascending infection from the birth canal\n- maternal GBS colonization w/o abx prophylaxis\n- prolonged membrane rupture (>18)\n- maternal fever during labour"
+},
+{
+"id":"montis-880db8785f78",
+"topic":"Peds",
+"front":"what are some of the organisms that can cause late onset sepsis in neonates? (>72h after birth)",
+"back":"often nosocomial infections, skin organisms such as coag neg staph from indwelling lines"
+},
+{
+"id":"montis-e327eff14ab6",
+"topic":"Peds",
+"front":"what is retinopathy of prematurity?",
+"back":"caused by abn proliferation of the blood vessels in the premature retina\nshould always monitor bc this is a silent disease"
+},
+{
+"id":"montis-2e4073e42df8",
+"topic":"Peds",
+"front":"what is one of the most common causes of acute renal failure in children/",
+"back":"HUS"
+},
+{
+"id":"montis-a440b64cc8e5",
+"topic":"Peds",
+"front":"what is the genetic defect in turner syndrome",
+"back":"deletion of one of the x chromosomes in xx pair"
+},
+{
+"id":"montis-19a09a0086f6",
+"topic":"Peds",
+"front":"some of the primary features that can be seen on prenatal u/s in Turner",
+"back":"coarctation of the aorta\nhorseshoe kidney\nnonimmune fetal hydrops"
+},
+{
+"id":"montis-951652ba82f1",
+"topic":"Peds",
+"front":"describe puberty in those with Turner syndrome",
+"back":"Delayed puberty or primary amenorrhea frequently occurs during adolescence as a result of premature ovarian failure"
+},
+{
+"id":"montis-8f33c51c5166",
+"topic":"Peds",
+"front":"cardiac abnormalities in people with Turner syndrome",
+"back":"bicuspid aortic valve\nCoA\nincreased risk of aortic dissection"
+},
+{
+"id":"montis-4f16e84352cd",
+"topic":"Peds",
+"front":"what should you do if you measure a 2h glucose for an infant and it's <2.6 vs >2.6",
+"back":"less: give dextrose and breastfeed, then check 30mins post feed\nmore: feed and check before next feed\nany time the baby is sick or glucose <1.8, need D10W"
+},
+{
+"id":"montis-3c835e0b356a",
+"topic":"Peds",
+"front":"what is the PRAM score",
+"back":"pediatric respiratory assessment measure score\no2 sat, suprasternal retractions, scalene contraction air entry and wheeze\n0-3 is mild\n4-7 is moderate\n8-12 severe"
+},
+{
+"id":"montis-d1f572c9f902",
+"topic":"Peds",
+"front":"tx for PRAM 0-3 asthma exacerbation",
+"back":"sab q30-60 min \nconsider PO steroids"
+},
+{
+"id":"montis-60e4b525ec2a",
+"topic":"Peds",
+"front":"tx for PRAM 4-7 asthma exacerbation",
+"back":"sab q30 min\nipratropium with sab if severe\nPO steroids"
+},
+{
+"id":"montis-b29c9566abaa",
+"topic":"Peds",
+"front":"tx for PRAM 8-12 asthma exacerbation",
+"back":"salbutamol with ipratropium q20 mins \nPO steroids and IV steroids \nconsider full protocol for impending resp distress if severe"
+},
+{
+"id":"montis-87bdfcbc0305",
+"topic":"Peds",
+"front":"which pts with an asthma exacerbation should be admitted?",
+"back":"ongoing need for supplemental o2\ninc WOB after receiving ccs\nongoing need for b2 agnonists more than q4h"
+},
+{
+"id":"montis-bf502a8f4c17",
+"topic":"Peds",
+"front":"some of the ICS recommended for use in children after an asthma exacerbation",
+"back":"mometasone \nbudesonide\nfluticasone\nmometasone"
+},
+{
+"id":"montis-56fedd2ae560",
+"topic":"Peds",
+"front":"in addition to giving an ICS to kids after an asthma exacerbation, what else should they receive?",
+"back":"short course PO steroids\nSABA use (max 8 puffs/day)"
+},
+{
+"id":"montis-31475c085853",
+"topic":"Peds",
+"front":"what is another name for atrovent",
+"back":"ipratropium"
+},
+{
+"id":"montis-f34356ffb38c",
+"topic":"Peds",
+"front":"what is central vs peripheral precocious puberty",
+"back":"central: premature activation of the hypothalamic-pituitary-gonadal axis\nperipheral: excess production of sex hormones from the gonads"
+},
+{
+"id":"montis-9dd163c2953b",
+"topic":"Peds",
+"front":"differentiate the following peds nephro conditions: \nminimal change disease\nHSP\nIgA nephropathy\nFSGS",
+"back":"minimal change disease: Will usually present with edema, proteinuria, nausea/vomiting and lethargy, tx with steroids\nHSP: purpuric rash on the lower extremities plus arthralgias, abdo pain and renal involvement (small vessel vasculitis); tx is supportive\nIgA nephropathy: macroscopic hematuria, usually after URTI, and may also have htn; supportive care\nFSGS: steroid-resistant nephrotic syndrome; high risk of progression to chronic renal disease with impaired function"
+},
+{
+"id":"montis-a87bca5890f2",
+"topic":"Peds",
+"front":"legg-calve-perthes disease in children",
+"back":"AVN of femoral head epiphysis, usually presents with hip pain, a limp and decreased ROM\ntreatment is nonsurgical if younger and surgical if older\nunclear etiology"
+},
+{
+"id":"montis-ab172c291ea6",
+"topic":"Peds",
+"front":"SCFE in children",
+"back":"displacement of the epiphysis of the femoral head from the neck and body of the femur through the growth plate\nusually more prone to happen in children with higher BMI or during periods of rapid growth, like in puberty\nwill usually present with hip/groin/knee pain\nmainstay of tx is surgical (infix)"
+},
+{
+"id":"montis-a1ad1e393ae5",
+"topic":"Peds",
+"front":"what does developmental dysplasia of the hip refer to?",
+"back":"spectrum of disease in children; ranges from mild acetabular dysplasia to frank disclocation of the femoral head from the acetabulum \nmost commonly ID in infants; screened with Barlow/Ort tests\nneed early dx and management!"
+},
+{
+"id":"montis-8c41a4127d0c",
+"topic":"Peds",
+"front":"what is juvenile idiopathic arthritis",
+"back":"persistent joit inflammation lasting at least 6wks with onset before age 16\nencompasses different categories of arthritis (eg RF pos and neg)"
+},
+{
+"id":"montis-b362e48b6560",
+"topic":"Peds",
+"front":"what anatomically characterizes duodenal atresia? how does it present and how do you manage it?",
+"back":"congenital duodenal obstruction; the duodenal lumen does not properly form during embryogenesis and you have complete blockage\npresents w early onset bilious vomiting, feeding intol, and upper abdo distention, usually w/in 24-48h of life\nclassic is \"double bubble\" sign on XR\nneed surgical management"
+},
+{
+"id":"montis-8fdd00b8658e",
+"topic":"Peds",
+"front":"what is the difference between bronchiolitis and croup",
+"back":"bronchiolitis: LRTI, RSV most common cause, impacts younger children (<12 mos); will usually be URTI symptoms and then s/sx of inc WOB; management is supportive\ncroup: mainly upper air way and caused by parainfluenza, 6mos-3yrs impacted\nsudden onset barking cough, stridor, hoarseness and resp distress, should tx with oral dex"
+},
+{
+"id":"montis-95782853b9a7",
+"topic":"Peds",
+"front":"the HUS triad",
+"back":"microangiopathic hemolytic anemia, thrombocytopenia and AKI"
+},
+{
+"id":"montis-f7a3c069a43c",
+"topic":"Peds",
+"front":"the clinical presentation of HUS and lab findings",
+"back":"pallor, petichaie and fatigue, htn\nyou will have elevated LDH on w/u and low haptoglobin, plus thrombocytopenia and elevated Cr"
+},
+{
+"id":"montis-1f5a71f2d4c9",
+"topic":"Peds",
+"front":"management of HUS",
+"back":"supportive, balance fluid and lytes and control BP"
+},
+{
+"id":"montis-0cfc4bfdebac",
+"topic":"Peds",
+"front":"when can you diagnose a child with htn?",
+"back":"if the BP of a child is >95th %tile"
+},
+{
+"id":"montis-4e1ab33e95fe",
+"topic":"Peds",
+"front":"breastmilk jaundice vs breastfeeding jaundice",
+"back":"breastfeeding jaundice: due to insufficient breast milk intake in the first week of life, leading to delayed clearing of bili \nbreast milk jaundice appears after the first week of life; occurs in otherwise healthy infants and does not require tx"
+},
+{
+"id":"montis-77a6582ebb32",
+"topic":"Peds",
+"front":"the main presentation of prader-willi syndrome",
+"back":"infants will be severely hypotonic and have FTT\nin early childhood, hyperphagia and obesity in addition to GDD, short stature, hypogonadism and small hands/feet\nalso common to have endocrine abn like hypoth"
+},
+{
+"id":"montis-624139f5c9ed",
+"topic":"Peds",
+"front":"Kernicterus",
+"back":"chronic, irreversible bili-induced neuro dysfunction resulting from chronic untreated hyperbili\nabn motor control, hearing loss, oculomotor disturbances"
+},
+{
+"id":"montis-18b4c141835d",
+"topic":"Peds",
+"front":"how will PTT be impacted in hemophilia",
+"back":"will be prolonged due to factor VIII deficiency (Since aPTT or PTT is sensititive to deficiencies of factor VII or IX)"
+},
+{
+"id":"montis-9be2115ccaec",
+"topic":"Peds",
+"front":"will PTT/PT be elevated in VWD",
+"back":"will be normal, VWD is a deficiency of VW factor which does play a role in binding to factor VII, but only in very severe cases will the level be enough to impact the PTT/PT"
+},
+{
+"id":"montis-0b880038b64c",
+"topic":"Peds",
+"front":"how does hypoxic ischemic encephalopathy usually result",
+"back":"from impaired cerebral blood flow and o2 delivery to the brain a number of conditions, including placental abruption"
+},
+{
+"id":"montis-461a6f22629e",
+"topic":"Peds",
+"front":"how does hypoxic-ischemic encephalopathy usually present in the neonate",
+"back":"alt LOC, abnormal muscle tone, impaired reflexes, resp depression and seizures\ncan be a cause of long-term neurodevelopmental disability such as cerebral palsy"
+},
+{
+"id":"montis-b03ac86f4eb0",
+"topic":"Peds",
+"front":"the difference in presentation of IBD vs celiac disease",
+"back":"celiac: chronic diarrhea, abdo distention/pain, poor growth and weight loss; malabsorption is more common in younger children\nIBD: same chronic diarrhea and abdo pain + weight loss but generally will be associated with extraintestinal manifestations like erythema nodosum or uvetitis; rectal bleeding is another red flag"
+},
+{
+"id":"montis-0499adc64d2a",
+"topic":"Peds",
+"front":"how does UGI vs LGI obstruction usually present in infants?",
+"back":"UGI: early and prominent vomiting \nnonbilious if prox to the ampulla of vater and bilious if distal, like in duodenal atresia\nwill also have minimal abdo distention and need to image with plain film XR for double/triple bubble sign\n\nLGI: will have delayed mec passage and progressive abdo distention, plus late and bilious vomiting, for example in the cases of colonic atresia or mec ileus"
+}
+]

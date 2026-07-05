@@ -1,0 +1,3080 @@
+[
+{
+"id":"montis-252494887c16",
+"topic":"Pain Medication Dosing",
+"front":"How many more times potent is hydromorph than morphine?",
+"back":"5 times more potent"
+},
+{
+"id":"montis-c8dcb78c87dc",
+"topic":"Pain Medication Dosing",
+"front":"how much more potent is sc/iv morphine or hydromorph than po?",
+"back":"about 2x more potent"
+},
+{
+"id":"montis-6acd8c5cc517",
+"topic":"Pain Medication Dosing",
+"front":"when does the peak effect of opioids usually occur (time)?",
+"back":"about an hour after admin"
+},
+{
+"id":"montis-70d992946f11",
+"topic":"Pain Medication Dosing",
+"front":"how do dose immediate release opioids",
+"back":"usually only works in total for 4-6 hours, so scheduled q4h usually with q1h prn dosing about 10% of total daily dose"
+},
+{
+"id":"montis-e42e4d70a593",
+"topic":"Pain Medication Dosing",
+"front":"how to dose sustained release opioids",
+"back":"dose q12h and breakthrough q1h prn"
+},
+{
+"id":"montis-5e2c3daf7bf8",
+"topic":"Pain Medication Dosing",
+"front":"what is important to order for patients on opioids",
+"back":"constipation, so make sure to add sennosides 2 tablets qhs"
+},
+{
+"id":"montis-64077795198b",
+"topic":"Pain Medication Dosing",
+"front":"what is important to do w the breakthrough dose when you adjust regular dose?",
+"back":"you should always adjust breakthrough dosing while titrating up the regular dose"
+},
+{
+"id":"montis-91c79cab0c73",
+"topic":"Pain Medication Dosing",
+"front":"what is incomplete cross-tolerance",
+"back":"where you have tolerance to one opioid and then change to another one, the stronger one will be much more effective even if it's an equivalent dose—you have to reduce the equivalent dose of the new, stronger opioid at first!"
+},
+{
+"id":"montis-e31411f89668",
+"topic":"Transfusion",
+"front":"what makes up someone's \"group\" in transfusion?",
+"back":"their ABO and RhD group"
+},
+{
+"id":"montis-04d57bd956ed",
+"topic":"Transfusion",
+"front":"the purpose of an antibody screen in blood transfusion",
+"back":"to test recipient plasma for unexpected ab to minor (but clincally relevant!) RBC antigens on screenind red cells \nneed to find out what it is!"
+},
+{
+"id":"montis-3e6222f0701c",
+"topic":"Transfusion",
+"front":"what is a crossmatch",
+"back":"if recipient ab screen is negative, the crossmatch confirms ABO compatability and you can crossmatch quickly with abbreviated methods \nif the ab screen is positive, you have to make sure you get RBCs that are negative; this crossmatch takes longer"
+},
+{
+"id":"montis-7e6f41556f51",
+"topic":"Transfusion",
+"front":"when can uncrossmatched blood be used?",
+"back":"when a delay in completing the group and screen and crossmatch would be detrimental to the patient"
+},
+{
+"id":"montis-c1be60ed8514",
+"topic":"Transfusion",
+"front":"who gets group O RBCs? what about group O Rh- RBCs?",
+"back":"group O are given if the blood group has not been verified \nO- is given to women of childbearing age\nnote that if the blood group is confirmed but the blood has not been crossmatched, you can use group specific uncrossmatched RBCs"
+},
+{
+"id":"montis-6379498b0311",
+"topic":"Transfusion",
+"front":"how much will each unit of blood raise someone's hemoglobin?",
+"back":"about 10g/L"
+},
+{
+"id":"montis-e3be803fbeaa",
+"topic":"Transfusion",
+"front":"how long does it usually take to transfuse a unit of blood? max time?",
+"back":"usually over 2h, max 3-3.5h in patients who are older or less physiologically optimized"
+},
+{
+"id":"montis-ed58d7a204ee",
+"topic":"Transfusion",
+"front":"what should hemoglobin be maintained at in someone w acute blood loss?",
+"back":"maintain at >70g/L if possible; higher if someone has CAD \nnote that GI hemorrhage should not be over-transfused (worse ourcomes :( )"
+},
+{
+"id":"montis-e1b94b6122d0",
+"topic":"Transfusion",
+"front":"when should transfusion be considered for a patient in the hospital with anemia?",
+"back":"- when less than 70 g/L for hemod. stable patients OR <80 for patients undergoing major surgery or w cardiovascular disease\nalso look for the usual s/sx that mean anemia like presyncope/dyspnea/chest pain etc"
+},
+{
+"id":"montis-73362411980f",
+"topic":"Inpatient Diabetes Management",
+"front":"some of the main adverse effects of hyperglycemia in hospital",
+"back":"- inc risk of postop infection\n- prolonged hospital stay\n- inc risk of renal dysfunction"
+},
+{
+"id":"montis-49bb60415220",
+"topic":"Inpatient Diabetes Management",
+"front":"what is the best way to control glycemia in the hospital?",
+"back":"- insulin is the best way to effectively control glycemia"
+},
+{
+"id":"montis-fa0687760643",
+"topic":"Inpatient Diabetes Management",
+"front":"the usual blood glucose target for patients admitted",
+"back":"usually 5-10, can be a little less strict \nvery frequent monitoring, every 2 hours or so"
+},
+{
+"id":"montis-6b7a7ff767fa",
+"topic":"Inpatient Diabetes Management",
+"front":"some of the main problems with metformin in hospital admission",
+"back":"- lactic acidosis risk\n- GI complications\n- have to hold them around procedures using contrast"
+},
+{
+"id":"montis-a3c7e06bd673",
+"topic":"Inpatient Diabetes Management",
+"front":"the problem with sliding scale insulin",
+"back":"reactive rather than proactive since it involves bolus insulin on a prn basis, allows for hyperglycemia to occur before responsing \nDO NOT USE"
+},
+{
+"id":"montis-ee749303ac5e",
+"topic":"Inpatient Diabetes Management",
+"front":"the two types of insulin requirements of someone in hospital",
+"back":"- scheduled insulin (basal and bolus) \n- correction dose (correct hyperglycemia)"
+},
+{
+"id":"montis-fdd9bc8b7492",
+"topic":"Inpatient Diabetes Management",
+"front":"some patients who are at-risk for hypoglycemia in the hospital",
+"back":"– Elderly \n– Impaired renal function \n– Sudden reduction in oral intake \n– Discontinuation of parenteral or enteral nutrition \n– Reduction in corticosteroid dose"
+},
+{
+"id":"montis-c45dcedcca57",
+"topic":"Inpatient Diabetes Management",
+"front":"the usual starting total daily insulin dose",
+"back":"0.3 (thin)\n0.4 units/kg/day (normal)\n0.5-0.6 (insulin resistant)"
+},
+{
+"id":"montis-b37057e738ec",
+"topic":"Inpatient Diabetes Management",
+"front":"how to determine someone's scheduled insulin dose (basal vs bolus)",
+"back":"(weight) x 0.4/units/kg/day \ndivide the units into basal/bolus (divide in two)\nthen divide the bolus into 3 (one for each meal)\nadd correction dose prn"
+},
+{
+"id":"montis-e52ad409ed9c",
+"topic":"Inpatient Diabetes Management",
+"front":"if someone on both basal and bolus insulin goes npo...",
+"back":"you don't need to give them their bolus insulin anymore"
+},
+{
+"id":"montis-d8201b9dc154",
+"topic":"Inpatient Diabetes Management",
+"front":"if someone has 24h continuous enteral feeds or parenteral nutrition, what should you do for their insulin?",
+"back":"- give half of the TDD of insulin as basal, either od or q12h\n- adjust prn with correction (usually insulin sensitive numbers)"
+},
+{
+"id":"montis-d1f47e096836",
+"topic":"Inpatient Diabetes Management",
+"front":"what happens when you put a diabetic patient on steroids?",
+"back":"they lead to hyperglycemia, so you need to watch the blood glucose and ensure the higher insulin requirements are met; also make sure you follow insulin when you taper"
+},
+{
+"id":"montis-b0d68c59a39f",
+"topic":"Inpatient Diabetes Management",
+"front":"if someone is NPO, very sick and in the ICU, what type of insulin should you use? how much?",
+"back":"IV insulin (use regular insulin), start with basing it on their blood sugar and then adjust based on this \nusually will be checking the blood sugars every hour"
+},
+{
+"id":"montis-55f2a587a78c",
+"topic":"Inpatient Diabetes Management",
+"front":"what is an important role with stopping IV insulin",
+"back":"you can't stop IV insulin cold! you need to always have an overlap w sc insulin"
+},
+{
+"id":"montis-f705d9fc9ac3",
+"topic":"Transfusion",
+"front":"over how long should one dose of platelets be infused over?",
+"back":"over 1-2 hours, max infusion time 3.5h"
+},
+{
+"id":"montis-21825248d5fa",
+"topic":"Transfusion",
+"front":"the two types of platelets",
+"back":"- buffy coat platelets obtained from multiple donors and suspended in plasma\n- apheresis are derived from only one person"
+},
+{
+"id":"montis-039bc0222644",
+"topic":"Transfusion",
+"front":"when is platelet transfusion recommended for non-immune thrombocytopenia?",
+"back":"shoud do it prophylactically when the platelet count falls too low (below 10 x 10^9)"
+},
+{
+"id":"montis-3ed593a9d457",
+"topic":"Transfusion",
+"front":"what should the platelet count be prior to major surgery/blood loss?",
+"back":"aim at count above 50 x 10^9"
+},
+{
+"id":"montis-6c08c78146d8",
+"topic":"Transfusion",
+"front":"what kinds of patients with which procedure should receive the greatest amount of platelets before surgery?",
+"back":"neurosurgery, head trauma, ophthalmologic procedures (100 needed)"
+},
+{
+"id":"montis-3fb2458de242",
+"topic":"Transfusion",
+"front":"plasma must be...",
+"back":"ABO compatible"
+},
+{
+"id":"montis-bf37c4e5aa1b",
+"topic":"Transfusion",
+"front":"what is the impact of a single unit of plasma on INR/PTT, how long does it last?",
+"back":"will restore to 1.3-1.8x the normal and will last 6 hours"
+},
+{
+"id":"montis-99f4edab1378",
+"topic":"Transfusion",
+"front":"when is plasma transfusion indicated?",
+"back":"- active bleeding/prior to surgery in a patient w elevated INR etc or with severe liver disease\n- massive rapid transfusion"
+},
+{
+"id":"montis-fb75f5935437",
+"topic":"Transfusion",
+"front":"when is plasma transfusion not useful?",
+"back":"- INR <1.8\n- coagulopathy but with no bleeding or need for emergency surgery\n- reversal of anticoags"
+},
+{
+"id":"montis-9e860ed8e39b",
+"topic":"Transfusion",
+"front":"how should warfarin be reversed in patients with active bleeding/maj surgery?",
+"back":"reversed w vitamin k IV, leading to partial reversal within 2h and full within 6-24h"
+},
+{
+"id":"montis-84c944459cd8",
+"topic":"Transfusion",
+"front":"indications for fibrinogen replacement",
+"back":"- bleeding and fibrinogen <1.0 g/L OR massive bleeding/ICH and fib <1.5-2.0\n- obstetrical hemorrhage"
+},
+{
+"id":"montis-32c10df1d5c6",
+"topic":"Transfusion",
+"front":"the three transfusion-related events that can result in fever",
+"back":"- bacterial sepsis/contamination\n- acute hemolytic transfusion rx\n- febrile non-hemolytic transfusion rx"
+},
+{
+"id":"montis-ae9a72e92013",
+"topic":"Transfusion",
+"front":"clinical sepsis of bacterial sepsis related to transfusion",
+"back":"- fever\n- rigors\n- tachy, hypotn, dyspnea\n- DIC"
+},
+{
+"id":"montis-81b3c3e2d3d2",
+"topic":"Transfusion",
+"front":"how to manage transfusion-related bacterial sepsis",
+"back":"- stop transfusion\n- notify the blood bank and return blood for gs and culture, culture pt blood \n- supportive therapy\n- start broad spec abx before sensitivity is back \n(also maybe consult your friendly neighbourhood ID physician :D)"
+},
+{
+"id":"montis-696210b9d302",
+"topic":"Transfusion",
+"front":"why might an acute hemolytic transfusion reaction happen?",
+"back":"- blood group incompatabiltiy\n- incompatible plasma"
+},
+{
+"id":"montis-5fbc0194dffb",
+"topic":"Transfusion",
+"front":"the presentation of acute hemolytic reactions",
+"back":"- fever\n- chills/rigors \n- hemoglobinuria\nmake sure that you always check a patient's ID bracelet instead of the chart to prevent this!"
+},
+{
+"id":"montis-1ac342c980c5",
+"topic":"Transfusion",
+"front":"how to manage an acute hemolytic reaction",
+"back":"- stop the transfusion, notify the blood bank and send blood samples, check the pt ID, hemolysis w/u, supportive care prn"
+},
+{
+"id":"montis-fce1bcff28a1",
+"topic":"Transfusion",
+"front":"the presentation of febrile non-hemolytic transfusion reactions",
+"back":"- chills, rigors, nausea, vomiting, hypotension"
+},
+{
+"id":"montis-209002670bb5",
+"topic":"Transfusion",
+"front":"how to manage febrile non-hemolytic transfusion reactions",
+"back":"- acetaminophen\n- demerol for rigors"
+},
+{
+"id":"montis-b45b45faf4a3",
+"topic":"Transfusion",
+"front":"the three main things that can cause dyspnea during a transfusion",
+"back":"- transfusion-related lung injury (TRALI)\n- transfusion-associated circulatory overload (TACO)\n- anaphylaxis"
+},
+{
+"id":"montis-124f768f36bc",
+"topic":"Transfusion",
+"front":"what is TRALI;how does it present",
+"back":"syndrome of acute resp disress w hypoxia and bilateral cxr infiltrates \noccurs w/in 6hrs of transfusion\nusually presents w dyspnea, hypoxia, cxr changes"
+},
+{
+"id":"montis-c63364fce057",
+"topic":"Transfusion",
+"front":"how to manage/prevent TRALI",
+"back":"- stop the transfusion\n- supportive care\n- mech vent \n- to prevent, transfuse the right blood and accurately dx/report"
+},
+{
+"id":"montis-72d90877f06f",
+"topic":"Transfusion",
+"front":"how does TACO happen?",
+"back":"- impaired cardiac function\n- too rapid rate of transfusion"
+},
+{
+"id":"montis-6bff0135f3ab",
+"topic":"Transfusion",
+"front":"the presentation of TACO",
+"back":"- dyspnea, orthopnea\n- elevated JVP\n- tachy, htn"
+},
+{
+"id":"montis-037e9c5e6872",
+"topic":"Transfusion",
+"front":"how to prevent/manage TACO",
+"back":"- avoid over transfusing and transfuse slowly \n- pre-emptive diuretics \nif taco happens, stop tx, admin prn o2 and diuretics, cxr and restart"
+},
+{
+"id":"montis-f674d2d847a9",
+"topic":"Transfusion",
+"front":"how to allergic rx to transfusions present",
+"back":"- flusing, erythema, pruritis \n- coughing, wheezing\n- n/v/d/abdo pain"
+},
+{
+"id":"montis-091a4920ac3c",
+"topic":"Transfusion",
+"front":"how to manage transfusion allergic rx",
+"back":"- interrupt, benadryl, restart slowly and use ccs or premedication w allergy meds prn"
+},
+{
+"id":"montis-b248d56ca6c6",
+"topic":"Transfusion",
+"front":"how to manage anaphylaxis during transfusion",
+"back":"- stop and do not restart\n- admin diphenhydramine IV\n- epi, ccs,ventilator prn"
+},
+{
+"id":"montis-a414a9d00610",
+"topic":"Transfusion",
+"front":"with what type of transfusion does hypotn usually occur?",
+"back":"most common with platelet transfusion"
+},
+{
+"id":"montis-99d5af6602ae",
+"topic":"Transfusion",
+"front":"how to manage transfusion-related hypotension",
+"back":"- should be able to pick up on it w/in the first 15 mins \n- stop and dont restart tx\n- supportive care, IV fluids"
+},
+{
+"id":"montis-e5406f9cdf7f",
+"topic":"Transfusion",
+"front":"clinical presentation of delayed-type hemolytic reaction (DTHR)",
+"back":"- clinically presents 3d-2wk after transfusion\n-new fever/jaundice\n- drop in hbg post-transfusion, high bili, spherocytosis, other evidence of hemolysis"
+},
+{
+"id":"montis-6200f78f274c",
+"topic":"Transfusion",
+"front":"how to manage DTHR",
+"back":"- supportive care\n- notify and flag pt on their chart"
+},
+{
+"id":"montis-0881b778fa4e",
+"topic":"Transfusion",
+"front":"the presentation of transfusion-associated graft vs host disease",
+"back":"transfused cells mount a response to the recipient's tissues \n- fever, rash, diarrhea 1-2wk after, pancytopenia and need to bx skin or marrow to dx\n- overwhelmingly fatal :("
+},
+{
+"id":"montis-2867b96c5136",
+"topic":"Transfusion",
+"front":"mgmt and prevention of post-transfusion purpura",
+"back":"- acute thrombocytopenia a few days after transfusion\n- need IVIG and after should receive blood compatible w their plt antibody"
+},
+{
+"id":"montis-18edff7bf834",
+"topic":"Altered LOC",
+"front":"what does it mean for someone to be confused?",
+"back":"- impaired attention and concentration \n- disorientation\n- inconsistent thinking\n- reduced comprehension"
+},
+{
+"id":"montis-60f7e6930337",
+"topic":"Altered LOC",
+"front":"definition of lethargic",
+"back":"• Resembles sleepiness, drowsy, not coming fully awake • Slow verbal response and inattentive • Unable to perform simple concentration tasks • Needs verbal or tactile stimulation to initiate response"
+},
+{
+"id":"montis-d9dd0a373074",
+"topic":"Altered LOC",
+"front":"what does it mean when someone is obtunded/stuperous",
+"back":"- arouses only w painful and repeated stimulation\n- no verbal output \n- some purposeful movement to noxious stimuli"
+},
+{
+"id":"montis-c4bf55fb63ae",
+"topic":"Altered LOC",
+"front":"some of the main causes of altered LOC",
+"back":"I WATCH DEATH\nInfection, Withdrawal, Acute metabolic and endocrine, Trauma, CNS disease, Hypoxia, Deficiencies, Environmental, Acute vascular, Toxins/drugs, Heavy metals"
+},
+{
+"id":"montis-4f149eb50111",
+"topic":"Altered LOC",
+"front":"the two main physiologic causes of altered LOC",
+"back":"- both cerebeal hemispheres are depressed (diffuse and more common)\n- the reticular activating system is not functioning"
+},
+{
+"id":"montis-be4a337fd054",
+"topic":"Altered LOC",
+"front":"what does the GCS range from?",
+"back":"3 to 15, 3 is really urgent"
+},
+{
+"id":"montis-0edd8874d63e",
+"topic":"Altered LOC",
+"front":"what are the three categories of the GCS",
+"back":"eye opening, verbal response, motor response"
+},
+{
+"id":"montis-c6ceb7645491",
+"topic":"Altered LOC",
+"front":"what should you do on hx and px for the neuro assessment of someone with alt LOC",
+"back":"- vitals (including temp, O2 sat, glucose)\n- GCS\n- Motor (tone/reflex)\n- Pupil size"
+},
+{
+"id":"montis-9c3d7bbe4469",
+"topic":"Altered LOC and Hypotension",
+"front":"some of the warning signs of poor perfusion",
+"back":"[image]"
+},
+{
+"id":"montis-d633d6dc70ad",
+"topic":"Altered LOC and Hypotension",
+"front":"equation for cardiac output",
+"back":"HR x SV"
+},
+{
+"id":"montis-e352ca1b4cb5",
+"topic":"Altered LOC and Hypotension",
+"front":"the main management steps of sepsis management",
+"back":"[image]"
+},
+{
+"id":"montis-c5ebcdcd8aa8",
+"topic":"Altered LOC and Hypotension",
+"front":"how to manage cardiogenic shock",
+"back":"[image]"
+},
+{
+"id":"montis-5127306c1ff2",
+"topic":"Altered LOC and Hypotension",
+"front":"the management of someone w anaphylaxis",
+"back":"[image]"
+},
+{
+"id":"montis-143419d55507",
+"topic":"Altered LOC and Hypotension",
+"front":"how to manage obstructive shock",
+"back":"need a mechanical solution like a chest tube or pericadiocentesis"
+},
+{
+"id":"montis-c86e58951f8d",
+"topic":"Acute and Chronic Pain",
+"front":"what is nociceptive pain",
+"back":"arises from actual or threatened damage to tissues, like a burn"
+},
+{
+"id":"montis-bc131029f495",
+"topic":"Acute and Chronic Pain",
+"front":"what is nociplastic pain",
+"back":"there is abnormal processing of a pain signal in the sc and even though there is no tissue damage, the person still experiences pain"
+},
+{
+"id":"montis-29a5760ff96d",
+"topic":"Acute and Chronic Pain",
+"front":"hypoalgesia",
+"back":"decreased sensation due to mutations in pain receptors leading to increased prevalence of chronic injury"
+},
+{
+"id":"montis-1bcfe865d197",
+"topic":"Acute and Chronic Pain",
+"front":"the definiton of chronic pain",
+"back":"pain that recurs or persists for 3 months or longer"
+},
+{
+"id":"montis-b17785308bf7",
+"topic":"Acute and Chronic Pain",
+"front":"some of the main clinical signs associated with chronic pain",
+"back":"- allodyina: pain from something not painful\n- hyperalgesia: inc pain from painful stimulus\n- hypoesthesia: dec sensitivity to stimuli\n- paresthesia: tingling, pricking\n- dysthesia: abnormal, unpleasant sensation"
+},
+{
+"id":"montis-df58ee654074",
+"topic":"Acute and Chronic Pain",
+"front":"two important things to do in the physical exam of chronic pain",
+"back":"1. rule out pathological causes of pain\n2. rule in anatomic causes of pain"
+},
+{
+"id":"montis-bf06f3858225",
+"topic":"Acute and Chronic Pain",
+"front":"when to use imaging for chronic pain",
+"back":"1. use it to rule out pathologic causes of pain\n2. use to confirm dx based on hx and px (but don't send everyone!)"
+},
+{
+"id":"montis-d05773e9b642",
+"topic":"Altered LOC",
+"front":"at what GCS should you consider intubating?",
+"back":"8"
+},
+{
+"id":"montis-9f027282260b",
+"topic":"Altered LOC",
+"front":"what should make up a quick neuro assessment in someone with altered LOC",
+"back":"- vitals: temp, O2 sat, glucose\n- LOC via the GCS\n- Motor (tone/reflexes)\n- Pupil size/reaction to light"
+},
+{
+"id":"montis-93be32319f35",
+"topic":"Altered LOC",
+"front":"some of the main things you should look for on px of someone w alt LOC",
+"back":"[image]"
+},
+{
+"id":"montis-70871f4f22ad",
+"topic":"Altered LOC",
+"front":"some of the EARLY s/sx of raised ICP",
+"back":"• Deterioration in level of\nconsciousness • Confusion • Restlessness • Lethargy • Headache • Pupillary dysfunction • Cranial nerve palsy"
+},
+{
+"id":"montis-2f8e0287e3b6",
+"topic":"Altered LOC",
+"front":"some of the LATE s/sx of raised ICP",
+"back":"- deterioration in LOC\n- hemiplegia, decortication and decerebration (extensor vs flexor posturing)\n- alt in vital signs (Cushing's triad which is: \n [image] )"
+},
+{
+"id":"montis-73978b72c85e",
+"topic":"Altered LOC",
+"front":"best way to manage increased ICP and dec LOC",
+"back":"- full vitals, IV, monitors obvi\n- ABCs\n- Optimize SaO2 and BP \n- raise head of bed, sedation, analgesia, sx decompression prn to reduce the ICP"
+},
+{
+"id":"montis-94a7fd7824a2",
+"topic":"Periop Medicine",
+"front":"what are some key things that an anesthetic hx involves",
+"back":"- prior anesthetics: look to see if they've had any before! will also tell you if their airway was challenging to manage, what type of intubation\n- fmhx: malignant hyperthermia (confers high risk of having an allergic reaction to anesthetics or pseudocholinersterase deficiency\n- postop nausea/vomiting"
+},
+{
+"id":"montis-f46c726d183b",
+"topic":"Periop Medicine",
+"front":"what is exercise tolerance? how do you quantify it?",
+"back":"- should ask the patient if they do exercise at all!\n- anesthesia is a stress on the body, so you should see if they regularly stress their body\n- ask about \"mets\" (>4=can you walk up 2+ flights of stairs or city block=fit)\n- Use the Duke Activity Status Index"
+},
+{
+"id":"montis-fbf3e221aee3",
+"topic":"Periop Medicine",
+"front":"the STOP BANG osa questionnaire",
+"back":"[image]"
+},
+{
+"id":"montis-a05e48164294",
+"topic":"Periop Medicine",
+"front":"what is the ASA classification of risk (the 6 categories)",
+"back":"[image] \n\nbut doesn't have a huge impact on the actual pt care (acc really subjective)"
+},
+{
+"id":"montis-aa23c2c66bf1",
+"topic":"Periop Medicine",
+"front":"how to assess someone's periop cardiac risk?",
+"back":"- based on the urgency of surgery, estimate risk of maj adverse cardiac event, assess their functional capacity\n- if they have recent MI/ACS, decomp CHF, severe valvular disease, arrhythmias, will likely cancel any non-urgent"
+},
+{
+"id":"montis-cfed9e1b8c55",
+"topic":"Periop Medicine",
+"front":"what is the revised cardiac risk index (rCRI)",
+"back":"predicts your risk of maj cardiac events based on [image]"
+},
+{
+"id":"montis-0c12d1ddda74",
+"topic":"Periop Medicine",
+"front":"what is MINS, how do you know if someone will need it?",
+"back":"- BNP screening, if pos, will need troponin screening for 48-72h after plus an ECG\n- a positive troponin postop is a predictor of higher mortality and postop MI"
+},
+{
+"id":"montis-7101fc309b11",
+"topic":"Periop Medicine",
+"front":"the important physical exam components of the periop assessment",
+"back":"- cardiac \n-resp\n- airway"
+},
+{
+"id":"montis-5e70cbf031c4",
+"topic":"Periop Medicine",
+"front":"some components of the airway assessment",
+"back":"- body habitus\n- mouth opening\n- teeth\n- malampati score\n- thyrometal distance (tells you how ant their larynx is)\n- neck ext \n- prognath"
+},
+{
+"id":"montis-d7eab984fb76",
+"topic":"Periop Medicine",
+"front":"three meds to continue periop",
+"back":"- BBs\n- opioid analgesics \n- psych meds"
+},
+{
+"id":"montis-ac1bbb2b949f",
+"topic":"Periop Medicine",
+"front":"meds to consider holding periop",
+"back":"- antiplatelet agents\n- anticoag\n- ACEi/ARB\n- insulin\n- herbal meds"
+},
+{
+"id":"montis-8b1c124e90a1",
+"topic":"Periop Medicine",
+"front":"what is the most important part of a needlestick injury assessment",
+"back":"treat the site and report for assessment within 2 hours!"
+},
+{
+"id":"montis-b7466ecd724d",
+"topic":"Pain Meds",
+"front":"strong vs mild vs weak opioids",
+"back":"strong: morphine/HM/oxy, 2nd line fentanyl/methadone\nmod: tramadol/codeine\nmild: tylenol/NSAIDs"
+},
+{
+"id":"montis-9c9167cf54db",
+"topic":"Pain Meds",
+"front":"what is the conversion factor between IV and PO morphine",
+"back":"IV is 2x more potent than PO"
+},
+{
+"id":"montis-98e7321d43e6",
+"topic":"Pain Meds",
+"front":"how much more potent is hydromorph than morphine",
+"back":"hydromorph is 5x more potent than morphine, so you have to always multiply hydromorph dose by 5 to get the equivalent morphine dose\nnote that po hydromorph is 2x less potent than IV"
+},
+{
+"id":"montis-415bab701ba9",
+"topic":"Pain Meds",
+"front":"how often should you dose immediate release medication?",
+"back":"dose q4h regular with breakthroughs q1h prn of 10% of the original dose"
+},
+{
+"id":"montis-dd8e95705dc8",
+"topic":"Pain Meds",
+"front":"how should you dose sustained-release medication",
+"back":"dose q12h regular dose and prn breakthrough q1h prn at 10% of reg dose"
+},
+{
+"id":"montis-eea5b581d913",
+"topic":"Pain Meds",
+"front":"what should you do if a pt is using >3 breakthrough (prn) doses in a day of their pain meds?",
+"back":"should add add up the regular and breakthrough dose used in 24h and make that the new regular dose"
+},
+{
+"id":"montis-3dac3825e23b",
+"topic":"Pain Meds",
+"front":"what is the usual order for laxatives for someone on opioids?",
+"back":"usually start w sennosides 2 tablets qhs, almost never give prn laxatives"
+},
+{
+"id":"montis-1e75921531a5",
+"topic":"ECG Review",
+"front":"two ways to determine rate in an ECG",
+"back":"1) number of QRS complexes in the entire strip x 6\n2) 300/number of big boxes between QRS complexes"
+},
+{
+"id":"montis-33081705cd33",
+"topic":"ECG Review",
+"front":"what is the category for sinus rhythm",
+"back":"p before every qrs and a qrs after every p"
+},
+{
+"id":"montis-40ce55af2294",
+"topic":"ECG Review",
+"front":"if an ECG looks wide and fast, think...",
+"back":"vtach! [image]"
+},
+{
+"id":"montis-fd0ca7867d6d",
+"topic":"ECG Review",
+"front":"some primary ECG features of complete heart block",
+"back":"- severe bradycardia due to no AV conduction\n- complete AV dissociation, independent atrial and ventricular rates \n [image] you can see total dissociation of the atrial vs ventricular conduction"
+},
+{
+"id":"montis-cfbf1d1e9fbc",
+"topic":"ECG Review",
+"front":"if someone has widespread ST elevation and no reciprocal changes...",
+"back":"they likely have pericarditis"
+},
+{
+"id":"montis-a12d000c7096",
+"topic":"Inpt Diabetes Management",
+"front":"what is the BEST way to control glycemia in an inpt setting/",
+"back":"INSULIN!\nworks quickly, preventable action, safe w liver and renal dysfunction"
+},
+{
+"id":"montis-44f58d9e13c9",
+"topic":"Inpt Diabetes Management",
+"front":"how should you order insulin in the hospital (what do you write on the order sheet)",
+"back":"make sure to ALWAYS prescribe by the generic name; pts can also use their insulin from home as needed"
+},
+{
+"id":"montis-f368b5985f71",
+"topic":"Inpt Diabetes Management",
+"front":"why is sliding scale (prn bolus) insulin often not enough in an inpt setting?",
+"back":"reactive rather than proactive; allows for hyperglycemia to occur before responsing"
+},
+{
+"id":"montis-1bd6b9577068",
+"topic":"Inpt Diabetes Management",
+"front":"the two categories of insulin requirements in inpt management",
+"back":"- scheduled insulin (basal and bolus) \n- correction dose insulin to correct hyperglycemia"
+},
+{
+"id":"montis-dcc5ecc9e562",
+"topic":"Inpt Diabetes Management",
+"front":"the three categories of TDD insulin requirements inpt",
+"back":"insulin sensitive (lean/malnourished, elderly, CKD/AKI): 0.3 units/kg/day\nusual (not sensitive nor resistant): 0.4\nresistant (obese/on high glucocort dose): 0.5-0.6"
+},
+{
+"id":"montis-344cac151b5e",
+"topic":"Inpt Diabetes Management",
+"front":"how to det the scheduled insulin dose for a pt whose TDD is 50 units",
+"back":"[image]"
+},
+{
+"id":"montis-f3782ae7cae0",
+"topic":"Inpt Diabetes Management",
+"front":"insulin req for NPO patients",
+"back":"basal: 50% TDD\nbolus: none\ncorrection: q6h prn\nshould also give D5W"
+},
+{
+"id":"montis-0ea3f454cc85",
+"topic":"Inpt Diabetes Management",
+"front":"what should you do for someone transitioning from IV to sc insulin?",
+"back":"- should overlap IV and SC insulin to make sure you know the sc insulin has started to act"
+},
+{
+"id":"montis-9b04bac522c3",
+"topic":"Inpt Diabetes Management",
+"front":"which diabetic med is often held in the hospital?",
+"back":"SGLT2 inhibs"
+},
+{
+"id":"montis-2265b8a38872",
+"topic":"Consent, Capacity and Ethics",
+"front":"the four components of valid consent",
+"back":"- informed \n- voluntary\n- obtained from a capable person\n- documented"
+},
+{
+"id":"montis-863e1e418e94",
+"topic":"Consent, Capacity and Ethics",
+"front":"what does \"informed\" consent mean",
+"back":"- the pt is provided with the information that a reasonable person would want to know"
+},
+{
+"id":"montis-6b31d0268fae",
+"topic":"Consent, Capacity and Ethics",
+"front":"the three points on how to best communicate risks to a patient",
+"back":"- what is common\n- what is serious (even if rare)\n- what is specific to the person in front of you"
+},
+{
+"id":"montis-b3545cfb148b",
+"topic":"Consent, Capacity and Ethics",
+"front":"the three times when emergency consent is implied",
+"back":"threats to...\nlife: eg fentanyl overdose \nlimb: ischemic limb\nhealth: chemical burn\nwhen tx is needed to prevent imminent threat"
+},
+{
+"id":"montis-4d4463adcfbb",
+"topic":"Fluid and Lytes",
+"front":"the primary intracellular/extracellular cation; where will NS dominate when you give it?",
+"back":"K+ dominates inside cells \nNa+ dominates extracellularly \nif you give NS, it will dominate intracellularly"
+},
+{
+"id":"montis-d0390ef7663c",
+"topic":"Fluid and Lytes",
+"front":"what mostly composes the anion gap?",
+"back":"- mostly composed of albumin\n- also contains phosphate, sulfate and other anions"
+},
+{
+"id":"montis-10c38fec0c9d",
+"topic":"Fluid and Lytes",
+"front":"what fluid is closest to our plasma?",
+"back":"RL, it contains potassium, which makes it close"
+},
+{
+"id":"montis-e20b69d3d809",
+"topic":"Fluid and Lytes",
+"front":"an indication for NS instead of RL for fluid resus",
+"back":"if the patient has a high potassium and is at-risk of becoming hyperkalemic"
+},
+{
+"id":"montis-300b96df1ed2",
+"topic":"Fluid and Lytes",
+"front":"if the MAP is below 65 after extensive fluid resus in someone w sepsis...",
+"back":"you need to start thinking of adding other methods for your fluid resus, like dobutamine or norepi"
+},
+{
+"id":"montis-6f027a08b293",
+"topic":"Fluid and Lytes",
+"front":"what is an indication for D5W",
+"back":"It's basically free water so you give in the case of hypernatremia"
+},
+{
+"id":"montis-5af92d006eea",
+"topic":"Fluid and Lytes",
+"front":"three times you should give albumin",
+"back":"1. large vol paracentesis \n2. Spontaneous bacterial peritonitis\n3. Hepatorenal syndrome"
+},
+{
+"id":"montis-9f72228067b3",
+"topic":"Fluid and Lytes",
+"front":"common maintenance rate for fluids",
+"back":"75cc/hr IV RL for 12h and then reassess, write a stop time!"
+},
+{
+"id":"montis-21ac0e65192b",
+"topic":"Fluid and Lytes",
+"front":"an important rule for writing a bolus order",
+"back":"write how long you want the bolus to be given over\nRL 1L bolus IV over 2 hours in a pressure bag"
+},
+{
+"id":"montis-046ec7bc5b2b",
+"topic":"Fluid and Lytes",
+"front":"some of the most common symptoms of hyponatremia",
+"back":"low BP\nfatigue\nweakness\nLOC"
+},
+{
+"id":"montis-b339a4a752e6",
+"topic":"Fluid and Lytes",
+"front":"steps 1/2 in correcting hyponatremia",
+"back":"1. correct hyperglycemia\n3. if persists, check for low/normal/high serum osm"
+},
+{
+"id":"montis-1ae6715a8b92",
+"topic":"Fluid and Lytes",
+"front":"the main hypervolemic causes of hyponatremia",
+"back":"HF/cirrhosis/nephrotic sx"
+},
+{
+"id":"montis-c35c36da4332",
+"topic":"Fluid and Lytes",
+"front":"the main euvolemic causes of hyponatremia",
+"back":"- endocrine, adrenal insuff, hypoth, SIADH"
+},
+{
+"id":"montis-415255b4dad2",
+"topic":"Fluid and Lytes",
+"front":"hypovolemic causes of hyponatremia",
+"back":"dehydration\nGI loss\nrenal loss"
+},
+{
+"id":"montis-2c1e032dacae",
+"topic":"Fluid and Lytes",
+"front":"what differentiates acute vs chronic hyponatremia",
+"back":"<48 h or >48h"
+},
+{
+"id":"montis-3eedb91f54ad",
+"topic":"Fluid and Lytes",
+"front":"what is the right way to correct Na in hyponatremia",
+"back":"- should make sure you treat slowly! Especially in the case of hypovolemia, you should be careful"
+},
+{
+"id":"montis-8b009b1de1e5",
+"topic":"Fluid and Lytes",
+"front":"how to treat hypernatremia",
+"back":"1. give d5w or 1/2 NS IV\n2. acute vs chronic: if acute, replace entire water deficit in 24h and if chronic, lower serum Na by 10 in 24h"
+},
+{
+"id":"montis-1187f49c8156",
+"topic":"Fluid and Lytes",
+"front":"some of the main causes of hypernatremia",
+"back":"[image]"
+},
+{
+"id":"montis-ca63b33c63cd",
+"topic":"Fluid and Lytes",
+"front":"some of the main s/sx of hypercalcemia",
+"back":"stones/bones/abdo moans/psychiatric"
+},
+{
+"id":"montis-774eb072c154",
+"topic":"Fluid and Lytes",
+"front":"if someone has hypercalcemia and their PTH is low vs high, what does this mean?",
+"back":"low: suspect malignancy (bone mets, MM)\nhigh: measure plasma phosphate/urinary calcium; can be hyperparathyroidism"
+},
+{
+"id":"montis-047936b515bd",
+"topic":"Fluid and Lytes",
+"front":"the main management steps of hypercalcemia",
+"back":"- blast them with NS to dilute the Ca\n- bisphosphonate (or calcitonin) to stop bone release of ca\n- low Ca diet \n- tx underlying disease"
+},
+{
+"id":"montis-b5634927abd2",
+"topic":"Fluid and Lytes",
+"front":"the ddx of hypokalemia",
+"back":"- dec PO intake\n- GI losses/renal loss\n- shifts due to drugs, alc withdrawal"
+},
+{
+"id":"montis-894b4c76dbe8",
+"topic":"Fluid and Lytes",
+"front":"how to correct K+",
+"back":"correct Mg first if low \nmake sure you give PO as tolerated"
+},
+{
+"id":"montis-004063b135a3",
+"topic":"Fluid and Lytes",
+"front":"the ddx of hyperkalemia",
+"back":"pseudohyperkalemia\ninc uptake (via supplements)\nshifting due to tumour lysis, rhabdo, burn\ndec excretion"
+},
+{
+"id":"montis-0b95705285c8",
+"topic":"Fluid and Lytes",
+"front":"what is the first thing you should do if you have hyperkalemia",
+"back":"order an ECG, give Ca if you see peaked T waves"
+},
+{
+"id":"montis-09ebf44985f6",
+"topic":"Fluid and Lytes",
+"front":"steps in treating hyperkalemia",
+"back":"1 amp D50\n1 unit reg insulin IV\nyou can also give ++++ salbutamol to help w shift\ncheck blood glucose q30min x 3\ninc excretion: lasix/hemodialysis/kayexelate"
+},
+{
+"id":"montis-5268287ec7c8",
+"topic":"Fluid and Lytes",
+"front":"what constitutes an AKI in terms of cr increase?",
+"back":"cr increase >26 w/in 48h or >1.5-2x from basline"
+},
+{
+"id":"montis-7f1e5769c990",
+"topic":"Fluid and Lytes",
+"front":"the three types of AKI",
+"back":"prerenal: reduced bloodflow to the kidneys (hypovolemia, hemorrhage)\nintrarenal: damage to the kidney/interstitium\npostrenal: kidney stones, BPH, IA tumours"
+},
+{
+"id":"montis-67b8a0c9cee8",
+"topic":"Fluid and Lytes",
+"front":"how to determine the cause of someone's AKI? (3 steps)",
+"back":"1. check a urinalysis\n2. bladder scan\n3. check volume status (prerenal)"
+},
+{
+"id":"montis-0f382ee3b756",
+"topic":"Consent, Capacity and Ethics",
+"front":"Who is consent determined by in medical decison making?",
+"back":"It's determined by the assessing physician—there is no formal assessment needed"
+},
+{
+"id":"montis-166ae3ea9c7d",
+"topic":"Consent, Capacity and Ethics",
+"front":"what is capacity",
+"back":"the ability to understand information relevant to a decision and to appreciate the reasonably forseeable consequences of a decision or the lack of decision"
+},
+{
+"id":"montis-cc745f5aa040",
+"topic":"Geri",
+"front":"what is the definition of delirium",
+"back":"- disturbance in attention, awareness and cognition\n- acute, change from baseline and fluctuating\n- evidence that it's caused by a medical condition etc"
+},
+{
+"id":"montis-9135ed33204d",
+"topic":"Geri",
+"front":"the typical presentation of delirium",
+"back":"- acute onset/fluctuating course \n- inattention (test this by asking them to spell WORLD backwards)\n- disorganized thinking/rambling speech\n- alt LOC"
+},
+{
+"id":"montis-7d824262b468",
+"topic":"Geri",
+"front":"what are you usually looking for o/e for delirium?",
+"back":"- something else that could explain the way the pt is (eg focal neuro deficit from CVA, toxidrome etc)\n- reversible causes like an infection\n- confirmation of dx"
+},
+{
+"id":"montis-62a7252c47ca",
+"topic":"Geri",
+"front":"the five main causes of delirium",
+"back":"DRUGS!!\nInfection\nMetabolic abnormalities \nEnvironmental (day/night cues)\nSystem failure/structural (cardiac/resp/renal etc)"
+},
+{
+"id":"montis-1acf3fb8a0a9",
+"topic":"Geri",
+"front":"some non-pham management strategies for delirium",
+"back":"- reorientation\n- reduce overstimulation\n- day/night cues (put in a room with a window)\n- avoid dehydration\n- glasses on, hearing aids in"
+},
+{
+"id":"montis-3fe66895c8b8",
+"topic":"Geri",
+"front":"when should you use pharm management for delirium?",
+"back":"- threat to self or others \n- frightening hallucinations or delusions"
+},
+{
+"id":"montis-8acd07f6502b",
+"topic":"Geri",
+"front":"what can use use (meds) to tx delirium?",
+"back":"- risperidone\n- quetiapine\n- aripiprazole \nREALLY DONT USE BENZOS and avoid non-chemical restraints as much as possible"
+},
+{
+"id":"montis-2295de68f136",
+"topic":"Geri",
+"front":"some meds you can prescribe to help older pts sleep",
+"back":"- melatonin\n- trazodone\n- zopiclone \nBUT best to have a quiet ward and supportive care"
+},
+{
+"id":"montis-f4da1e308cfd",
+"topic":"Geri",
+"front":"what should you immediately ask when a pt falls?",
+"back":"• What are their vitals? • What happened? • Are they injured? • What is their mental status?\n\ntriage from here"
+},
+{
+"id":"montis-98849fb0e701",
+"topic":"Geri",
+"front":"what is YOUR responsibility to do when a pt falls?",
+"back":"- make sure the patient is OK and there are no urgent consequences of the fall \n- make sure nothing urgent caused the fall\n- see if there is anything you can do to prevent future falls"
+},
+{
+"id":"montis-1d49926a300b",
+"topic":"Geri",
+"front":"what is really, really important to do after a pt falls?",
+"back":"- orthostatic vitals \n- med review (hold sus meds just in case, can always give them later if needed)"
+},
+{
+"id":"montis-44640f9a9ecb",
+"topic":"Geri",
+"front":"how to measure orthostatic BP",
+"back":"[image]"
+},
+{
+"id":"montis-1a71a29043e4",
+"topic":"Geri",
+"front":"how to tx common causes of orthostatic hypotension?",
+"back":"meds: remove/change\nover-diuresis: back off\ndehydration: tx appropriately but consider what might be causing"
+},
+{
+"id":"montis-a0f26398d195",
+"topic":"Altered LOC and Hypotension",
+"front":"some warning signs for poor perfusion",
+"back":"- \"looks bad\"\n-poor urine output\n- mottled skin\n- dec LOC\n- tachypnea"
+},
+{
+"id":"montis-8d99845bc65a",
+"topic":"Altered LOC and Hypotension",
+"front":"the typical investigations you should order for a septic patient",
+"back":"CBC, lytes, Cr\ncalcium, Mg, phos\nlactate\nblood cultures\nCT (usually if concerned about abdo infection)"
+},
+{
+"id":"montis-35016642076a",
+"topic":"Altered LOC and Hypotension",
+"front":"investigations you should order for a pt who looks like they are entering cardiogenic shock",
+"back":"- CBC, lytes, Cr\n- Ca, Mg, Phos\n- ECG\n- Trop"
+},
+{
+"id":"montis-621ed4d51820",
+"topic":"Altered LOC and Hypotension",
+"front":"the order for epi you should ALWAYS put in for someone in anaphylactic shock!!!",
+"back":"0.3mg-0.5mg IM of 1:1000 epi q5minutes prn"
+},
+{
+"id":"montis-4bcd9db5243c",
+"topic":"Altered LOC and Hypotension",
+"front":"some immediate management steps you can do for someone in septic shock",
+"back":"[image]"
+},
+{
+"id":"montis-ede4bc4915b5",
+"topic":"Altered LOC and Hypotension",
+"front":"some other tx (other than epi) you can give to a pt in anaphylactic shock",
+"back":"1L NS bolus\nsalbutamol neb, methylpred, antihistamine"
+},
+{
+"id":"montis-63d5404b22be",
+"topic":"Altered LOC and Hypotension",
+"front":"something you can do to help for a pt w obstructive shock",
+"back":"mechanical problem, so need a mechanical solution (chest tube, pericardiocentesis, thoracotomy)"
+},
+{
+"id":"montis-d1624b2f1bf6",
+"topic":"Altered LOC and Hypotension",
+"front":"the role of a1 adrenoreceptors",
+"back":"will inc vascular resistance and afterload \nideal to target these for a pt in sepsis"
+},
+{
+"id":"montis-500a7f1b5bb4",
+"topic":"Altered LOC and Hypotension",
+"front":"role of b1 vs b2 adrenoreceptors",
+"back":"b1: positive ionotropy and chronotropy (good for cardiogenic shock)\nb2: dec bronchostriction and relax peripheral vascular smooth muscle (decrease PVR)"
+},
+{
+"id":"montis-32ec3bb304b3",
+"topic":"Altered LOC and Hypotension",
+"front":"name some ionotropic medications",
+"back":"[image]"
+},
+{
+"id":"montis-f467a372776d",
+"topic":"Altered LOC and Hypotension",
+"front":"the specific ionotropes you should use for sepsis vs cardiogenic vs distributive/anaphylactic shock",
+"back":"sepsis: norepi\ncardiogenic: dobutamine\nanaphylaxis/distributive: epi \nnote that epi is good when you dont know what in the ever loving heck you're supposed to give the patient"
+},
+{
+"id":"montis-a2dbcf4ff918",
+"topic":"Altered LOC and Hypotension",
+"front":"some of the neg impacts of using ionotropes",
+"back":"peripheral vasoconstriction\ninc myocardial O2 demands \ninc afterload"
+},
+{
+"id":"montis-f1929444991d",
+"topic":"Altered LOC and Hypotension",
+"front":"what generally causes neuropathic pain?",
+"back":"lesion or disease of the neural tissues of the somatosensory system\nimbalances between the excitatory/inhibitory systems"
+},
+{
+"id":"montis-34821d62827c",
+"topic":"Altered LOC and Hypotension",
+"front":"some of the symptoms of nociplastic pain",
+"back":"multifocal pain that is out of proportion with the amout of tissue or nerve damage"
+},
+{
+"id":"montis-845e08abb230",
+"topic":"Altered LOC and Hypotension",
+"front":"what is pain appraisal",
+"back":"the meaning ascribed to pain by an individual\neg, if someone believes \"pain is related to damage\""
+},
+{
+"id":"montis-be1fdfd6d9a1",
+"topic":"Altered LOC and Hypotension",
+"front":"what is pain attention",
+"back":"hypervigilance towards painful signals"
+},
+{
+"id":"montis-3eda6d57329b",
+"topic":"Altered LOC and Hypotension",
+"front":"pre-emptive vs preventive analgesia",
+"back":"pre-emptive: givning meds prior to noxious stimulus\npreventive: minimizing sensitization to noxious stimulus"
+},
+{
+"id":"montis-3d3cebb0bbb4",
+"topic":"Acute Care",
+"front":"the acronym that can be used to remember the steps of discharge planning",
+"back":"IDEAL\n [image]"
+},
+{
+"id":"montis-0b9e47b42338",
+"topic":"Acute Care",
+"front":"the acronym that can be used to remember the steps of writing an admission order",
+"back":"AADDDAVIID\nAdmit to whom?\nAllergies\nDrugs\nDiet\nActivity level\nVital signs\nIV fluids\nInvestigations to order\nDrugs"
+},
+{
+"id":"montis-bf9337f9585c",
+"topic":"CBC Review",
+"front":"some main causes of neutropenia",
+"back":"drugs, infections, malignancy, nutritional deficiency \nnote that febrile neutropenia is a surgical emergency! need to be assessed for abx quickly"
+},
+{
+"id":"montis-aea28d7214d7",
+"topic":"CBC Review",
+"front":"some main causes of neutrophilia",
+"back":"drugs (steroids esp), infections, malignancy\nin general, neuts >100ish will mean malignancy"
+},
+{
+"id":"montis-ddaa82dba3c6",
+"topic":"CBC Review",
+"front":"some of the common causes of lymphopenia",
+"back":"- infections\n- immune deficiency\n- often just related to old age"
+},
+{
+"id":"montis-412731ab6dda",
+"topic":"CBC Review",
+"front":"some common causes of lymphocytosis",
+"back":"- infections\n- malignancy/pre-malignancy (CLL)"
+},
+{
+"id":"montis-fcf095ab3b8a",
+"topic":"CBC Review",
+"front":"some of the key features, clinically and pathologcially, of CLL",
+"back":"- suspect w increasing lymphocytosis w/o acute illness\n- often have smudge cells in smear (usally >400)\n- absence of blasts differentiates this from ALL"
+},
+{
+"id":"montis-f2caa2c688f0",
+"topic":"CBC Review",
+"front":"what does the presence of myelocytes/metamyelocytes usually indicate",
+"back":"usually not present in the peripheral blood unless a stress like infection, malignancy, fibrosis pushes them out"
+},
+{
+"id":"montis-7d43eda63a74",
+"topic":"CBC Review",
+"front":"what do elevated basophils in the cbc mean",
+"back":"clasically elevated in CML, as well as allergies/infection"
+},
+{
+"id":"montis-02907d7b9324",
+"topic":"CBC Review",
+"front":"what do elevated eosinophils in the cbc mean?",
+"back":"allergies, asthma, vasculitis, parasitic infections"
+},
+{
+"id":"montis-7b857e41d192",
+"topic":"CBC Review",
+"front":"what do blasts in the cbc typically indicate?",
+"back":"usually a sign of a heme disorder (leukemia, MDS etc)\nalso can be due to a stress response\n% of blasts is super important: >20% is acute leukemia, <20 is chronic"
+},
+{
+"id":"montis-d1334a4acce8",
+"topic":"CBC Review",
+"front":"the key features of CLL",
+"back":"lots of lymphocytes and smudge cells"
+},
+{
+"id":"montis-5de1c5686826",
+"topic":"CBC Review",
+"front":"the key features of CML",
+"back":"lost of neuts/baso/eosino/myelocytes and some blasts\n<10% is chronic phase, >20 is AML"
+},
+{
+"id":"montis-39b7861d8ce4",
+"topic":"CBC Review",
+"front":"the CBC presentation of AML/ALL",
+"back":"high blasts in the peripheral blood\nALL: more common in kids\nAML: auer rods and more common in older adults"
+},
+{
+"id":"montis-c5694d148239",
+"topic":"CBC Review",
+"front":"what does MCV vs RDW tell us?",
+"back":"MCV: the average volume of the red cells \nRDW: the amount of unequal sizes of RBCs, amount of variability"
+},
+{
+"id":"montis-ef44db509561",
+"topic":"CBC Review",
+"front":"what should you look at in someone w a normocytic anemia?",
+"back":"- is the retic count low/normal? will tell you if the marrow is working or not (high or low RDW)"
+},
+{
+"id":"montis-ec08ec80d3da",
+"topic":"CBC Review",
+"front":"what should you confirm in microcytic anemia?",
+"back":"need to confirm w a low ferritin; need to have a proportional low MCV and low RBC count + low ferritin"
+},
+{
+"id":"montis-dd6e30f15a0e",
+"topic":"CBC Review",
+"front":"what should always send for a microcytic anemia?",
+"back":"ferritin and tsat"
+},
+{
+"id":"montis-fe4d04699432",
+"topic":"CBC Review",
+"front":"what indicates thalassemia",
+"back":"low MCV, mild anemia (disp to the MCV) and a high RBC count"
+},
+{
+"id":"montis-e7303d69ba52",
+"topic":"CBC Review",
+"front":"relative vs absolute polycythemia",
+"back":"relative: no inc in red cell mass but appears increased due to less plasma (eg deydration,diuretic use etc)\nabsolute: primary (myeloproliferative neoplas) vs secondary (elevation of epo secretion)"
+},
+{
+"id":"montis-1f8b4b8c130b",
+"topic":"CBC Review",
+"front":"thrombocytosis",
+"back":"reactive: due to fe def or blood loss/infection/post-splenectomy inc\nprimary: MPNs (eg MDS or CML)"
+},
+{
+"id":"montis-dc963dc7005a",
+"topic":"CBC Review",
+"front":"spuriois thrombocytopenia",
+"back":"platelet clumps in the tube make it look like there are fewer numbers\nneed to order citrated platelet count"
+},
+{
+"id":"montis-a1af66dfccfa",
+"topic":"CBC Review",
+"front":"isolated thrombocytopenia",
+"back":"most likely due to immune thrombocytopenia, present w petechiae and wet purpura"
+},
+{
+"id":"montis-62fd3552f416",
+"topic":"CBC Review",
+"front":"thrombocytopenia w other abnormalities",
+"back":"anemia and hemolysis w red cell fragments with spheroctes=MAHA (an emergency)\ncan also mean infection or MDS/leukemia"
+},
+{
+"id":"montis-6068ec2e7a1c",
+"topic":"Transfusion Basics",
+"front":"the three most important things to specify while ordering a transfusion",
+"back":"amount/vol/concentration of blood\nrate of infusion\nany special req for the blood (eg irradiated)"
+},
+{
+"id":"montis-6a278b3ac879",
+"topic":"Transfusion Basics",
+"front":"who to call when your pt experiences a tx rx?",
+"back":"the blood bank"
+},
+{
+"id":"montis-44605665fd24",
+"topic":"Transfusion Basics",
+"front":"do not submit an order for transfusion until you're confident that...",
+"back":"[image]"
+},
+{
+"id":"montis-46fc565fe87b",
+"topic":"Transfusion Basics",
+"front":"some common risks associated w RBC tx",
+"back":"RBC antibodies\nurticaria \nTACO\nfever"
+},
+{
+"id":"montis-dfaa7a0a937c",
+"topic":"Transfusion Basics",
+"front":"some rare but serious side effects of tx",
+"back":"TRALI\nbacterial sepsis \nABO incompatability \nanaphylaxis \nviruses"
+},
+{
+"id":"montis-9337b3b1a1e5",
+"topic":"Transfusion Basics",
+"front":"who is at high-risk for TACO?",
+"back":"if someone has HF\ncan give them pre-transfusion lasix"
+},
+{
+"id":"montis-7d79f9c2a577",
+"topic":"Transfusion Basics",
+"front":"what is the Hb threshold to transfuse someone the average pt w/o sx or cardiac hx",
+"back":"<70 g/L, transfuse 1 unit"
+},
+{
+"id":"montis-ade9bc3ed1a2",
+"topic":"Transfusion Basics",
+"front":"who needs specially matched red cells?",
+"back":"[image]"
+},
+{
+"id":"montis-5f4e079fa01c",
+"topic":"Transfusion Basics",
+"front":"which patients are almost never given platelets?",
+"back":"pts w the three letter platelet things: ITP, TTP, HUS, PTP, HIT"
+},
+{
+"id":"montis-4c346212b958",
+"topic":"Transfusion Basics",
+"front":"what is the usual dose of platelets given?",
+"back":"usually 1 adult dose only!"
+},
+{
+"id":"montis-77c4d97be8e7",
+"topic":"Transfusion Basics",
+"front":"some indications for plasma",
+"back":"TTP, bleeding, operative procedures, some dx radiology procedures"
+},
+{
+"id":"montis-91bd7faaaef8",
+"topic":"Transfusion Basics",
+"front":"how to det how many platelets a pt needs",
+"back":"15 mL/kg (based on lean body mass)"
+},
+{
+"id":"montis-f505edbc644e",
+"topic":"Transfusion Basics",
+"front":"you don't give platelets to...",
+"back":"reverse anticoagulant!!!"
+},
+{
+"id":"montis-8d19eecfeccb",
+"topic":"Transfusion Basics",
+"front":"who gets IVIG?",
+"back":"GBS, chronic inflammatory demyelinating polyneuropathy, multifocal motor neuropathy, myasthenia gravis"
+},
+{
+"id":"montis-b7eb7912cb55",
+"topic":"Transfusion Basics",
+"front":"who gets albumin?",
+"back":"large vol paracentesis, hepatorenal syndrome, SBP"
+},
+{
+"id":"montis-c3b68edd8ece",
+"topic":"Acute Care",
+"front":"low risk penicillin allergy",
+"back":"- isolated reactions: GI sx,headache\n- pruritis w/o rash\n- remote hx (>10y) and no IgE features \nremember: penicillin allergy decreases with time; 80% become tolerant after 10y"
+},
+{
+"id":"montis-79004ac2d0ff",
+"topic":"Acute Care",
+"front":"med risk for penicillin allergy",
+"back":"urticaria/pruritis \nreaction w IgE features but no anaphylaxis"
+},
+{
+"id":"montis-87782946ceb7",
+"topic":"Acute Care",
+"front":"high risk penicillin allergy",
+"back":"- anaphylaxis \n- pos skin test \n- reccurent \n- rx to multiple b lactam abx"
+},
+{
+"id":"montis-09fe1624749c",
+"topic":"Acute Care",
+"front":"the four \"moment\" in antibiotic decison making",
+"back":"1. does this pts infection need an abx\n2. have i ordered cultures? which empiric abx to start?\n3. how can i adjust the abx?\n4. duration of abx needed"
+},
+{
+"id":"montis-63c4743643d8",
+"topic":"Acute Care",
+"front":"what is the purpose of clinic reports?",
+"back":"brief synopses of issue and treatment communication back to the referring physician"
+},
+{
+"id":"montis-c9f64be1a21f",
+"topic":"Acute Care",
+"front":"how quickly do h&ps or op reports have to be completed?",
+"back":"within 24h of patient admission or surgery"
+},
+{
+"id":"montis-4b66af149b40",
+"topic":"Acute Care",
+"front":"the four steps in medication reconciliation",
+"back":"1. obtain the best possible medication hx\n2. complete the admission orders for home meds\n3. reconcile list by selecting continue/dc/change\n4. write any new med orders"
+},
+{
+"id":"montis-6e445bf24b5d",
+"topic":"Acute Care",
+"front":"how far back should abx use go in a BPMH?",
+"back":"the prev 3 months"
+},
+{
+"id":"montis-4453f2db233b",
+"topic":"Acute Care",
+"front":"what to include in a med order for admission?",
+"back":"[image]"
+},
+{
+"id":"montis-9b564d78b8a7",
+"topic":"Acute Care",
+"front":"what to include on discharge prescriptions",
+"back":"home meds to continue, change or d/c\n- meds to start"
+},
+{
+"id":"montis-7ebe514e8e11",
+"topic":"Acute Care",
+"front":"the acronym you can use for handover",
+"back":"[image]"
+},
+{
+"id":"montis-92417f22c8f4",
+"topic":"Acute Care",
+"front":"what does advanced care planning involve?",
+"back":"illness event leads to a conversation between a capable patient and their SDM\nconsent is then given to a SDM and allows for planning in case they are unable to make decisions for themselves; NOT advanced consent"
+},
+{
+"id":"montis-8ae7453b42d4",
+"topic":"Acute Care",
+"front":"what is a serious illness conversation",
+"back":"asks patient about their values and goals, shares prognosis and is an early conversation in the face of a life-limiting illness\nNOT a discussion about MAID"
+},
+{
+"id":"montis-e95c168048f9",
+"topic":"Acute Care",
+"front":"the four main criteria that indicate someone's drug use has become a problem",
+"back":"impaired control\nsocial consequences\npharm criteria \nrisky use"
+},
+{
+"id":"montis-fdb71b66d43e",
+"topic":"Acute Care",
+"front":"the three categories on the scale of drug use severity",
+"back":"[image]"
+},
+{
+"id":"montis-fa64892a7dfc",
+"topic":"Acute Care",
+"front":"what is the COWS scale",
+"back":"the clinical opioid withdrawal score \nhas things like pupil size,pain,restlessness, sweating, tremor,yawning etc"
+},
+{
+"id":"montis-d054cc8e8401",
+"topic":"Acute Care",
+"front":"what are you going to be on october 28th?",
+"back":"an absolute superstar of a clerk \nyour dream clerk's dream clerk \nmeds 2026 will be the best clerks the canadian medical system has ever seen\nyou got this <3"
+},
+{
+"id":"montis-1ab889de67a9",
+"topic":"Pain, Anxiety and Agitation Meds",
+"front":"indications for using an antidepressant for pain management",
+"back":"firstline for neuropathic pain conditions\nfibromyalgia, chronic MSK pain\nalso tx MDD, GAD\nprophylactic tx for migrane and tension-type headache"
+},
+{
+"id":"montis-d9c16e371625",
+"topic":"Pain, Anxiety and Agitation Meds",
+"front":"indication for using gabapentin for pain management",
+"back":"postherpetic neuralgia pain in adults; neuropathic pain"
+},
+{
+"id":"montis-bc5f9558c6a1",
+"topic":"Pain, Anxiety and Agitation Meds",
+"front":"indications for using pregabalin (Lyrica) for pain management",
+"back":"technically an antiepileptic med\nneuropathic pain associated w diabetic neuropathy, sc injury, postherpetic neuralgia, fibromyalgia"
+},
+{
+"id":"montis-742151c3f3cb",
+"topic":"Pain, Anxiety and Agitation Meds",
+"front":"when to use oxycarbazepine/carbamazepine for pain management",
+"back":"trigeminal or glossopharyngeal neuralgia\nalso bipolar disorder randomly"
+},
+{
+"id":"montis-eb023d903d0a",
+"topic":"Pain, Anxiety and Agitation Meds",
+"front":"dosing of acetaminophen/max daily dose",
+"back":"recommended dose 650mg to 1000mg q4-6h prn\nup to 60mg/kg/day"
+},
+{
+"id":"montis-ccf2121ac706",
+"topic":"Pain, Anxiety and Agitation Meds",
+"front":"celecoxib (Celebrex)",
+"back":"an NSAID used to treat primarily pain caused by osteoarthritis/RA/ankylosing spondy\npo only\n200mg daily or 100mg q12h"
+},
+{
+"id":"montis-730c2b57e0ac",
+"topic":"Pain, Anxiety and Agitation Meds",
+"front":"dosing of amitriptyline",
+"back":"25 to 150mg po daily or bid\nmax daily doses are 75mg single or 150mg double"
+},
+{
+"id":"montis-e9b56a303413",
+"topic":"Pain, Anxiety and Agitation Meds",
+"front":"dosing of duloxetine (Cymbalta) and class",
+"back":"SNRI\ndosed 60mg to 120mg daily or bid, max daily dose is 120mg"
+},
+{
+"id":"montis-e593614ea448",
+"topic":"Pain, Anxiety and Agitation Meds",
+"front":"the dosing of gabapentin",
+"back":"300 to 600mg orally"
+},
+{
+"id":"montis-591484d7f85f",
+"topic":"Pain, Anxiety and Agitation Meds",
+"front":"dosing of pregabalin",
+"back":"300 to 600mg daily or bid"
+},
+{
+"id":"montis-9d9603322f03",
+"topic":"Pain, Anxiety and Agitation Meds",
+"front":"main contraindications to amitryptyline",
+"back":"recent MI, arrhythmias, acute HF, severe liver impairment"
+},
+{
+"id":"montis-c504bb6a3681",
+"topic":"Pain, Anxiety and Agitation Meds",
+"front":"main contraindications to duloxetine",
+"back":"liver impairment\nend stage renal disease\nuse w caution in pts w htn or cardiac disease"
+},
+{
+"id":"montis-09864a65c4f4",
+"topic":"Pain, Anxiety and Agitation Meds",
+"front":"monitoring needed for amitriptyline",
+"back":"trial of 6 to 8 weeks \nif have sx relief but cant tolerate adv effects, switch to another TCA\nShould monitor HR, BP, ECG, blood glucose, wt, lytes"
+},
+{
+"id":"montis-3d3f4ea58917",
+"topic":"Pain, Anxiety and Agitation Meds",
+"front":"monitoring needed in duloxetine",
+"back":"allow 6-8 weeks for trial\nmonitor pts w BP, liver/renal function tests"
+},
+{
+"id":"montis-f4ce0b418c70",
+"topic":"Pain, Anxiety and Agitation Meds",
+"front":"what should be monitored in pts on lyrica or gabapentin",
+"back":"baseline cr should be monitored\nmood should be monitored"
+},
+{
+"id":"montis-8e9d729082bf",
+"topic":"Pain, Anxiety and Agitation Meds",
+"front":"the uses of trazodone",
+"back":"approved indication is for tx of MDD\noff label can be used for the tx of insomnia"
+},
+{
+"id":"montis-ba953d1423d4",
+"topic":"Pain, Anxiety and Agitation Meds",
+"front":"uses of halodol (haloperidol)",
+"back":"approved: schizophrenia, tourette\noff label: agitation assocoiated with psych disorders, acute mania, chemotherapy induced n/v"
+},
+{
+"id":"montis-dcdad133bd5c",
+"topic":"Pain, Anxiety and Agitation Meds",
+"front":"the main uses of risperidone",
+"back":"schizophrenia, maintenace of bipolar disorder in addition to lithium\noff label use: BPD, delusional disorder, depression, brain injury etc\nhas utility in treating aggression/agitation in patients with dementia"
+},
+{
+"id":"montis-1ca52a57598a",
+"topic":"Pain, Anxiety and Agitation Meds",
+"front":"indications for diazepam (valium)",
+"back":"used for management of acute alcohol withdrawal\nused for short-term management of anxiety symptoms\nepilepsy"
+},
+{
+"id":"montis-39b072b4349d",
+"topic":"Pain, Anxiety and Agitation Meds",
+"front":"indications for lorazepam (ativan)",
+"back":"short term (4 mth) relief of anxiety symptoms\nanxiety related insomnia\nhave a rapid onset (1-3 minute onset when given IV)"
+},
+{
+"id":"montis-0468d7681142",
+"topic":"Pain, Anxiety and Agitation Meds",
+"front":"indications for midazolam",
+"back":"convulsive status epilepticus\nprocedural sedation\nmechanically ventilated pts often sedated w this"
+},
+{
+"id":"montis-f65e6749d551",
+"topic":"Pain, Anxiety and Agitation Meds",
+"front":"the main differences in lorazepam vs diazepam",
+"back":"10mg diazepam=2 to 2.5mg lorazepam\ndiazepam has a longer half life of about 48h, lorazepam has half life of 18h\ndiazepam is a long acting benzo, lorazepam is a short acting benzo"
+},
+{
+"id":"montis-e1d65205356a",
+"topic":"Headache",
+"front":"what is the SNNOOP10 criteria for dangerous headache symptoms?",
+"back":"systemic signs/symptoms\nneuro deficits or altered mental status\nneoplasm hx \nonset is thunderclap \nonset is >50yrs\npapilledema, precipitated by valsalva/exertion, painful eye + autonomic features, posttraumatic onset, pulsatile/tinnitus, pregnancy/postpartum, pathology of the immune system, progressive"
+},
+{
+"id":"montis-204d4d4f6bc5",
+"topic":"Headache",
+"front":"criteria for migraine w/o aura",
+"back":"1. >5 eps w the following criteria \n2. headache lasts 4-72h\n3. has 2+ of the following quaities: unilateral, pulsatile, moderate/severe intensity, aggravated by routine physical activity\n4. at least one of n/v or photo/phonophibia"
+},
+{
+"id":"montis-a1cf923bda92",
+"topic":"Headache",
+"front":"criteria for migraine w aura",
+"back":"2+ eps w the following criteria\nat least 1 of the following reversible sx: visual, sensory, speech/language, motor, brainstem, retinal\nhave sensation of aura, headache w/in 60 mins of aura"
+},
+{
+"id":"montis-3744338868cf",
+"topic":"Headache",
+"front":"vestibular migraine criteria \\",
+"back":"hx of migriane w/wo aura\nvestibular symptoms\nheadaches w unilatera/pulsating/mod to severe, agg by physical activity, photo/phonophobia, aura,"
+},
+{
+"id":"montis-c33c4a88993d",
+"topic":"Headache",
+"front":"three less common migraine types",
+"back":"brainstem aura: have dysarthria, vertigo, ataxia, tinnitus\nhemiplegic migraine: fully reversible motor/speech/language symptoms\nretinal migraine: monocular visual phenomena"
+},
+{
+"id":"montis-3dabd70a596a",
+"topic":"Headache",
+"front":"some features that can help differentiate between migraine aura vs stroke/TIA",
+"back":"migraine aura is usually gradual, stroke is sudden onset\nmigraine aura is usually positive phenomena such as flashing lights, zigzag lines, scintillating scotoma; stroke is neg phenomena such as visual loss, sensory loss, more pronounced speech/language sx \nyou can sometimes have mild speech/language sx in migraine aura"
+},
+{
+"id":"montis-e188a6284835",
+"topic":"Headache",
+"front":"what distinguishes vestibular migraine",
+"back":"one of the most common causes of recurent vertigo\nneed to exclude more serious causes of vertigo, but suspect in pts w recurrent migraine and vertigo/head-motion intolerance"
+},
+{
+"id":"montis-caa0c105b852",
+"topic":"Headache",
+"front":"who does med overuse headache typically occur in?",
+"back":"ppl who use analgesics frequently for min 3 months; used for >15d/mth\nd/c meds and should resolve"
+},
+{
+"id":"montis-206c68bda5aa",
+"topic":"Headache",
+"front":"three serious complications of migraine",
+"back":"1. status migranosus: migraine lasting >72hrs\n2. migrainous infarction: migraine assoc. w increased risk of ischemic stroke\n3. migraine aura-triggered seizure"
+},
+{
+"id":"montis-b239745873c0",
+"topic":"Headache",
+"front":"the three med classes with the highest recommendation to tx migraines in the ED",
+"back":"acetaminophen, NSAIDs, triptans"
+},
+{
+"id":"montis-80ce6c329b32",
+"topic":"Headache",
+"front":"initial mgmt protocol for an acute migraine",
+"back":"acetaminophen\nketorlac (toradol)\nmetoclopramide\nsumatriptan\ndexamethasone\nrepeat triptan if no relief w/in 1-2h"
+},
+{
+"id":"montis-db1e9a67803d",
+"topic":"Headache",
+"front":"the best nerve blocks to use for mgmt of acute migraine",
+"back":"1) sphenopalatine ganglion block\n2) greater occipital nerve block \nsecond line is a supraorbital nerve block"
+},
+{
+"id":"montis-86811855058e",
+"topic":"Headache",
+"front":"what else, in addition to analgesics/meds, should be given to pts w migraine in the ED",
+"back":"fluids!"
+},
+{
+"id":"montis-12caef0b8a49",
+"topic":"Headache",
+"front":"how to perform a SPG nerve block",
+"back":"either use a lidocane-soaked q tip and deposit intranasally, or can drip the lidocane using an angiocatheter into the nose"
+},
+{
+"id":"montis-30aa6f7dc9b8",
+"topic":"Headache",
+"front":"what to avoid in the tx of migraines",
+"back":"avoid opioids and barbituates in the tx"
+},
+{
+"id":"montis-c948484d7e61",
+"topic":"Headache",
+"front":"what to use to tx migraines in pregnant patients",
+"back":"metoclopramide, sumatriptan, mgso4, nerve blocks \navoid NSAIDs"
+},
+{
+"id":"montis-2480070094c0",
+"topic":"Headache",
+"front":"when should you offer someone preventative mirgraine tx?",
+"back":"- high frequency (8+ attacks in a month, 4+ not responding to therapy)\n- at risk of med overuse \n- headaches are ++ disabling"
+},
+{
+"id":"montis-f76d0ec4fa2e",
+"topic":"Headache",
+"front":"some lifestyle mods that can be used to manage headache",
+"back":"limit caffeine/alcohol, stay hydrated, protein w breakfast and keep snacks\nkeep reg sleep schedule, no naps\nroutine physical activity\navoid late night screens"
+},
+{
+"id":"montis-516d9287e0f9",
+"topic":"Headache",
+"front":"meds to use as migraine abortive meds",
+"back":"1. general analgesic: NSAID\n2. triptans (sumatriptan 25, 50 or 100mg)\n3. gepants/ditans: ubrogepant"
+},
+{
+"id":"montis-fa2a2c4002bb",
+"topic":"Headache",
+"front":"some migrane preventative meds that can be used",
+"back":"metoprolol (25-50 bid)/propanolol (40-80 bid)/amitryptyline (10 po qhs)\nmgso4 500-600, riboflavin 400, coenzyme q10 150mg"
+},
+{
+"id":"montis-00c935d7462e",
+"topic":"Hypertension",
+"front":"when should you initiate someone on dual therapy for htn?",
+"back":"if they have stage 2 htn (>140/>90); two drugs w complimentary moa"
+},
+{
+"id":"montis-9a32b5690be0",
+"topic":"Hypertension",
+"front":"when to initiate monotherapy tx in htn?",
+"back":"systolic 130-139 and diastolic 80-89 as per out of office daytime pressures"
+},
+{
+"id":"montis-abd28812f2ed",
+"topic":"Hypertension",
+"front":"what BP means that you should be treated for htn?",
+"back":"out of office of >135/>85 or in-office of >140/>90\nOR if they have other cv risk factors like CAD, DM, CKD, >130/>80"
+},
+{
+"id":"montis-d0bc25df46c3",
+"topic":"Hypertension",
+"front":"the drug classes used in the initial tx of htn",
+"back":"ACEi, ARB, CCB, thiazide/TLD"
+},
+{
+"id":"montis-26346f39653f",
+"topic":"Hypertension",
+"front":"some of the most common combo therapies for the tx of htn",
+"back":"ACEi and thiazide diuretic\nACEi and CCB\nARB and diuretic\nARB, CCB and diuretic"
+},
+{
+"id":"montis-0254b224fb96",
+"topic":"Hypertension",
+"front":"which two cv meds should you never prescribe at the same time?",
+"back":"ACEi and ARB, can lead to major renal and adverse cv events"
+},
+{
+"id":"montis-4156d91c0011",
+"topic":"Hypertension",
+"front":"the meds that should be used to tx htn in pts with hfref",
+"back":"BB\nmineralocorticoid receptor antagonist\nSGLT2i"
+},
+{
+"id":"montis-e1c995b5c165",
+"topic":"Hypertension",
+"front":"what are the best diuretics to manage htn?",
+"back":"thiazide-like diuretics, like chlorthalidone or indapamide, bc they have a longer duration of action"
+},
+{
+"id":"montis-e8d86e5dcff1",
+"topic":"Hypertension",
+"front":"the target BP for most ppl vs ppl w DM or CKD",
+"back":"<140/90 for non multimorbid \n<130/80 for those w CKD/DM"
+},
+{
+"id":"montis-f5e1fa3b09d9",
+"topic":"Hypertension",
+"front":"THE first line management for somone who is otherwise not multimorbid..what do you add if this doesn't work? what about after that?",
+"back":"ACEi (coversyl, dosing 2/4/6/8 mg forms)\nshould add a CCB (amlodipine) if this doesn't work\nshould then add a thiazide-like diuretic"
+},
+{
+"id":"montis-278faf67f8d7",
+"topic":"Hypertension",
+"front":"the optimal antihypertension therapy for someone with acute MI or ACS?",
+"back":"BBs indicated in anyone who has had a MI in the past three years\nusually also an ACEi and ARB"
+},
+{
+"id":"montis-c293d05226fe",
+"topic":"Hypertension",
+"front":"the tx of htn in CKD patients",
+"back":"usually ACEi or ARB\nwill also incorporate a thiazide-like diuretic"
+},
+{
+"id":"montis-95ad09c088f7",
+"topic":"Hypertension",
+"front":"best firstline therapy for htn in pts with DM",
+"back":"ACEi or ARB\nsame as other ppl ig"
+},
+{
+"id":"montis-674f3d54869f",
+"topic":"Hypertension",
+"front":"what should you do first if someone is on one BP med and has suboptimal BP control",
+"back":"make sure that they are taking their meds first!\nmake sure they are taking their BP correctly"
+},
+{
+"id":"montis-cab648d9fa6d",
+"topic":"Hypertension",
+"front":"the next med you should add in someone w uncontrolled htn",
+"back":"usually want to add a CCB\nalso super reasonable to treat with a TLD (indapamide)"
+},
+{
+"id":"montis-bbc275f913d1",
+"topic":"Hypertension",
+"front":"the definition of refractory htn",
+"back":"uncontrolled despite being on 5+ htn meds"
+},
+{
+"id":"montis-1d3816a7c320",
+"topic":"Hypertension",
+"front":"what dose should you escalate antihtn meds to before adding another one?",
+"back":"at least half the max recommended dose"
+},
+{
+"id":"montis-a7ea36473a06",
+"topic":"Anxiety Management",
+"front":"the best initial pharmacotherapy for the tx of GAD",
+"back":"SSRIs or SNRIs"
+},
+{
+"id":"montis-b20c8ec92245",
+"topic":"Anxiety Management",
+"front":"the most effective SSRIs in the tx of GAD",
+"back":"paroxetine, sertraline, citalopram, escitalopram"
+},
+{
+"id":"montis-29911ebee5bc",
+"topic":"Anxiety Management",
+"front":"the most effective SNRIs in the tx of GAD",
+"back":"venlafaxine and duloxetine"
+},
+{
+"id":"montis-b602ba9e3fbb",
+"topic":"Anxiety Management",
+"front":"how to dose SRIs in the tx of GAD?",
+"back":"you should start at the lowest initial dose, titrate up to the lower end of the therapeutic dose after 1wk, then inc up every 3-4 days"
+},
+{
+"id":"montis-bff8ab186535",
+"topic":"Anxiety Management",
+"front":"time to onset of clinically meaningful action of SRIs>",
+"back":"usually about 4 weeks, but allow 4-6 weeks for full effects"
+},
+{
+"id":"montis-dac4e90cf2c4",
+"topic":"Anxiety Management",
+"front":"how should you optimize dosing in patients who do not show an initial robust response to SRI treatment?",
+"back":"you should increase the dosing in one-week increments until the maximim dose is reached or improvement is seen"
+},
+{
+"id":"montis-6e2fe784d1ea",
+"topic":"Anxiety Management",
+"front":"describe the dosing schedule of sertraline",
+"back":"initiate at 25mg/day\nincrease to 50 and then 100 after a week\ncontinue 100 for 4-6 wks\nif no improvement, inc at 50mg increments until reach 200mg/day"
+},
+{
+"id":"montis-59703d9ac99c",
+"topic":"Anxiety Management",
+"front":"some of the most common side effects of SRIs",
+"back":"sexual dysfunction\nGI changes (n/d)\ninsomnia (dose in the AM)\nwt gain\ndizziness"
+},
+{
+"id":"montis-39e31e32e569",
+"topic":"Anxiety Management",
+"front":"what can you add to SRI tx to help offset the side effects?",
+"back":"1) ppl w no substance use hx: lorazepam 1-2mg divided bid\nuse for 4-6 wks and then taper\n2) ppl w substance use disorder: nonaddicive sedating med like hydroxyzine (antihistamine) or gabapentin for 4-6 wks and taper"
+},
+{
+"id":"montis-de6d9687435a",
+"topic":"Anxiety Management",
+"front":"what should you do for paitents with suboptimal management to SRI tx?",
+"back":"you should taper off the initial med and taper on a second, different med\ninadequate response to one med does not mean failure of all SRIs"
+},
+{
+"id":"montis-0a5d3049bf2a",
+"topic":"Anxiety Management",
+"front":"what should you do for pts with a suboptimal response to SRI tx?",
+"back":"should add busperione 10mg daily; can taper up to 60 mg/day\ngabapentin/pregab can also be used"
+},
+{
+"id":"montis-0484a163f2ef",
+"topic":"Anxiety Management",
+"front":"what do you have to be careful of causing in ppl on SSRIs/other anxiolytic/antidepressant meds",
+"back":"serotonin syndrome; can happen in ppl on two meds from the classes SSRIs, SNRIs, TCAs etc"
+},
+{
+"id":"montis-dda01548ffcc",
+"topic":"Anxiety Management",
+"front":"what is citalopram used to tx? generic name?",
+"back":"celexa, firstline for management of panic disorder\nsecond line for social anxiety disorder"
+},
+{
+"id":"montis-5db6e57077c6",
+"topic":"Anxiety Management",
+"front":"what is escitalopram used to tx? brand name? Class?",
+"back":"lexapro/cipralex\nSSRI\nfirstline for GAD, SAD, panic disorder"
+},
+{
+"id":"montis-f25ef505322f",
+"topic":"Anxiety Management",
+"front":"what is fluoxetine used to tx? brand name? Class?",
+"back":"first line for panic disorder\nprozac\nSSRI"
+},
+{
+"id":"montis-96808c38a9f6",
+"topic":"Anxiety Management",
+"front":"what is paroxetine used to tx? brand name? Class?",
+"back":"first line for GAD, SAD and panic disorder\nSSRI\nPaxil"
+},
+{
+"id":"montis-d134271cccd8",
+"topic":"Anxiety Management",
+"front":"what is sertraline used to tx? brand name? Class?",
+"back":"first line in the tx of GAD, panic disorder, SAD\nSSRI\nZoloft"
+},
+{
+"id":"montis-0067bd62fced",
+"topic":"Anxiety Management",
+"front":"what is duloxetine used to tx? brand name? Class?",
+"back":"first line for the tx of GAD\nSNRI\nCymbalta"
+},
+{
+"id":"montis-cc1092a95599",
+"topic":"Anxiety Management",
+"front":"what is venlafaxine used to tx? brand name? Class?",
+"back":"first line in the tx of GAD, SAD and panic disorder\nSNRI\nefexor"
+},
+{
+"id":"montis-76a04b702a22",
+"topic":"Anxiety Management",
+"front":"what is clomipramine used to tx? brand name? Class?",
+"back":"TCA\nsecond line in the tx of panic disorder\nanafranil"
+},
+{
+"id":"montis-0dd6c17945b3",
+"topic":"Anxiety Management",
+"front":"some of the most common side effects of SSRIs",
+"back":"sexual dysfunction\nGI complaints \nwt gain\nheadaches\ninsomnia/sedation\nrisk of suicide in the early days of tx"
+},
+{
+"id":"montis-113de2ac7843",
+"topic":"Anxiety Management",
+"front":"some of the common side effects of SNRIs",
+"back":"nausea\ndrowsiness\ndizziness\nreduced appetite\nsexual df\nvenlafaxine is ++ energizing"
+},
+{
+"id":"montis-c4d2bde28adc",
+"topic":"Anxiety Management",
+"front":"some of the common side effects",
+"back":"dry mouth, tremors, constipation, sedation, orthostatic hypotension, can cause arrhythmias"
+},
+{
+"id":"montis-023e784d37b6",
+"topic":"ECG Bootcamp",
+"front":"how much is one small box on an ECG, one large box on the x axis",
+"back":"one small is 0.04s, large is 5 small (0.2s)"
+},
+{
+"id":"montis-fe77a798d644",
+"topic":"ECG Bootcamp",
+"front":"the value of one small box on the y axis",
+"back":"0/1 mV, represents the voltage of contraction of the myocardium"
+},
+{
+"id":"montis-92038048462d",
+"topic":"ECG Bootcamp",
+"front":"what does a small upward deflection vs large upward deflection mean on ECG",
+"back":"small: low voltage, thin myocardial contraction (atria, p wave)\nlarge: high voltage, thick myocardial contraction (ventricle, QRS)"
+},
+{
+"id":"montis-3b9bb3004bde",
+"topic":"ECG Bootcamp",
+"front":"the septal vs anterior vs lateral percordial leads",
+"back":"V1/V2 septal\nV3/V4 anterior\nV5/V6 lateral"
+},
+{
+"id":"montis-09a9c405694b",
+"topic":"ECG Bootcamp",
+"front":"what does the PR interval mean, duration",
+"back":"the time it takes for an impulse to travel from SA to AV node\nfrom the beginning of the P wave to the first deflection of the QRS cplx\nshould be 0.12 to 0.20s, or 3-5 small squares"
+},
+{
+"id":"montis-40669d234abb",
+"topic":"ECG Bootcamp",
+"front":"what does the QT interval mean, optimal duration",
+"back":"ventricular dep, contraction and rep\nfrom start of QRS to end of T\nshould be no longer than 440 ms (0.44s, or about 11 small/2-ish large boxes)"
+},
+{
+"id":"montis-106a9ec41402",
+"topic":"ECG Bootcamp",
+"front":"how to calculate HR on ECG",
+"back":"300/number of large squares between R-R"
+},
+{
+"id":"montis-5953cba32272",
+"topic":"ECG Bootcamp",
+"front":"sinus criteria",
+"back":"normal p wave morphology, upright in I/II and inverted in aVR\nnormal QRS after every P\nnormal and constant PR-RR intervals"
+},
+{
+"id":"montis-15d35075d1b7",
+"topic":"ECG Bootcamp",
+"front":"duration of PR interval",
+"back":"0.12 to 0.2 s (3-5 small boxes)"
+},
+{
+"id":"montis-333428a8a88f",
+"topic":"ECG Bootcamp",
+"front":"the duration of QRS complex",
+"back":"<0.12s (<3 small boxes)"
+},
+{
+"id":"montis-bd74aa5792e3",
+"topic":"ECG Bootcamp",
+"front":"normal QT interval duration",
+"back":"0.30 to 0.46s (about 8 small-11small boxes or 2 large approx)"
+},
+{
+"id":"montis-1e54947257c2",
+"topic":"ECG Bootcamp",
+"front":"where is the lowest/highest voltage of the R wave",
+"back":"lowest in V1, highest in V6"
+},
+{
+"id":"montis-6ee7c4bf8bd6",
+"topic":"ECG Bootcamp",
+"front":"definition of 1st deg AV block",
+"back":"PR interval >0.2s (1 large box)"
+},
+{
+"id":"montis-b3ea7558e8c6",
+"topic":"ECG Bootcamp",
+"front":"what does multifocal atrial tachycardia typically mean?",
+"back":"usually seen in elderly pts w respiratory failure (COPDe, CHF)"
+},
+{
+"id":"montis-e335f1eb8578",
+"topic":"ECG Bootcamp",
+"front":"where does SVT originate from?",
+"back":"above the bundle of His (since faster than the built-in rate of the bundle of His)"
+},
+{
+"id":"montis-363209de4af8",
+"topic":"ECG Bootcamp",
+"front":"management of AV nodal re-entry tachycardia",
+"back":"adenosine is the mainstay of tx"
+},
+{
+"id":"montis-298b8deac9a6",
+"topic":"ECG Bootcamp",
+"front":"rate of spontaneous dep of the SA node/atria/av node/ventricles",
+"back":"• SA node (60-100 bpm)\n• Atria (< 60 bpm)\n• AV node (40-60 bpm)\n• Ventricles (20-40 bpm)"
+},
+{
+"id":"montis-40c90a9c6e42",
+"topic":"ECG Bootcamp",
+"front":"when does a junctional escape beat happen?",
+"back":"when the rate of the supraventricular pacemaker arriving at the AV node/ventricle is slower than the intrinsic rate of the pacemaker there"
+},
+{
+"id":"montis-21f12b8d04bf",
+"topic":"ECG Bootcamp",
+"front":"How does a PVC happen?",
+"back":"• Ectopic impulses from subsidiary pacemakers are normally suppressed by more rapid impulses from above\n• However, if an ectopic focus depolarises early enough — prior to the arrival of the next sinus impulse — it may “capture” the ventricles, producing a premature contraction"
+},
+{
+"id":"montis-143888241a00",
+"topic":"ECG Bootcamp",
+"front":"sustained vs nonsustained vtach",
+"back":"• Sustained = Duration > 30 seconds, or requiring intervention due to haemodynamic compromise\n• Non-sustained = Three or more consecutive ventricular complexes, terminating spontaneously in < 30 seconds"
+},
+{
+"id":"montis-d43e57d9ce49",
+"topic":"ECG Bootcamp",
+"front":"where does TdP originate?",
+"back":"in the ventricles rather than in the atria"
+},
+{
+"id":"montis-ae80d755645b",
+"topic":"ECG Bootcamp",
+"front":"some of the most common physiological causes of TdP",
+"back":"anything that can cause QT prolongation: Hypokalemia, hypomagnesemia, alcohol, diarrhea (HHAD)"
+},
+{
+"id":"montis-494a31ac6427",
+"topic":"ECG Bootcamp",
+"front":"some of the most common drugs that can cause QT prolongation and TdP",
+"back":"methadone, amiodarone, procanimide, lithium, erythromycin, chloroquine"
+},
+{
+"id":"montis-ec54b0705851",
+"topic":"ECG Bootcamp",
+"front":"what is considered to be a normal vs long QT in males vs females",
+"back":"normal male: 0.43\nnormal female: 0.45\nlong male: 0.45\nlong female: 0.47"
+},
+{
+"id":"montis-3fdab856e685",
+"topic":"Antiarrhythmics",
+"front":"What are class 1 antiarrhythmics?",
+"back":"they are sodium channel blockers"
+},
+{
+"id":"montis-459241901280",
+"topic":"Antiarrhythmics",
+"front":"why are Na channel blockers (class 1) so effective?",
+"back":"because they increase the refractory phase of the cardiac myocyte, allowing for slowing of the HR"
+},
+{
+"id":"montis-a30a4cb99e57",
+"topic":"Antiarrhythmics",
+"front":"some of the arrhythmias that class 1 antiarrhythmics are ++ effective at treating",
+"back":"SVTs including afib, WPW syndrome"
+},
+{
+"id":"montis-e0cc8f332b10",
+"topic":"Antiarrhythmics",
+"front":"some examples of class 1 antiarrhythmics",
+"back":"quinidine, procainamide, and disopyramide"
+},
+{
+"id":"montis-fed18df8b032",
+"topic":"Antiarrhythmics",
+"front":"how do bbs work?",
+"back":"they decrease sympathetic stimulation of the SA and AV node\ndecrease SA node firing and slow the rate of conduction through the AV node"
+},
+{
+"id":"montis-cf2fdfa8f315",
+"topic":"Antiarrhythmics",
+"front":"what are BBs really good at treating",
+"back":"SVTs like afib, also ventricular tachycardias"
+},
+{
+"id":"montis-f1f1ad2542b1",
+"topic":"Antiarrhythmics",
+"front":"what are class 2 antiarrhythmics?",
+"back":"beta blockers, the people's drug :3"
+},
+{
+"id":"montis-17631f97887c",
+"topic":"Antiarrhythmics",
+"front":"what are class 3 antiarrhythmics, how do they work?",
+"back":"they are K+ channel blockers, work mostly at non-nodal cells by blocking the K+ channel and elongate the refractory period"
+},
+{
+"id":"montis-d1c906294358",
+"topic":"Antiarrhythmics",
+"front":"what is important to remember about using K+ channel blockers?",
+"back":"since they prolongate phase 3 of the non-nodal cardiac action potential, this corresponds w the QT interval and you also have QT interval prolongation"
+},
+{
+"id":"montis-cd03b447e466",
+"topic":"ECG Bootcamp",
+"front":"what is a dangerous complication of TdP",
+"back":"you can have vfib :("
+},
+{
+"id":"montis-7ce837299bb0",
+"topic":"Antiarrhythmics",
+"front":"what are some examples of class 3 antiarrhythmics?",
+"back":"sotalol, amiodarone"
+},
+{
+"id":"montis-158f3cd647cd",
+"topic":"Antiarrhythmics",
+"front":"what are class 4 antiarrhythmics",
+"back":"the CCBs"
+},
+{
+"id":"montis-79223f1e24ad",
+"topic":"Antiarrhythmics",
+"front":"the two types of CCBs, difference between the two of them",
+"back":"have your dihydropiridine (work at the blood vessels) and non-DHP (work at the heart)"
+},
+{
+"id":"montis-a492cf754e2d",
+"topic":"Antiarrhythmics",
+"front":"what are CCBs best at treating?",
+"back":"SVTs, less good at treating vtach"
+},
+{
+"id":"montis-aecac1baa888",
+"topic":"Antiarrhythmics",
+"front":"some examples of CCBs",
+"back":"verapamil, diltiazem are the most common"
+},
+{
+"id":"montis-b99c58e6cfa2",
+"topic":"ECG Bootcamp",
+"front":"what are some clues of vtach on an ecg",
+"back":"- a regular, wide QRS tachycardia\n- AV dissociation\n- all QRS complexes in V1 to V6"
+},
+{
+"id":"montis-bce0b9a58436",
+"topic":"ECG Bootcamp",
+"front":"what does a PAC vs PVC look like on ECG?",
+"back":"PVC: early, wide and bizzare QRS that is not preceeded by a P wave, often compensatory pause\nPAC: bizzare P morphology followed by normal QRS and compensatory pause"
+},
+{
+"id":"montis-11d921017373",
+"topic":"ECG Bootcamp",
+"front":"what is the normal junctional escape rate",
+"back":"about 40-60 BPM"
+},
+{
+"id":"montis-d5f7a1c13dbf",
+"topic":"Antiemetics",
+"front":"anti-muscarinic antiemetics, pathway/example",
+"back":"acts on the vestibular pathway\nscopolamine"
+},
+{
+"id":"montis-66df43369b56",
+"topic":"Antiemetics",
+"front":"antihistamine class, examples/MOA",
+"back":"diphenhydramine/meclizinem, act on vestibular input"
+},
+{
+"id":"montis-a0634d85ebff",
+"topic":"Antiemetics",
+"front":"which antiemetics are best to tx motion sickness/vertigo/migranine-induced nausea",
+"back":"scopolamine, diphenhydramne, meclizine bc they target the inner ear"
+},
+{
+"id":"montis-aebf6b9d0206",
+"topic":"Antiemetics",
+"front":"examples of dopaminergic antagonist antiemetics",
+"back":"metoclopramide, chlorpromazine, promethazine"
+},
+{
+"id":"montis-3daf4e5526be",
+"topic":"Antiemetics",
+"front":"how do dopaminegic antiemetics work?",
+"back":"the vomiting centre of the brain receives chemoreceptor feedback via dopimerergic pathways; these block the the path"
+},
+{
+"id":"montis-eb0c6b924a4a",
+"topic":"Antiemetics",
+"front":"serotonin antagonist antiemetics",
+"back":"ondansetron and granisteron"
+},
+{
+"id":"montis-d9c05b7cbca5",
+"topic":"Antiemetics",
+"front":"how do the serotonin antagoinst antiemetics work",
+"back":"they block seritonergic input into the vomiting centre of the brain from chemoreceptor trigger zone and the afferent GI pathways"
+},
+{
+"id":"montis-71bd633759ce",
+"topic":"Antiemetics",
+"front":"what antiemetic is often used for chemo-induced n/v",
+"back":"neurokinin-1 antagnoists (aprepitant (po) or fosaprepitant (IM))"
+},
+{
+"id":"montis-8cab962bc424",
+"topic":"Antiemetics",
+"front":"which drug can be used as an antiemetic for chemo-induced n/v",
+"back":"dexamethasone"
+},
+{
+"id":"montis-d6256fc0139c",
+"topic":"Antiemetics",
+"front":"what can be used to control anticipatory n/v?",
+"back":"lorazepam and alprazolam (benzooooos)"
+},
+{
+"id":"montis-f5b0bc6913bb",
+"topic":"Antiemetics",
+"front":"when are promotility agents used",
+"back":"when vomiting is blocked due to a motility disorder such as gastroparesis\nmetoclopramide is useful here"
+},
+{
+"id":"montis-fb99fdde8fd7",
+"topic":"Antiemetics",
+"front":"which abx has promotility properties?",
+"back":"erythromycin, works on motlin receptors in the gut\nthought to improve n/v (but not firstline)"
+},
+{
+"id":"montis-c05ff96bc505",
+"topic":"Antiemetics",
+"front":"what is the best drug for postop nausea and vomiting",
+"back":"zofran, the people's drug :3"
+},
+{
+"id":"montis-e9caec717e0f",
+"topic":"Antiemetics",
+"front":"what is best to tx nausea associated with pain or anxiety?",
+"back":"glucocorticoid, benzo or even cannabinoid"
+},
+{
+"id":"montis-2d9998f76d1f",
+"topic":"Bugs + Drugs",
+"front":"g+cocci species",
+"back":"strep anything \nstaph anything\nenterococcus"
+},
+{
+"id":"montis-516cf7567f28",
+"topic":"Bugs + Drugs",
+"front":"G+ rods species",
+"back":"listeria \nclostridium\nbacillus cereus"
+},
+{
+"id":"montis-9b247ca87838",
+"topic":"Bugs + Drugs",
+"front":"g- cocci species",
+"back":"neisseria (gonorrhea, meningiditis)\nmoraxella"
+},
+{
+"id":"montis-88c5f25b901f",
+"topic":"Bugs + Drugs",
+"front":"g- resp rods species",
+"back":"haemophilus influenzae\nklebsiella\nlegionella"
+},
+{
+"id":"montis-90e3a3bf5401",
+"topic":"Bugs + Drugs",
+"front":"g- GI rods species",
+"back":"e coli\nsalmonella\nshigella"
+},
+{
+"id":"montis-3f80a80650b3",
+"topic":"Bugs + Drugs",
+"front":"g- urinary tract rods species",
+"back":"e coli (mostly)\nenterobacter\nproteus\nserratia"
+},
+{
+"id":"montis-4d31bbf6d5f6",
+"topic":"Bugs + Drugs",
+"front":"most common nosocomial g-s",
+"back":"acinetobacter\npseudomonas"
+},
+{
+"id":"montis-474946dd32fe",
+"topic":"Bugs + Drugs",
+"front":"most common obligate aerobe",
+"back":"pseudomonas"
+},
+{
+"id":"montis-e681417205c1",
+"topic":"Bugs + Drugs",
+"front":"what is a facultative anerobe example",
+"back":"e coli!"
+},
+{
+"id":"montis-87ccf3eced10",
+"topic":"Bugs + Drugs",
+"front":"obligate anaerobes",
+"back":"bacterioides fragilis, clostridium perfringens/clostridium spp"
+},
+{
+"id":"montis-4a73e3c325d1",
+"topic":"Bugs + Drugs",
+"front":"what makes some areas of the body so delicious for anaerobes?",
+"back":"the oxidation-reduction potential of the tissue\nsince things like the colon, peridontal pocket or crush injuries leading to impaired blood supply"
+},
+{
+"id":"montis-999c34da2a87",
+"topic":"Bugs + Drugs",
+"front":"the two anaerobic bacteria not normally part of the human flora",
+"back":"clostridium botulinium and clostridium tetani (found in soil lmao)"
+},
+{
+"id":"montis-a8bbdc1e526d",
+"topic":"Bugs + Drugs",
+"front":"some of the main clinical signs and symptoms of an anaerobic infection",
+"back":"abscesses in the lungs, colon, brain, biliary tract etc\nfoul-smelling discharge, gas in the tissue, necrotic tissue"
+},
+{
+"id":"montis-1a998b99bba8",
+"topic":"Bugs + Drugs",
+"front":"some of the most common abx used to tx anaerobic infxns",
+"back":"clindamycin, piptaz, amp-sul, metronidazole"
+},
+{
+"id":"montis-791af8a8afb7",
+"topic":"Bugs + Drugs",
+"front":"the main differentiating property between staph and strep (2)",
+"back":"staph are in clusters, strep are in chains\nstaph produces catalase (degrade H2O2) whereas strep does not"
+},
+{
+"id":"montis-6ac2f9980846",
+"topic":"Bugs + Drugs",
+"front":"what are some of the most common infections caused by s aureus",
+"back":"pyogenic infections (endocarditis, septic arthritis)\nTSS,scalded skin syndrome\nSSTIs like cellulitis and impetigo\nHAP, wound infections post surgery"
+},
+{
+"id":"montis-1b46cac712a4",
+"topic":"Bugs + Drugs",
+"front":"what kinds of infections does staph epidermis usually cause",
+"back":"prosthetic joint infections\nprosthetic valve endocarditis"
+},
+{
+"id":"montis-ac3e9c8b7b8f",
+"topic":"Bugs + Drugs",
+"front":"what does staph saprophyticus usuallt cause?",
+"back":"UTI"
+},
+{
+"id":"montis-dce9e07e5c62",
+"topic":"Bugs + Drugs",
+"front":"the differencr between s aureus, s epidermidis and s sapro",
+"back":"s aureus is coagulase pos whereas the other two are coag neg"
+},
+{
+"id":"montis-ff78b0cd2dc8",
+"topic":"Bugs + Drugs",
+"front":"some of the most common abx used to treat s aureus",
+"back":"amoxi-clav is really good po option\nctx \ncipro\ncephalexin\nancef"
+},
+{
+"id":"montis-17fcac3a0982",
+"topic":"Bugs + Drugs",
+"front":"what does strep pyogenes (GAS) usually cause",
+"back":"pharyngitis\ncellulitis\nimportant cause of impetigo, nec fasc, strep TSS\nalso causes rheumatic fever and acute glomerulonephritis"
+},
+{
+"id":"montis-0b07cb30851c",
+"topic":"Bugs + Drugs",
+"front":"what pathogen is the most common cause of endocarditis",
+"back":"viridans group streptococci"
+},
+{
+"id":"montis-5bb31d787439",
+"topic":"Bugs + Drugs",
+"front":"what does group D streptotocci include",
+"back":"enterococci (E. fecalis) and S. bovis"
+},
+{
+"id":"montis-efedfc194fbe",
+"topic":"Bugs + Drugs",
+"front":"s. pyogenes (GAS) causes three types of diseases. what are they?",
+"back":"1. pyogenic diseases such as pharyngitis and cellulitis, SSTIs\n2. toxigenic diseases such as scarlet fever, TSS\n3. immunologic diseases such as rheumatic fever and AGN"
+},
+{
+"id":"montis-67c3e3292536",
+"topic":"Bugs + Drugs",
+"front":"what can be used to treat uncomplicated strep infections?",
+"back":"pen G\namoxicillin/amoxiclav\nerythromycin/azithromycin is a good sub in pen-allergic pts"
+},
+{
+"id":"montis-2e81f82d64c9",
+"topic":"Bugs + Drugs",
+"front":"VRE tx?",
+"back":"linezolid or dapto"
+},
+{
+"id":"montis-8e55f91afee4",
+"topic":"Bugs + Drugs",
+"front":"strep pneumo infections",
+"back":"pneumonia, bactermia, meningitis, infxns of URI such as AOM, sinusitis"
+},
+{
+"id":"montis-2607dc640447",
+"topic":"Bugs + Drugs",
+"front":"tx of s pneumo",
+"back":"usually penicillins or erythromycin \nalso don't forget the vaccine!"
+},
+{
+"id":"montis-e88a0150f064",
+"topic":"Bugs + Drugs",
+"front":"the order that you should interpret the morphology of an ECG in",
+"back":"[image]"
+},
+{
+"id":"montis-93a82405d702",
+"topic":"Bugs + Drugs",
+"front":"the criteria for sinus",
+"back":"P before every QRS\nupright in leads I/II and inverted in aVR"
+},
+{
+"id":"montis-3aa7096110fa",
+"topic":"ECG Bootcamp",
+"front":"the order in which you should interpret things in an ECG",
+"back":"[image]"
+},
+{
+"id":"montis-b6dadcd751ef",
+"topic":"ECG Bootcamp",
+"front":"criteria for sinus",
+"back":"P before every QRS\np upright in I/II and inverted in aCR"
+},
+{
+"id":"montis-99f6265620cf",
+"topic":"ECG Bootcamp",
+"front":"what characterizes R atrial enlargement? causes?",
+"back":"[image] tall/peaked P wave \nmost commonly due to cor pulmonale, sometimes tricuspid stenosis"
+},
+{
+"id":"montis-ae4a2e852576",
+"topic":"ECG Bootcamp",
+"front":"what characterizes L atrial enlargement on ECG, causes?",
+"back":"[image] broad + bifib wave in lead 2\nmitral stenosis, HoCm, aortic stenosis"
+},
+{
+"id":"montis-6d7519ede23b",
+"topic":"ECG Bootcamp",
+"front":"because you can never seem to remember...\nwhat is the definition of 1st/2nd type 1/2/2:1/third deg heart block",
+"back":"first deg: PR >0.2s (1 big box)\nsecond deg type 1: longer/longer/longer drop\nsecond deg 2: randomly dropped QRS\n2:1/fixed ratio: fixed ratio between the P waves and QRS complexes\n3rd deg: no relationship between P waves and QRS waves"
+},
+{
+"id":"montis-157b43ec1e77",
+"topic":"ECG Bootcamp",
+"front":"what are some common causes of wide QRS (>3 squares)",
+"back":"BBB, hyperkalemia, vtach"
+},
+{
+"id":"montis-9f3455901233",
+"topic":"ECG Bootcamp",
+"front":"what does PAILS tell you?",
+"back":"tells you where to look for reciprocal changes in an ECG during STEMI\neg for anterior ST elevation, will have depression in the inferior leads"
+},
+{
+"id":"montis-90475c4b6478",
+"topic":"ECG Bootcamp",
+"front":"what should your next investigation be when someone presents with an ECG concerning for posterior MI?",
+"back":"order a 15 lead\nhas leads on the posterior chest that lets you better see post MIs"
+},
+{
+"id":"montis-ef9b8bdb56b2",
+"topic":"ECG Bootcamp",
+"front":"what is brugada syndrome?",
+"back":"inherited genetic disorder that causes heart arrhythmias etc\nyou will see on ECG ST elevation in V1-V3 and a RBBB pattern"
+},
+{
+"id":"montis-e01c32b505af",
+"topic":"ECG Bootcamp",
+"front":"where is the best place to look for QRS morphology changes in RBBB vs LBBB",
+"back":"L: V5/V6\nR: V1/V2/V3"
+},
+{
+"id":"montis-7b621bf4de23",
+"topic":"Anemia",
+"front":"what are the main causes of microcytic anemia",
+"back":"TAILS\nThalassemia\nAnemia of chronic disease\niron def anemia\nlead poisoning\nsideroblastic anemia"
+},
+{
+"id":"montis-05adceb5fefb",
+"topic":"Anemia",
+"front":"what is sideroblastic anemia",
+"back":"type of microcytic anemia that causes impaired iron use during erythropoiesis\nleads to ring sideroblasts (rings of non-heme iron) within the bone marrow\ncan be congenital or acquired (MDS subset, alcohol, iatrogenic from isoniazid)"
+},
+{
+"id":"montis-8dce404b97df",
+"topic":"Anemia",
+"front":"the most common causes of normocytic anemia",
+"back":"ACD\nHemolysis\nAcute blood loss\nBM failure (infiltrative processes, aplastic anemia)\nHypersplenism\n(HABAH)"
+},
+{
+"id":"montis-7b2dfd0e2eeb",
+"topic":"Anemia",
+"front":"the most common causes of macrocytic anemia",
+"back":"FATRBC\nFetus (pregnancy)\nAlcohol\nThyroid\nReticulocytosis\nB12/folate\nCirrhosis/cancer/chronic renal disease"
+},
+{
+"id":"montis-aea7a6cc7f67",
+"topic":"Anemia",
+"front":"how does hypothyroidism cause anemia?",
+"back":"decreases the amount of epo produced, leading to anemia"
+},
+{
+"id":"montis-2337fc4d97c8",
+"topic":"Anemia",
+"front":"the two subtypes of macrocytic anemia and the diseases that fit into each",
+"back":"megaloblastic: B12/folate def\nnon-megaloblastic: Etoh related, MDS, hypothyroid, liver disease\nmegaloblastic just means that there are hypersegmented neutrophils present"
+},
+{
+"id":"montis-69db8f0d5a56",
+"topic":"Anemia",
+"front":"A lady comes in, otherwise healthy, 57F, with a Hb of 57, WBC 10.2, plt 12.0, MCV 82, retics 42 (N 40-100). What are some of the main tests, blood or otherwise, that you would order for her? there are ++, so be comprehensive and cover all of your bases like someone who loves IM would",
+"back":"LFTs, B12, TSH, Ferritin, Tsat, Cr, blood film, LDH, DAT, bili, haptaglobin, ECG, CXR, pan CT (?), Extended lytes, folate, Cu, B1, CRP/ESR, albumin, Ca\nwould proceed likely w SPEP/UPEP/SFLC and BmBx depending on results"
+},
+{
+"id":"montis-abc8466bd240",
+"topic":"Anemia",
+"front":"what is the normal range of ferritin",
+"back":"usually between 10-200ish, a bit lower for women and a bit higher for men"
+},
+{
+"id":"montis-bf4da7cc6080",
+"topic":"Anemia",
+"front":"ferritin in different types of microcytic anenia",
+"back":"IDA: low b/c iron stores are depleted \nThal: high b/c iron stores are high due to ineffective erythropoesis \nACD: high b/c ferritin is an acute phase reactant produced in response to inflammation; iron is sequestered w/in cells and leads to a buildup of ferritin"
+},
+{
+"id":"montis-b6b5ac7c91d0",
+"topic":"Anemia",
+"front":"what is hepcidin, what does it tell us?",
+"back":"hepcidin is a peptide hormone produced in the liver, regulator of iron homeostasis\nbinds to and degrades ferroportin, which is the protein responsible for iron transport from intracellular storage sites, decreasing iron levels in the body as needed by decreasing dietary absorption and inhibiting release from storage\nhepcidin is decreased in hereditary hemochromatosis (leading to increased iron levels in the body and iron overload)\nis also an acute phase reactant and IL-6 causes increased hepcidin and thus ACD"
+},
+{
+"id":"montis-27b4a63565be",
+"topic":"Anemia",
+"front":"transferrin saturation, causes of derangements, normal values",
+"back":"how much serum iron is bound (eg 15% means 15% occupied by iron)\nlow tsat= iron def anemia\nhigh=hemochromatosis/iron overload\nusually 25% or so"
+},
+{
+"id":"montis-ed80a6d3541b",
+"topic":"Anemia",
+"front":"what does a DAT tell you?",
+"back":"determines the presence of antibodies against circulating blood cells that indicate hemolysis (AIHA)"
+},
+{
+"id":"montis-3e847d2df554",
+"topic":"Anemia",
+"front":"haptoglobin",
+"back":"haptoglobin binds to free plasma hemoglobin released from lysed RBCs and allows degradative enzymes to gain access to the Hb \nUsed to evaluate for AIHA or other hemoltic process"
+},
+{
+"id":"montis-4de0ca99f828",
+"topic":"Anemia",
+"front":"three causes of folate deficiency",
+"back":"etoh use disorder\nanorexia\nmethotrexate"
+},
+{
+"id":"montis-da94138aa0e7",
+"topic":"Anemia",
+"front":"what does haptoglobin do in the setting of chronic liver disease",
+"back":"since produced in the liver, will decrease in the setting of CLD and will not mount appropriate response to hemolysis"
+},
+{
+"id":"montis-0638dca83b84",
+"topic":"Anemia",
+"front":"how does hemolysis/hemolytic processes impact the A1c?",
+"back":"since A1c is a three-month average, if cells keep being hemolyzed, there is no glycosylation to test and your a1c will be inaccurate"
+},
+{
+"id":"montis-d540bb0c51e4",
+"topic":"Anemia",
+"front":"what is MAHA",
+"back":"Microangiopathic hemolytic anemia (MAHA) is a nonimmune hemolysis (DAT neg) resulting from intravascular RBC fragmentation that produces schistocytes on a peripheral blood smear \n="
+},
+{
+"id":"montis-618d5e9d8394",
+"topic":"Anemia",
+"front":"characteristic labs indicating MAHA",
+"back":"DAT neg\ninc LDH\ninc indirect bili \nlow haptoglobin"
+},
+{
+"id":"montis-ae5d9bd74c23",
+"topic":"Anemia",
+"front":"most common diseases associaed with MAHA",
+"back":"TTP, hemolytic-uremic syndrome, DIC, HELLP syndrome"
+},
+{
+"id":"montis-1f14420b7f68",
+"topic":"Anemia",
+"front":"hellp syndrome",
+"back":"hemolysis, elevated liver enzymes, low platelets\nmost common in pregnant/postpartum pts and often is a complication of preeclampsia"
+},
+{
+"id":"montis-c645f30fefd8",
+"topic":"Anemia",
+"front":"typical findings in TTP",
+"back":"low plt, low hbg, normal coag studies, low haptoglobin and schistocytes"
+},
+{
+"id":"montis-a7a66090ab43",
+"topic":"Anemia",
+"front":"thalassemia dx and labs",
+"back":"dec a/b chains of hemoglobin produced\ndx made by hb electrophoresis\nlabs: normal ferritin, normal total iron binding capacity, normal iron, +++ low MCV"
+},
+{
+"id":"montis-1d02738459b4",
+"topic":"Anemia",
+"front":"tx of IDA",
+"back":"po iron vs IV iron if not tolerating or ++ symptomatic (Venofer x3 or monoferric x1, covered only in ED)"
+},
+{
+"id":"montis-83f7c3c9b585",
+"topic":"Anemia",
+"front":"macrocytic anemia causes",
+"back":"FATRBC\nfetus (pregnancy)\nalcohol\nthyroid\nreticulocytosis\nB12/folate (megaloblastic -> hypresegmented neuts)\ncirrhosis/cancer/chronic renal disease"
+},
+{
+"id":"montis-e8dc7e7b269a",
+"topic":"Anemia",
+"front":"pres of b12 def",
+"back":"glossitis\nfalls\nparesthesias\nesp older pts on a PPI, chrck their B12!!"
+},
+{
+"id":"montis-1dae3cb00a1a",
+"topic":"Anemia",
+"front":"tx of b12 def",
+"back":"symptomatic, IV 1000mg daily,then weekly x4 then monthly\npo if asymptomatic"
+},
+{
+"id":"montis-567f5c625fc2",
+"topic":"Anemia",
+"front":"pres and labs of anemia of chronic disease",
+"back":"low total iron binding capacity, low serum iron,inc ferritn \ntsat low bc body is (hiding iron"
+},
+{
+"id":"montis-3efcba336396",
+"topic":"Anemia",
+"front":"presentation of MM (labs and clinical)",
+"back":"SLiM CRAB\nsixty % plasmacytosis in BM\nlight chains I/U >100\nMRI 1+ focal lesion\nCalcium inc\nRenal insuffiency\nAnemia\nBone disease\n="
+},
+{
+"id":"montis-9121088205d3",
+"topic":"Anemia",
+"front":"the most important thing to ask yourself with normocytic anemia",
+"back":"inc reticulocytes or no\ninc retics: hemolysis?? Y=hemolytic anemia, N=bleeding\ndec retics: BM failure/suppression vs ACD"
+},
+{
+"id":"montis-e127051ebde6",
+"topic":"Anemia",
+"front":"acute labs seen in hemolysis",
+"back":"dec haptoglobin,bili inc, inc LDH, inc retics\nperipheral blood smear shows schistocytes\n**not reliable in pts w liver disease"
+},
+{
+"id":"montis-6dcffc36b6ab",
+"topic":"Anemia",
+"front":"two types of hemolytic anemia",
+"back":"DAT + = warm autoimmune hemolytic anemia, cold agglutinin\nDAT - = sickle cell, small vessel (MAHA vs TTP) or infections"
+},
+{
+"id":"montis-b40ab1b9473e",
+"topic":"Anemia",
+"front":"one specific lab finding for DIC",
+"back":"low fibrinogen \nreplace if <1.8 and bleeding or <1.5"
+},
+{
+"id":"montis-b7b3d90ed556",
+"topic":"Anemia",
+"front":"presentation of TTP",
+"back":"fever\nanemia\nthrombocytopenia\nrenal failure\nneuro sx"
+},
+{
+"id":"montis-ac3f95619cc1",
+"topic":"Pleural Effusions",
+"front":"transudate",
+"back":"develops d/t a change in hydrostatic pressure; less plasma means that fluid shifts out\nan increase in hydrostatic pressure, like in CHF, also can force fluid out through the endothelial spaces"
+},
+{
+"id":"montis-9d6eede02073",
+"topic":"Pleural Effusions",
+"front":"exudate",
+"back":"fluid that occurs d/t an inflammatory process\nincrease in the size of the interendothelial space means fluid and protein leaks out"
+},
+{
+"id":"montis-6396d5b1d453",
+"topic":"Pleural Effusions",
+"front":"what are Light's criteria",
+"back":"if one of the following is fulfilled, you have an exudate: \n1) pleural fluid:serum protein >0.5\n2) pleural fluid:serum LDH >0.6\n3) pleural fluid >2/3x ULN of plasma LDH"
+},
+{
+"id":"montis-aeaf64102f62",
+"topic":"Pleural Effusions",
+"front":"what is the pH of...\n1. normal pleural fluid\n2. transudate\n3. exudate (plus two other bonus characteristics)",
+"back":"1. 7.6\n2. transudate: 7.45-7.55\n3. exudate: 7.3-7.45 (plus elevated protein and LDH due to cell damage)"
+},
+{
+"id":"montis-5a3c2efcdbab",
+"topic":"Pleural Effusions",
+"front":"the main features of an uncomplicated parapneumonic effusion",
+"back":"associated w pna, non-loculated\nserosang/nonpurulent\nglucose >60, pH low-normal, elevated WBC"
+},
+{
+"id":"montis-98eb5e4d04bb",
+"topic":"Pleural Effusions",
+"front":"some of the main features of a complicated parapneumonic effusion",
+"back":"serosang/purulent exudate\nlow glucose <40\nelevated LDH\nlow pH 7.15-7\nelevated WBC"
+},
+{
+"id":"montis-3de9c791481e",
+"topic":"Pleural Effusions",
+"front":"some of the main features of a malignant pleural effusion",
+"back":"serosang vs sang vs purulent exudate\nglucose low at <40\npH low at <7.4\nelevated WBC, can have basophils, need bx"
+},
+{
+"id":"montis-da0caf92bedd",
+"topic":"Pleural Effusions",
+"front":"the characteristics of CHF pleural fluid",
+"back":"serous/serosang transudate, N glucose and pH"
+},
+{
+"id":"montis-71509096f7df",
+"topic":"Pleural Effusions",
+"front":"characteristics of TB pleural effusion",
+"back":"serous vs serosang exudate\nglucose 60-100\nlow pH at <7.4\nneed cx"
+},
+{
+"id":"montis-9d996d0957dd",
+"topic":"IMR Abx Review",
+"front":"g+ bacilli",
+"back":"spore forming: bacillus/clostridium\nnon spore forming: listeria, corynebacterium\nanaerobes: cutibacterium, actinomyces"
+},
+{
+"id":"montis-dcc3ad8d8900",
+"topic":"IMR Abx Review",
+"front":"what is special about the properties of dimorphic fungi, examples",
+"back":"blastomycosis, histoplasmosis, coccidiomycosis\nexists as yeast in body temp and mold at room temp"
+},
+{
+"id":"montis-c00702b80e11",
+"topic":"IMR Abx Review",
+"front":"some of the main abx that work against ESBL",
+"back":"arbapenem, TMP-SMX, FQ, AG (if sensitive, tobramycin, gentamycin)"
+},
+{
+"id":"montis-94a2dcbbac8a",
+"topic":"IMR Abx Review",
+"front":"one specific risk with linezolid",
+"back":"agranulocytosis"
+},
+{
+"id":"montis-ceb3f0ae16ce",
+"topic":"IMR Abx Review",
+"front":"some of the main abx used to treat pseudomonas",
+"back":"piptaz obvi\nceftazidime/cefipime\nsome of the fluoros (imi/mero), AGs, cipro"
+},
+{
+"id":"montis-2db64232860d",
+"topic":"IMR Abx Review",
+"front":"some of the main abx that can be used to tx enterococcus",
+"back":"ampicillin (if not resistant)\nvanco if not VRE\nline/dapto lmao"
+},
+{
+"id":"montis-9215b1de74db",
+"topic":"IMR Abx Review",
+"front":"what should you always treat klebsiella with",
+"back":"cephaloaporins!\nnot super sensitive to penicillins"
+},
+{
+"id":"montis-2f3d677c185a",
+"topic":"IMR Abx Review",
+"front":"what are amp c beta lactamases",
+"back":"they are beta lactamase enzymes that lead to reistance against some of the main abx usually used to tx b-lactamase resistance organisms (clavulanate, sulbactam, tazobactam)"
+},
+{
+"id":"montis-3151f2d18fcc",
+"topic":"IMR Abx Review",
+"front":"some of the organisms that usually harbour amp c beta lactamases",
+"back":"SPACE: serratia, proteus, acunetobacter, citrobacter, enterobacter"
+},
+{
+"id":"montis-c782318b9914",
+"topic":"IMR Abx Review",
+"front":"the main beta lactam abx",
+"back":"penicillins: amox, amp, pip, pen G\ncephalosporins\ncarbapenems\nmonobactams: azetronam"
+},
+{
+"id":"montis-114e79c9a736",
+"topic":"IMR Abx Review",
+"front":"some of the main beta lactamase inhibs",
+"back":"clavulin\nsulbactam\ntazobactam\nyay!"
+},
+{
+"id":"montis-847c72ce1156",
+"topic":"IMR Abx Review",
+"front":"what must the WBC in CSF be for bacterial meningitis? Glucose?",
+"back":"WBC >1000\nglucose very sus if <1.9"
+},
+{
+"id":"montis-c80464fd8218",
+"topic":"IMR Abx Review",
+"front":"main bugs causing meningitis in pts 18-50 and empiric rx",
+"back":"s. pneumo\nn. meningiditis\nh. influenzae\nvanco (covers s. pneumo)+ ceftriazone"
+},
+{
+"id":"montis-b29251ef661a",
+"topic":"IMR Abx Review",
+"front":"the pathogens you should cover w meningitis in ppl >50; empiric therapy",
+"back":"s. pneumo\nh. influenzae\nn. meningiditis\nl. monocytogens \nvanco+ ctx + ampicillin"
+},
+{
+"id":"montis-b6a53556ea27",
+"topic":"IMR Abx Review",
+"front":"the w/u recommended as per guidelines for IE",
+"back":"at least 2 sets of blood cx prior to abx\ninitial TTE for everyone"
+},
+{
+"id":"montis-04edd616dd8b",
+"topic":"IMR Abx Review",
+"front":"what are the HAECK organisms",
+"back":"g- bacteria that are very good at causing IE\nHaemophilus, Aggregatibacter, Cardiobacterium, Eikenella, and Kingella species."
+},
+{
+"id":"montis-7daa588683a0",
+"topic":"IMR Abx Review",
+"front":"other than the HAECK guys, which are the most common organisms to cause IE",
+"back":"s. aureus/lug, streptococci except GAS or pneumo, e fecalis"
+},
+{
+"id":"montis-4dfb54cefc5e",
+"topic":"IMR Abx Review",
+"front":"the main differences between e fecalis and e faecium",
+"back":"e fecalis is usually more virulent but more suceptible to abx\ne faecium is usually more abx resistant, including vanco resistance, often associated w VRE"
+},
+{
+"id":"montis-b22fce3dd61d",
+"topic":"Diuretics Crash Course",
+"front":"the indications for acetazolamide",
+"back":"hyperK (leads to renal loss of K)\nmetabolic alkalosis\nincreased ICP bc it reduces CSF secretion"
+},
+{
+"id":"montis-e66685f0e133",
+"topic":"Diuretics Crash Course",
+"front":"main contraindications to acetazolamide",
+"back":"hypoK or met acidosis\nstable and chronic met alk\nrenal failure\nadvanced liver disease (risk of encephalopathy)"
+},
+{
+"id":"montis-fb0492e5de75",
+"topic":"Diuretics Crash Course",
+"front":"some of the lyte abnormalities that can be precipitated by acetazolamide",
+"back":"reduces bicarb level\n+++ reduction in K\nreduces Ca\nreduces mag"
+},
+{
+"id":"montis-701ecdb0f5da",
+"topic":"Diuretics Crash Course",
+"front":"is acetazolamide useful for heart failure?",
+"back":"not really, noninferior to >60mg lasix when pts were on this prior to admission\nimproved decongestion and natriuresis"
+},
+{
+"id":"montis-78d5e044b2a7",
+"topic":"Diuretics Crash Course",
+"front":"MOA of acetazolamide",
+"back":"carbonic anhydrase inhibitor\nprevents reabsorption of Na bicarb in the proximal tubule"
+},
+{
+"id":"montis-3d7ae56de2cc",
+"topic":"Mechanisms of Resistance",
+"front":"if you see someone's bcx results are reported as g+ cocci in clusters overnight, what should you do?",
+"back":"start vanco 1.5g IV overnight and then reassess in the AM for speciation and susceptibility!"
+},
+{
+"id":"montis-e286578e6688",
+"topic":"Mechanisms of Resistance",
+"front":"what should you start as empiric tx for meningits if the cx results report as...\na) g+ cocci in chains\nb) g+ cocci in clusters",
+"back":"a) likely strep pneumo, only do ctx +/- ampicillin for listeria if in the right demographic\nb) should add vanco to empirically cover resistant strep pneumo"
+},
+{
+"id":"montis-f02fca03417c",
+"topic":"Mechanisms of Resistance",
+"front":"if someone's gram stain comes back as g+ cocci in chains/pairs, what could it be?",
+"back":"enterococcus\nlisteria\nstrep"
+},
+{
+"id":"montis-2d5ad2fbd0b2",
+"topic":"Mechanisms of Resistance",
+"front":"empiric tx for...\na) strep\nb) e. fecalis\nc) e. faecium",
+"back":"strep is ctx\ne. fecalis is amp\ne. faecium is vanco vs linezolid/dapto if in the ICU (but consult your local antibiogram!)"
+},
+{
+"id":"montis-17fa2464f5b6",
+"topic":"Mechanisms of Resistance",
+"front":"what is dalbavancin",
+"back":"semisynthetic lipoglycopeptide antibiotic that can be used in the tx of MRSA, meant to be an upgrade from vanco\nonce weekly and only two doses, can be used in dialysis pts"
+},
+{
+"id":"montis-769034be93ff",
+"topic":"Mechanisms of Resistance",
+"front":"main side effects of vancomycin",
+"back":"renal tox obvi\ncan also have vanco flushing syndrome if you run the vanco too quickly (histamine-mediated, not a drug allergy)"
+},
+{
+"id":"montis-2a141ddbb6a1",
+"topic":"Mechanisms of Resistance",
+"front":"some of the main side effects of dapto",
+"back":"1) inactivated by alveloar surfactant so can't use in lung\n2) eosinophilic pneumonitis\n3) can also cause rhabdo; need qweekly CK and d/c their statin"
+},
+{
+"id":"montis-018eb9235ddd",
+"topic":"Mechanisms of Resistance",
+"front":"some of the PO options in the tx of MRSA, which is best?",
+"back":"dapto, linezolid, septra, clinda\nline has the best coverage but poor tolerance :("
+},
+{
+"id":"montis-7296933e7009",
+"topic":"Mechanisms of Resistance",
+"front":"some of the main side effects of linezolid",
+"back":"peripheral neuropathy\nthrombocytopenia\nserotonin syndrome (if pt on SSRIs)\nyou don't need to renally adjust + is 100% bioavailable"
+},
+{
+"id":"montis-11b6bc6f700e",
+"topic":"Mechanisms of Resistance",
+"front":"some of the main risk factors for MRSA",
+"back":"IVDU\nlines/tubes/hospitalization\nclose contact, wrestling, gyms, jails"
+},
+{
+"id":"montis-410d2fad58b9",
+"topic":"Mechanisms of Resistance",
+"front":"what % of community-acquired staph is MRSA",
+"back":"20%"
+},
+{
+"id":"montis-1ec0c0b6ec69",
+"topic":"Mechanisms of Resistance",
+"front":"the two ways that susceptibility testing takes place",
+"back":"1) KB test, aka disc diffusion \n [image] \n2) E test, or MIC testing, where a strip with progressively increasing amounts of the abx of choice is placed on the strip and you measure the kill zone [image]"
+},
+{
+"id":"montis-72349a31500e",
+"topic":"Mechanisms of Resistance",
+"front":"what does a vanco MIC of 2 vs 4 mean?",
+"back":"2= concern for resistance\n4= VRSA, where the staph has thickened its own cell wall :("
+},
+{
+"id":"montis-eb3519acb0ae",
+"topic":"Mechanisms of Resistance",
+"front":"the second-best abx used to tx MSSA, other than ancef ofc",
+"back":"doxy"
+},
+{
+"id":"montis-a9e19c1aeeea",
+"topic":"Mechanisms of Resistance",
+"front":"some of the main side effects of doxy + dosing",
+"back":"BID dosing and no renal tox \nskin eruptions w sun exposure\npill esophagiits\ndecreased absorption of dosing with Ca/Mg supplements"
+},
+{
+"id":"montis-12feb0bbfe60",
+"topic":"Mechanisms of Resistance",
+"front":"the third best abx to treat MSSA",
+"back":"septra"
+},
+{
+"id":"montis-80fdd72c207f",
+"topic":"Mechanisms of Resistance",
+"front":"some of the main side effects of septra",
+"back":"AKI/AIN\nhyperK\nneed renal dosing"
+},
+{
+"id":"montis-8c5270c7d474",
+"topic":"Mechanisms of Resistance",
+"front":"which anti-MSSA antibiotic carries the highest c diff risk?",
+"back":"clinda lmao"
+},
+{
+"id":"montis-a82fc4b876e9",
+"topic":"Mechanisms of Resistance",
+"front":"what is the rapid test we use for detection of MRSA?",
+"back":"look for the presence of mecA gene, which is a gene that encodes for penicillin binding protein 2A (PBP-2A), which helps form the bacterial cell wall and leads to resistance against beta lactams :("
+},
+{
+"id":"montis-1b50d286033d",
+"topic":"Mechanisms of Resistance",
+"front":"what is the prozone phenomenon?",
+"back":"an immunologic phenomenon whereby the effectiveness of antibodies to form immune complexes can be impaired when concentrations of an antibody or an antigen are very high\n\nthis means that you might need to dilute samples of CSF, blood etc to find the organisms actually in them, because the organism burden is too high and the prozone phenomeonon comes into play; leads to false negatives"
+},
+{
+"id":"montis-40baf2ebcc80",
+"topic":"Mechanisms of Resistance",
+"front":"the morphology of nocardia",
+"back":"g+ bacilli, commonly found in the environment"
+},
+{
+"id":"montis-1601a85989d0",
+"topic":"Mechanisms of Resistance",
+"front":"who does nocardia primarily impact?",
+"back":"people who are immunocompromised or have chronic lung conditions"
+},
+{
+"id":"montis-29323b918869",
+"topic":"Mechanisms of Resistance",
+"front":"how does nocardia typically enter the host?",
+"back":"inhalation or traumatic disruption of the skin\nas such, typically presents as pulmonary or cutaneous disease"
+},
+{
+"id":"montis-9145fada0275",
+"topic":"Mechanisms of Resistance",
+"front":"how does pulmonary nocardiosis usually present?",
+"back":"with progressive dyspena and cough, with pulmonary nodules, consolitation and opacification on CT\nusually not GGO on CT"
+}
+]

@@ -1,0 +1,3326 @@
+[
+{
+"id":"montis-db1b08c6f704",
+"topic":"Anesthesia",
+"front":"A 60 year old male with a history of smoking and poorly controlled diabetes would fall into ASA class … ?",
+"back":"III"
+},
+{
+"id":"montis-d925b9fee1e9",
+"topic":"Anesthesia",
+"front":"There are … different ASA classification",
+"back":"6"
+},
+{
+"id":"montis-5354b50380f5",
+"topic":"Anesthesia",
+"front":"A patient with a ruptured aortic abdominal aneurysm would be ASA class ...",
+"back":"V"
+},
+{
+"id":"montis-cbe2a90bd3ce",
+"topic":"Anesthesia",
+"front":"A patient with chronic renal disease receiving routine hemodialysis undergoing surgery for acute appendicitis would be assigned to ASA class …",
+"back":"III"
+},
+{
+"id":"montis-8f77800db68e",
+"topic":"Anesthesia",
+"front":"A patient with severe valvular dysfunction undergoing surgery for mitral valve replacement would be ASA class …",
+"back":"IV"
+},
+{
+"id":"montis-ebc93b11867a",
+"topic":"Anesthesia",
+"front":"A patient undergoing routine C-section for delivery would be considered ASA class …",
+"back":"II"
+},
+{
+"id":"montis-1595c1f193ae",
+"topic":"Anesthesia",
+"front":"An otherwise healthy 65 year old who does not smoke, drinks socially on weekends, and requires an elective total knee replacement would be considered ASA class …",
+"back":"II"
+},
+{
+"id":"montis-f47a39715e59",
+"topic":"Anesthesia",
+"front":"Obesity, pregnancy, prominent teeth, and decreased neck extension are all anatomical risk factors for …",
+"back":"difficult intubation"
+},
+{
+"id":"montis-85d47d65848d",
+"topic":"Anesthesia",
+"front":"The 3 main components of an airway assessment include Mallampati classification, thyromental distance, and …",
+"back":"cervical spine motion"
+},
+{
+"id":"montis-7878524cfa35",
+"topic":"Anesthesia",
+"front":"…. acting insulin is commonly held preoperativel",
+"back":"Short"
+},
+{
+"id":"montis-63ad3c20e9b1",
+"topic":"Anesthesia",
+"front":"Mallampati class … allows for visualization of the pillars",
+"back":"I"
+},
+{
+"id":"montis-f295cb8f2c9f",
+"topic":"Anesthesia",
+"front":"If only the soft palate and uvula are visible, the patient would be considered Mallampati class …",
+"back":"II"
+},
+{
+"id":"montis-69622ce5ebfa",
+"topic":"Anesthesia",
+"front":"Mallampati class … allows for visualization of the base of the uvula",
+"back":"III"
+},
+{
+"id":"montis-653cf9db018a",
+"topic":"Anesthesia",
+"front":"You look inside a patient’s mouth and are only able to see the hard palate. This constitutes a Mallampati score of class …",
+"back":"IV"
+},
+{
+"id":"montis-3d0ee92854c8",
+"topic":"Anesthesia",
+"front":"Ideal thyromental distance is approximately … fingerbreadths",
+"back":"3"
+},
+{
+"id":"montis-4fb665a3e55d",
+"topic":"Anesthesia",
+"front":"Normally, patients should be able to extend the upper cervical spine >… degrees",
+"back":"90"
+},
+{
+"id":"montis-c73bb951e3d2",
+"topic":"Anesthesia",
+"front":"What characteristics are associated with difficult mask ventilation? (BONES mnemonic)",
+"back":"beard, obesity, no teeth, elderly (>55yrs), snoring/sleep apnea"
+},
+{
+"id":"montis-cae7021a7e6e",
+"topic":"Anesthesia",
+"front":"Solid foods should be avoided at least … hours before surgery to reduce the risk of …",
+"back":"8 and aspiration"
+},
+{
+"id":"montis-3bcf14978a1b",
+"topic":"Anesthesia",
+"front":"Fluids should not be given closer than .. hours before surgery",
+"back":"2 hours"
+},
+{
+"id":"montis-221b9e891c96",
+"topic":"Anesthesia",
+"front":"What components make up the STOP-BANG score for estimating the risk of OSA?",
+"back":"snoring, tired (daytime somnolence), observed apneic periods, pressure (HTN), BMI >35, age >50, neck circumference >40cm, gender (male)"
+},
+{
+"id":"montis-2743afa92abf",
+"topic":"Anesthesia",
+"front":"The risk for difficult intubation/ventilation with recent or ongoing respiratory infections in patients with COPD or asthma means that elective cases should be cancelled until .. weeks after symptoms have resolved",
+"back":"2"
+},
+{
+"id":"montis-bdf471be61ac",
+"topic":"Anesthesia",
+"front":".. .. levels are decreased in smokers who stop 24 hours prior to surgery",
+"back":"carbon monoxide"
+},
+{
+"id":"montis-4a3a4cde2b8f",
+"topic":"Anesthesia",
+"front":"All diabetics should be … on an operating list to lessen the impact of preoperative starvation",
+"back":"first"
+},
+{
+"id":"montis-ca31744119f3",
+"topic":"Anesthesia",
+"front":"… crisis should be considered in patients with thyroid pathology",
+"back":"thyrotoxic"
+},
+{
+"id":"montis-4650e059d996",
+"topic":"Anesthesia",
+"front":"Severely obese patients may have rapid … upon induction",
+"back":"desaturation"
+},
+{
+"id":"montis-249615fb9c0e",
+"topic":"Anesthesia",
+"front":"Advanced age leads to … sensitivity to anesthetic agents",
+"back":"increased"
+},
+{
+"id":"montis-d4049941983f",
+"topic":"Anesthesia",
+"front":"… and … should be considered preoperatively in patients with known CAD, arrhythmias, or heart failure",
+"back":"ECG and ECHO"
+},
+{
+"id":"montis-f471373d1284",
+"topic":"Anesthesia",
+"front":"Succinylcholine should be avoided in patients with elevated …",
+"back":"potassium"
+},
+{
+"id":"montis-6a6a741762d5",
+"topic":"Anesthesia",
+"front":"CPP = MAP - …",
+"back":"ICP"
+},
+{
+"id":"montis-4d60d13acac8",
+"topic":"Anesthesia",
+"front":"PaCO2 should be kept in normal range as it can cause an increase in ...",
+"back":"ICP"
+},
+{
+"id":"montis-b78e08b45d7b",
+"topic":"Anesthesia",
+"front":"Patients with … have a sensitivity to nondepolarizing muscle relaxants but usually a normal response to succinylcholine",
+"back":"myasthenia gravis"
+},
+{
+"id":"montis-b4b1daa72ece",
+"topic":"Anesthesia",
+"front":"… is a necessary part of intraoperative monitoring for a patient's CO2 levels",
+"back":"capnography"
+},
+{
+"id":"montis-22bb98a52373",
+"topic":"Anesthesia",
+"front":"Patients with hypertension, diabetes, renal or adrenal disease should always have … and … checked preoperatively",
+"back":"electrolytes and creatinine"
+},
+{
+"id":"montis-7168bcf067e4",
+"topic":"Anesthesia",
+"front":"A … monitor commonly utilized to assess for depth of sedation during anesthesia",
+"back":"BIS – bispectral index"
+},
+{
+"id":"montis-bec7c463f26f",
+"topic":"Anesthesia",
+"front":"Venous congestion, peripheral vasoconstriction, and nail paint are all causes of falsely low … levels",
+"back":"pulse oximetry"
+},
+{
+"id":"montis-7e7dfd31feef",
+"topic":"Anesthesia",
+"front":"The most common medication used for IV induction is … and it causes a … in arterial blood pressure",
+"back":"propofol and decrease"
+},
+{
+"id":"montis-f0379654df58",
+"topic":"Anesthesia",
+"front":"Amnestic medications cause the loss of …",
+"back":"memory"
+},
+{
+"id":"montis-57726ace4a54",
+"topic":"Anesthesia",
+"front":"Inhalational anesthetics are most commonly used in … of anesthesia",
+"back":"maintenance"
+},
+{
+"id":"montis-9456605fee69",
+"topic":"Anesthesia",
+"front":"Ketamine is primarily used for analgesia but can also be used for induction where it will cause a transient ... in myocardial oxygen demand",
+"back":"increase"
+},
+{
+"id":"montis-576f960840d6",
+"topic":"Anesthesia",
+"front":"Propofol is dosed at …mg/kg for induction and …ug/kg/min for maintenance",
+"back":"2-2.5mg/kg and 100-200ug/kg/min"
+},
+{
+"id":"montis-18aef9e02ff7",
+"topic":"Anesthesia",
+"front":"The lack of cardiac depression makes ... useful for induction in trauma and/or shock patients",
+"back":"ketamine"
+},
+{
+"id":"montis-0aec8933324b",
+"topic":"Anesthesia",
+"front":"MAC, which stands for …., is the concentration of anesthetic in the alveoli which causes blunting of a response to … in … of people",
+"back":"minimum alveolar concentration, surgical excision, 50%"
+},
+{
+"id":"montis-53f7a7a95f6d",
+"topic":"Anesthesia",
+"front":"… has a very … onset and is the weakest of all volatile anesthetic agent",
+"back":"Nitrous oxide and rapid"
+},
+{
+"id":"montis-79967ecefc28",
+"topic":"Anesthesia",
+"front":"… is a depolarizing muscle relaxant that should only be used if patients do not have a known history of … or previous … reaction",
+"back":"Succinylcholine, pseudocholinesterase abnormality, malignant hyperthermia"
+},
+{
+"id":"montis-63b65db136cf",
+"topic":"Anesthesia",
+"front":"The normal dosing for rocuronium is ...mg/kg for normal induction and …mg/kg for rapid sequence induction",
+"back":"0.6mg/kg and 1.2mg/kg"
+},
+{
+"id":"montis-555b5eb61426",
+"topic":"Anesthesia",
+"front":"Mu, kappa, delta, and epsilon are all examples of … receptors",
+"back":"opioid"
+},
+{
+"id":"montis-b921f8a86ca7",
+"topic":"Anesthesia",
+"front":"The NIBP cuff should be placed in the .. arm from the IV",
+"back":"opposite"
+},
+{
+"id":"montis-e5031b7e0662",
+"topic":"Anesthesia",
+"front":"… has the shortest onset of all depolarizing and non-depolarizing muscle relaxants",
+"back":"Succinylcholine"
+},
+{
+"id":"montis-4c7f33f245b1",
+"topic":"Anesthesia",
+"front":"All non-depolarizing muscle relaxants have a longer … compared to succinylcholine",
+"back":"duration of action"
+},
+{
+"id":"montis-4a275eeacadf",
+"topic":"Anesthesia",
+"front":"Neostigmine and glycopyrrolate are reversal agents for non-depolarizing muscle relaxants which are both …",
+"back":"anticholinesterases"
+},
+{
+"id":"montis-3004bfd892be",
+"topic":"Anesthesia",
+"front":"… is the most potent opioid commonly used intraoperatively, with a potency 500x that of morphine",
+"back":"Sufentanyl"
+},
+{
+"id":"montis-5680c0bc6f6b",
+"topic":"Anesthesia",
+"front":"Serotonin receptor antagonists, corticosteroids, and prokinetics are all drug classes of …",
+"back":"anti-emetics"
+},
+{
+"id":"montis-577d5cfc4a03",
+"topic":"Anesthesia",
+"front":"Dobutamine is commonly used to treat intraoperative … and is specific for the ... receptor",
+"back":"hypotension and Beta 1"
+},
+{
+"id":"montis-fc75a5a357b8",
+"topic":"Anesthesia",
+"front":"The 3 main phases of general anesthesia are: ...",
+"back":"induction, maintenance, and emergence"
+},
+{
+"id":"montis-5003895e6e06",
+"topic":"Anesthesia",
+"front":"For rapid sequence induction, IV sedatives are given first followed immediately by IV … agents",
+"back":"paralytic"
+},
+{
+"id":"montis-f4d01c9c70d4",
+"topic":"Anesthesia",
+"front":"Rapid sequence induction is a modified technique used when patients are at increased risk for ... but is contraindicated in patients with known or suspected ...",
+"back":"aspiration and difficult airway"
+},
+{
+"id":"montis-7dad96fd32a5",
+"topic":"Anesthesia",
+"front":"The distance of insertion of the ETT should be approximately at the distance marking of ...cm for males and …cm for females",
+"back":"21-24cm and 18-22cm"
+},
+{
+"id":"montis-53458ca3587b",
+"topic":"Anesthesia",
+"front":"Epigastric gurgling on auscultation is indicative of …",
+"back":"esophageal intubation"
+},
+{
+"id":"montis-17301cac3d5c",
+"topic":"Anesthesia",
+"front":"Endobronchial intubation can be recognized by … breath sounds",
+"back":"unilateral"
+},
+{
+"id":"montis-9a9e7a0aa86b",
+"topic":"Anesthesia",
+"front":"Emergency surgery, pregnancy, obesity, and bowel obstruction are all risk factors for …",
+"back":"aspiration"
+},
+{
+"id":"montis-afa2b4553df6",
+"topic":"Anesthesia",
+"front":"The view of the vocal cords can be communicated via the … and … grading system",
+"back":"Cormack and Lehane"
+},
+{
+"id":"montis-593c02e5087c",
+"topic":"Anesthesia",
+"front":"To help move the larynx to visualize the vocal cords better, what does the acronym “BURP” stand for?",
+"back":"Backwards, upwards, rightwards pressure"
+},
+{
+"id":"montis-853d4c2fbf59",
+"topic":"Anesthesia",
+"front":"Observing the ETCO2 returning with each respiration is a method to confirm the … has been placed correctly",
+"back":"ETT"
+},
+{
+"id":"montis-e540cdb97b7f",
+"topic":"Anesthesia",
+"front":"… is a potential complication of intubation and results due to involuntary smooth muscle contraction in the bronchi leading to narrowing of airways and decreased O2 levels",
+"back":"bronchospasm"
+},
+{
+"id":"montis-60da653951d8",
+"topic":"Anesthesia",
+"front":"This non-invasive ventilation strategy is considered the standard for pre-oxygenating patients",
+"back":"bag valve mask ventilation"
+},
+{
+"id":"montis-a4f6f3350f36",
+"topic":"Anesthesia",
+"front":"Non-depolarizing muscle relaxants will show a … response to TOF (train of four)",
+"back":"fade"
+},
+{
+"id":"montis-3b717d560d82",
+"topic":"Anesthesia",
+"front":"A laryngeal mask airway does not prevent against the risk of …",
+"back":"aspiration"
+},
+{
+"id":"montis-58d5cb757e6e",
+"topic":"Anesthesia",
+"front":"… = respiratory rate x tidal volume",
+"back":"minute ventilation"
+},
+{
+"id":"montis-dd0baac1af5b",
+"topic":"Anesthesia",
+"front":"Hourly maintenance fluids can be calculated based on the … rule",
+"back":"4:2:1"
+},
+{
+"id":"montis-6bdbb04a0d8c",
+"topic":"Anesthesia",
+"front":"… inhibits fibrinolysis while promoting clot stability and may be administered if there is significant bleeding intraoperatively",
+"back":"TXA – tranexamic acid"
+},
+{
+"id":"montis-f4d6c1fe872c",
+"topic":"Anesthesia",
+"front":"The components of the Apfel score for assessing the risk of postoperative nausea and vomiting include:",
+"back":"female gender, non-smoker, history of PONV, postoperative opioids"
+},
+{
+"id":"montis-d11a43cc0951",
+"topic":"Anesthesia",
+"front":"Spinal anesthesia is inserted between interspace …",
+"back":"L3-S1"
+},
+{
+"id":"montis-cb5c61db9444",
+"topic":"Anesthesia",
+"front":"Electromyography with nerve stimulation is used to assess …",
+"back":"paralysis"
+},
+{
+"id":"montis-c8ab58fc0cfa",
+"topic":"Anesthesia",
+"front":"Raised ICP and hypovolemic shock are absolute contraindications to … or … anesthesia",
+"back":"spinal or epidural"
+},
+{
+"id":"montis-883c80ecd488",
+"topic":"Anesthesia",
+"front":"A Bier block involved injecting local anesthetic into the … of the extremity where anesthesia is desired",
+"back":"veins"
+},
+{
+"id":"montis-97f5ad9a9400",
+"topic":"Anesthesia",
+"front":"… is an autosomal dominant condition that can be caused by succinylcholine and volatile anesthetics and is treated with … 1mg/kg IV up to 10mg/kg",
+"back":"Malignant hyperthermia and dantrolene"
+},
+{
+"id":"montis-3911c24efc77",
+"topic":"Anesthesia",
+"front":"It should be assumed that a pregnant patient has a … until proven otherwise",
+"back":"difficult airway"
+},
+{
+"id":"montis-ba09c89a6ceb",
+"topic":"Anesthesia",
+"front":"… analgesia is the most effective method for obstetrical anesthesia",
+"back":"epidural"
+},
+{
+"id":"montis-6cc265d7e04d",
+"topic":"Anesthesia",
+"front":"Leakage of CSF resulting in intracranial hypotension following neuraxial anesthesia is called a … headache",
+"back":"post-dural puncture"
+},
+{
+"id":"montis-e98e6c69b4f2",
+"topic":"Anesthesia",
+"front":"Pediatric patients have a chest wall that is more ... and a … FRC",
+"back":"compliant and low"
+},
+{
+"id":"montis-e4be6d700a25",
+"topic":"Anesthesia",
+"front":"Administration of … is essential before any patient is put on cardiopulmonary bypass during cardiac anesthesia cases",
+"back":"heparin"
+},
+{
+"id":"montis-f11e67e6cdb5",
+"topic":"Anesthesia",
+"front":"The target for urine output intraoperatively should be at least ...ml/kg/hr accepting that urine output may decrease due to the renal effects of positive pressure ventilation",
+"back":"0.5"
+},
+{
+"id":"montis-2bfead755166",
+"topic":"Anesthesia",
+"front":"Albumin, fresh frozen plasma, and dextrans are examples of … where as normal saline and Ringer’s Lactate are examples of",
+"back":"colloids and crystalloids"
+},
+{
+"id":"montis-c1daee3505be",
+"topic":"Anesthesia",
+"front":"RBC transfusions should not be solely based on a ... level",
+"back":"hemoglobin"
+},
+{
+"id":"montis-fb185deeaa87",
+"topic":"Anesthesia",
+"front":"Use of volatile anesthetics, nitrous oxide, and intra or perioperative opioids all put the patient at increased risk for …",
+"back":"postoperative nausea and vomiting"
+},
+{
+"id":"montis-486ec96b3659",
+"topic":"Anesthesia",
+"front":"Postpartum hemorrhage is defined as the loss of >500mL of blood from ... delivery or ...L of blood following C-section",
+"back":"vaginal and 1"
+},
+{
+"id":"montis-3ffa95a24e63",
+"topic":"Anesthesia",
+"front":"The highest MAC is found in …",
+"back":"neonates (MAC decreases as age increases)"
+},
+{
+"id":"montis-7e787cd9f1d5",
+"topic":"Anesthesia",
+"front":"... is a non-depolarizing muscle relaxant reversal agent that binds directly to rocuronium or vecuronium",
+"back":"sugammadex"
+},
+{
+"id":"montis-2537981400a4",
+"topic":"Anesthesia",
+"front":"Ketamine is dosed at … and it’s mechanism of action is …",
+"back":"2mg/kg IV, NMDA antagonist"
+},
+{
+"id":"montis-c46fead59df1",
+"topic":"Anesthesia",
+"front":"Etomidate is dosed at … and it’s mechanism of action is …",
+"back":"0.2-0.6mg/kg IV for induction, GABA Agonist"
+},
+{
+"id":"montis-d325fd9c670b",
+"topic":"Anesthesia",
+"front":"Isoflurane has a MAC of … and it’s speed of onset/offset is …",
+"back":"1.2%, Slow"
+},
+{
+"id":"montis-07adf8e5f8bf",
+"topic":"Anesthesia",
+"front":"Sevoflurane has a MAC of … and it’s speed of onset/offset is …",
+"back":"2.0%, Rapid"
+},
+{
+"id":"montis-15682d5fd7ad",
+"topic":"Anesthesia",
+"front":"Desflurane has a MAC of … and it’s speed of onset/offset is …",
+"back":"6.0% and Very Rapid"
+},
+{
+"id":"montis-2c9874b877c8",
+"topic":"Anesthesia",
+"front":"Nitrous Oxide has a MAC of … and it’s speed of onset/offset is …",
+"back":"105%, Very Rapid"
+},
+{
+"id":"montis-5dcabda412f9",
+"topic":"Anesthesia",
+"front":"Succinylcholine should be dosed at …, it’s mechanism of action is …, and it has a … onset/offset",
+"back":"1-2mg/kg, depolarizing muscle blocker, rapid"
+},
+{
+"id":"montis-ba85ee5bd664",
+"topic":"Anesthesia",
+"front":"Rocuronium should be dosed at …, it’s mechanism of action is …, and it has a … onset/offset",
+"back":"0.6-1.2mg/kg,non-depolarizing muscle blocker, moderate"
+},
+{
+"id":"montis-206da4aab840",
+"topic":"Anesthesia",
+"front":"Vecuronium should be dosed at …, it’s mechanism of action is …, and it has a … onset/offset",
+"back":"0.08-0.1mg/kg, depolarizing muscle blocker, slow-moderate"
+},
+{
+"id":"montis-bf852c881932",
+"topic":"Anesthesia",
+"front":"Remifentanyl should be dosed at … its potency is …",
+"back":"0.3-1mcg/kg, extremely strong"
+},
+{
+"id":"montis-863390df9552",
+"topic":"Anesthesia",
+"front":"Sufentanyl should be dosed at … its potency is …",
+"back":"0.3-1mcg/kg, extremely strong"
+},
+{
+"id":"montis-1131bdfe2789",
+"topic":"Anesthesia",
+"front":"Fentanyl should be dosed at … its potency is …",
+"back":"1-20mcg/kg, strong"
+},
+{
+"id":"montis-1434569feef1",
+"topic":"Anesthesia",
+"front":"Morphine should be dosed at … its potency is …",
+"back":"2.5-15mg/kg, Weak"
+},
+{
+"id":"montis-8f521490d7ae",
+"topic":"Anesthesia",
+"front":"Hydromorphone should be dosed at … its potency is …",
+"back":"1-2mg/kg, Moderate"
+},
+{
+"id":"montis-5d24c8042170",
+"topic":"Anesthesia",
+"front":"Dopamine acts on … receptors, its dose is … it … heart rate and … systemic vascular resistance",
+"back":"Nonspecific A/B, 2-20ug/kg/min, increases, increases"
+},
+{
+"id":"montis-1e4e31be4934",
+"topic":"Anesthesia",
+"front":"Dobutamine acts on … receptors, its dose is … it … heart rate and … systemic vascular resistance",
+"back":"B1 specific, 2-20ug/kg/min, increases, increases"
+},
+{
+"id":"montis-af8cf60f6b16",
+"topic":"Anesthesia",
+"front":"Epinephrine acts on … receptors, its dose is … it … heart rate and … systemic vascular resistance",
+"back":"Beta>Alpha, 0.01-0.15ug/kg/min, increases, increases"
+},
+{
+"id":"montis-f3ed939187bb",
+"topic":"Anesthesia",
+"front":"Isoproteronol acts on … receptors, its dose is … it … heart rate and … systemic vascular resistance",
+"back":"B1 and B2, 0.03-0.15ug/kg/min, increases, decreases"
+},
+{
+"id":"montis-2115d4286a26",
+"topic":"Anesthesia",
+"front":"Norepinephrine acts on … receptors, its dose is … it … heart rate and … systemic vascular resistance",
+"back":"Alpha>Beta, 0.01-0.1ug/kg/min, decreases, increases"
+},
+{
+"id":"montis-ff0934038707",
+"topic":"Anesthesia",
+"front":"Ephedrine acts by …",
+"back":"Causing an indirect release of Norepinephrine"
+},
+{
+"id":"montis-2d87b23f64a1",
+"topic":"Anesthesia",
+"front":"Phenylephrine works through … it causes …",
+"back":"Alpha 1 agonism, vasoconstriction"
+},
+{
+"id":"montis-7439d78c3be9",
+"topic":"Anesthesia",
+"front":"Vasopressin acts by … it causes … in blood pressure",
+"back":"Increases water reabsorption in the kidneys, increases"
+},
+{
+"id":"montis-b9c9df53011c",
+"topic":"Anesthesia",
+"front":"Six factors that suggest a challenging airway from pre-op assessment:",
+"back":"1. Patients with a Mallampati score of 3 or 4 \n2. TM distance < 6.5 cm \n3. Inability to prognath \n4. Limited cervical neck ROM \n5. Short thick neck\n6. Obesity"
+},
+{
+"id":"montis-baf58a5404c2",
+"topic":"Anesthesia",
+"front":"Breastmilk cannot be had within … of operation",
+"back":"4 hours"
+},
+{
+"id":"montis-25fb7f008930",
+"topic":"Anesthesia",
+"front":"Formula/non-human milk cannot be had within … of operation",
+"back":"6 hours"
+},
+{
+"id":"montis-ced83b0d9938",
+"topic":"Anesthesia",
+"front":"Light meals cannot be had within … of operation",
+"back":"6 hours"
+},
+{
+"id":"montis-74c298d27257",
+"topic":"Anesthesia",
+"front":"Meals, especially ones containing fatty foods cannot be had within … of surgery",
+"back":"8 hours"
+},
+{
+"id":"montis-abb1e24a53ca",
+"topic":"Anesthesia",
+"front":"Regurgitant heart lesions are … to compensate for changes in preload/afterload. Therefore we should avoid … and …",
+"back":"able, bradycardia, increased afterload"
+},
+{
+"id":"montis-90876bd50f60",
+"topic":"Anesthesia",
+"front":"Stenotic heart lesions are … to compensate for changes in preload/afterload. Therefore avoid …, …, and …",
+"back":"unable, hypovolemia, decreased SVR, tachycardia"
+},
+{
+"id":"montis-259684eaef94",
+"topic":"Anesthesia",
+"front":"Anesthesia causes COPD/Asthma secretions to …",
+"back":"thicken, be retained"
+},
+{
+"id":"montis-4e1a680804c0",
+"topic":"Anesthesia",
+"front":"Recent or current respiratory infection increases airway … and …",
+"back":"Reactivity, secretion"
+},
+{
+"id":"montis-c97860c6108c",
+"topic":"Anesthesia",
+"front":"The opioids … and … have active metabolites that build up in kidney failure and should be avoided",
+"back":"Morphine, Meperidine"
+},
+{
+"id":"montis-6e595b25e6e9",
+"topic":"Anesthesia",
+"front":"Avoid succinylcholine in patients with elevated …",
+"back":"Potassium"
+},
+{
+"id":"montis-3c95291ee350",
+"topic":"Anesthesia",
+"front":"Repeat … before and after intubation of a patient with spinal fracture",
+"back":"Neurological examination"
+},
+{
+"id":"montis-f1d6305e46e1",
+"topic":"Anesthesia",
+"front":"… should be avoided in patients with severe burns, muscular dystrophies, and denervated muscle",
+"back":"Succinylcholine"
+},
+{
+"id":"montis-d033a42bd215",
+"topic":"Anesthesia",
+"front":"Myasthenia Gravis causes … muscle weakness and have an … sensitivity to succinylcholine",
+"back":"Fatigable, increased"
+},
+{
+"id":"montis-9fab7419877f",
+"topic":"Anesthesia",
+"front":"Geriatric patients have an … sensitivity to opioids",
+"back":"increased"
+},
+{
+"id":"montis-4904e78111f6",
+"topic":"Anesthesia",
+"front":"One of the largest side effects of ketamine as an anesthetic is",
+"back":"Emergence delirium, nausea, laryngospasm"
+},
+{
+"id":"montis-4975bbd4f522",
+"topic":"Anesthesia",
+"front":"The largest side effect of etomidate as an anesthetic is",
+"back":"Adrenocortical suppression"
+},
+{
+"id":"montis-5d919db70899",
+"topic":"Breast Masses",
+"front":"what are the two most predictive risk factors for breast ca",
+"back":"age and prior breast ca"
+},
+{
+"id":"montis-5ad98101e8a2",
+"topic":"Breast Masses",
+"front":"painful breast masses are usually...",
+"back":"benign"
+},
+{
+"id":"montis-88bd17fad26f",
+"topic":"Breast Masses",
+"front":"some family hx factors that inc someone's risk of breast ca",
+"back":"1st deg relatives\npremenopausal\nbilat cancer in first deg relative\nmale breast ca\novarian ca"
+},
+{
+"id":"montis-3daf92168529",
+"topic":"Breast Masses",
+"front":"who gets BRCA testing?",
+"back":"early onset breast ca with a strong family hx"
+},
+{
+"id":"montis-3d0482938a37",
+"topic":"Breast Masses",
+"front":"BRCA 1 vs 2",
+"back":"BRAC2 has less of an ovarian ca risk"
+},
+{
+"id":"montis-f824b1006c4d",
+"topic":"Breast Masses",
+"front":"when is the best time to examine a breast?",
+"back":"a week after menses ends"
+},
+{
+"id":"montis-c1220f1c0914",
+"topic":"Breast Masses",
+"front":"when is mammography contraindicated?",
+"back":"in pregnancy"
+},
+{
+"id":"montis-4eef9a2d44cf",
+"topic":"Breast Masses",
+"front":"what is the BIRADS score",
+"back":"1 or 2=no bx needed/benign\n3=probably benign\n4= suspicious, consider bx\n5=suggestive of malignancy\n6=known bx-proven malignancy"
+},
+{
+"id":"montis-3293b3b66da0",
+"topic":"Breast Masses",
+"front":"the management of breast cysts",
+"back":"you can aspirate it with a needle; if produces clear fluid and totally resolves, can confidently say cyst and no need for cytology"
+},
+{
+"id":"montis-ed514f701434",
+"topic":"Breast Masses",
+"front":"some concerning features for nipple discharge",
+"back":"unilateral, spontaneous, solitary duct, red or clear in colour"
+},
+{
+"id":"montis-65210cd48d86",
+"topic":"Breast Masses",
+"front":"how to tx a breast abscess",
+"back":"you can aspirate it in-office, then clean with NS"
+},
+{
+"id":"montis-5d41e1d0477e",
+"topic":"Breast Masses",
+"front":"some features of inflammatory cystitis",
+"back":"diffuse, spreading edema and peau d'orange"
+},
+{
+"id":"montis-873634956ea7",
+"topic":"Breast Masses",
+"front":"paget's disease",
+"back":"when the nipple is involved with DCIS or invasive carcinoma"
+},
+{
+"id":"montis-7268f2524725",
+"topic":"Neurosx Critical Care",
+"front":"decorticate vs decerebrate posturing, which is worse",
+"back":"decorticate: no cortex fx (aka flexor posturing)\ndecerebrate: no hemisphere fx (aka extensor posturing), this is worse"
+},
+{
+"id":"montis-23f960c2c98f",
+"topic":"Neurosx Critical Care",
+"front":"what GCS indicates a severe tbi",
+"back":"severe is <8, also want to monitor the ICP with this usually"
+},
+{
+"id":"montis-4f9484ab3a3d",
+"topic":"Neurosx Critical Care",
+"front":"what is a sign of inc ICP in the brain",
+"back":"effacement of the ventricles and the sulci"
+},
+{
+"id":"montis-5ebbf4d57642",
+"topic":"Neurosx Critical Care",
+"front":"what is the monro-kellie doctrine",
+"back":"the volume inside the cranium is fixed, and when you have a mass, either CSF or blood (or both!) have to move"
+},
+{
+"id":"montis-8c0770860768",
+"topic":"Neurosx Critical Care",
+"front":"what is the main finding of uncal herniation",
+"back":"blown pupil on the ipsilateral side of the mass"
+},
+{
+"id":"montis-a95823c1c61b",
+"topic":"Neurosx Critical Care",
+"front":"some of the most concerning signs for cerebral herniation",
+"back":"pupillary asymmetry\nunilat/bilat fixed and dilated pupils\ndecorticate or decerebrate posturing\ncushing triad: htn, brady, irregular resps"
+},
+{
+"id":"montis-279ad0edee00",
+"topic":"Neurosx Critical Care",
+"front":"steps to manage inc ICP",
+"back":"admin mannitol or hypertonic saline if signs of impending hemorrhage\nscreening labs including blood alc level should be checked\nreverse coagulopathy immediately ="
+},
+{
+"id":"montis-d05665db416a",
+"topic":"Neurosx Critical Care",
+"front":"What is the cranial perfusion pressure",
+"back":"the bloodflow to the brain\nautoregulated to ensure the cerebral vascular pressure remains constant across a wide variety of MAPs"
+},
+{
+"id":"montis-799ee6c773d6",
+"topic":"Hand Ortho",
+"front":"the best way to test nerve injury on the hand",
+"back":"two point discrimination \ncompare the injured site to a normal site \n5mm is the threshold generally"
+},
+{
+"id":"montis-44bccc83c73f",
+"topic":"Hand Ortho",
+"front":"what does the median nerve innervate in the hand",
+"back":"the thenar muscles"
+},
+{
+"id":"montis-01b46a45d9ba",
+"topic":"Hand Ortho",
+"front":"profundus tendon avulsion",
+"back":"most common in football/rugby\nswollen, tender finger and poor DIP flexion"
+},
+{
+"id":"montis-017cf8075aa2",
+"topic":"Hand Ortho",
+"front":"where can a bite most commonly inoculate?",
+"back":"tendon sheath injury, can have a compartment syndrome in here"
+},
+{
+"id":"montis-e2be1241c1cd",
+"topic":"Hand Ortho",
+"front":"how does a flexor tendon sheath infection present",
+"back":"[image]"
+},
+{
+"id":"montis-c79c6350cdb8",
+"topic":"Hand Ortho",
+"front":"some of the most common bugs for foreign puncture wound",
+"back":"pasturella multocida, staph A, strep"
+},
+{
+"id":"montis-3130b3de69c8",
+"topic":"Urology",
+"front":"the main symptoms that characterize LUTS",
+"back":"storage: frequency, urgency, urge incontinence, nocturia, dysuria (FUUND)\nemptying: weak stream, intermittency, straining, incomplete emptying"
+},
+{
+"id":"montis-667c0831a83e",
+"topic":"Urology",
+"front":"the ddx of LUTS in older men",
+"back":"prostate: BPH, prostatitis, prostate ca\nbladder: cystitis, bladder tumour, ureteric stone, overactive bladder\nurethra: structure, urethritis, fb\nneuro: neurogenic bladder, PD, stroke, AD\nother: med side effects, CHF, polydipsua"
+},
+{
+"id":"montis-26cdfef217a9",
+"topic":"Urology",
+"front":"where do cells proliferate in BPH?",
+"back":"in the transition zone of the prostate"
+},
+{
+"id":"montis-a24c11a5688e",
+"topic":"Urology",
+"front":"some of the complications of BPH",
+"back":"acute retention\nsurgery\nrenal dysfunction"
+},
+{
+"id":"montis-13ad88d9345c",
+"topic":"Urology",
+"front":"some of the alarm symptoms of BPH",
+"back":"hematuria/UTI\nbladder stones\nrenal failure"
+},
+{
+"id":"montis-fd1aebc2eea0",
+"topic":"Urology",
+"front":"mandatory eval of LUTS",
+"back":"urinalysis \nphysical including DRE\nPSA in select patients"
+},
+{
+"id":"montis-eb6d96f8062f",
+"topic":"Urology",
+"front":"some warning signs of a more severe cause of BPH",
+"back":"hematuria\\\nirritative sx\nsmoking hx\nprior rads/surgery/trauma\nother neuro sx\nacute onset\n\nneed to work up these people for other causes of LUTS"
+},
+{
+"id":"montis-9551b43e3c3d",
+"topic":"Urology",
+"front":"how does OSA cause LUTS",
+"back":"inc airway resistance leads to hypoxia, pulm vasoconstriction,inc right atrial pressure, inc ANP production and Na/H2o excretion"
+},
+{
+"id":"montis-3e18020b412e",
+"topic":"Urology",
+"front":"what is a validated tool you can use to eval for LUTS",
+"back":"the international prostate symptom score"
+},
+{
+"id":"montis-0b5d10a4308b",
+"topic":"Urology",
+"front":"is cystoscopy recommended in the eval of LUTS",
+"back":"no, this is a dx tool and does nothing for tx of the BPH"
+},
+{
+"id":"montis-5ba76c47030b",
+"topic":"Urology",
+"front":"when would you order urodynamics for someone w luts?",
+"back":"when someone's symptoms complex is unclear"
+},
+{
+"id":"montis-5a0b80c1cd67",
+"topic":"Urology",
+"front":"some conservative management for LUTS",
+"back":"exercise, wt loss, dec fluids/caffeine/alcohol"
+},
+{
+"id":"montis-cdb998ed134d",
+"topic":"Urology",
+"front":"the main advantages of using a1 agnonists in the tx of BPH, names",
+"back":"relaxes the smooth muscle of the prostate and bladder\ndoes not interfere w bladder contractility\ndoes not affect PSA\nalfuzosin, tamsulosin, silodosin"
+},
+{
+"id":"montis-7b82e3cf60c8",
+"topic":"Urology",
+"front":"five most common side effects of alpha blockers",
+"back":"retrograde ejaculation\ndizziness\nasthenia \northostatic hypotn\nflulike syndrome"
+},
+{
+"id":"montis-c40b38be9a74",
+"topic":"Urology",
+"front":"contraindication to alpha blockers",
+"back":"can impact outcomes of cataract surgery, should discuss w optho before suregry"
+},
+{
+"id":"montis-a2e8f9c9fc7f",
+"topic":"Urology",
+"front":"MOA of 5a reductase inhibs",
+"back":"block the conversion of tesosterone to DHT and reg androgen available to the prostate\nslow the rate of prostate enlargement\nreduce prostate volume and also reduce PSA\nneed 3-6 mos for clinical effect"
+},
+{
+"id":"montis-7116bd33dc2b",
+"topic":"Urology",
+"front":"who benefits most from 5a reductase inhibs?? names of these",
+"back":"men w ++ large prostates\nfinasteride, dutasteride"
+},
+{
+"id":"montis-58deb0239d9c",
+"topic":"Urology",
+"front":"some common side effects of 5a reductase inhibs",
+"back":"ED\ndec libido\nejaculatory df\ngynecomastia/breast tenderness"
+},
+{
+"id":"montis-d67ed83a44e7",
+"topic":"Urology",
+"front":"if PSA continues to rise while on 5ARIs...",
+"back":"have to consider prostate ca"
+},
+{
+"id":"montis-12773d6eeb6b",
+"topic":"Urology",
+"front":"who should you combine a blockers and 5ARIs in?",
+"back":"men w ++ large prostates and high symptom volume"
+},
+{
+"id":"montis-ec2fdd465868",
+"topic":"Urology",
+"front":"what should you use in someone w ED and BPH?",
+"back":"PDE5i (tadalafil 5mg), super effective in tx both"
+},
+{
+"id":"montis-2db4c8cef1e6",
+"topic":"Urology",
+"front":"some indications for surgical management of BPH",
+"back":"urinary retention, bladder calculi, recurrent UTI,hyrdomephrosis"
+},
+{
+"id":"montis-df5260eb495d",
+"topic":"Urology",
+"front":"main medical management of prostate ca",
+"back":"TURP is the gold standard"
+},
+{
+"id":"montis-2dfa376546e6",
+"topic":"Urology",
+"front":"some complications to counsel on for TURP",
+"back":"retrograde ejaculation\nurinary incontinence\nED (++ rare)\nbladder neck contracture\nbleeding"
+},
+{
+"id":"montis-0bdf23a67065",
+"topic":"Urology",
+"front":"when would you do an open simple prostatectomy",
+"back":"huge prostate\nurethral stricture\nneed for concomitant bladder surgery"
+},
+{
+"id":"montis-4b009af5a772",
+"topic":"Urology",
+"front":"when should you refer someone w BPH to uro",
+"back":"failure of medical therapy\nUTIs\nhematuria, retention, renal compsomise\nconcerns re PSA or abn DRE\nrise in PSA while on 5ARi"
+},
+{
+"id":"montis-650be63748d2",
+"topic":"Urology",
+"front":"some of the main causes of erectile dysfunction",
+"back":"vascular (ASCVD)\nneurogenic (trauma, surgery, DM)\npsych\nhormonal (low testosterone)\nanatomical\nmeds"
+},
+{
+"id":"montis-f87cc1d18edb",
+"topic":"Urology",
+"front":"some of the main risk factors of ED",
+"back":"CV: smoking, obseity, htn, diabetes\nCVD\nperipheral VD \nmental illness \nchronic disease"
+},
+{
+"id":"montis-cc17bf4bedce",
+"topic":"Urology",
+"front":"features of organic vs psychogenic ED",
+"back":"organic: older, in all settings, risk factors, gradual onset\npsychogenic: young, sudden onset, no risk factors, intermittent, psych hx"
+},
+{
+"id":"montis-e6192a225c56",
+"topic":"Urology",
+"front":"some labs you should do for eval of BPH",
+"back":"a1c, lipid profile, testosterone (if s/sx of low testosterone)"
+},
+{
+"id":"montis-5f4a0e945794",
+"topic":"Urology",
+"front":"lifestyle mods for ED",
+"back":"smoking cessation\nexercise\ndiet \nlimit alc intake\ncontrol hrn/cholesterol"
+},
+{
+"id":"montis-18e51c6c2b98",
+"topic":"Urology",
+"front":"prn meds to use for ED, contraindications",
+"back":"cialis, viagara, levitra\ncontraindicated in ppl taking nitro"
+},
+{
+"id":"montis-ca8e0fd3c1cd",
+"topic":"Urology",
+"front":"daily med therapy to tx ED",
+"back":"cialis (tadalafil) can be used; again contraindicated in ppl taking nitrates"
+},
+{
+"id":"montis-1d81fbebce3c",
+"topic":"Urology",
+"front":"some of the most common side effects of PDE5is",
+"back":"headache, dyspepsia, rhinitis, face flushing,vision changes,dizziness ="
+},
+{
+"id":"montis-2e9ba6f644cf",
+"topic":"Urology",
+"front":"how to have best success w the use of PDE5i",
+"back":"take 60mins in advance of sex\nneed to take some on empty stomach"
+},
+{
+"id":"montis-9afcd4d38307",
+"topic":"Urology",
+"front":"when is testosterone replacement beneficial",
+"back":"ED and low libido\nconsider testing in men who do not respond to PDE5is"
+},
+{
+"id":"montis-70f756a1dbbf",
+"topic":"Urology",
+"front":"who should never receive testosterone replacement therapy",
+"back":"men trying to conceive"
+},
+{
+"id":"montis-211dd052c175",
+"topic":"Urology",
+"front":"initial vs maintenance evaluaton needed for testosterone def/replacement",
+"back":"initial: total T, FSH/LH, PRL, PSA, CBC, DRE\nmaintenance: CBC, PSA, DRE"
+},
+{
+"id":"montis-8ba9736050a3",
+"topic":"Urology",
+"front":"what type of hematuria always needs evaluation",
+"back":"gross hematuria is significant and carries a great risk of serious pathology regardless of age!!"
+},
+{
+"id":"montis-b0a6151ac764",
+"topic":"Urology",
+"front":"pain with hematuria usually means...",
+"back":"originating from the upper tracts, stone/infection"
+},
+{
+"id":"montis-fc2e152e701c",
+"topic":"Urology",
+"front":"what characteristics of hematuria make it worrisome",
+"back":"painless or presence of clots"
+},
+{
+"id":"montis-9745469c0d11",
+"topic":"Urology",
+"front":"what investigations do you need for hematuria",
+"back":"urinalysis, urine C&S, lytes, Cr\nurine cytology, upper tract imaging via u/s or CT, lower tract study via cystoscopy"
+},
+{
+"id":"montis-4051fd57a1ba",
+"topic":"Urology",
+"front":"upper tract causes of hematuria",
+"back":"RCC\nrenal calculi\nobstruction\nhyrdonephrosis\ninfx"
+},
+{
+"id":"montis-6b130bfb12ef",
+"topic":"Urology",
+"front":"lower tract causes of hematuria",
+"back":"bladder ca\nBPH\nUTI\nurethral stricture\ntrauma"
+},
+{
+"id":"montis-64d2a0b25ba6",
+"topic":"Urology",
+"front":"what is urethral stricture, common sx/causes",
+"back":"fibrosis of urethra and corpus spongiosum, leads to LUTS/retenton, UTI, hematuria\noften caused by trauma, iatrogenic, infx"
+},
+{
+"id":"montis-1326efcbe8e0",
+"topic":"Urology",
+"front":"how to tx urethral strictures",
+"back":"dilations or urethrotomy, temporary relief\nurerethral reconstruction"
+},
+{
+"id":"montis-9633c22f5c48",
+"topic":"Urology",
+"front":"which patients w microscopic hematuria always need investigation",
+"back":"age >40"
+},
+{
+"id":"montis-9d63b194bd4b",
+"topic":"Urology",
+"front":"when do people under 40 need investigation for microscopic hematuria",
+"back":"ppl w risk factors for malignancy: smoker, occupational exposures, rads to pelvis"
+},
+{
+"id":"montis-525ceeae238e",
+"topic":"Urology",
+"front":"when to suspect a nephrologic cause to hematuria",
+"back":"RBC casts, proteinuria, dysmorphic RBCs, elevated Cr\nmay not need further uro w/u"
+},
+{
+"id":"montis-e9e2f438c5e8",
+"topic":"Urology",
+"front":"typical presentation of RCC",
+"back":"classic triad of flank pain, hematuria, abdo mass\nhematuria most common symptom\noften incidentally found"
+},
+{
+"id":"montis-70776b8a818e",
+"topic":"Urology",
+"front":"how to dx RCC",
+"back":"u/s\nbut CT is the method of choice"
+},
+{
+"id":"montis-d24b03e32588",
+"topic":"Urology",
+"front":"how to tx local vs mets from rCC`",
+"back":"nephrectomy is only cure for local, radical vs partial (no chemo/rads0\nmets can be tx w TKIs or palliative radiotheraoy"
+},
+{
+"id":"montis-446a73c81a79",
+"topic":"Urology",
+"front":"what is the most common cause of gross hematuria in ppl >40",
+"back":"bladder ca (urothelial cell carcinoma)\nneed cystoscopy to dx"
+},
+{
+"id":"montis-9832a60b31ce",
+"topic":"Urology",
+"front":"how to tx UCC",
+"back":"TURBT\nprone to recurrence"
+},
+{
+"id":"montis-a67520498886",
+"topic":"Urology",
+"front":"innervation of the bladder",
+"back":"sympathetic: hypogastric nerve\nparasympathetic:pelvic nerve\nsomatic:pudendal nerve"
+},
+{
+"id":"montis-01a3a77c57b8",
+"topic":"Urology",
+"front":"the state of the para/sympathetic ns in bladder filling vs emptying",
+"back":"sympathetic is on during filling, off during emptying \npara is on during filling, off during emptying"
+},
+{
+"id":"montis-d7ec678b8d05",
+"topic":"Urology",
+"front":"five different types of urinary incontinence",
+"back":"stress\nurge: leakage + urinary urgency\nmixed (stress + urge)\noverflow\ntotal (continuous leakage)\nfunctional (bladder fxn normal)"
+},
+{
+"id":"montis-2c6c1c8164a0",
+"topic":"Urology",
+"front":"general physical exam you can do for someone w incontinence",
+"back":"edema, neuro abn, mobility, cognition\nabdo exam\n?pelvic exam for women\n?DRE for men\ncough test"
+},
+{
+"id":"montis-85bba3d0a88a",
+"topic":"Urology",
+"front":"some investigations you can do for someone w incontinence",
+"back":"urinalysis, urine cx, voiding diary"
+},
+{
+"id":"montis-51d1e689c47c",
+"topic":"Urology",
+"front":"the causes of incontinence in the elderly",
+"back":"[image]"
+},
+{
+"id":"montis-a32584bf955c",
+"topic":"Urology",
+"front":"conservative mgmt for stress incontinence",
+"back":"wt loss, smoking cessation, topical estrogen, kegels"
+},
+{
+"id":"montis-d63310c21519",
+"topic":"Urology",
+"front":"medical tx for stress UI",
+"back":"pessary\nurethral bulking agents\nsurgery: synthetic mid-urethral sling, quite effective"
+},
+{
+"id":"montis-2626688b2d4a",
+"topic":"Urology",
+"front":"definition of overactive bladder",
+"back":"you have to have frequency, urgency, urge inc, nocturia"
+},
+{
+"id":"montis-1d2dea4a7df7",
+"topic":"Urology",
+"front":"tx cascade of OAB",
+"back":"firstline: behavioural \nsecond line: meds and combined therapy\nthird: min invasive or surgery"
+},
+{
+"id":"montis-e9fda29b843c",
+"topic":"Urology",
+"front":"meds to tx OAB",
+"back":"oxybutynin or mirabegron most common\nwatch for side effects of dry mouth/eyes, constipation\nif no improvement, up dose or switch agent"
+},
+{
+"id":"montis-4bb9674667a2",
+"topic":"Urology",
+"front":"when should you refer overactive bladder to uro?",
+"back":"no med success after 2-3 meds, neuro disease, hematuria, concurrent stress incont. etc"
+},
+{
+"id":"montis-6c2a4c4557ed",
+"topic":"Urology",
+"front":"what is the definition/tx of refractory OAB",
+"back":"[image]"
+},
+{
+"id":"montis-77281eb0771a",
+"topic":"Urology",
+"front":"most common cause of total urinary incontinence",
+"back":"often indicative of a communication between urinary tract and other organ (eg vesicovaginal fistula)\nneeds a ref"
+},
+{
+"id":"montis-db404085553c",
+"topic":"Urology",
+"front":"best way to tx overflow incontinence",
+"back":"since often related to stricture or hypotonic bladder, should fix the obstruction or teach self-catheterization"
+},
+{
+"id":"montis-f37786cfaec1",
+"topic":"Urology",
+"front":"define neurogenic bladder",
+"back":"failure of bladder w loss of innervation\nnormal bladder holds 350-500 mL and has a sense of fullness \nlost in neurogenic bladder"
+},
+{
+"id":"montis-b5c5ecbba80d",
+"topic":"Urology",
+"front":"classification of neurogenic bladder",
+"back":"since parasympathetic originates from S2-4 and empties, considered lower motor neuron lesion\nsympathetic is T10-L2 and fills, considered upper motor neuron lesion and leads to detrusor overactivity"
+},
+{
+"id":"montis-20daf716df31",
+"topic":"Urology",
+"front":"how to tx upper motor neuron lesion neurogenic bladder",
+"back":"the detrusor muscle is overactive/sphincter is discoordinated \nanticholinergics, intradetrusor botox\nself catheterization"
+},
+{
+"id":"montis-591a09ff8741",
+"topic":"Urology",
+"front":"how to tx lower motor neuron lesion overactive bladder",
+"back":"tx detrusor atony\nintermittent catheterizaton"
+},
+{
+"id":"montis-1f9e601ca367",
+"topic":"The Acute Abdomen",
+"front":"what is the definition of the acute abdomen",
+"back":"sudden onset, severe pain, requires urgent tx decisions, tx almost alwats surgical"
+},
+{
+"id":"montis-a5f09d289ff4",
+"topic":"The Acute Abdomen",
+"front":"the pathophys of abdominal pain",
+"back":"referred pain vs somatic pain (from spinal nerves) vs visceral pain (sympathetic/parasympathetic or somatic pathwaysz)"
+},
+{
+"id":"montis-fcc63602ece6",
+"topic":"The Acute Abdomen",
+"front":"important associated symptoms to ask about for the acute abdomen",
+"back":"nausea/vomiting\nfever/chills\nanorexia/wt loss\nfood intolerance\nchange in bowel habits\nGU complaints"
+},
+{
+"id":"montis-da468d794566",
+"topic":"The Acute Abdomen",
+"front":"some important things to note on examination of the abdomen",
+"back":"distention, breathing pattern/pt movement, discolouration (Cullen's sign/Grey Turner's sign), scars, hernia"
+},
+{
+"id":"montis-e9cb41726a74",
+"topic":"The Acute Abdomen",
+"front":"some important things to note on the abdominal exam in the acute abdomen",
+"back":"area of max tenderness, CVA/flank tenderness, masses, hernia, peritoneal signs (pain w motion or guarding)"
+},
+{
+"id":"montis-06b5d26209a6",
+"topic":"The Acute Abdomen",
+"front":"basic w/u of the acute abdomen",
+"back":"urinalysis, amylase/lipase, pregnancy test, liver tests, ECG, CXR/abdo XR, CBC"
+},
+{
+"id":"montis-27e64856cdb9",
+"topic":"The Acute Abdomen",
+"front":"name some of the most common causes of the acute abdomen",
+"back":"appendicitis\ndiverticulitis\nchole\npancreatitis\nbowel obstruction/perf\nperf ulcer\nIBD\nectopic or PID/TOA\ngastroenteritis\nmesenteric ischemia\nnephrolithiasis"
+},
+{
+"id":"montis-7ba03d7aea53",
+"topic":"The Acute Abdomen",
+"front":"some less common (zebra) causes of the acute abdomen",
+"back":"volvulus, cholangitis\npna \nacute MI\novarian torsion/cyst\nhepatitis\nDKA\nuremia\nporphyra\nintussuseption"
+},
+{
+"id":"montis-a3b53eac7f56",
+"topic":"The Acute Abdomen",
+"front":"some populations you should be ++ careful in when evaluating the acute abdomen",
+"back":"old age\nspinal cord injury\nHIV\nsteroids"
+},
+{
+"id":"montis-7de29ba0da9d",
+"topic":"Urology",
+"front":"physiologic phimosis and management",
+"back":"asymptomatic, non-retractile foreskin, present in ++ children\nmanage w daily cleaning (bathing), teach to pull back foreskin to void\ntx only when causing recurrent infections or difficulty voiding"
+},
+{
+"id":"montis-e4017027801d",
+"topic":"Urology",
+"front":"physiologic vs pathologic phimosis",
+"back":"phgy: no scars/bleeding, symmetric eversion of soft/supple skin\npath:hx of cracking/bleeding w retraction, indurated/whitened skin at tip, narrowest part most distal, painful erections and recurrent infx..need intervention"
+},
+{
+"id":"montis-fd9aed10a0ee",
+"topic":"Urology",
+"front":"how to tx path phimosis",
+"back":"ccs cream is firstline (betamethasone vs clobetasol) for 2mth course\ncan then move to surgical, dorsal slit vs circumcision"
+},
+{
+"id":"montis-13d094d6c005",
+"topic":"Urology",
+"front":"complications of circumcision",
+"back":"bleeding, penile injury (glans amputation), skin injury (take off/leave too much,skin bridges, penile curvature), meatal stenosis"
+},
+{
+"id":"montis-fcb9f49d3a3f",
+"topic":"Urology",
+"front":"paraphimosis",
+"back":"[image]"
+},
+{
+"id":"montis-6e1552371758",
+"topic":"Urology",
+"front":"how to tx paraphimosis",
+"back":"emergent tx, local anesthetic, manual pressure/coban wrap vs manual reduction, dorsal slit"
+},
+{
+"id":"montis-c4a2e63cff25",
+"topic":"Urology",
+"front":"some of the main symptoms of balanitis",
+"back":"erythema (localized), edema, purulent discharge,fever/UTI, dysuria"
+},
+{
+"id":"montis-3a1c04d9b773",
+"topic":"Urology",
+"front":"tx of balanitis",
+"back":"topical abx (fucidin) vs topical steroids\npo abx if severe \nwarm water soaks, do not retract foreskin"
+},
+{
+"id":"montis-c5353d975340",
+"topic":"Urology",
+"front":"pathogenesis of nocturnal enuresis",
+"back":"delayed CNS maturation\nred renal concentration\nreduced functional capacity\ndeep sleepers"
+},
+{
+"id":"montis-6db56ff4b4c8",
+"topic":"Urology",
+"front":"tx of nocturnal enuresis",
+"back":"1. firstline is reassurance or use of an alam\n2. next is desmopression to red urine output,effective only short term="
+},
+{
+"id":"montis-b075fa3c28b4",
+"topic":"Urology",
+"front":"presentation of UTI in younger vs older children",
+"back":"younger: febrile, vomiting, dec appetite, lethargy\nolder:febrile, dysuria, LUTS, abdo pain"
+},
+{
+"id":"montis-79379d6aa4c0",
+"topic":"Urology",
+"front":"how to w/u a pediatric UTI",
+"back":"ideally cath specimen and urinalysis bc peds dips are not accurate\nfebrile UTI in child <2 or recurrent febrile UTI=renal/bladder u/s, cystogram"
+},
+{
+"id":"montis-99b0356944a6",
+"topic":"Urology",
+"front":"tx of acute peds UTI",
+"back":"lower tract: abx (usually septra)\nupper tract: 2wk course or admission if ++ ill"
+},
+{
+"id":"montis-767817c2c042",
+"topic":"Urology",
+"front":"how to prevent recurrent UTIs",
+"back":"improve voiding patterns\ninc water\ndec constipation\nabx prophylaxis \ntx any anatomic abnormality"
+},
+{
+"id":"montis-b234dd94cc32",
+"topic":"Urology",
+"front":"cause of UPJ obstruction",
+"back":"Congenital stricture or adynamic segment\n\n– Crossing vessel"
+},
+{
+"id":"montis-0fe637868e50",
+"topic":"Urology",
+"front":"presentation of UPJ obstruction",
+"back":"antenatal hyrdonephrosis\nintermittent severe flank pain w nausea/vomiting\nUTI\nrenal calculi"
+},
+{
+"id":"montis-1ef1890f9a4b",
+"topic":"Urology",
+"front":"how to w/u vs manage UPJ obstruction",
+"back":"investigations: u/s, MAG3 renal scan\nasymptomatic: observe w serial u/s, operate if worsening hydro or drop in renal fxn OR operate if symptomatic (pain/stones/infection)"
+},
+{
+"id":"montis-e8b011fd765e",
+"topic":"Urology",
+"front":"hypospadius",
+"back":"[image]"
+},
+{
+"id":"montis-1313e00e245d",
+"topic":"Urology",
+"front":"investigation for hypospadius",
+"back":"simple distal: no eval needed\nproximal + 1/bilat impalpable testicles: intersex w/u done"
+},
+{
+"id":"montis-b95a39cc3ca6",
+"topic":"Urology",
+"front":"how to tx hypospadius",
+"back":"ref before 6 mths age, sx usually between 1 and school age\ndistal: surgery for cosmesis\nproximal: tx for urinary and repro fxn, higher risk of complications"
+},
+{
+"id":"montis-e91b3a678c3a",
+"topic":"Urology",
+"front":"some causes of testicular pain in peds",
+"back":"torsed appendix testes\nepididymitis\ntesticular torsion\nhernia"
+},
+{
+"id":"montis-95a03533eefa",
+"topic":"Urology",
+"front":"dx and tx of torsion of appendix testes",
+"back":"s/sx: pre-adolescent, pinpoint tenderness, blue dot sign\ntx: rest, scrotal support, NSAIDs"
+},
+{
+"id":"montis-51ebdaab43ba",
+"topic":"Urology",
+"front":"dx and investigations of epididymitis",
+"back":"adolescent and older\ngradual onset\ntender superior portion\ninvestigations: u/a, urine cx, sexual hx, ?u/s"
+},
+{
+"id":"montis-ab5d689f9057",
+"topic":"Urology",
+"front":"symptoms of testicular torsion",
+"back":"adolescent most often\nsevere pain\nsudden onset\nsometimes only abdo pain\nn/v"
+},
+{
+"id":"montis-ec25eef0cee7",
+"topic":"Urology",
+"front":"exam for torsion and tx",
+"back":"testes tender, swollen and firm to palpation\nabnormal lie to the testicle/high-riding testes\nno cremaster reflex\ngo right to the OR!! ideally fix w/in 6 hrs"
+},
+{
+"id":"montis-12a332329a65",
+"topic":"Urology",
+"front":"when should all testes descend",
+"back":"within the first three months of life"
+},
+{
+"id":"montis-4e5bd906c760",
+"topic":"Urology",
+"front":"some of the main complications of undescended testes",
+"back":"inguinal hernia\ntorsion risk\ninfertility (if bilateral)\ninc risk of testiculat ca"
+},
+{
+"id":"montis-eef5c206cfef",
+"topic":"Urology",
+"front":"tx of undescended testes",
+"back":"orchidoplexy sx\nmay improve fertility, easier to monitor for malignancy\nsx correction by 6mths of age"
+},
+{
+"id":"montis-f5c3e732b4be",
+"topic":"Urology",
+"front":"how does a communicating hydrocele present",
+"back":"accumulation of fluid around the testicle\noften closes in first year of life, sx if does not close after this"
+},
+{
+"id":"montis-829ecf38bd8a",
+"topic":"Urology",
+"front":"established risk factors for prostate ca",
+"back":"advancing age\npresence of androgens\n1st deg relative w prostate ca\nafrican ancestry"
+},
+{
+"id":"montis-f07b741d994a",
+"topic":"Urology",
+"front":"presentation of prostate ca (early vs late)",
+"back":"early: asymptomatic, most detected by PSA screening or abn DRE\nadv: B sx, urinary retention, bone pain, anemia, spinal cord compression"
+},
+{
+"id":"montis-0686b259b4b1",
+"topic":"Urology",
+"front":"is PSA good for screening?",
+"back":"better to have serial PSA measurements over time\nthere is a PPV of PSA >4ng/mL\nuseful to measure free/total PSA ratio (lower in pts w ca)"
+},
+{
+"id":"montis-5d6370f672c2",
+"topic":"Urology",
+"front":"some causes of elevated PSA",
+"back":"prostate ca\nage \nprostate size\ninfx/inflammation\nrecent instrumentation (bx etc)\nrecent ejaculation"
+},
+{
+"id":"montis-a75b98f1ddfe",
+"topic":"Urology",
+"front":"the best protocol for PSA screening",
+"back":"- annual PSA and DRE ages 50-70, shared decision making"
+},
+{
+"id":"montis-a1e7f9cadea6",
+"topic":"Urology",
+"front":"dx of prostate ca",
+"back":"done through transrectal u/s if have palpable nodule on DRE or elevated serum PSA"
+},
+{
+"id":"montis-722755f6462d",
+"topic":"Urology",
+"front":"when should you consider additional testing for prostate ca screening",
+"back":"bone scan or CT pelvis/abdo if the PSA >10 or Gleason score >7"
+},
+{
+"id":"montis-aa336792fcca",
+"topic":"Urology",
+"front":"five options for the tx of early stage prostate ca",
+"back":"1.Radical Prostatectomy\n2.External Beam Radiotherapy\n3.Radioactive Seeds\n(Brachytherapy)\n4.Active Surveillance\n5.Observation – Watchful Waiting"
+},
+{
+"id":"montis-3f945b1470f5",
+"topic":"Urology",
+"front":"when would you perform a radical prostatectomy",
+"back":"complete surgical removal of entire prostate\nmen <70 years of age w organ confined disease"
+},
+{
+"id":"montis-8ed2ba70c708",
+"topic":"Urology",
+"front":"some of the complications of radical prostatectomy",
+"back":"infection, rectal injury, urinary incontinence, erectile dysfunction"
+},
+{
+"id":"montis-ebec4976cf98",
+"topic":"Urology",
+"front":"when would you use radiotherapy for tx of prostate ca",
+"back":"pts at high risk of morbidity from radical prostatectomy"
+},
+{
+"id":"montis-d6301c848c4b",
+"topic":"Urology",
+"front":"some complications of rads for prostate ca",
+"back":"hematuria, radiation proctitis, urinary retention, strictures, ED"
+},
+{
+"id":"montis-c586e74cc762",
+"topic":"Urology",
+"front":"who is the ideal candidate for watchful waiting of prostate ca tx",
+"back":"delay tx-related morbidity\nPSA <10, normal DRE, gleason <7, only 1-3/12 bx cores positive"
+},
+{
+"id":"montis-3602c78fb524",
+"topic":"Urology",
+"front":"tx of advanced prostate ca",
+"back":"androgen deprivation (orichidectomy or LHRH analogues)\nsupportive tx: analgesia, steroids, bisphosphonates\nchemo"
+},
+{
+"id":"montis-7384436d4472",
+"topic":"Urology",
+"front":"clincal s/sx of sx compression from metastatic prostate ca",
+"back":"back pain\nneuro sx in saddle distrubution\nfecal/urinary incontinence\nparaplegia below level of compression\ndx via MRI"
+},
+{
+"id":"montis-21f728003f35",
+"topic":"Urology",
+"front":"tx of sc compression by bony prostate ca mets",
+"back":"decompression laminectomy\nemergency rads\ndex/steroids\nandrogen deprivation"
+},
+{
+"id":"montis-1cbebebe5775",
+"topic":"Urology",
+"front":"prognosis of prostate ca",
+"back":"[image]"
+},
+{
+"id":"montis-90dad2c1f1b1",
+"topic":"Urology",
+"front":"presentation of scc on the male genitalia",
+"back":"chronic, ulcerative and enlarging lesion\ndelay in presentation\ninguinal masses common\ntx by wide local excision [image]"
+},
+{
+"id":"montis-6ec4fdeeae6b",
+"topic":"Urology",
+"front":"what is fournier's gangrene",
+"back":"nec fasc of the deep cutaneous structures and fascia\npainful, necrotic, foul-smelling lesions\ntx is surgical!!! extensive debridement and broad spec abx"
+},
+{
+"id":"montis-4ac4ddd37e89",
+"topic":"Urology",
+"front":"some important questions to ask about scrotal lesions",
+"back":"[image]"
+},
+{
+"id":"montis-e361cc79f065",
+"topic":"Urology",
+"front":"features of hydrocele and tx",
+"back":"collection of serous fluids between the layers of the tunica vaginalis =\nit will transilluminate\ntx if large or bothersome"
+},
+{
+"id":"montis-e7ddd55ded82",
+"topic":"Urology",
+"front":"spermatocele features and tx",
+"back":"sperm-containing cyst arising from the head of the epididymis\ncaused by ductal obstruction (traumatic,inflammatory, idiopathic)\nwill transilluminate \nexcise if large/bothersome"
+},
+{
+"id":"montis-6d71f20a7cc3",
+"topic":"Urology",
+"front":"etiology of epididymitis in different populations",
+"back":"[image]"
+},
+{
+"id":"montis-00226e5925ae",
+"topic":"Urology",
+"front":"what will you see on exam for epididymitis",
+"back":"No transillumination\n➢ Erythematous or indurated scrotal skin"
+},
+{
+"id":"montis-4641b322b5d7",
+"topic":"Urology",
+"front":"tx of epididymitis",
+"back":"1.r/o testicular torsion via u/s\n2. bedrest/scrotal support and NSAIDs\n3. abx: [image]"
+},
+{
+"id":"montis-643b6e5b49ce",
+"topic":"Urology",
+"front":"some of the main things that should make you suspicious of testicular torsion",
+"back":"sudden onset scrotal pain, incidental trauma, prior epidoses, visceral stimulation, bell clapper deformity, no transillumination\nNEED URGENT SURGICAL EVAL"
+},
+{
+"id":"montis-d68b15d669e1",
+"topic":"Urology",
+"front":"what should you do if you are uncertain about if someone has testicular torsion",
+"back":"doppler u/s"
+},
+{
+"id":"montis-e0be7caee766",
+"topic":"Urology",
+"front":"what is a varicocele; some classic features",
+"back":"dilated veins in the pampiniform plexus in the spermatic cord \nmostly L side\nassociated w infertility\ndoes not transilluminate\nchronic"
+},
+{
+"id":"montis-4cb699bc8b26",
+"topic":"Urology",
+"front":"tx of varicocele",
+"back":"sugical tx needed if assoc w infertility, loss of testicular volume"
+},
+{
+"id":"montis-8cd1d4d20d73",
+"topic":"Urology",
+"front":"all solid intratesticular lesions are...",
+"back":"considered malignant unless proven otherwise"
+},
+{
+"id":"montis-e0cac8092ee7",
+"topic":"Urology",
+"front":"the most common feature of testicular ca",
+"back":"painless enlargement of the testis\nmost common between ages 15 and 35"
+},
+{
+"id":"montis-8ad440cf0265",
+"topic":"Urology",
+"front":"how to evaluate for testicular ca",
+"back":"check for lymphadenopathy/abdo masses \nexamine both testes and check for transillumiation (ca does not illuminate)\ndo not bx"
+},
+{
+"id":"montis-8802b0d0f503",
+"topic":"Urology",
+"front":"tumour markers useful in testicular ca evaluation",
+"back":"a-fetoprotein, normal <20, elevated in embryonal ca\nbhcg, elevated in almost all choriocarcinomas"
+},
+{
+"id":"montis-3a10505b143a",
+"topic":"Urology",
+"front":"seminoma vs non seminoma testicular ca",
+"back":"seminomas are ++ sensitive to radiation therapy\nnon seminoma tends to be more aggressive and includes other types of ca like coriocarcinoma and embryonal carcinoma"
+},
+{
+"id":"montis-eea5867fda53",
+"topic":"Urology",
+"front":"age of onset of most seminomas",
+"back":"onset in 30s"
+},
+{
+"id":"montis-6847c1b1c394",
+"topic":"Urology",
+"front":"embryonal carcinoma features",
+"back":"younger onset\ninc AFP levels\n1/3 have mets at dx"
+},
+{
+"id":"montis-d724b1fc31ea",
+"topic":"Urology",
+"front":"teratoma features",
+"back":"well-differentiated, large lesion, bimodal age distribution"
+},
+{
+"id":"montis-560f9645f02c",
+"topic":"Urology",
+"front":"choriocarcinoma features",
+"back":"rare, produces bhcg,hemorrhagic and hematogenous mets\npresentation often due to metastatic disease"
+},
+{
+"id":"montis-61771fee98ce",
+"topic":"Urology",
+"front":"tx of state 1 of testicular ca",
+"back":"radical orchiectomy + surveillence or retroperitoneal LND"
+},
+{
+"id":"montis-e0a5267c0aff",
+"topic":"Urology",
+"front":"tx of stage 2/3 testicular ca",
+"back":"radical orchiectomy + chemo and RPLND prn"
+},
+{
+"id":"montis-f027419d8d55",
+"topic":"Urology",
+"front":"malignant lesions are most likely...",
+"back":"intra-testicular rather than paratesticular"
+},
+{
+"id":"montis-d57cda72a035",
+"topic":"Urology",
+"front":"some of the most common features of urinary calculus disease",
+"back":"signs and symptoms include colic nature of the pain, radiates from flank to groin, nausea/emesis, hematuria, LUTS, beware fever"
+},
+{
+"id":"montis-da7d57074f6e",
+"topic":"Urology",
+"front":"where to urinary stones usually get stuck?",
+"back":"UPJ: where the renal pelvis meets the ureter\npelvic brim: at level of the common iliacs \nUVJ: where ureters meet the bladder"
+},
+{
+"id":"montis-78b93de2b144",
+"topic":"Urology",
+"front":"investigations to order for urinary calculus disease",
+"back":"urinalysis, preg test, CBC and diff\nimaging: KUB plain XR\nlow dose non contrast CT"
+},
+{
+"id":"montis-4aaf8ed63bd6",
+"topic":"Urology",
+"front":"urinalysis in urinary calculus disease",
+"back":"90% will have some hematuria"
+},
+{
+"id":"montis-4f56f4864709",
+"topic":"Urology",
+"front":"initial management of renal colic",
+"back":"narcotics, NSAIDS, acetaminophen, antiemetics\nIV hydration\nfever=uro consult\na blockers as medical expulsive therapy"
+},
+{
+"id":"montis-aeae4c78abf8",
+"topic":"Urology",
+"front":"how to manage <5mm renal sotnes",
+"back":"tamsulosin\ndrink++ water\nstone will pass on its own"
+},
+{
+"id":"montis-7abb6c972fb6",
+"topic":"Urology",
+"front":"how to tx stones >5mm or w obstructive signs",
+"back":"consult uro \n+/- tamsulosin"
+},
+{
+"id":"montis-93d9a7860467",
+"topic":"Urology",
+"front":"when should you consult uro for a renal stone",
+"back":"obstructing stone w fever, bilateral stones, solitary kidney"
+},
+{
+"id":"montis-ba6045aa4ba4",
+"topic":"Urology",
+"front":"tx of urinary calculi",
+"back":"shock wave lithotripsy\nureteroscopic laser lithotripsy (SWL failures)\nperc nephrolithotomy (>2cm renal stones)"
+},
+{
+"id":"montis-17d7dfce73e5",
+"topic":"Urology",
+"front":"absolute contraindications to SWL",
+"back":"pregnancy\nbleeding disorder/anticoag\nfebrile UTI\nobstruction distal to stone being treated"
+},
+{
+"id":"montis-f572051c1dbf",
+"topic":"Urology",
+"front":"what does SWL success depend on?",
+"back":"more success w..\nstones smaller, stones in renal pelvis, smaller body habitus, normal kidneys"
+},
+{
+"id":"montis-d2b01dc6970a",
+"topic":"Urology",
+"front":"some complications of SWL",
+"back":"hematuria, hematochezia, ureteral obstruction,sepsis"
+},
+{
+"id":"montis-1f846d980f32",
+"topic":"Urology",
+"front":"some of the advantages/disadvantages of percutaneous nephrolithotripsy",
+"back":"able to rem. large stones w great success\ninvasive, need general anesthesia,risk of sepsis/bleeding etc"
+},
+{
+"id":"montis-b5b23838c859",
+"topic":"Urology",
+"front":"w/u done for all pts w renal stones",
+"back":"urinalysis and cx to look for urea-splitting organisms\nserum lytes, urea, cr and ca\nsend stone for analysis"
+},
+{
+"id":"montis-4edbab128ce3",
+"topic":"Urology",
+"front":"when should you do a detailled metabolic w/u for renal stones",
+"back":"children, bilateral, recurrent stones, complciations, percutaneous nepro req to remove, etc etc"
+},
+{
+"id":"montis-b3468401f91f",
+"topic":"Urology",
+"front":"how to prevent renal stones",
+"back":"inc hydration (2-3L/day), normal dietary ca intake, limit salt and oxalates in tea/spinach etc, limit animal protein"
+},
+{
+"id":"montis-0350440457c7",
+"topic":"Urology",
+"front":"what is the gold standard for dx urinary calculi",
+"back":"low dose non contrast CT"
+},
+{
+"id":"montis-0370e6b827ec",
+"topic":"Urology",
+"front":"define persistent UTI",
+"back":"persistence of symptoms and positive cultures with the same bacteria despite culture-adj abx tx"
+},
+{
+"id":"montis-0aa25543c63f",
+"topic":"Urology",
+"front":"pyuria",
+"back":"presence WBC in the urine\nmay be present in URI but is not specific for UTI"
+},
+{
+"id":"montis-ab27d1ff0aaa",
+"topic":"Urology",
+"front":"the triad for pyelonephritis",
+"back":"fever, flank pain, positive urine cx"
+},
+{
+"id":"montis-61142461e559",
+"topic":"Urology",
+"front":"when to tx asymptomatic bacteuria (absolute vs relative)",
+"back":"[image]"
+},
+{
+"id":"montis-7109040552ed",
+"topic":"Urology",
+"front":"some of the common uropathogens for uncomplicated cystisis",
+"back":"e coli (++++++)\ns saprophyticus\nklebsiella\nproteus\ne fecalis\nmostly gram neg"
+},
+{
+"id":"montis-0cc872c14dc8",
+"topic":"Urology",
+"front":"some different bacteria that cause complicated cystitis",
+"back":"all of the same but also pseudomonas (yee)"
+},
+{
+"id":"montis-8a06b285c2bc",
+"topic":"Urology",
+"front":"the 3 firstline abx for uncomplicated cystitis",
+"back":"tmp/smx\nnitro\nfosfomycin"
+},
+{
+"id":"montis-59065a25283c",
+"topic":"Urology",
+"front":"investigations for uncomplicated cystitis",
+"back":"microscopic urinalysis\ndip (nitrites/leuks)\nurine c&s"
+},
+{
+"id":"montis-64c7cc47e104",
+"topic":"Urology",
+"front":"some investigations/management for recurrent bacterial cystitis =",
+"back":"inc water intake, cranberry products, vaginal estrogen therapy\nconsider low dose abx prophylaxis as last resort or standing abx prescription\nuro ref"
+},
+{
+"id":"montis-f53f6f66f7a5",
+"topic":"Urology",
+"front":"tx of complicated cystitis",
+"back":"fluroquinolones as firstline for 10-14 dats"
+},
+{
+"id":"montis-0fe8adfbc6e1",
+"topic":"Urology",
+"front":"pts with complicated UTI who you should consider further imaging in",
+"back":"CT or u/s in...\npoor abx response,persistent fever, elevated cr, hx of urinary retention, hx of urolithiasis"
+},
+{
+"id":"montis-2c65bc766a8a",
+"topic":"Urology",
+"front":"which pts w UTI should you consider IV abx and inpt management?",
+"back":"x [image]"
+},
+{
+"id":"montis-10874bfbcc41",
+"topic":"Urology",
+"front":"when do you need a urinary catheter in complicated UTI",
+"back":"in the case of urinary retention or obstruction"
+},
+{
+"id":"montis-12303a76727d",
+"topic":"Urology",
+"front":"some of the clues to renal trauma",
+"back":"hematuria\nflank pain\nsudden deceleration/fall\nflank bruising\nbroken 11th/12th ribs\nlower chest/upper abdo trauma"
+},
+{
+"id":"montis-4edfa706cdc6",
+"topic":"Urology",
+"front":"the best kind of imaging to get for renal trauma",
+"back":"CT abdo with contrast"
+},
+{
+"id":"montis-2dce76933443",
+"topic":"Urology",
+"front":"when should you CT someone with renal trauma",
+"back":"penetrating trauma\nblunt trauma w rapid deceleration injury or hematuria"
+},
+{
+"id":"montis-78b8478af895",
+"topic":"Urology",
+"front":"when does someone w renal trauma need operational intervention",
+"back":"uncontrolled bleeding, unstable pt, expanding RP hematoma, maj renal artery injury, renovascular injury"
+},
+{
+"id":"montis-93951805f8fc",
+"topic":"Urology",
+"front":"best surgical technique to do for renal trauma",
+"back":"open lap most commonly done"
+},
+{
+"id":"montis-d662ac23d0c4",
+"topic":"Urology",
+"front":"what is the largest determinant of mortality in renal trauma",
+"back":"severe concurrent injury"
+},
+{
+"id":"montis-a842418d93c1",
+"topic":"Urology",
+"front":"how to dx uretral trauma",
+"back":"hematuria \nintravenous pyelogram\ndirect inspection during laparotomy (gold standard)"
+},
+{
+"id":"montis-319b5979e360",
+"topic":"Urology",
+"front":"some complications of uretral trauma",
+"back":"ureteral stricture\nurine leak\npyelo"
+},
+{
+"id":"montis-d2a796948867",
+"topic":"Urology",
+"front":"80% of bladder injuries have...",
+"back":"associated pelvic fracture"
+},
+{
+"id":"montis-d5ad2d5cf0d3",
+"topic":"Urology",
+"front":"some s/sx of bladder trauma",
+"back":"gross hematuria\npelvic fracture \nlower abdo pain"
+},
+{
+"id":"montis-b856e398be5f",
+"topic":"Urology",
+"front":"indications for cystogram in bladder trauma",
+"back":"gross hematuria\nmultiple organ injuries and pelvic fractures + microscopic hematuria \nNOT MICRO HEMATURIA ALONE"
+},
+{
+"id":"montis-472f18f1c2f8",
+"topic":"Urology",
+"front":"how to tx extraperitoneal bladder rupture",
+"back":"large catheter drainage x 10 days \nprophylactic abx\ncystogram before catheter rem"
+},
+{
+"id":"montis-9e586540c3bf",
+"topic":"Urology",
+"front":"how to tx intraperitoneal bladder rupture",
+"back":"ruptures at the dome of the bladder \nneed surgical repair and catheter"
+},
+{
+"id":"montis-f7d698b3f22e",
+"topic":"Urology",
+"front":"s/sx of posterior urethral trauma",
+"back":"1) Inability to urinate\n2) Blood at urethral meatus\n3) Gross hematuria\n4) Perineal swelling/hematoma\n5) Non-palpable (“high riding”) prostate"
+},
+{
+"id":"montis-4bfc4f68d249",
+"topic":"Urology",
+"front":"how to dx posterior urethral trauma",
+"back":"do not insert foley!!! do a retrograde urethrogram"
+},
+{
+"id":"montis-0047347391cc",
+"topic":"Urology",
+"front":"dx of ant urethral trauma",
+"back":"blood at meatus, butterfly pattern on perineum\ndx w urethrogram"
+},
+{
+"id":"montis-fdaf604ca339",
+"topic":"Urology",
+"front":"penile fracture",
+"back":"disruption of both laminas of the tunica albuginea\nwill have pain, swelling, blood at urethral meatus\nhave to tx w surgical exploration"
+},
+{
+"id":"montis-53d53fc11538",
+"topic":"Knee Pain",
+"front":"which ligaments of the knee are intra vs extrarticular",
+"back":"intra: ACL/PCL\nextra: MCL/LCL"
+},
+{
+"id":"montis-e35836240139",
+"topic":"Knee Pain",
+"front":"which knee injuries need emergent ref>",
+"back":"fractures\nquads/patellar tendon injuries\nmultilig injuries (eg dislocation.. NOT patellar disloc alone)\nperoneal nerve injury (drop foot)"
+},
+{
+"id":"montis-849772d2605f",
+"topic":"Knee Pain",
+"front":"if you do conservative management after an injury and wait 4-6 weeks, when should you image/refer?",
+"back":"MRI if can't make dx or cannot return to support\nurgent ref if no full extension after therapy"
+},
+{
+"id":"montis-720fad04e886",
+"topic":"Knee Pain",
+"front":"static vs dynamic knee stabalizers",
+"back":"static include the ligaments, dynamic are the muscles"
+},
+{
+"id":"montis-f4baafedf6bc",
+"topic":"Fluids and Lytes in the Surgical Patient",
+"front":"what are the two fluid compartments? how do they relate to each other?",
+"back":"intracellular and extracellular, they relate to each other \nthey are regulated through osmotic movement through the cell membranes based on the relative concentrations on both sides of the membrane!"
+},
+{
+"id":"montis-4656dc890aa1",
+"topic":"Fluids and Lytes in the Surgical Patient",
+"front":"Two Subcompartments of extracellular fluids?",
+"back":"lnterstitial fluid (in the tissues,\nbetween the cells)\n\nlntravascular fluid (plasma)"
+},
+{
+"id":"montis-0a57ec59eb29",
+"topic":"Fluids and Lytes in the Surgical Patient",
+"front":"What are the 3 body fluid spaces?",
+"back":"intravascular: the blood\nextravascular: tissue space, interstitial and intracellular\nsuper secret third space is any fluid that is not readily aval. for circulation (body cavity, lumen of hollow viscera, insensible losses, edema fluid)"
+},
+{
+"id":"montis-8a6e4b6d8ea1",
+"topic":"Fluids and Lytes in the Surgical Patient",
+"front":"what % of total body weight is fluid in adults vs newborns",
+"back":"[image]"
+},
+{
+"id":"montis-06d7ddd7abdd",
+"topic":"Fluids and Lytes in the Surgical Patient",
+"front":"what is the volume of the intravascular space (blood vol) in adults vs children",
+"back":"adults: 7% of body weight\nchildren: 100cc/kg newborns, 80cc/kg older infants/children"
+},
+{
+"id":"montis-7c5133f4c5ea",
+"topic":"Fluids and Lytes in the Surgical Patient",
+"front":"maintenance water needed for patients",
+"back":"follow the 100/50/20 or the 4/2/1 rule!"
+},
+{
+"id":"montis-0547fb704f90",
+"topic":"Fluids and Lytes in the Surgical Patient",
+"front":"the lyte replacement needed for daily maintenance in peds vs adults",
+"back":"[image]"
+},
+{
+"id":"montis-954e1c7ebcfb",
+"topic":"Fluids and Lytes in the Surgical Patient",
+"front":"what do you replace fluid lost via GI losses (vomiting, NG tube) or drains (abdo/chest tube)",
+"back":"should replace based on the composition of the fluid lost"
+},
+{
+"id":"montis-c35d7fdbe0fb",
+"topic":"Fluids and Lytes in the Surgical Patient",
+"front":"how do third space losses occur?",
+"back":"SIRS >> inflammatory mediators, inc cytokines leading to capillary leak of fluid that is isotonic with serum"
+},
+{
+"id":"montis-59466c1b47d6",
+"topic":"Fluids and Lytes in the Surgical Patient",
+"front":"some important things to ask on hx to accurately quantify fluid losses",
+"back":"losses: how much vomiting, what colour of emesis\nintravasc depletion: lightheadedness, lethargy, urine vol and colour\ninterstitial depletion: thirst/dry mouth"
+},
+{
+"id":"montis-c82094d0bfd3",
+"topic":"Fluids and Lytes in the Surgical Patient",
+"front":"lab findings that indicate compensation due to lyte abnormalities",
+"back":"elevated BUN\nlow urine volume and high specific gravity\nlyte abnormalities"
+},
+{
+"id":"montis-f79d036d9d28",
+"topic":"Fluids and Lytes in the Surgical Patient",
+"front":"what is the most common form of chloride in gastroduodenal fluid",
+"back":"NaCl!"
+},
+{
+"id":"montis-67b35f25eb26",
+"topic":"Fluids and Lytes in the Surgical Patient",
+"front":"what does the kidney do in response to intravascular vol depletion",
+"back":"RAAS and ADH released leading to h2o reabsorption and high spec hravity"
+},
+{
+"id":"montis-5ec9d05a11f8",
+"topic":"Fluids and Lytes in the Surgical Patient",
+"front":"what are the typical lab findings of a pt vomiting gastroduodenal fluid?",
+"back":"elevated BUN\nhyppnatremic, hypochloremic, hypokalemic, met alk\nlow urine Na/volume,acidic urine due to H+ and K+ transfer"
+},
+{
+"id":"montis-e3f201694920",
+"topic":"Fluids and Lytes in the Surgical Patient",
+"front":"what are the compensations for met alk?",
+"back":"lungs: resp acidosis (CO2 retention)\nkidney: get rid of excess basic urine and produce alkalotic urine"
+},
+{
+"id":"montis-843fd7fda68b",
+"topic":"Fluids and Lytes in the Surgical Patient",
+"front":"how to properly resus a patient with significant gastroduodenal losses for surgery w fluid?",
+"back":"estimate fluid loss \ncorrect lyte and acid/base abnormalities (choose the right fluid!)\nmaintenance fluid if time allows via 4/2/1 rule"
+},
+{
+"id":"montis-8c9e98338538",
+"topic":"Fluids and Lytes in the Surgical Patient",
+"front":"how to calculate how much resus fluid someone needs based on their clinical presentation?",
+"back":"estimate the % of fluid lost via the clincial assessment of deg. of dehydration chart and then multiply this by the pts body weight\n [image]"
+},
+{
+"id":"montis-31cb25097341",
+"topic":"Fluids and Lytes in the Surgical Patient",
+"front":"when do you add K+ into resus fluid?",
+"back":"when the patient begins to void!"
+},
+{
+"id":"montis-53dda12f7945",
+"topic":"Fluids and Lytes in the Surgical Patient",
+"front":"when is RL the best choice for fluid?",
+"back":"RL\nis appropriate choice is hemorrhage shock, where there is no electrolyte abn\nand pt is\nacidotic\nif used in resus, lactate is converted to bicarb and will make the patient more alkalotic"
+},
+{
+"id":"montis-90a6cfee5238",
+"topic":"Fluids and Lytes in the Surgical Patient",
+"front":"appropriate maintenance fluid for adult vs peds",
+"back":"[image] \nthe use of D5W spares peripheral muscle protein and actually helps patients heal and overcome sepsis"
+},
+{
+"id":"montis-c91aa442d726",
+"topic":"Bowel Obstruction",
+"front":"some red flags on surgical hx for bowel obstruction",
+"back":"no prev abdo surgeries (this rules out adhesions)"
+},
+{
+"id":"montis-1a035d59ad0a",
+"topic":"Bowel Obstruction",
+"front":"the two primary broad causes of bowel obstruction",
+"back":"mechanical vs functional"
+},
+{
+"id":"montis-1fbd796dd90a",
+"topic":"Bowel Obstruction",
+"front":"the three locations where mechanical bowel obstruction can occur",
+"back":"extramural \nintramural (in the bowel wall)\nintra-luminal"
+},
+{
+"id":"montis-7e64c054f326",
+"topic":"Bowel Obstruction",
+"front":"the two subtypes of functional bowel obstruction",
+"back":"systemic (impacts the whole body)\nregional (only impacts the bowel)"
+},
+{
+"id":"montis-587983ed8411",
+"topic":"Bowel Obstruction",
+"front":"the four (?five?) causes of extramural bowel obstruction",
+"back":"[image]"
+},
+{
+"id":"montis-e7d679b757ad",
+"topic":"Bowel Obstruction",
+"front":"the main intramural causes of bowel obstruction",
+"back":"strictures (inflammatory/neoplastic) vs growth/abscess"
+},
+{
+"id":"montis-e3d83178526a",
+"topic":"Bowel Obstruction",
+"front":"main causes of intraluminal bowel obstruction (does not originate from the bowel or bowel wall",
+"back":"intra-terrestrial FB (stool)\nextra-terrestrial FB (eg nacrotic capsules, bezoar)"
+},
+{
+"id":"montis-35cabe1fdab7",
+"topic":"Bowel Obstruction",
+"front":"Rigler's triad of gallstone ileus",
+"back":"Pneumobilia\nRadiolucent gallstone\nSBO"
+},
+{
+"id":"montis-3c2861ad309d",
+"topic":"Bowel Obstruction",
+"front":"some examples of systemic causes of SBO",
+"back":"ketoacidosis\nuremia\ndrugs\nsystemic illness like burns\nprolonged immobilization"
+},
+{
+"id":"montis-3bcc89302be5",
+"topic":"Bowel Obstruction",
+"front":"some regional causes of SBO",
+"back":"trauma: surgical or unplanned\nperitonitis from appendicitis, diverticulitis, bowel perf etc\nintestinal ischemia\netc etc"
+},
+{
+"id":"montis-f9b2a0406e7a",
+"topic":"Bowel Obstruction",
+"front":"on imaging, what signs make you more suspicious of a complete bowel obstruction",
+"back":"50% difference in caliber between prox and distal dilated loops of bowel\nempty bowels distal to the obstruction"
+},
+{
+"id":"montis-de1479812946",
+"topic":"Bowel Obstruction",
+"front":"on imaging, what is indicative of a partial bowel obstruction",
+"back":"the lumen discrepancy is less obvious\ntransition point before/after obstruction may not be obvious\nbowel/gas content on both sides"
+},
+{
+"id":"montis-9f0007a7a8b6",
+"topic":"Bowel Obstruction",
+"front":"the difference in clinical presentation between prox vs distal bowel obstruction",
+"back":"prox: tend to vomit early and have obstipation late\ndistal: have obstipation early and continue vomiting late"
+},
+{
+"id":"montis-434d1167a886",
+"topic":"Bowel Obstruction",
+"front":"a distal abdomen usually indicates...",
+"back":"a distal obstruction"
+},
+{
+"id":"montis-1d4d1aec41f1",
+"topic":"Bowel Obstruction",
+"front":"some red flags for a dangerous cause of bowel obstruction",
+"back":"no surgical hx \nperitonitis and tender, irreducible hernia\nhypovolemic/septic shock on exam"
+},
+{
+"id":"montis-bb58c50e42e2",
+"topic":"Bowel Obstruction",
+"front":"what is the most important thing to look for on imaging when trying to ID a bowel obstruction?",
+"back":"look for the transition point!!"
+},
+{
+"id":"montis-65487fca3d3f",
+"topic":"Bowel Obstruction",
+"front":"the four red flags on imaging that warrant urgent sx",
+"back":"[image]"
+},
+{
+"id":"montis-44aac820928d",
+"topic":"Bowel Obstruction",
+"front":"the four main options for management of most bowel obstruction",
+"back":"bowel rest: good for adhesive SBO, bad for LBO\nsurgical: adhesion lysis, divert if uresectable, resect/relieve blockage\nwater soluble oral contrast: distinguish partial from full\nendoscopic: decompress volvulus, stents (if malignant)"
+},
+{
+"id":"montis-26185434172f",
+"topic":"Bowel Obstruction",
+"front":"some of the ABCDEs needed in urgent management of bowel obstruction",
+"back":"[image]"
+},
+{
+"id":"montis-6779199bde64",
+"topic":"Surgical Complications",
+"front":"What characterizes distributive shock",
+"back":"Characterized by peripheral vasodilation"
+},
+{
+"id":"montis-bd21a5994162",
+"topic":"Surgical Complications",
+"front":"List the five types of distributive shock",
+"back":"Septic shock, systemic inflammatory response syndrome, anaphylactic shock, neurogenic shock, endocrine shock"
+},
+{
+"id":"montis-09113a142010",
+"topic":"Surgical Complications",
+"front":"What is the primary characterizing symptoms of septic shock",
+"back":"Characterized by response to infection Leading to hypoperfusion manifested as hypotension requiring vasopressor therapy and elevated lactate"
+},
+{
+"id":"montis-1f681f6b9627",
+"topic":"Surgical Complications",
+"front":"What characterizes neurogenic shock",
+"back":"Occurs in the setting of trauma to the spinal cord or brain\nUnderlying mechanism is the distribution of autonomic pathway leading to decrease vascular resistance and changes in vagal tone"
+},
+{
+"id":"montis-c68d2daa85f6",
+"topic":"Surgical Complications",
+"front":"What characterizes hypovolaemic shock",
+"back":"Decreased intravascular volume and increased venous assistance leading to volume to completion and decreased cardiac output leading to hypotension"
+},
+{
+"id":"montis-3a0c0f26ca2b",
+"topic":"Surgical Complications",
+"front":"What are the two types of hypovolaemic shock",
+"back":"Haemorrhagic and non-hemorrhagic"
+},
+{
+"id":"montis-ab767299b940",
+"topic":"Surgical Complications",
+"front":"Some common causes of haemorrhagic hypovolaemic shock",
+"back":"G.I. bleed,Vascular ideologies such as ruptured AAA or spontaneous bleeding in the setting of anticoagulant use"
+},
+{
+"id":"montis-b4e496ef9f93",
+"topic":"Surgical Complications",
+"front":"What are some common causes of non-hemorrhagic hypovolaemic shock",
+"back":"G.I. losses in the setting of vomiting or diarrhoea\nRenal losses such as diuresis\nSkin losses/insensible losses due to burns\nThird space losses in the setting of pancreatitis or cirrhosis"
+},
+{
+"id":"montis-0f6c859f0236",
+"topic":"Surgical Complications",
+"front":"What is the etiology of cardiogenic shock",
+"back":"Intracardiac causes leading to decreased cardiac output and systemic hypoperfusion"
+},
+{
+"id":"montis-6b8d6344031c",
+"topic":"Surgical Complications",
+"front":"Three common causes of cardiogenic shock",
+"back":"Cardiomyopathy including acute MI\nArrhythmias\nMechanical such as mitral or aortic insufficiency or papillary muscle rupture"
+},
+{
+"id":"montis-6709698c5ea8",
+"topic":"Surgical Complications",
+"front":"What is the aetiology of obstructive shock",
+"back":"Usually due to extra =cardiac causes leading to a decrease in left ventricular cardiac output"
+},
+{
+"id":"montis-b664e47ffc3b",
+"topic":"Surgical Complications",
+"front":"Two main examples of causes of obstructive shock",
+"back":"Pulmonary vascular: due to impaired blood flow from right to left heart due to causes such as pulmonary embolism\nMechanical: secondary to decreased venous return to the right heart secondary to pneumothorax, pericardial tamponade or restrictive cardiomyopathy"
+},
+{
+"id":"montis-eca5f147fffa",
+"topic":"Surgical Complications",
+"front":"What is the most common type of shock",
+"back":"Distributive shock"
+},
+{
+"id":"montis-5f3650dc82fb",
+"topic":"Surgical Complications",
+"front":"The best course of initial management of septic shock",
+"back":"Aggressive fluid resuscitation\nAnd antibiotic therapy\nVasopressors PRN targeting a MAP of 65 mmHg (Norepinephrine is first choice vasopressor)"
+},
+{
+"id":"montis-44eca06dd04c",
+"topic":"Burns",
+"front":"What are the three zones of burn wounds",
+"back":"Zone of hyperemia, zone of stasis, zone of coagulation"
+},
+{
+"id":"montis-e8143ead2d57",
+"topic":"Burns",
+"front":"What characterizes the zone of hyperaemia in a burn",
+"back":"Minimal cellular injury\nVasodilation\nComplete recovery"
+},
+{
+"id":"montis-82117e1160cf",
+"topic":"Burns",
+"front":"What characterizes the zone of stasis in a burn",
+"back":"Compromised cells, recovery of this zone depends on successful resuscitation"
+},
+{
+"id":"montis-d5614008bd8e",
+"topic":"Burns",
+"front":"What characterizes the zone of coagulation in a burn wound",
+"back":"This area represents irreversible deep damage and tissue necrosis"
+},
+{
+"id":"montis-adda6259d018",
+"topic":"Burns",
+"front":"What are the classifications of burn depths",
+"back":"Superficial: involving the epidermis\nPartial thickness: involving epidermidis epidermis\nFull thickness:Destruction of epidermis,Dermis andUnderlying structure such as fat muscle bone and nerve"
+},
+{
+"id":"montis-a229c891f189",
+"topic":"Burns",
+"front":"What characterizes a first-degree burn",
+"back":"Damage to the Epidermis only\nScarless healing within seven days"
+},
+{
+"id":"montis-4d201b229ace",
+"topic":"Burns",
+"front":"The two subtypes of second-degree burns",
+"back":"Partial thickness superficial\nPartial thickness deep"
+},
+{
+"id":"montis-499d672a91b9",
+"topic":"Burns",
+"front":"Characteristics of second-degree superficial burn",
+"back":"Involves epidermis and superficial dermis\nPainful as nerve endings survive\nBlistering with little scarring\nRapid healing\nGood capillary refill on exam"
+},
+{
+"id":"montis-a81adba403e2",
+"topic":"Burns",
+"front":"Characteristics of second-degree deep burn",
+"back":"Epidermis and most of dermis involved\nNot painful due to destruction of nerve endings\nRarely blister and sluggish capillary refill\nHealing occurs after many weeks\nWill scar"
+},
+{
+"id":"montis-fdc3e6c5979d",
+"topic":"Burns",
+"front":"Describe full thickness third-degree burns",
+"back":"Involves epidermis and all of dermis\nNo possibility for healing\nInjuries extend to deeper structure such as muscle tendon bone and nerve"
+},
+{
+"id":"montis-a89297508c73",
+"topic":"Burns",
+"front":"How to estimate one percent to total body surface area",
+"back":"The patient's palm, including their fingers"
+},
+{
+"id":"montis-e31b8957f500",
+"topic":"Burns",
+"front":"three factors that Increase a patient's chance of burn mortality",
+"back":"Age over 60\nTBSA over 40%\nInhalation injury\nOver 90% mortality of all three of the above present"
+},
+{
+"id":"montis-f89701e1e7a3",
+"topic":"Burns",
+"front":"Some important things to ask on history for a burn patient",
+"back":"Exact mechanism of burn, including the type of burn,Risk inhalation injury, and other trauma\nExact timing of the injury\n [image]"
+},
+{
+"id":"montis-33437d9e2347",
+"topic":"Burns",
+"front":"Some features on exam that make you suspicious of inhalation injury",
+"back":"If the burner in an enclosed space\nFull or deep dermal burn to head and neck area\nSince nasal hair or black sputum"
+},
+{
+"id":"montis-aaae92e87679",
+"topic":"Burns",
+"front":"How do you resuscitate someone's breathing after a burn injury",
+"back":"Provide 100% O2 through non-rebreather\nNote that carboxyhaemoglobin can lead to hypoxia\nHave a low threshold for intubation in the case of oedema, Horse force harsh cough or da"
+},
+{
+"id":"montis-1be40f48a240",
+"topic":"Burns",
+"front":"A specific diagnosis you should be aware of in the respiratory management of the burn patient",
+"back":"Carboxyhaemoglobinemia\nCheck their COHb percentage"
+},
+{
+"id":"montis-af3ff273ff1d",
+"topic":"Burns",
+"front":"How should you resuscitate circulation in someone with a burn",
+"back":"Two large peripheral IVs through unburned tissues\nCheck peripheral pulses\nRun bloodwork\nMonitor perfusion"
+},
+{
+"id":"montis-f570b54535d7",
+"topic":"Burns",
+"front":"What should you use for fluid resuscitation in a burn patient",
+"back":"Use the Parkland formula"
+},
+{
+"id":"montis-3c477d1b53cc",
+"topic":"Burns",
+"front":"What is the Parkland formula for burn resuscitation",
+"back":"[image]"
+},
+{
+"id":"montis-98e042f4d18a",
+"topic":"Burns",
+"front":"Standard investigations to order for burn patients",
+"back":"CBC, lights, BUN, CR, INR, PTT, ABG\n12 lead ECG's\nCardiac enzymes\nCXR as necessary"
+},
+{
+"id":"montis-cedf17f52d5d",
+"topic":"Burns",
+"front":"Some criteria for admission to a burn centre",
+"back":"Second-degree burns greater than 10% total surface area\nThird-degree burns\nElectrical injury or chemical burns\nInhalation injuries"
+},
+{
+"id":"montis-e9fa2f575ebe",
+"topic":"Burns",
+"front":"When do you typically perform an escharotomy in a burn patient",
+"back":"When full circumferential thickness burns result in circulatory or respiratory compromise"
+},
+{
+"id":"montis-511d43fc955e",
+"topic":"Burns",
+"front":"How to dress superficial or partial thickness superficial/deep burns that do not require surgery",
+"back":"For most burns, using a Jelonet dressing that will keep a moist environment and minimize pain is sufficient\nFor burnsThat need ER penetration or if infection is higher risk, you can use cream such a silver sulfadiazine"
+},
+{
+"id":"montis-0529458b584f",
+"topic":"Burns",
+"front":"Contraindication to use of silver sulfadiazine cream",
+"back":"Sulfa allergy \nContains sulfamide antibiotics which provide broad spectrum antimicrobial coverage"
+},
+{
+"id":"montis-6ee3c706fad3",
+"topic":"Burns",
+"front":"What is the best way to assess burn depth",
+"back":"Presence of good capillary refill is a good determine into whether surgery and grafting will be required"
+},
+{
+"id":"montis-3759c79ae7df",
+"topic":"Anorectal Pain",
+"front":"Cancer in the anal canal would most commonly be…",
+"back":"scc"
+},
+{
+"id":"montis-fb853e039b76",
+"topic":"Anorectal Pain",
+"front":"cancer in the rectum would most likely be...",
+"back":"adenocarcinoma"
+},
+{
+"id":"montis-05e464fb1610",
+"topic":"Anorectal Pain",
+"front":"what is one of the important functions of the internal hemorrhoidal plexus",
+"back":"in addition to having a rich blood supply, it also helps to keep the anus closed and prevent the seepage of mucous"
+},
+{
+"id":"montis-4dd97e7be842",
+"topic":"Anorectal Pain",
+"front":"99% of hemorrhoid-like symptoms are a result of...",
+"back":"dysfunction of the internal hemorrhoidal plexus"
+},
+{
+"id":"montis-b9f888b9acae",
+"topic":"Anorectal Pain",
+"front":"what is an anal fissure?",
+"back":"an ulcer located in the anal canal"
+},
+{
+"id":"montis-c67bc5995f71",
+"topic":"Anorectal Pain",
+"front":"the hx associated with anal fissure",
+"back":"- younger person (20s-40s)\n- severe pain w defecation\n- BRBPR w defecation\nNOTE: hemorrhoids do not cause pain usually, so this differs from a fissure which is characterized by pain"
+},
+{
+"id":"montis-80eff57a1e87",
+"topic":"Anorectal Pain",
+"front":"where do anal fissures usually occur?",
+"back":"in the posterior and the anterior midline\nNOT in the lateral positions!\nthis is bc the midline is at the ending of the blood supply of the anus"
+},
+{
+"id":"montis-fa461a23e8dd",
+"topic":"Anorectal Pain",
+"front":"tx of anal fissures acutely",
+"back":"[image]"
+},
+{
+"id":"montis-4d1c8858e86f",
+"topic":"Anorectal Pain",
+"front":"the classification of internal hemorrhoidal disease",
+"back":"[image]"
+},
+{
+"id":"montis-8a4b16804b0b",
+"topic":"Anorectal Pain",
+"front":"typical presentation of grade 1 internal hemorrhoids",
+"back":"BRBPR, painless"
+},
+{
+"id":"montis-491a6fd1b43c",
+"topic":"Anorectal Pain",
+"front":"how to tx prolapsed/thrombosed internal hemorrhoids",
+"back":"gently reduce w topical anesthetic jelly or local\nanalgesia/warm compresses\nacute vs elective surgery, surgery quite challenging"
+},
+{
+"id":"montis-6391e9d344fe",
+"topic":"Anorectal Pain",
+"front":"the presentation of anorectal abscess",
+"back":"the pt will present acutely with pain, swelling \nnot usually other systemic signs of infections"
+},
+{
+"id":"montis-c2a5b563e652",
+"topic":"Anorectal Pain",
+"front":"what is the worst type of anorectal abscess?",
+"back":"intersphinteric, will be ++ painful and can't see anything on exam\nneed to go to OR for exam under general and drainage"
+},
+{
+"id":"montis-fe494ba7188c",
+"topic":"Anorectal Pain",
+"front":"the treatment of anorectal abscess is NEVER",
+"back":"antibiotics!"
+},
+{
+"id":"montis-dc13da8f4c13",
+"topic":"Anorectal Pain",
+"front":"tx of periananl absceses, complication",
+"back":"I&D\ncommon complication is a fistula connecting the anus and the skin,leading to constant drainage through the fistula"
+},
+{
+"id":"montis-a14c236a0654",
+"topic":"Thoracic Trauma",
+"front":"some of the main immediately life-threatening causes of airway trauma",
+"back":"[image]"
+},
+{
+"id":"montis-79ab4b5033f9",
+"topic":"Thoracic Trauma",
+"front":"tx of rib fractures in most patients",
+"back":"analgesics/NSAIDs for most\nintercostal nerve blocks (rare)\nepidural or ES catheters\nsurgical fixation in frail pts"
+},
+{
+"id":"montis-ad2aeaa1e63c",
+"topic":"Thoracic Trauma",
+"front":"flail chest",
+"back":">2 adj ribs fractured in 2+ places \nchest wall integrity lost\nderanged resp mechanics and risk of resp failure"
+},
+{
+"id":"montis-33a83762595e",
+"topic":"Thoracic Trauma",
+"front":"what is pulmonary contusion",
+"back":"laceration/injury to the lung with interstitial/alveolar hemorrhage\nleads to dec pulm compliance and V/Q mismatch\na dynamic injury, need to be observed"
+},
+{
+"id":"montis-ea10db8cb757",
+"topic":"Thoracic Trauma",
+"front":"management of tension ptx",
+"back":"often due to penetrating injuries\nocclusive dressings and chest tube insertion"
+},
+{
+"id":"montis-f890524e802f",
+"topic":"Thoracic Trauma",
+"front":"management of closed ptx",
+"back":"often associated w blunt trauma\ndepends, some need chest tube, others not"
+},
+{
+"id":"montis-19fc5aef2401",
+"topic":"Thoracic Trauma",
+"front":"when is a chest tube optional vs mandatory for ptx? other management?",
+"back":"[image]"
+},
+{
+"id":"montis-e52ca1ce063c",
+"topic":"Thoracic Trauma",
+"front":"what is essential in the management of hemothorax? why?",
+"back":"drainage, esp bs this can lead to fibrothorax, empyema"
+},
+{
+"id":"montis-8542f69c6225",
+"topic":"Thoracic Trauma",
+"front":"indications for surgical exploration in hemothorax",
+"back":"amount/rate of blood loss\ninability to drain chest\ndemonstrated/suspected injuries"
+},
+{
+"id":"montis-1ca9744b9a03",
+"topic":"Thoracic Trauma",
+"front":"some clincal signs of an airway injury",
+"back":"hemoptysis\nairway obstruction\nprogressive sc emphysema\nmassive air leak\nunresolving ptx or atelectasis"
+},
+{
+"id":"montis-42e2765a406e",
+"topic":"Thoracic Trauma",
+"front":"what is indicative of aortic injury on imaging?",
+"back":"wide mediastinum and blurred aortic knuckle\n [image]"
+},
+{
+"id":"montis-5ee0f68003dc",
+"topic":"Thoracic Trauma",
+"front":"clinical findings in aortic injury",
+"back":"death :(\n [image]"
+},
+{
+"id":"montis-644f8a9ab647",
+"topic":"Thoracic Trauma",
+"front":"when does diaphragmatic injury most often occur?",
+"back":"blunt trauma, sudden inc in abdo pressure (crush/deceleration injuries, pelvic fractures)"
+},
+{
+"id":"montis-e12317328c4e",
+"topic":"Thoracic Trauma",
+"front":"presentation of diaphragmatic injury",
+"back":"dyspnea, abdo pain"
+},
+{
+"id":"montis-40ddd1d43529",
+"topic":"Thoracic Trauma",
+"front":"some clues on CXR of diaphragmatic injury",
+"back":"[image]"
+},
+{
+"id":"montis-2b21ed65d1fd",
+"topic":"Thoracic Trauma",
+"front":"the most common location for hernias",
+"back":"anterior abdo wall (eg epigastric, inguinal, femoral)"
+},
+{
+"id":"montis-a57961ddb905",
+"topic":"Thoracic Trauma",
+"front":"the sliding scale of hernia severity",
+"back":"[image]"
+},
+{
+"id":"montis-0eab2c78bc2b",
+"topic":"Thoracic Trauma",
+"front":"incarcarated hernia",
+"back":"irreducible due to adhesions etc"
+},
+{
+"id":"montis-c0c848643b02",
+"topic":"Thoracic Trauma",
+"front":"obstructed hernia",
+"back":"bowel becomes obstructed by the neck/other structures in the sac"
+},
+{
+"id":"montis-73bd1517b8ab",
+"topic":"Thoracic Trauma",
+"front":"strangulated hernia",
+"back":"blood supply interrupted causing ischemia or gangrene"
+},
+{
+"id":"montis-f2da52b8a8eb",
+"topic":"Thoracic Trauma",
+"front":"sliding hernia",
+"back":"wall of the hernia made of viscus, partially reducible"
+},
+{
+"id":"montis-d54846fd38c6",
+"topic":"Thoracic Trauma",
+"front":"some risk factors for hernia",
+"back":"congenital factors \ntrauma \nsurgery: emergency, anything that inc abdo pressure\naccidental like stabbing\nexcessive strenuous work\nobseity"
+},
+{
+"id":"montis-7b954ab2cf94",
+"topic":"Thoracic Trauma",
+"front":"when would imaging be useful for hernia?",
+"back":"someone with an atypical presentation of hernia\npreop assessment\ndifficult exam (ie obseity)"
+},
+{
+"id":"montis-abcb7866ba41",
+"topic":"Thoracic Trauma",
+"front":"some of the options available for hernia repair surgically",
+"back":"open vs minimally invasive\ntissue repair vs synthetic material\nGA vs local"
+},
+{
+"id":"montis-4c6d47512601",
+"topic":"Thoracic Trauma",
+"front":"do all hernias need to be fixed?",
+"back":"no, depends on the patient's risk factors but can sometimes manage with watchful waiting, lifestyle mods, belts etc"
+},
+{
+"id":"montis-9062763bf626",
+"topic":"Melanoma",
+"front":"The most common demographic at risk for melanoma",
+"back":"Need an age of 57 in young woman who haveLaid skin, freckles, blue eyes and are easily burned with sun exposure\nGreater risk with previous melanoma diagnosis or family history"
+},
+{
+"id":"montis-2911479c63fd",
+"topic":"Melanoma",
+"front":"Some features on physical exam that make you suspicious of melanoma",
+"back":"ABC DE characteristics\nBleeding/ulceration\nChanges with time\nTo always examine the relative lymph basin"
+},
+{
+"id":"montis-77d880573f8c",
+"topic":"Melanoma",
+"front":"What does ABCDE stand for",
+"back":"Symmetry, border regularity, color, diameter, elevation"
+},
+{
+"id":"montis-93b1d8a59368",
+"topic":"Melanoma",
+"front":"Describe a symmetry as a characteristic of Melanoma lesions",
+"back":"1/2 of the lesion is different than the other"
+},
+{
+"id":"montis-fe43979c5798",
+"topic":"Melanoma",
+"front":"Describe the B with regards to melanoma diagnosis",
+"back":"Order regularity\nThe edge of border is ragged, Notched or blurred"
+},
+{
+"id":"montis-ac0def16152e",
+"topic":"Melanoma",
+"front":"Describe the C with regards to melanoma diagnosis",
+"back":"The lion has a variety of colours varying from browns to tans and red or purples"
+},
+{
+"id":"montis-0672138e5d22",
+"topic":"Melanoma",
+"front":"Describe the D with regards to melanocyte lesions",
+"back":"The diameter of a lesion needs to grow, or is larger than 6 mm or 1/4 inch"
+},
+{
+"id":"montis-138679dc3766",
+"topic":"Melanoma",
+"front":"What is the first step of treatment of a suspicious lesion",
+"back":"You should biopsy, excision if possible with a one to 2 mm margin\nIncisional or punch biopsy if large size\nNever shave"
+},
+{
+"id":"montis-0d254faf1a6d",
+"topic":"Melanoma",
+"front":"If you palpate a lump in the lymph node basin with a lesion suspicious for melanoma, what should your workup be",
+"back":"You should do an ultrasound, chest x-ray, CT chest abo pelvis or head and neck\nBloodwork with LDH, ALP, AST/ALT"
+},
+{
+"id":"montis-00981dd10fdf",
+"topic":"Melanoma",
+"front":"What does the surgical management of melanoma depend on",
+"back":"The Breslow thickness, or millimetre from epidermal granular layer of the skin"
+},
+{
+"id":"montis-323398779f3d",
+"topic":"Melanoma",
+"front":"What is the criteria for SLN biopsy with a melanoma",
+"back":"Recommended for melanomas greater than 1 mm\nShould be discussed for melanoma greater than 0.8 to 1 mm of thickness\nDiscuss for less than 0.8 with ulceration"
+},
+{
+"id":"montis-350a09bfd633",
+"topic":"Melanoma",
+"front":"If a sentinel lymph node biopsy returns positive…",
+"back":"Your best next option is observation by ultrasound with total lymph node dissection if recurrence"
+},
+{
+"id":"montis-6d8ee225c6bb",
+"topic":"Melanoma",
+"front":"the concerning melanona diameters",
+"back":"4-6 mm"
+},
+{
+"id":"montis-3b97583c27e5",
+"topic":"Melanoma",
+"front":"some of the precursor lesions to melanoma",
+"back":"atypical mole/dysplastic nevus\nlentigo maligna\nmelanoma in situ"
+},
+{
+"id":"montis-97006293e924",
+"topic":"Melanoma",
+"front":"the margins for wide local excision for most melanomas",
+"back":"2cm"
+},
+{
+"id":"montis-caaf12b6b7d3",
+"topic":"Surgery",
+"front":"what does MOVIE stand for? when do you use it?",
+"back":"the initial management protocol for trauma patients\nMonitoring (O2 sat, temp, ECG, resp rate, HR, BP)\nOxygen\nVitals\nIVs (2 large bore) and fluids \nECG"
+},
+{
+"id":"montis-55d3e90e72dc",
+"topic":"Surgery",
+"front":"what is the most common cause of hypotension in trauma",
+"back":"hemorrhagic shock due to blood loss!"
+},
+{
+"id":"montis-7d4258da1505",
+"topic":"Surgery",
+"front":"the most common places to lose blood in hypotensive trauma patients",
+"back":"into the abdomen, pelvis, thorax, sometimes from long bone fractures"
+},
+{
+"id":"montis-41e32c1fca1a",
+"topic":"Surgery",
+"front":"the three main symptoms of PVD",
+"back":"claudication, ulceration/gangrene, rest pain"
+},
+{
+"id":"montis-c079c7eac01e",
+"topic":"Surgery",
+"front":"heparin-induced thrombocytopenia",
+"back":"autoimmune condition leading to clumps of platelets as a rx to heparin, usually 5-10d after starting therapy\nyou should d/c the hep, start on apix etx, HIT ab testing"
+},
+{
+"id":"montis-0cbbb12b87c3",
+"topic":"Surgery",
+"front":"how is u/s useful in the eval of head/neck masses? when is a CT contrast useful",
+"back":"u/s useful to tell if solitary vs multiple nodule, solid vs cystic, eval over time\nneed a CT in a chronic mass in an adult >40"
+},
+{
+"id":"montis-4095048af781",
+"topic":"Surgery",
+"front":"hot vs cold nodules",
+"back":"hot nodule= ++ iodine updake= ++ T3/t4= low TSH=hypothyroid (less likely ca)\ncold nodule= no I updake=no T3/T4= high TSH=hyperthyroid (more likely ca)"
+},
+{
+"id":"montis-2fdbd83c4237",
+"topic":"Surgery",
+"front":"the higher the salter-harris number for the fracture...",
+"back":"the more likely the child is to have a growth abnormality"
+},
+{
+"id":"montis-1f183feace00",
+"topic":"Surgery",
+"front":"which lesions typically appear vascular in nature?",
+"back":"BCC"
+},
+{
+"id":"montis-f624eec44b36",
+"topic":"Surgery",
+"front":"presentation of Zenker's diverticulum",
+"back":"progressive and long hx of dysphagia that is followed by the sensation of food stuck in the throat and coughing back up food\ncrycopharyngeal spasm"
+},
+{
+"id":"montis-f88b7c72e597",
+"topic":"Surgery",
+"front":"presentation of esophagitis",
+"back":"dysphagia with solids only\nsignificant narrowing of esophagus at all levels\nwill often visit ED due to food impaction\noften with other eosinophilic-like symptoms such as eczema"
+},
+{
+"id":"montis-7eb88e8f37ab",
+"topic":"Surgery",
+"front":"presentation of achalasia",
+"back":"food stuck behind the suprasternal notch\ndysphagia for both solids and liquids\nno coughing or choking"
+},
+{
+"id":"montis-07e3da8cf344",
+"topic":"Surgery",
+"front":"best way to define the etiology of dysphagia",
+"back":"blood tests (CBC, TSH, CK)\ncontrast radiography of swallowing, lat films of the head/neck\nupper endoscopy"
+},
+{
+"id":"montis-02cff4b8e997",
+"topic":"Surgery",
+"front":"UC vs CD",
+"back":"UC is limited to colon, rectal involving and often involves a clinical picture of other autoimmune features \nCD is transmural inflammation anywhere, rectal sparing, skips areas, abdo mass common"
+},
+{
+"id":"montis-586a98e084b8",
+"topic":"Surgery",
+"front":"relative vs absolute indications for surgery in UC",
+"back":"rel: chronic steroids, intractable disease, systemic complications\nabs: hemorrhage, perfusion, unresponsive acute disease"
+},
+{
+"id":"montis-2f4ae55688cf",
+"topic":"Surgery",
+"front":"meckel's vs colonic diverticulum vs diverticulosis vs diverticulutis",
+"back":"[image]"
+},
+{
+"id":"montis-4ac9d2262ff1",
+"topic":"Surgery",
+"front":"the gold standard for the dx of diverticulitis",
+"back":"CT abdo with contrast"
+},
+{
+"id":"montis-3e930b868d06",
+"topic":"Surgery",
+"front":"pres of acute diverticulitis",
+"back":"LLQ\npain, fever, leukocytosis, tenderness"
+},
+{
+"id":"montis-a9dab88d305f",
+"topic":"Surgery",
+"front":"gold standard for the operative management of diverticular disease, what should you do before?",
+"back":"sigmoid resection w primary anastomosis and no ostomy\nshould do a colonoscopy beforehand to r/o malignancy/IBD"
+},
+{
+"id":"montis-c95eed3b9a37",
+"topic":"Surgery",
+"front":"initial mgmt of pts with acute diverticulitis",
+"back":"fluids, IV abx (cipro/flagyl), pain meds, clear liquids/NPO\nif complicated with a perf or peritonitis, need broad spec abx, emergency colectomy, lap/open drainage"
+},
+{
+"id":"montis-b5cd1a9aa09b",
+"topic":"Surgery",
+"front":"prevention of diverticulitis",
+"back":"high\nfibre, DASH, lose weight, physical activity, stop smoking"
+},
+{
+"id":"montis-4ec5f71ab51a",
+"topic":"Surgery",
+"front":"labs you expect in someone with ongoing vomiting",
+"back":"elevated BUN\nhyponatremia and hypochloremia, hypokalemia, met alk\nlow urine vol and high specific gravity\nacidic urine\nhigh serum bicarb"
+},
+{
+"id":"montis-15223c279a84",
+"topic":"Surgery",
+"front":"imaging you should obtain for developmental dysplasia of the hip",
+"back":"u/s"
+},
+{
+"id":"montis-67ce17de7bd4",
+"topic":"Surgery",
+"front":"three tests for DDH",
+"back":"[image]"
+},
+{
+"id":"montis-0f5cad1eda08",
+"topic":"Surgery",
+"front":"presentation and risks of dev DDH",
+"back":"pres: painless limp, hip instability, sublux/dislocatio of the fem head\nL hip more affected\nrisks: breech, fmhx, dec IU space"
+},
+{
+"id":"montis-d3e75b640ae9",
+"topic":"Surgery",
+"front":"tx of DDH",
+"back":"[image]"
+},
+{
+"id":"montis-289fd3f6cecd",
+"topic":"Surgery",
+"front":"how to tx sigmoid vs cecal vs midgut volvulus",
+"back":"[image]"
+},
+{
+"id":"montis-4794aa7e01b3",
+"topic":"Surgery",
+"front":"tx of an 8mm stone...",
+"back":"perc nephrostomy"
+},
+{
+"id":"montis-422a57d07f67",
+"topic":"Surgery",
+"front":"pres of disc herniation vs spinal stenosis",
+"back":"a. Disc\nherniation: pain with sitting, no pain with standing/walking\n\nb. Spinal\nstenosis: pain with standing/walking, sitting okay"
+},
+{
+"id":"montis-21dec7b1b7f5",
+"topic":"Surgery",
+"front":"best way to prevent hernia?",
+"back":"stop smoking, improves bloodflow"
+},
+{
+"id":"montis-9d499facb7f1",
+"topic":"Surgery",
+"front":"pres/tx of esophageal varices",
+"back":"[image]"
+},
+{
+"id":"montis-7a6694df8898",
+"topic":"Surgery",
+"front":"colonoscpy screening guidelines",
+"back":"q2y FIT avg risk\ninc risk: at age 50 or 10y earlier than first relative w colon ca, whichever is first"
+},
+{
+"id":"montis-8792097a5ae6",
+"topic":"Surgery",
+"front":"PSA screening guidelines",
+"back":"[image]"
+},
+{
+"id":"montis-e95d71ceaf43",
+"topic":"Surgery",
+"front":"management algorithm for SBO",
+"back":"[image]"
+},
+{
+"id":"montis-3c08344fe3a9",
+"topic":"Surgery",
+"front":"if UGI and hx of alc use...",
+"back":"likely variceal bleed"
+},
+{
+"id":"montis-aeb165c27384",
+"topic":"Surgery",
+"front":"pres of UGI vs LGI bleed",
+"back":"UGI: hematemesis/coffee ground emesis, hematochezia, elevated blood urea\nLHI: hematochezia"
+},
+{
+"id":"montis-d0d6c4c46007",
+"topic":"Surgery",
+"front":"tx of UGI vs LGI bleed",
+"back":"ABCs, blood products\nUGI bleed: PPI\nLGI bleed: no meds\nsurgical with embolization or endoscopic techniques"
+},
+{
+"id":"montis-ce3e9dbe570d",
+"topic":"Surgery",
+"front":"risk factors and pres of peptic ulcer disease",
+"back":"h. pylori, NSAIDs, Zollinger-ellison syndrome\nDyspepsia/burning\nepigastric pain, relief with antacids"
+},
+{
+"id":"montis-f122f342ec72",
+"topic":"Surgery",
+"front":"dx of PUD",
+"back":"Dx:\nurea breath test + CBC/BMP + FOBT, gastrin + secretin if ZE syndrome\n\n \ni. EGD\nand biopsy if older/concerned"
+},
+{
+"id":"montis-8f809a0052c1",
+"topic":"Surgery",
+"front":"tx of PUD",
+"back":"a. PPIs\nBID 4-8 week trial and H. pylori abx clarithro + amox or flaygl (confirm 4-6\nweeks after with urea breath test to ensure h pylori is eradicated)\nif refractory symptoms, surgery"
+},
+{
+"id":"montis-e2051cd160d4",
+"topic":"Surgery",
+"front":"types of esophageal ca in upper vs lower and s/sx/dx",
+"back":"upper: scc, adenoca lower\ns/sx progressive dysphagia, hoarseness, UGIB\nadeno more caused by GERD, scc by smoking\ndx EGD"
+},
+{
+"id":"montis-1edeaad89f9f",
+"topic":"Surgery",
+"front":"presentation of choledoco/cholangitis vs acute chole/biliary colic",
+"back":"choledoco/cholangitis will have jaundice/light stools\nacute chole has murphy sign,leukocytosis, inc liver enzymes"
+},
+{
+"id":"montis-df337ddcd798",
+"topic":"Surgery",
+"front":"best use for u/s in gallbladder pathology",
+"back":"acute chole/suspected gallstones/biliary colic, firstline"
+},
+{
+"id":"montis-0ab93d351b09",
+"topic":"Surgery",
+"front":"when should you use ERCP vs MRCP for gallbladder path?",
+"back":"MRCP: noninvasive, reserved for choledoco (intermediate)\nERCP: invasive and therapeutic, for likely choledoco"
+},
+{
+"id":"montis-800707a8f48b",
+"topic":"Surgery",
+"front":"management of unstable vs trauma pt (generally)",
+"back":"unstable: emergency lap\nstable: CT \naddress ABCs before less urgent things"
+},
+{
+"id":"montis-d4090fa9f887",
+"topic":"Surgery",
+"front":"in a young pt with a complex perianal abscess, think...",
+"back":"crohn's disease"
+},
+{
+"id":"montis-c37f8a0eee6f",
+"topic":"Surgery",
+"front":"SCFE",
+"back":"adolescent males w displaced femoral head\nL>R,limping, dec rot/abduction\nrisk of AVN\ntx is sx fixation"
+},
+{
+"id":"montis-a37033fda3a0",
+"topic":"Surgery",
+"front":"disk protrusion at L5/S1 ...",
+"back":"compresses the S1 root"
+},
+{
+"id":"montis-aca6170f1ddc",
+"topic":"Surgery",
+"front":"which movements is S1 responsible for?",
+"back":"ankle plantarflexion\ndamage/impingement of this will cause weakness w this"
+},
+{
+"id":"montis-28c259c9c690",
+"topic":"Surgery",
+"front":"organisms to worry about for septic joint",
+"back":"most common s aureus\nkingella kingae, s pneumo\nHiB in unvax\nN. gonorrhea in sexually active\nsalmonella in sickle cell/travel"
+},
+{
+"id":"montis-5066f3854ddc",
+"topic":"Surgery",
+"front":"tx septic joint, typical w/u",
+"back":"I&D w/in 8hrs, abx usually after cx taken\nXR to u/s for dx, high WBC in joint asp"
+},
+{
+"id":"montis-6c1bb242b7ba",
+"topic":"Surgery",
+"front":"most common type of thyroid ca",
+"back":"papillary"
+},
+{
+"id":"montis-297531a2cdf3",
+"topic":"Surgery",
+"front":"pres of orchitis",
+"back":"mumps if unvax\nfever, n/v, swollen/tender testicle, pos cremaster reflex\nu/s hyperemia and edema"
+},
+{
+"id":"montis-b7a893a7c0ab",
+"topic":"Surgery",
+"front":"tx orchitis",
+"back":"ctx and doxy if STI, cipro/levo or septra if no STI, NSAIDS, ice"
+},
+{
+"id":"montis-b4b75178824f",
+"topic":"Surgery",
+"front":"ratio to give fluid: blood",
+"back":"3:1"
+},
+{
+"id":"montis-08ab9a329231",
+"topic":"Surgery",
+"front":"managing wet vs dry vs euvolemic hyponatremia",
+"back":"wet (HF, cirrhosis): Na and salt restrict\ndry: fluids\neuvolemic (SIADH/ing disease): fluid restrict"
+},
+{
+"id":"montis-faac4b6caea3",
+"topic":"Surgery",
+"front":"GCS",
+"back":"[image]"
+},
+{
+"id":"montis-f8dd8bd8a158",
+"topic":"Surgery",
+"front":"where should you put in a chest tube",
+"back":"ant axillary line, 4th-5th IC space"
+},
+{
+"id":"montis-5c1a4bf12e41",
+"topic":"Surgery",
+"front":"what is characteristic of a Colles fracture?",
+"back":"FOOSH, displacement of distal radius, dorsally flexed/angulated, dinner fork\nclosed red/casting"
+},
+{
+"id":"montis-f95789ab58c3",
+"topic":"Surgery",
+"front":"what has a better prognosis, intertrochanteric frac or femoral neck frac",
+"back":"IC fracture"
+},
+{
+"id":"montis-969dfe1b50bb",
+"topic":"Surgery",
+"front":"L5/S1 far lateral findings",
+"back":"will compress the above nerve root, so L5 (weakness in ext of great toe and dorsiflexion)"
+},
+{
+"id":"montis-05e5a6f9e63f",
+"topic":"Surgery",
+"front":"most sensitive exam for kidney stones",
+"back":"non contrast CT"
+},
+{
+"id":"montis-dcd0394e4a93",
+"topic":"Surgery",
+"front":"Bloody discharge of\nthe breast from a single duct. Next step?",
+"back":"mammography/u/s"
+},
+{
+"id":"montis-71046e441a7d",
+"topic":"Surgery",
+"front":"Bladder\ncancer biopsy shows low-grade non-invasive carcinoma. What is the best next\nstep?",
+"back":"repeat cystoscopy in 3-6 mths"
+}
+]
