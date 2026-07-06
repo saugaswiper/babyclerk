@@ -2,8 +2,17 @@
 // layered on top of the built-in seeded rotation content.
 import { getRotation } from '../data/rotations/index.js'
 import { montisCards } from '../data/montis/index.js'
+import { readStored, writeStored } from './useLocalStorage.js'
+import { freshState } from './srs.js'
 
 const PREFIX = 'babyclerk:custom:'
+
+// Small stable string hash so re-missing the same question doesn't duplicate the card.
+function hashStr(s) {
+  let h = 0
+  for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) | 0
+  return (h >>> 0).toString(36)
+}
 
 function key(rotationId) {
   return PREFIX + rotationId
@@ -50,6 +59,38 @@ export function clearCustom(rotationId, kind) {
   const current = loadCustom(rotationId)
   current[kind] = []
   saveCustom(rotationId, current)
+}
+
+// Turn a missed MCQ into a flashcard, seeded as due NOW so it bypasses the
+// daily new-card cap and shows up in your very next review. Idempotent per
+// question (re-missing won't duplicate). Returns true if newly added.
+export function addMissCard(rotationId, mcq) {
+  const id = `miss-${hashStr(mcq.question)}`
+  const current = loadCustom(rotationId)
+  if (current.flashcards.some((c) => c.id === id)) return false
+
+  const letter = String.fromCharCode(65 + mcq.answer)
+  const back =
+    `Correct: ${letter}. ${mcq.options[mcq.answer]}` +
+    (mcq.explanation ? `\n\n${mcq.explanation}` : '')
+  current.flashcards.push({
+    id,
+    topic: mcq.topic ? `Missed · ${mcq.topic}` : 'Missed questions',
+    front: mcq.question,
+    back,
+    custom: true,
+    miss: true,
+  })
+  saveCustom(rotationId, current)
+
+  // Seed SRS state so it's review-due immediately (not gated by the new-card budget).
+  const srsKey = `srs:${rotationId}`
+  const srs = readStored(srsKey, {})
+  if (!srs[id]) {
+    srs[id] = freshState()
+    writeStored(srsKey, srs)
+  }
+  return true
 }
 
 // Returns the rotation with the bundled Montis deck + your own content merged

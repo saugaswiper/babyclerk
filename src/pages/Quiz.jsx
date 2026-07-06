@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
-import { getRotationMerged } from '../lib/customContent.js'
+import { getRotationMerged, addMissCard } from '../lib/customContent.js'
 import { useLocalStorage } from '../lib/useLocalStorage.js'
 
 function shuffle(arr) {
@@ -24,6 +24,8 @@ export default function Quiz() {
   const [picked, setPicked] = useState(null)
   const [score, setScore] = useState(0)
   const [done, setDone] = useState(false)
+  const [missMsg, setMissMsg] = useState('') // feedback when a wrong answer becomes a card
+  const [missAdded, setMissAdded] = useState(0)
 
   const start = () => {
     setOrder(shuffle((rotation?.mcqs || []).map((_, i) => i)))
@@ -31,6 +33,8 @@ export default function Quiz() {
     setPicked(null)
     setScore(0)
     setDone(false)
+    setMissMsg('')
+    setMissAdded(0)
   }
 
   useEffect(() => {
@@ -52,10 +56,18 @@ export default function Quiz() {
   const choose = (i) => {
     if (answered) return
     setPicked(i)
-    if (i === q.answer) setScore((s) => s + 1)
+    if (i === q.answer) {
+      setScore((s) => s + 1)
+    } else {
+      // Missed it → turn this question into a flashcard, due now.
+      const added = addMissCard(rotation.id, q)
+      if (added) setMissAdded((n) => n + 1)
+      setMissMsg(added ? '➕ Added to your flashcards for review' : '✓ Already in your flashcards')
+    }
   }
 
   const next = () => {
+    setMissMsg('')
     if (idx >= order.length - 1) {
       const finalScore = score
       const pct = Math.round((finalScore / order.length) * 100)
@@ -80,10 +92,20 @@ export default function Quiz() {
             {pct >= 80 ? 'Strong — you’d hold your own on rounds.' : pct >= 50 ? 'Solid start — revisit the misses.' : 'Worth another pass through the notes and flashcards.'}
             {best !== null && ` · Best: ${best}%`}
           </p>
+          {missAdded > 0 && (
+            <p style={{ color: 'var(--primary)', fontWeight: 600 }}>
+              ➕ {missAdded} missed question{missAdded === 1 ? '' : 's'} added to your flashcards — due now.
+            </p>
+          )}
           <div className="btn-row" style={{ justifyContent: 'center', marginTop: 14 }}>
             <button className="btn primary" onClick={start}>
               Retake quiz
             </button>
+            {missAdded > 0 && (
+              <Link className="btn" to={`/r/${rotation.id}/flashcards`}>
+                Review the misses
+              </Link>
+            )}
             <Link className="btn" to={`/r/${rotation.id}`}>
               Back to {rotation.name}
             </Link>
@@ -132,6 +154,9 @@ export default function Quiz() {
           {answered && (
             <div className="explain">
               <strong>{picked === q.answer ? 'Correct.' : 'Not quite.'}</strong> {q.explanation}
+              {missMsg && (
+                <div style={{ marginTop: 8, color: 'var(--primary)', fontWeight: 600 }}>{missMsg}</div>
+              )}
             </div>
           )}
 
