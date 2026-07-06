@@ -9,9 +9,31 @@ const KIND_LABEL = {
   flashcards: 'flashcards (active-recall question/answer pairs)',
   viva: 'oral-exam "viva"/"pimping" questions with thorough model answers',
   mcqs: 'single-best-answer multiple-choice questions',
+  cloze: 'cloze-deletion cards: one high-yield sentence each, with the key term(s) wrapped in {{double braces}}',
 }
 
 function schemaFor(kind) {
+  if (kind === 'cloze') {
+    return {
+      type: 'object',
+      additionalProperties: false,
+      required: ['items'],
+      properties: {
+        items: {
+          type: 'array',
+          items: {
+            type: 'object',
+            additionalProperties: false,
+            required: ['topic', 'cloze'],
+            properties: {
+              topic: { type: 'string' },
+              cloze: { type: 'string', description: 'A sentence with the key term(s) wrapped in {{double braces}}' },
+            },
+          },
+        },
+      },
+    }
+  }
   if (kind === 'mcqs') {
     return {
       type: 'object',
@@ -90,6 +112,7 @@ function promptFor({ rotationName, topic, kind, count }) {
     'Make them high-yield, accurate, and clinically realistic — the kind of thing a tutor would ask on rounds.',
     'Prefer Canadian guidelines/terminology and SI units where relevant.',
     'For MCQs, provide 4 options with exactly one best answer and a concise explanation of why it is correct.',
+    'For cloze cards, write one high-yield sentence each and wrap only the key testable term(s) in {{double braces}}.',
     'Return only the structured data requested.',
   ].join(' ')
 }

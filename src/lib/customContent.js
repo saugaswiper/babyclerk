@@ -93,6 +93,23 @@ export function addMissCard(rotationId, mcq) {
   return true
 }
 
+// Add an image-occlusion card (image is a data URI; boxes are 0–1 fractions).
+export function addIOCard(rotationId, { topic, image, boxes, back }) {
+  const current = loadCustom(rotationId)
+  const card = {
+    id: `io-${Date.now()}`,
+    type: 'io',
+    topic: topic || 'Image occlusion',
+    image,
+    boxes,
+    ...(back ? { back } : {}),
+    custom: true,
+  }
+  current.flashcards.push(card)
+  saveCustom(rotationId, current)
+  return card
+}
+
 // Returns the rotation with the bundled Montis deck + your own content merged
 // into the built-in arrays. Order: seeded → Montis → your imports/AI cards.
 export function getRotationMerged(rotationId) {

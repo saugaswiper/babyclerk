@@ -7,9 +7,13 @@ import { appendCustom } from '../lib/customContent.js'
 
 const KINDS = [
   { id: 'flashcards', label: 'Flashcards' },
+  { id: 'cloze', label: 'Cloze' },
   { id: 'viva', label: 'Viva questions' },
   { id: 'mcqs', label: 'MCQs' },
 ]
+
+// Cloze cards live in the flashcards deck; everything else uses its own bucket.
+const bucketFor = (kind) => (kind === 'cloze' ? 'flashcards' : kind)
 
 export default function Generate() {
   const { rotationId } = useParams()
@@ -57,7 +61,7 @@ export default function Generate() {
   }
 
   const addToDeck = () => {
-    appendCustom(rotation.id, kind, results)
+    appendCustom(rotation.id, bucketFor(kind), results)
     setAdded(true)
   }
 
@@ -136,6 +140,9 @@ export default function Generate() {
                   <p className="muted" style={{ margin: 0 }}>{it.back}</p>
                 </>
               )}
+              {kind === 'cloze' && (
+                <p style={{ margin: 0 }}>{it.cloze}</p>
+              )}
               {kind === 'viva' && (
                 <>
                   <p style={{ fontWeight: 700, margin: '0 0 6px' }}>{it.question}</p>
@@ -160,12 +167,12 @@ export default function Generate() {
 
           <div className="btn-row" style={{ justifyContent: 'center', marginTop: 8 }}>
             {added ? (
-              <Link className="btn primary" to={`/r/${rotation.id}/${kind === 'mcqs' ? 'quiz' : kind}`}>
+              <Link className="btn primary" to={`/r/${rotation.id}/${kind === 'mcqs' ? 'quiz' : bucketFor(kind)}`}>
                 Added ✓ — study them
               </Link>
             ) : (
               <button className="btn primary" onClick={addToDeck}>
-                Add {results.length} to my {kind === 'mcqs' ? 'quiz' : kind}
+                Add {results.length} to my {kind === 'mcqs' ? 'quiz' : bucketFor(kind)}
               </button>
             )}
             <button className="btn ghost" onClick={run} disabled={loading}>

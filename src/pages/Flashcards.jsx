@@ -4,6 +4,7 @@ import { getRotationMerged } from '../lib/customContent.js'
 import { useLocalStorage } from '../lib/useLocalStorage.js'
 import { review } from '../lib/srs.js'
 import { sessionFor, noteIntroduced } from '../lib/scheduler.js'
+import CardFace from '../components/CardFace.jsx'
 
 export default function Flashcards() {
   const { rotationId } = useParams()
@@ -98,9 +99,7 @@ export default function Flashcards() {
           >
             <span className="face-label">{flipped ? 'Answer' : 'Question'}</span>
             {current.topic && <span className="topic-chip">{current.topic}</span>}
-            <div className={`content ${flipped ? 'answer' : ''}`}>
-              {flipped ? current.back : current.front}
-            </div>
+            <CardFace card={current} flipped={flipped} />
             {!flipped && <div className="hint">Tap or press Space to flip</div>}
           </div>
 

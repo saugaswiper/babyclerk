@@ -4,6 +4,7 @@ import { collectDue } from '../lib/studyQueue.js'
 import { readStored, writeStored } from '../lib/useLocalStorage.js'
 import { review } from '../lib/srs.js'
 import { noteIntroduced } from '../lib/scheduler.js'
+import CardFace from '../components/CardFace.jsx'
 
 // One session across every rotation: all due cards, graded back into each
 // rotation's own spaced-repetition schedule.
@@ -81,9 +82,7 @@ export default function StudyToday() {
             <span className="topic-chip">
               {current.emoji} {current.card.topic || current.rotationName}
             </span>
-            <div className={`content ${flipped ? 'answer' : ''}`}>
-              {flipped ? current.card.back : current.card.front}
-            </div>
+            <CardFace card={current.card} flipped={flipped} />
             {!flipped && <div className="hint">Tap or press Space to flip</div>}
           </div>
 

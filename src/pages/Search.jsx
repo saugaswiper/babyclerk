@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { rotations } from '../data/rotations/index.js'
 import { getRotationMerged } from '../lib/customContent.js'
+import { isCloze, clozeReveal } from '../lib/cloze.js'
 
 const MAX_RESULTS = 60
 
@@ -11,11 +12,15 @@ function buildIndex() {
   for (const r of rotations) {
     const m = getRotationMerged(r.id)
     for (const c of m.flashcards) {
+      let title, body
+      if (c.type === 'io') { title = `${c.topic || 'Image'} (image occlusion)`; body = c.back || '' }
+      else if (isCloze(c)) { title = clozeReveal(c.cloze); body = '' }
+      else { title = c.front; body = c.back }
       items.push({
         kind: 'Flashcard', emoji: r.emoji, rotationName: r.name,
-        title: c.front, body: c.back, topic: c.topic,
+        title, body, topic: c.topic,
         link: `/r/${r.id}/flashcards`,
-        text: `${c.front}\n${c.back}\n${c.topic || ''}`.toLowerCase(),
+        text: `${title}\n${body}\n${c.topic || ''}`.toLowerCase(),
       })
     }
     for (const v of m.viva) {

@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { getRotation } from '../data/rotations/index.js'
 import { appendCustom } from '../lib/customContent.js'
+import { normaliseCloze } from '../lib/cloze.js'
 
 // Parse Anki/CSV-style lines into flashcards. Each non-empty line: front <delim> back.
 function parseCards(text, delim, topic) {
@@ -30,6 +31,9 @@ export default function Import() {
   const [text, setText] = useState('')
   const [delim, setDelim] = useState('tab')
   const [topic, setTopic] = useState('')
+  // Cloze text import
+  const [clozeText, setClozeText] = useState('')
+  const [clozeTopic, setClozeTopic] = useState('')
   // JSON import
   const [jsonKind, setJsonKind] = useState('flashcards')
   const [json, setJson] = useState('')
@@ -60,10 +64,27 @@ export default function Import() {
   }
 
   const validFor = (kind) => (it) => {
-    if (kind === 'flashcards') return it.front && it.back
+    if (kind === 'flashcards') return (it.front && it.back) || it.cloze || (it.type === 'io' && it.image)
     if (kind === 'viva') return it.question && it.answer
     if (kind === 'mcqs') return it.question && Array.isArray(it.options) && typeof it.answer === 'number'
     return false
+  }
+
+  const importCloze = () => {
+    setError('')
+    setDone(0)
+    const items = clozeText
+      .split('\n')
+      .map((l) => normaliseCloze(l))
+      .filter(Boolean)
+      .map((cloze) => ({ cloze, topic: clozeTopic.trim() || 'Cloze' }))
+    if (!items.length) {
+      setError('No cloze deletions found. Wrap the hidden text in {{double braces}} on each line.')
+      return
+    }
+    appendCustom(rotation.id, 'flashcards', items)
+    setDone(items.length)
+    setClozeText('')
   }
 
   // Import a parsed value: an object with flashcards/viva/mcqs arrays imports all
@@ -140,12 +161,38 @@ export default function Import() {
         <button className={`btn ${tab === 'cards' ? 'primary' : 'ghost'}`} onClick={() => setTab('cards')}>
           Flashcards (text)
         </button>
+        <button className={`btn ${tab === 'cloze' ? 'primary' : 'ghost'}`} onClick={() => setTab('cloze')}>
+          Cloze (text)
+        </button>
         <button className={`btn ${tab === 'json' ? 'primary' : 'ghost'}`} onClick={() => setTab('json')}>
           JSON (advanced)
         </button>
       </div>
 
-      {tab === 'cards' ? (
+      {tab === 'cloze' ? (
+        <div className="card">
+          <p className="muted" style={{ marginTop: 0, fontSize: '0.88rem' }}>
+            One cloze card per line. Wrap the hidden part in <code>{'{{double braces}}'}</code> — e.g.{' '}
+            <code>{'First-line for eclampsia is {{magnesium sulfate}}.'}</code>. You can hide several parts per
+            line, and Anki-style <code>{'{{c1::…}}'}</code> also works.
+          </p>
+          <label className="section-title">Topic label (optional)</label>
+          <input className="text-input" value={clozeTopic} onChange={(e) => setClozeTopic(e.target.value)} placeholder="Cloze" />
+          <label className="section-title" htmlFor="clozetext">Cloze lines</label>
+          <textarea
+            id="clozetext"
+            className="text-input"
+            rows={8}
+            value={clozeText}
+            onChange={(e) => setClozeText(e.target.value)}
+            placeholder={'The antidote for {{acetaminophen}} overdose is {{N-acetylcysteine}}.'}
+          />
+          <div className="btn-row" style={{ marginTop: 16 }}>
+            <button className="btn primary" onClick={importCloze}>Import cloze cards</button>
+            <Link className="btn ghost" to={`/r/${rotation.id}`}>Back to {rotation.name}</Link>
+          </div>
+        </div>
+      ) : tab === 'cards' ? (
         <div className="card">
           <p className="muted" style={{ marginTop: 0, fontSize: '0.88rem' }}>
             Paste one card per line as <code>front{delim === 'comma' ? ',' : ' [Tab] '}back</code>. Anki’s

@@ -11,6 +11,7 @@ const MODES = [
   { slug: 'checklist', icon: '📋', name: 'Prep Checklist', desc: 'Be rotation-ready' },
   { slug: 'generate', icon: '✨', name: 'AI Generate', desc: 'Fresh questions on demand' },
   { slug: 'import', icon: '📥', name: 'Import', desc: 'Add your own cards' },
+  { slug: 'io', icon: '🖼️', name: 'Image Occlusion', desc: 'Make image hide-cards' },
 ]
 
 export default function RotationHome() {

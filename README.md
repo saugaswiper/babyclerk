@@ -16,7 +16,8 @@ Built as a fast, mobile-friendly web app. All your progress (spaced-repetition s
 Each rotation gives you several ways to learn the same high-yield material:
 
 - **📖 Notes** — condensed, structured revision per topic.
-- **🃏 Flashcards** — active recall with a built-in spaced-repetition scheduler (Again / Hard / Good).
+- **🃏 Flashcards** — active recall with a built-in spaced-repetition scheduler (Again / Hard / Good). Supports **plain**, **cloze** (`{{double-brace}}` deletions), and **image-occlusion** cards, all in one deck.
+- **🖼️ Image occlusion** — upload an image (anatomy, ECG, X-ray, algorithm), drag to draw hide-boxes, and study it as a card. Images are stored on your device only.
 - **🗣️ Viva Drills** — tutor-style ("pimping") questions with model answers. Answer out loud, then reveal.
 - **✅ Quiz** — one-best-answer MCQs with explanations and score tracking.
 - **📋 Prep Checklist** — the essentials to walk into each rotation confident.

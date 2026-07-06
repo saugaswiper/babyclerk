@@ -351,6 +351,24 @@ code {
   font-size: 0.82em;
 }
 
+/* ---------- Image occlusion ---------- */
+.io-viewer { position: relative; display: inline-block; max-width: 100%; line-height: 0; }
+.io-viewer img { max-width: 100%; height: auto; border-radius: 8px; user-select: none; }
+.io-box {
+  position: absolute;
+  background: var(--primary);
+  border: 1px solid var(--primary-strong);
+  border-radius: 3px;
+}
+.io-box.revealed {
+  background: transparent;
+  border: 2px solid var(--accent);
+}
+.io-editor { position: relative; display: inline-block; max-width: 100%; touch-action: none; cursor: crosshair; }
+.io-editor img { max-width: 100%; height: auto; border-radius: 8px; user-select: none; -webkit-user-drag: none; }
+.io-editor .io-box { background: color-mix(in srgb, var(--primary) 55%, transparent); }
+.io-editor .io-draft { position: absolute; background: color-mix(in srgb, var(--accent) 35%, transparent); border: 1px dashed var(--accent); }
+
 .icon-btn {
   width: 36px; height: 36px;
   display: grid; place-items: center;
