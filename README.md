@@ -10,6 +10,7 @@ Built as a fast, mobile-friendly web app. All your progress (spaced-repetition s
 - **🔍 Search** — instant lookup across every flashcard, viva question, MCQ, and note (including your imported cards).
 - **📱 Installable PWA** — works offline. On your phone, open the site → Share → *Add to Home Screen*; it launches like a native app with no connection needed.
 - **💾 Backup** — Settings → Export backup saves all progress + imported cards to a file; Restore imports it on any device (API key excluded).
+- **👤 Sign in (optional)** — email magic-link sign-in (Supabase) syncs your progress across devices, and lets classmates each keep their own. Guest/local mode remains the default; your API key never syncs.
 
 ## Study modes
 

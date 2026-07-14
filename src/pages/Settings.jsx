@@ -1,8 +1,10 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { getApiKey, setApiKey, getModel, setModel, MODEL_OPTIONS, getNewLimit, setNewLimit } from '../lib/settings.js'
+import { useAuth } from '../lib/auth.jsx'
 
 export default function Settings() {
+  const { enabled, user, status, signOut, syncNow } = useAuth()
   const [key, setKey] = useState(getApiKey())
   const [model, setModelState] = useState(getModel())
   const [newLimit, setNewLimitState] = useState(getNewLimit())
@@ -69,6 +71,32 @@ export default function Settings() {
         <h1>⚙️ Settings</h1>
         <p className="sub">Connect your Anthropic API key to generate fresh questions with AI.</p>
       </div>
+
+      {enabled && (
+        <div className="card" style={{ marginBottom: 16 }}>
+          <label className="section-title" style={{ marginTop: 0 }}>Account &amp; sync</label>
+          {user ? (
+            <>
+              <p className="muted" style={{ margin: '0 0 12px', fontSize: '0.88rem' }}>
+                Signed in as <strong>{user.email}</strong>. Progress syncs across your devices automatically
+                (status: {status}). Your API key stays on this device only.
+              </p>
+              <div className="btn-row">
+                <button className="btn" onClick={syncNow}>Sync now</button>
+                <button className="btn ghost" onClick={signOut}>Sign out</button>
+              </div>
+            </>
+          ) : (
+            <>
+              <p className="muted" style={{ margin: '0 0 12px', fontSize: '0.88rem' }}>
+                Sign in to sync your progress across devices (and let classmates keep their own). Optional — the
+                app works fully without it.
+              </p>
+              <Link className="btn primary" to="/signin">Sign in</Link>
+            </>
+          )}
+        </div>
+      )}
 
       <div className="card">
         <label className="section-title" htmlFor="apikey" style={{ marginTop: 0 }}>

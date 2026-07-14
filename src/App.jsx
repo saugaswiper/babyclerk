@@ -12,11 +12,16 @@ import Settings from './pages/Settings.jsx'
 import StudyToday from './pages/StudyToday.jsx'
 import Search from './pages/Search.jsx'
 import IOCreate from './pages/IOCreate.jsx'
+import SignIn from './pages/SignIn.jsx'
+import { AuthProvider, useAuth } from './lib/auth.jsx'
 
 function TopBar() {
   const navigate = useNavigate()
   const location = useLocation()
   const isHome = location.pathname === '/'
+  const { enabled, user, status } = useAuth()
+
+  const dot = user ? (status === 'error' ? '🔴' : status === 'syncing' ? '🟡' : '🟢') : ''
 
   return (
     <header className="topbar">
@@ -33,6 +38,11 @@ function TopBar() {
       <Link to="/search" className="icon-btn" title="Search" aria-label="Search">
         🔍
       </Link>
+      {enabled && (
+        <Link to="/signin" className="icon-btn" title={user ? `Signed in: ${user.email}` : 'Sign in'} aria-label="Account">
+          {user ? `👤${dot}` : '👤'}
+        </Link>
+      )}
       <Link to="/settings" className="icon-btn" title="Settings" aria-label="Settings">
         ⚙️
       </Link>
@@ -41,6 +51,14 @@ function TopBar() {
 }
 
 export default function App() {
+  return (
+    <AuthProvider>
+      <AppShell />
+    </AuthProvider>
+  )
+}
+
+function AppShell() {
   return (
     <div className="app">
       <TopBar />
@@ -59,6 +77,7 @@ export default function App() {
           <Route path="/settings" element={<Settings />} />
           <Route path="/study" element={<StudyToday />} />
           <Route path="/search" element={<Search />} />
+          <Route path="/signin" element={<SignIn />} />
           <Route path="*" element={<Home />} />
         </Routes>
       </main>
