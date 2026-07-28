@@ -3,7 +3,8 @@
 Live, prioritized next actions. This is the "what to pick up next" list — keep it current; move done items to [[Features]]/[[Roadmap]] status. Ordered by leverage.
 
 ## Now (highest leverage)
-- [ ] **Resolve OD1 (Montis license)** — confirm redistribution rights or plan an original core. Launch-blocking. See [[Licensing-and-Copyright]].
+- [x] **OD1 (Montis license)** — resolved: free/community deck, cleared for you + classmates. Before wide public launch, record the actual license text + attribution. See [[Licensing-and-Copyright]].
+- [ ] **Decide OD2 (AI cost model)** — hosted proxy (you pay, no user key) vs. keep BYO-key optional. Blocks the "no API key for users" work. See [[Decisions]] D9.
 - [ ] **Rotation schedule + exam dates UI** — let users enter blocks/dates. Unlocks date-awareness cheaply. ([[Roadmap]] Phase 3)
 - [ ] **Current-rotation prioritization** on the home screen once dates exist.
 - [ ] **Verify Phase 1 in prod** — confirm the sign-in/sync deploy is green and magic-link redirect URLs are configured in Supabase. See [[Sync-and-Accounts]].

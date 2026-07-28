@@ -17,8 +17,13 @@ The app is public (GitHub Pages). Anything **bundled into the build or hosted on
 | **AI-generated** | ✅ (ours) but marked | Must be verifiable; don't launder copyrighted text through AI. |
 | **User's own notes/imports** | ✅ private to them | Stored in their `localStorage`/account, never made public. |
 
-## Action item: the bundled Montis deck
-The baseline currently bundles the **Montis** deck (a third-party Anki deck). Before treating the app as launchable to the public, **confirm its license permits redistribution** — or replace it with an original/openly-licensed core (see [[Content-Strategy]], [[Roadmap]] Phase 2). Until confirmed, treat this as an **open risk**, logged in [[Decisions]] and [[Backlog]].
+## Status: the bundled Montis deck
+The baseline bundles the **Montis** deck. The user reports it as a **free/community deck**, and near-term distribution is **you + classmates** — a low-risk, in-norm use for a freely-shared student deck. **Cleared to keep bundled for now.**
+
+Before a **wide public launch**, still do one thing: locate and record Montis's actual license text (many community decks are freely redistributable; some aren't) and keep an attribution note. Until that's on file, "free/community" is the user's understanding, not a verified license — fine for classmates, worth confirming before the app is public at scale. Tracked as OD1 in [[Decisions]] / [[Backlog]].
+
+## Does a desktop app bypass this?
+**No.** Copyright turns on *distribution*, not *format* — shipping a deck inside a downloadable `.dmg`/`.exe` you hand to others is still redistributing it (arguably more clearly than a web app). A standalone app only helps for **purely personal use** (you, your machine, a deck you legally hold). The clean path to sharing widely without the deck is the import model: ship the app without the deck, let each user import their own copy. See [[Decisions]] D8.
 
 ## Import stays clean
 Import features (text/CSV/cloze/JSON/file, UWorld-misses) are legally fine **because the user supplies their own content and it never leaves their device/account**. Keep it that way: imported content must never be uploaded to a shared/public store or exposed to other users. (Deck *sharing* — [[Roadmap]] Phase 6 — must gate on the sharer having the right to share.)

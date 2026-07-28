@@ -41,8 +41,18 @@ Key decisions and *why*, so future sessions don't re-litigate them. Add a dated 
 
 ---
 
+### D8 — Desktop packaging does not bypass copyright
+**Decision:** Do not treat "make it a desktop app" as a way to bundle content we can't redistribute.
+**Context:** User asked whether a standalone laptop app could sidestep the Montis licensing question.
+**Consequence:** Distribution is distribution regardless of format; only *personal* use is exempt. Web PWA stays the platform (it already installs offline); licensing is solved by the deck's actual license + the import model, not by platform choice. See [[Licensing-and-Copyright]].
+
+### D9 — API access for less-technical users is a proxy question, not MCP
+**Decision:** To spare users from pasting an Anthropic key, the answer is a backend proxy (shared key) or keeping AI optional — **not** MCP. MCP is a connector protocol for AI *clients*; it doesn't give a public web app model access or billing.
+**Context:** User asked "can we use MCP instead of an API key for less tech-savvy users."
+**Consequence:** Reframed as OD2 (AI cost model) — a spending decision. See [[AI-Personalization-Engine]], [[Sync-and-Accounts]].
+
 ## Open decisions (unresolved — resolve with the user)
-- **OD1 — Montis license.** Is bundling the Montis deck publicly OK? Blocks calling the app launch-ready. See [[Licensing-and-Copyright]]. **Needs answer.**
+- **OD1 — Montis license (downgraded).** Reported as a free/community deck; **cleared for you + classmates**. Before a wide public launch, record the actual license text + attribution. See [[Licensing-and-Copyright]].
 - **OD2 — AI cost model.** User-supplied key only, or a hosted allowance/tier? Shapes Phase 5/6 economics.
 - **OD3 — Topic ontology.** Adopt an existing med-ed taxonomy or author our own? Blocks clean weak-area targeting.
 - **OD4 — Original content sourcing.** Author from scratch, curate open banks, or AI-generate-then-verify — and who verifies?
