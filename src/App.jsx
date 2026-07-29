@@ -13,6 +13,7 @@ import StudyToday from './pages/StudyToday.jsx'
 import Search from './pages/Search.jsx'
 import IOCreate from './pages/IOCreate.jsx'
 import SignIn from './pages/SignIn.jsx'
+import Schedule from './pages/Schedule.jsx'
 import { AuthProvider, useAuth } from './lib/auth.jsx'
 
 function TopBar() {
@@ -78,6 +79,7 @@ function AppShell() {
           <Route path="/study" element={<StudyToday />} />
           <Route path="/search" element={<Search />} />
           <Route path="/signin" element={<SignIn />} />
+          <Route path="/schedule" element={<Schedule />} />
           <Route path="*" element={<Home />} />
         </Routes>
       </main>

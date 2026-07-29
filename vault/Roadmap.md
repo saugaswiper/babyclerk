@@ -33,15 +33,16 @@ Make the content great and let students extend it. (Hybrid model — see [[Conte
 - ⬜ Deck manager: enable/disable, tag, see counts per source
 - ⬜ Cloze-native card type first-class in the engine (not just import)
 
-## Phase 3 — Date & schedule awareness ⬜ (next big unlock)
+## Phase 3 — Date & schedule awareness 🔨 (in progress)
 The app understands *where the student is in time*.
-- ⬜ **Rotation schedule**: user enters rotation blocks + start/end dates
-- ⬜ **Exam dates** per rotation + MCCQE
-- ⬜ Home screen reprioritizes to the **current rotation**
-- ⬜ **Intensity ramp**: study weight shifts toward an exam as its date approaches
+- ✅ **Rotation schedule**: user enters rotation blocks + start/end dates (`/schedule`)
+- ✅ **Exam dates** per rotation + MCCQE
+- ✅ Home screen reprioritizes to the **current rotation** (floats to top, "On rotation now" badge)
+- ✅ **Exam countdowns**: soonest-exam banner + per-tile exam pills, color-coded by proximity
+- 🔨 **Intensity ramp**: proximity messaging shipped (nudges by days-out); auto-adjusting new-card load is Phase 5
 - ⬜ "What to expect" per rotation/exam given the date (static first, AI later)
-- ⬜ Countdown + realistic daily plan to "cover it all before exam day"
-- Feeds directly into [[AI-Personalization-Engine]]
+- ⬜ Realistic daily plan to "cover it all before exam day"
+- Feeds directly into [[AI-Personalization-Engine]]. Schedule stored as `babyclerk:schedule`, synced (latest-edit-wins) — see [[Data-Model]].
 
 ## Phase 4 — Performance telemetry (the data foundation) ⬜
 You can't personalize what you don't measure. **Prerequisite for Phase 5.**

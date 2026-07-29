@@ -28,9 +28,10 @@ Shipped + planned features with status. Keep in sync with [[Roadmap]] (this is t
 - ✅ **Settings**: API key, model, daily new-card limit, account/sync controls
 
 ## Personalization & dates (the frontier — see [[AI-Personalization-Engine]])
-- ⬜ **Rotation schedule + exam dates**
-- ⬜ **Current-rotation prioritization** on home
-- ⬜ **Exam-proximity intensity ramp**
+- ✅ **Rotation schedule + exam dates** (`/schedule`, synced)
+- ✅ **Current-rotation prioritization** on home (+ "On rotation now" badge)
+- ✅ **Exam countdowns** (soonest-exam banner + per-tile pills, color-coded)
+- 🔨 **Exam-proximity intensity ramp** (messaging done; auto new-card load = Phase 5)
 - ⬜ **Attempt log** (per-answer telemetry) + **topic tagging**
 - ⬜ **Mastery model** + weak-area dashboard
 - ⬜ **Weak-area targeting** (auto-surface + generate related questions)

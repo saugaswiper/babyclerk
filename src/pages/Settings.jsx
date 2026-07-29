@@ -72,6 +72,15 @@ export default function Settings() {
         <p className="sub">Connect your Anthropic API key to generate fresh questions with AI.</p>
       </div>
 
+      <div className="card" style={{ marginBottom: 16 }}>
+        <label className="section-title" style={{ marginTop: 0 }}>Study schedule</label>
+        <p className="muted" style={{ margin: '0 0 12px', fontSize: '0.88rem' }}>
+          Enter your rotation blocks and exam dates to get current-rotation focus and exam countdowns on
+          the home screen.
+        </p>
+        <Link className="btn" to="/schedule">🗓️ Edit schedule</Link>
+      </div>
+
       {enabled && (
         <div className="card" style={{ marginBottom: 16 }}>
           <label className="section-title" style={{ marginTop: 0 }}>Account &amp; sync</label>

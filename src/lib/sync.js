@@ -88,6 +88,15 @@ function mergeKey(key, localRaw, remoteRaw) {
     return JSON.stringify(a.date > b.date ? a : b)
   }
 
+  if (key === 'schedule') {
+    const a = pj(localRaw, null)
+    const b = pj(remoteRaw, null)
+    if (!a) return remoteRaw
+    if (!b) return localRaw
+    // Keep the schedule edited most recently on any device.
+    return JSON.stringify((b.updatedAt || 0) > (a.updatedAt || 0) ? b : a)
+  }
+
   // Preferences (model, newLimit) and anything else: keep this device's value.
   return localRaw
 }

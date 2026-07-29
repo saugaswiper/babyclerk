@@ -150,6 +150,47 @@ button {
   flex-wrap: wrap;
 }
 .tile-stat .due { color: var(--accent); font-weight: 700; }
+.pill-exam {
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.72rem;
+  padding: 1px 8px;
+  border-radius: 999px;
+  line-height: 1.5;
+}
+
+/* Current-rotation badge on the home tiles */
+.badge-now {
+  display: inline-block;
+  align-self: flex-start;
+  background: var(--primary);
+  color: #fff;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  padding: 2px 9px;
+  border-radius: 999px;
+  margin-bottom: 6px;
+}
+
+/* Schedule editor date grid */
+.sched-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 10px;
+}
+.sched-grid label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 0.76rem;
+  color: var(--text-soft);
+}
+@media (max-width: 480px) {
+  .sched-grid { grid-template-columns: 1fr; }
+}
 
 /* ---------- Headings ---------- */
 .page-head { margin-bottom: 18px; }

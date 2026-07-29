@@ -13,6 +13,7 @@ Where every piece of state lives. **`localStorage` is the source of truth; Supab
 | `babyclerk:quizbest:<id>` | best quiz score | ✅ max |
 | `babyclerk:checklist:<id>` | rotation checklist ticks `{idx: bool}` | ✅ OR merge |
 | `babyclerk:newlog:<scope>` | daily new-card intro log `{date, count}` | ✅ latest/max |
+| `babyclerk:schedule` | rotation blocks + exam dates `{updatedAt, mccqe, rotations:{[id]:{start,end,exam}}}` | ✅ latest-edit-wins |
 
 > Values are stored as raw strings (some JSON, some plain). Sync treats them as opaque strings except where a typed merge is defined — see [[Sync-and-Accounts]].
 
