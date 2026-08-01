@@ -1,7 +1,8 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { getRotationMerged, addMissCard } from '../lib/customContent.js'
 import { useLocalStorage } from '../lib/useLocalStorage.js'
+import { logAttempt } from '../lib/attempts.js'
 
 function shuffle(arr) {
   const a = [...arr]
@@ -53,9 +54,23 @@ export default function Quiz() {
   const q = rotation.mcqs[order[idx]]
   const answered = picked !== null
 
+  // Reset the per-question timer whenever a new question is shown.
+  const shownAt = useRef(Date.now())
+  useEffect(() => {
+    shownAt.current = Date.now()
+  }, [idx, order])
+
   const choose = (i) => {
     if (answered) return
     setPicked(i)
+    logAttempt({
+      rotation: rotation.id,
+      kind: 'mcq',
+      cardId: q.id || null,
+      topic: q.topic || null,
+      correct: i === q.answer,
+      latencyMs: Date.now() - shownAt.current,
+    })
     if (i === q.answer) {
       setScore((s) => s + 1)
     } else {

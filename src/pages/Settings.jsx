@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { getApiKey, setApiKey, getModel, setModel, MODEL_OPTIONS, getNewLimit, setNewLimit } from '../lib/settings.js'
 import { useAuth } from '../lib/auth.jsx'
+import { getAttempts, clearAttempts } from '../lib/attempts.js'
 
 export default function Settings() {
   const { enabled, user, status, signOut, syncNow } = useAuth()
@@ -187,6 +188,26 @@ export default function Settings() {
         {backupMsg && (
           <p className="muted" style={{ marginTop: 10, fontSize: '0.85rem' }}>{backupMsg}</p>
         )}
+      </div>
+
+      <div className="card" style={{ marginTop: 16 }}>
+        <label className="section-title" style={{ marginTop: 0 }}>Study history</label>
+        <p className="muted" style={{ margin: '0 0 12px', fontSize: '0.85rem' }}>
+          BabyClerk records each answer (which card, right/wrong, how long) to power your{' '}
+          <Link to="/progress">progress &amp; weak-area insights</Link>. It’s your data — {getAttempts().length} answer
+          {getAttempts().length === 1 ? '' : 's'} logged, synced only to your account, never shared. You can clear it anytime.
+        </p>
+        <button
+          className="btn ghost"
+          onClick={() => {
+            if (window.confirm('Clear your study history? This removes progress/weak-area data (not your cards or spaced-repetition schedule).')) {
+              clearAttempts()
+              setBackupMsg('Study history cleared.')
+            }
+          }}
+        >
+          Clear study history
+        </button>
       </div>
 
       <p className="kbd-hint">

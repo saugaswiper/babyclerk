@@ -88,6 +88,21 @@ function mergeKey(key, localRaw, remoteRaw) {
     return JSON.stringify(a.date > b.date ? a : b)
   }
 
+  if (key === 'attempts') {
+    const a = pj(localRaw, [])
+    const b = pj(remoteRaw, [])
+    const seen = new Set()
+    const merged = []
+    for (const x of [...a, ...b]) {
+      if (x && x.id && !seen.has(x.id)) {
+        seen.add(x.id)
+        merged.push(x)
+      }
+    }
+    merged.sort((p, q) => (p.ts || 0) - (q.ts || 0))
+    return JSON.stringify(merged.slice(-4000)) // keep most recent, bound the blob
+  }
+
   if (key === 'schedule') {
     const a = pj(localRaw, null)
     const b = pj(remoteRaw, null)

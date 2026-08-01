@@ -32,9 +32,11 @@ Shipped + planned features with status. Keep in sync with [[Roadmap]] (this is t
 - ✅ **Current-rotation prioritization** on home (+ "On rotation now" badge)
 - ✅ **Exam countdowns** (soonest-exam banner + per-tile pills, color-coded)
 - 🔨 **Exam-proximity intensity ramp** (messaging done; auto new-card load = Phase 5)
-- ⬜ **Attempt log** (per-answer telemetry) + **topic tagging**
-- ⬜ **Mastery model** + weak-area dashboard
-- ⬜ **Weak-area targeting** (auto-surface + generate related questions)
+- ✅ **Attempt log** (per-answer telemetry: flashcards + MCQs, synced, clearable)
+- ✅ **Weak-area dashboard** (`/progress`): overall accuracy, weakest topics, by-rotation; home teaser
+- 🔨 **Topic tagging** — uses cards' existing `topic` strings; normalized ontology open (OD3)
+- ⬜ **Mastery model** (recency/confidence/trend, beyond rolling accuracy)
+- ⬜ **Weak-area targeting** (auto-surface in study queue + generate related questions)
 - ⬜ **Adaptive pacing**
 - ⬜ **AI tutor** (explain miss, quiz-me, generate from weak spot)
 - ⬜ **Exam readiness forecast** + "what to expect" by rotation/date

@@ -11,6 +11,7 @@ import {
   hasSchedule,
   countdown,
 } from '../lib/schedule.js'
+import { weakestTopics } from '../lib/attempts.js'
 
 export default function Home() {
   const schedule = getSchedule()
@@ -33,6 +34,7 @@ export default function Home() {
   })
 
   const nextExam = exams[0]
+  const weak = weakestTopics(undefined, { min: 3, limit: 3 })
 
   return (
     <>
@@ -65,6 +67,18 @@ export default function Home() {
             Study due now — {totalDue} card{totalDue === 1 ? '' : 's'}
           </h3>
           <p>One session, every rotation. Ten minutes and you’re caught up.</p>
+        </Link>
+      )}
+
+      {weak.length > 0 && (
+        <Link to="/progress" className="card tile" style={{ marginBottom: 16 }}>
+          <h3 style={{ display: 'flex', alignItems: 'center', gap: 10, margin: 0 }}>
+            <span style={{ fontSize: '1.3rem' }}>🎯</span>
+            Your weak spots
+          </h3>
+          <p style={{ margin: '4px 0 0' }}>
+            Focus areas from your answers: {weak.map((t) => t.topic).join(', ')}. Tap to see your full progress.
+          </p>
         </Link>
       )}
 

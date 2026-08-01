@@ -14,6 +14,7 @@ import Search from './pages/Search.jsx'
 import IOCreate from './pages/IOCreate.jsx'
 import SignIn from './pages/SignIn.jsx'
 import Schedule from './pages/Schedule.jsx'
+import Progress from './pages/Progress.jsx'
 import { AuthProvider, useAuth } from './lib/auth.jsx'
 
 function TopBar() {
@@ -38,6 +39,9 @@ function TopBar() {
       )}
       <Link to="/search" className="icon-btn" title="Search" aria-label="Search">
         🔍
+      </Link>
+      <Link to="/progress" className="icon-btn" title="Progress" aria-label="Progress">
+        📈
       </Link>
       {enabled && (
         <Link to="/signin" className="icon-btn" title={user ? `Signed in: ${user.email}` : 'Sign in'} aria-label="Account">
@@ -80,6 +84,7 @@ function AppShell() {
           <Route path="/search" element={<Search />} />
           <Route path="/signin" element={<SignIn />} />
           <Route path="/schedule" element={<Schedule />} />
+          <Route path="/progress" element={<Progress />} />
           <Route path="*" element={<Home />} />
         </Routes>
       </main>

@@ -44,13 +44,14 @@ The app understands *where the student is in time*.
 - ⬜ Realistic daily plan to "cover it all before exam day"
 - Feeds directly into [[AI-Personalization-Engine]]. Schedule stored as `babyclerk:schedule`, synced (latest-edit-wins) — see [[Data-Model]].
 
-## Phase 4 — Performance telemetry (the data foundation) ⬜
+## Phase 4 — Performance telemetry (the data foundation) 🔨 (core shipped)
 You can't personalize what you don't measure. **Prerequisite for Phase 5.**
-- ⬜ **Attempt log**: every answer records {card/mcq id, topic, correct?, latency, timestamp, rotation}
-- ⬜ Topic taxonomy: tag all content with a consistent topic/system ontology
-- ⬜ Per-topic mastery model (rolling accuracy, recency, trend)
-- ⬜ Privacy-first storage: local + synced, user-exportable/deletable — see [[Principles]]
-- ⬜ Insight dashboard: strengths, weak spots, coverage gaps
+- ✅ **Attempt log**: every flashcard + MCQ answer records {id, topic, kind, correct, grade, latency, ts, rotation} — `babyclerk:attempts`, capped, synced (union by id). See [[Data-Model]].
+- ✅ Per-topic + per-rotation accuracy rollups (`summarize`, `weakestTopics`)
+- ✅ **Insight dashboard** (`/progress`): overall accuracy, weakest topics (min-sample gated), accuracy by rotation; weak-spots teaser on home
+- ✅ Privacy-first: user's own data, synced to their row, **clear-history control** in Settings — see [[Principles]]
+- 🔨 Uses each card's existing `topic` string as the interim taxonomy. **Normalized cross-rotation ontology still open (OD3)** — see [[Decisions]].
+- ⬜ Mastery *model* beyond rolling accuracy (recency-weighting, confidence, trend) — next step toward Phase 5
 
 ## Phase 5 — Adaptive AI tutor ⬜ (the moat — see [[AI-Personalization-Engine]])
 The system that learns *you*.

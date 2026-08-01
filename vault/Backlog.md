@@ -10,9 +10,11 @@ Live, prioritized next actions. This is the "what to pick up next" list — keep
 - [ ] **Verify Phase 1 in prod** — confirm the sign-in/sync deploy is green and magic-link redirect URLs are configured in Supabase. See [[Sync-and-Accounts]].
 
 ## Next
-- [ ] **Attempt log** schema + writes on every answer. Foundation for personalization. ([[Roadmap]] Phase 4, [[Data-Model]])
-- [ ] **Topic tagging** across existing content (needs OD3 ontology decision).
-- [ ] **Weak-area dashboard** (read-only insight first).
+- [x] **Attempt log** schema + writes on every answer. Shipped (`babyclerk:attempts`, synced). ([[Data-Model]])
+- [x] **Weak-area dashboard** — shipped (`/progress` + home teaser).
+- [ ] **Mastery model** — go beyond rolling accuracy (recency-weighting, confidence, trend).
+- [ ] **Topic ontology (OD3)** — normalized cross-rotation tags so the same concept clusters. Sharpens weak-area targeting.
+- [ ] **Weak-area targeting in the study queue** — bias due/new selection toward weak topics (first use of the log to *act*, not just report).
 - [ ] **Exam-proximity intensity ramp** in the prioritizer.
 - [ ] **Deck manager** (enable/disable, per-source counts).
 - [ ] **Cloze** as first-class engine card type.

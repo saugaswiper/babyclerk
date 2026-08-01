@@ -1,9 +1,10 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { getRotationMerged } from '../lib/customContent.js'
 import { useLocalStorage } from '../lib/useLocalStorage.js'
 import { review } from '../lib/srs.js'
 import { sessionFor, noteIntroduced } from '../lib/scheduler.js'
+import { logAttempt } from '../lib/attempts.js'
 import CardFace from '../components/CardFace.jsx'
 
 export default function Flashcards() {
@@ -35,9 +36,24 @@ export default function Flashcards() {
     [queue, rotation]
   )
 
+  // When a card is shown, note the time so we can record answer latency.
+  const shownAt = useRef(Date.now())
+  useEffect(() => {
+    shownAt.current = Date.now()
+  }, [current?.id])
+
   const grade = (g) => {
     if (!current) return
     if (!srs[current.id]) noteIntroduced(rotationId) // first time seen → counts against today's new budget
+    logAttempt({
+      rotation: rotationId,
+      kind: 'flashcard',
+      cardId: current.id,
+      topic: current.topic || null,
+      correct: g !== 'again', // recalled (hard/good) vs failed (again)
+      grade: g,
+      latencyMs: Date.now() - shownAt.current,
+    })
     setSrs((prev) => ({ ...prev, [current.id]: review(prev[current.id], g) }))
     setReviewed((n) => n + 1)
     setFlipped(false)
