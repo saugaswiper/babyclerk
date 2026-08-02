@@ -12,7 +12,7 @@ Live, prioritized next actions. This is the "what to pick up next" list — keep
 ## Next
 - [x] **Attempt log** schema + writes on every answer. Shipped (`babyclerk:attempts`, synced). ([[Data-Model]])
 - [x] **Weak-area dashboard** — shipped (`/progress` + home teaser).
-- [ ] **Mastery model** — go beyond rolling accuracy (recency-weighting, confidence, trend).
+- [x] **Mastery model** — shipped (`src/lib/mastery.js`): recency-weighted accuracy, confidence, trend. Feeds `/progress` + `orderForFocus`.
 - [ ] **Topic ontology (OD3)** — normalized cross-rotation tags so the same concept clusters. Sharpens weak-area targeting.
 - [x] **Weak-area targeting in the study queue** — shipped: `orderForFocus` orders "Study due" by topic-weakness + exam proximity (reorder only). First use of the log to *act*.
 - [x] **Exam-proximity in the prioritizer** — folded into `orderForFocus` (imminent-exam rotations rise).

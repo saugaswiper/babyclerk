@@ -35,7 +35,7 @@ Shipped + planned features with status. Keep in sync with [[Roadmap]] (this is t
 - ✅ **Attempt log** (per-answer telemetry: flashcards + MCQs, synced, clearable)
 - ✅ **Weak-area dashboard** (`/progress`): overall accuracy, weakest topics, by-rotation; home teaser
 - 🔨 **Topic tagging** — uses cards' existing `topic` strings; normalized ontology open (OD3)
-- ⬜ **Mastery model** (recency/confidence/trend, beyond rolling accuracy)
+- ✅ **Mastery model** — recency-weighted accuracy + confidence + trend (↑/↓); powers insights + prioritizer
 - 🔨 **Weak-area targeting** — "Study due" queue orders by weakness + exam proximity (shipped); AI-generate related questions still ⬜
 - ⬜ **Adaptive pacing**
 - ⬜ **AI tutor** (explain miss, quiz-me, generate from weak spot)

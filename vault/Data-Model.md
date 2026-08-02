@@ -48,6 +48,8 @@ attempt { id, ts, rotation, kind, cardId, topic, correct, grade, latencyMs }
 ```
 Append-only, local-first, synced (union-by-id, capped at 4000), user-clearable (Settings). `summarize()` and `weakestTopics()` roll up accuracy by rotation and rotation+topic. Logged from Flashcards (grade → correct = not "again") and Quiz (MCQ correctness).
 
+On top of the log, `src/lib/mastery.js` computes a per-topic **mastery model** — recency-weighted accuracy, confidence (from sample size), and trend — consumed by the `/progress` insights and the study-queue prioritizer.
+
 **Still open:** a normalized **topic ontology** — today we aggregate on each card's free-text `topic` string, which works per-rotation but won't cluster the same concept across rotations. That's OD3 in [[Decisions]] and the next content-side step for sharper weak-area targeting.
 
 Related: [[Sync-and-Accounts]] · [[Architecture]] · [[AI-Personalization-Engine]]

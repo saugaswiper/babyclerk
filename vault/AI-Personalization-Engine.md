@@ -18,11 +18,13 @@ Nothing personalizes without data. See [[Data-Model]] "attempt log."
 - **Topic ontology:** every card/MCQ tagged with a topic + system/rotation. Rolling accuracy computes per topic. (Open question: adopt existing med-ed taxonomy vs. roll our own — see [[Roadmap]].)
 - Latency matters: slow-but-correct ≠ mastered.
 
-## Layer 2 — Model (mastery estimation)
-Turn raw attempts into a **per-topic mastery estimate**:
-- Rolling accuracy + recency-weighting + trend (improving/declining).
-- Confidence from sample size (few attempts = low confidence = probe more).
-- Start rules-based and transparent (student can see *why* a topic is flagged weak). Add sophistication (e.g., Bayesian/ELO-style, or a learned model) only once the simple version proves out. **Explainability > cleverness** early.
+## Layer 2 — Model (mastery estimation) — ✅ first version shipped
+`src/lib/mastery.js` turns raw attempts into a **per-topic mastery estimate**:
+- ✅ Recency-weighted accuracy (newest answers weigh more; decay 0.9).
+- ✅ Confidence from sample size (`n/(n+5)`).
+- ✅ Trend (improving/declining/steady) once ≥6 attempts.
+- ✅ Rules-based and transparent — every number traces to countable attempts, so a student can see *why*. Sophistication (Bayesian/ELO/learned) comes later. **Explainability > cleverness** held.
+- Consumed by `/progress` (the read) and `orderForFocus` (Layer 3). Latency is captured in the log for future use.
 
 ## Layer 3 — Prioritize (the daily decision) — 🔨 first version shipped
 `orderForFocus` (in `src/lib/studyQueue.js`) reorders the "Study due" queue by topic-weakness (from the attempt log) + exam proximity (from the schedule), reviews still ahead of new cards. This is Layer 3's first real implementation — reorder only, no scheduling change. Remaining: weight into the *daily budget* and generation.

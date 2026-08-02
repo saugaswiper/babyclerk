@@ -6,7 +6,8 @@ import { getRotationMerged } from './customContent.js'
 import { readStored } from './useLocalStorage.js'
 import { sessionFor } from './scheduler.js'
 import { isNew } from './srs.js'
-import { getAttempts, summarize } from './attempts.js'
+import { getAttempts } from './attempts.js'
+import { masteryLookup, topicMastery } from './mastery.js'
 import { getSchedule, examDaysFor } from './schedule.js'
 
 // Everything to study now, across rotations — reviews due + each rotation's
@@ -37,14 +38,13 @@ export function orderForFocus(
   entries,
   { attempts = getAttempts(), schedule = getSchedule() } = {}
 ) {
-  const { byTopic } = summarize(attempts)
+  const mastery = masteryLookup(attempts, { min: 3 })
 
-  // Known accuracy for a (rotation, topic), or null if too few attempts.
+  // Recency-weighted accuracy for a (rotation, topic), or null if too few attempts.
   const topicAcc = (rotationId, topic) => {
     if (!topic) return null
-    const e = byTopic[JSON.stringify([rotationId, topic])]
-    if (!e || e.n < 3) return null
-    return e.correct / e.n
+    const wAcc = mastery.get(JSON.stringify([rotationId, topic]))
+    return wAcc == null ? null : wAcc
   }
 
   const examBoost = (rotationId) => {
@@ -73,8 +73,7 @@ export function orderForFocus(
 // True when there's enough signal (weak topics or set exams) for ordering to
 // meaningfully differ from the default — used to show a subtle UI hint.
 export function hasFocusData(attempts = getAttempts(), schedule = getSchedule()) {
-  const { byTopic } = summarize(attempts)
-  const enoughTopic = Object.values(byTopic).some((e) => e.n >= 3)
+  const enoughTopic = topicMastery(attempts).some((t) => t.n >= 3)
   const anyExam = Object.values(schedule.rotations || {}).some((r) => r.exam)
   return enoughTopic || anyExam
 }

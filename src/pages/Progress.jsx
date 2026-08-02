@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { rotations, getRotation } from '../data/rotations/index.js'
-import { getAttempts, summarize, weakestTopics } from '../lib/attempts.js'
+import { getAttempts, summarize } from '../lib/attempts.js'
+import { weakTopics } from '../lib/mastery.js'
 
 function pct(correct, n) {
   return n ? Math.round((correct / n) * 100) : 0
@@ -13,11 +14,16 @@ function accColor(p) {
 function rotationName(id) {
   return getRotation(id)?.name || id
 }
+function TrendMark({ trend }) {
+  if (trend === 'improving') return <span title="Improving" style={{ color: 'var(--primary)' }}>↑</span>
+  if (trend === 'declining') return <span title="Slipping" style={{ color: 'var(--danger)' }}>↓</span>
+  return null
+}
 
 export default function Progress() {
   const attempts = getAttempts()
   const { byRotation, total } = summarize(attempts)
-  const weak = weakestTopics(attempts, { min: 3, limit: 8 })
+  const weak = weakTopics(attempts, { min: 3, limit: 8 })
 
   const overallCorrect = attempts.reduce((n, a) => n + (a.correct ? 1 : 0), 0)
   const overallPct = pct(overallCorrect, total)
@@ -65,20 +71,26 @@ export default function Progress() {
         <div className="card" style={{ marginBottom: 16 }}>
           <label className="section-title" style={{ marginTop: 0 }}>🎯 Focus here — your weakest topics</label>
           <ul className="weak-list">
-            {weak.map((t) => (
-              <li key={`${t.rotation}-${t.topic}`}>
-                <Link to={`/r/${t.rotation}/flashcards`} className="weak-item">
-                  <span className="weak-topic">{t.topic}</span>
-                  <span className="weak-meta">
-                    <span className="muted">{rotationName(t.rotation)}</span>
-                    <span style={{ color: accColor(pct(t.correct, t.n)), fontWeight: 700 }}>{pct(t.correct, t.n)}%</span>
-                  </span>
-                </Link>
-              </li>
-            ))}
+            {weak.map((t) => {
+              const p = Math.round(t.wAcc * 100)
+              return (
+                <li key={`${t.rotation}-${t.topic}`}>
+                  <Link to={`/r/${t.rotation}/flashcards`} className="weak-item">
+                    <span className="weak-topic">
+                      {t.topic} <TrendMark trend={t.trend} />
+                    </span>
+                    <span className="weak-meta">
+                      <span className="muted">{rotationName(t.rotation)}</span>
+                      <span style={{ color: accColor(p), fontWeight: 700 }}>{p}%</span>
+                    </span>
+                  </Link>
+                </li>
+              )
+            })}
           </ul>
           <p className="muted" style={{ fontSize: '0.8rem', margin: '10px 0 0' }}>
-            Only topics you’ve answered ≥3 times are ranked, so one unlucky miss doesn’t skew it.
+            Recency-weighted — recent answers count more. Only topics answered ≥3 times are ranked.
+            ↑ improving · ↓ slipping.
           </p>
         </div>
       )}

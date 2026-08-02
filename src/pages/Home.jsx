@@ -11,7 +11,7 @@ import {
   hasSchedule,
   countdown,
 } from '../lib/schedule.js'
-import { weakestTopics } from '../lib/attempts.js'
+import { weakTopics } from '../lib/mastery.js'
 
 export default function Home() {
   const schedule = getSchedule()
@@ -34,7 +34,7 @@ export default function Home() {
   })
 
   const nextExam = exams[0]
-  const weak = weakestTopics(undefined, { min: 3, limit: 3 })
+  const weak = weakTopics(undefined, { min: 3, limit: 3 })
 
   return (
     <>

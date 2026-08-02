@@ -51,7 +51,7 @@ You can't personalize what you don't measure. **Prerequisite for Phase 5.**
 - ✅ **Insight dashboard** (`/progress`): overall accuracy, weakest topics (min-sample gated), accuracy by rotation; weak-spots teaser on home
 - ✅ Privacy-first: user's own data, synced to their row, **clear-history control** in Settings — see [[Principles]]
 - 🔨 Uses each card's existing `topic` string as the interim taxonomy. **Normalized cross-rotation ontology still open (OD3)** — see [[Decisions]].
-- ⬜ Mastery *model* beyond rolling accuracy (recency-weighting, confidence, trend) — next step toward Phase 5
+- ✅ Mastery *model* (`src/lib/mastery.js`): recency-weighted accuracy, confidence from sample size, up/down trend detection — drives both the `/progress` insights and the prioritizer. Explainable (every number traces to attempts).
 
 ## Phase 5 — Adaptive AI tutor 🔨 (the moat — see [[AI-Personalization-Engine]])
 The system that learns *you*.
