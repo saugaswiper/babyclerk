@@ -24,7 +24,9 @@ Turn raw attempts into a **per-topic mastery estimate**:
 - Confidence from sample size (few attempts = low confidence = probe more).
 - Start rules-based and transparent (student can see *why* a topic is flagged weak). Add sophistication (e.g., Bayesian/ELO-style, or a learned model) only once the simple version proves out. **Explainability > cleverness** early.
 
-## Layer 3 — Prioritize (the daily decision)
+## Layer 3 — Prioritize (the daily decision) — 🔨 first version shipped
+`orderForFocus` (in `src/lib/studyQueue.js`) reorders the "Study due" queue by topic-weakness (from the attempt log) + exam proximity (from the schedule), reviews still ahead of new cards. This is Layer 3's first real implementation — reorder only, no scheduling change. Remaining: weight into the *daily budget* and generation.
+
 Given mastery + the calendar, decide **what to do now**:
 - Weak topics get more weight.
 - **Current rotation** gets more weight (from the schedule — see below).

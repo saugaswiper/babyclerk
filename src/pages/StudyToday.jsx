@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { collectDue } from '../lib/studyQueue.js'
+import { collectDue, orderForFocus, hasFocusData } from '../lib/studyQueue.js'
 import { readStored, writeStored } from '../lib/useLocalStorage.js'
 import { review } from '../lib/srs.js'
 import { noteIntroduced } from '../lib/scheduler.js'
@@ -13,9 +13,11 @@ export default function StudyToday() {
   const [flipped, setFlipped] = useState(false)
   const [reviewed, setReviewed] = useState(0)
   const [loaded, setLoaded] = useState(false)
+  const [focused, setFocused] = useState(false)
 
   useEffect(() => {
-    setQueue(collectDue())
+    setQueue(orderForFocus(collectDue()))
+    setFocused(hasFocusData())
     setLoaded(true)
   }, [])
 
@@ -68,7 +70,10 @@ export default function StudyToday() {
     <div className="study-shell">
       <div className="page-head">
         <h1>▶ Study due</h1>
-        <p className="sub">Every card that’s due right now, across all rotations.</p>
+        <p className="sub">
+          Every card that’s due right now, across all rotations.
+          {focused && ' Ordered so your weak topics and soonest exams come first.'}
+        </p>
       </div>
 
       {current ? (

@@ -53,9 +53,9 @@ You can't personalize what you don't measure. **Prerequisite for Phase 5.**
 - 🔨 Uses each card's existing `topic` string as the interim taxonomy. **Normalized cross-rotation ontology still open (OD3)** — see [[Decisions]].
 - ⬜ Mastery *model* beyond rolling accuracy (recency-weighting, confidence, trend) — next step toward Phase 5
 
-## Phase 5 — Adaptive AI tutor ⬜ (the moat — see [[AI-Personalization-Engine]])
+## Phase 5 — Adaptive AI tutor 🔨 (the moat — see [[AI-Personalization-Engine]])
 The system that learns *you*.
-- ⬜ **Weak-area targeting**: auto-surface worst topics; generate related questions on demand
+- 🔨 **Weak-area targeting**: the "Study due" queue now **orders** cards so weak topics + imminent-exam rotations come first (reorder only — reviews still precede new cards; timing untouched). First time the app *acts* on the attempt log. Next: AI-**generate** related questions on demand.
 - ⬜ **Adaptive pacing**: new-card load & mix auto-tune to performance + time available
 - ⬜ **AI tutor**: explain a miss, "quiz me on X," generate practice from a fumbled topic
 - ⬜ **Exam forecast**: given date + performance, predict readiness and what to hit next

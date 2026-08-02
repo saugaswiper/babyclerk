@@ -14,8 +14,8 @@ Live, prioritized next actions. This is the "what to pick up next" list — keep
 - [x] **Weak-area dashboard** — shipped (`/progress` + home teaser).
 - [ ] **Mastery model** — go beyond rolling accuracy (recency-weighting, confidence, trend).
 - [ ] **Topic ontology (OD3)** — normalized cross-rotation tags so the same concept clusters. Sharpens weak-area targeting.
-- [ ] **Weak-area targeting in the study queue** — bias due/new selection toward weak topics (first use of the log to *act*, not just report).
-- [ ] **Exam-proximity intensity ramp** in the prioritizer.
+- [x] **Weak-area targeting in the study queue** — shipped: `orderForFocus` orders "Study due" by topic-weakness + exam proximity (reorder only). First use of the log to *act*.
+- [x] **Exam-proximity in the prioritizer** — folded into `orderForFocus` (imminent-exam rotations rise).
 - [ ] **Deck manager** (enable/disable, per-source counts).
 - [ ] **Cloze** as first-class engine card type.
 
