@@ -6,6 +6,19 @@ import { readStored, writeStored } from './useLocalStorage.js'
 
 const KEY = 'schedule'
 
+// Rotations that appear on a schedule but have no study deck in the app yet.
+// They're informational: they answer "what am I on now" and support exam
+// countdowns, but aren't study tiles. Keyed by the same ids used in schedules.
+export const EXTRA_BLOCKS = {
+  anesthesia: 'Anesthesia',
+  emergency: 'Emergency Medicine',
+  medSelective: 'Medicine Selective',
+}
+
+export function isExtraBlock(id) {
+  return Object.prototype.hasOwnProperty.call(EXTRA_BLOCKS, id)
+}
+
 // Shape: { updatedAt, mccqe: 'YYYY-MM-DD'|'', rotations: { [id]: { start, end, exam } } }
 export function getSchedule() {
   const s = readStored(KEY, null)

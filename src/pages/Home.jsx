@@ -10,6 +10,8 @@ import {
   examDaysFor,
   hasSchedule,
   countdown,
+  EXTRA_BLOCKS,
+  isExtraBlock,
 } from '../lib/schedule.js'
 import { weakTopics } from '../lib/mastery.js'
 
@@ -35,6 +37,9 @@ export default function Home() {
 
   const nextExam = exams[0]
   const weak = weakTopics(undefined, { min: 3, limit: 3 })
+  // Current block might be a rotation without a deck (Anesthesia/Emergency/…).
+  const currentIsContent = rotations.some((r) => r.id === currentId)
+  const currentExtra = currentId && !currentIsContent ? EXTRA_BLOCKS[currentId] || currentId : null
 
   return (
     <>
@@ -46,9 +51,19 @@ export default function Home() {
         </p>
       </div>
 
+      {currentExtra && (
+        <Link to="/schedule" className="card tile" style={{ marginBottom: 16 }}>
+          <h3 style={{ display: 'flex', alignItems: 'center', gap: 10, margin: 0 }}>
+            <span style={{ fontSize: '1.3rem' }}>📍</span>
+            On {currentExtra} now
+          </h3>
+          <p style={{ margin: '4px 0 0' }}>No deck for this rotation yet — you can still track its dates and exam.</p>
+        </Link>
+      )}
+
       {nextExam && (
         <Link
-          to={nextExam.rotationId ? `/r/${nextExam.rotationId}` : '/schedule'}
+          to={nextExam.rotationId && !isExtraBlock(nextExam.rotationId) ? `/r/${nextExam.rotationId}` : '/schedule'}
           className="card tile"
           style={{ marginBottom: 16, borderColor: examColor(nextExam.days) }}
         >
@@ -132,7 +147,7 @@ export default function Home() {
 
 function examName(exam) {
   if (exam.label) return exam.label
-  return getRotation(exam.rotationId)?.name || 'Rotation'
+  return getRotation(exam.rotationId)?.name || EXTRA_BLOCKS[exam.rotationId] || 'Rotation'
 }
 
 function examColor(days) {

@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { rotations } from '../data/rotations/index.js'
-import { getSchedule, setSchedule, daysUntil, countdown } from '../lib/schedule.js'
+import { getSchedule, setSchedule, daysUntil, countdown, EXTRA_BLOCKS } from '../lib/schedule.js'
 import { QUEENS_MEDS2028 } from '../data/queensSchedule.js'
 
 export default function Schedule() {
@@ -150,6 +150,48 @@ export default function Schedule() {
           </div>
         )
       })}
+
+      <div className="card" style={{ marginBottom: 12 }}>
+        <label className="section-title" style={{ marginTop: 0 }}>Other rotations (no deck yet)</label>
+        <p className="muted" style={{ margin: '0 0 4px', fontSize: '0.82rem' }}>
+          Rotations BabyClerk doesn’t have study cards for. Tracked so “what you’re on now” and exam
+          countdowns stay accurate — presets fill these in too.
+        </p>
+        {Object.entries(EXTRA_BLOCKS).map(([id, name]) => {
+          const entry = sched.rotations[id] || {}
+          const filled = entry.start || entry.end || entry.exam
+          return (
+            <div key={id} style={{ padding: '10px 0', borderTop: '1px solid var(--border, #e5e7eb)' }}>
+              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+                <strong style={{ fontSize: '0.92rem' }}>{name}</strong>
+                {filled && (
+                  <button
+                    className="btn ghost"
+                    style={{ padding: '4px 10px', fontSize: '0.8rem' }}
+                    onClick={() => clearRotation(id)}
+                  >
+                    Clear
+                  </button>
+                )}
+              </div>
+              <div className="sched-grid">
+                <label>
+                  Start
+                  <input type="date" className="text-input" value={entry.start || ''} onChange={(e) => updateRotation(id, 'start', e.target.value)} />
+                </label>
+                <label>
+                  End
+                  <input type="date" className="text-input" value={entry.end || ''} onChange={(e) => updateRotation(id, 'end', e.target.value)} />
+                </label>
+                <label>
+                  Exam
+                  <input type="date" className="text-input" value={entry.exam || ''} onChange={(e) => updateRotation(id, 'exam', e.target.value)} />
+                </label>
+              </div>
+            </div>
+          )
+        })}
+      </div>
 
       <Link className="btn primary" to="/">
         Done

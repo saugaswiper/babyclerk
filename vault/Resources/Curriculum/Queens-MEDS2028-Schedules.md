@@ -22,7 +22,9 @@ Lets a Queen's student prefill their rotation dates in one tap instead of typing
 ## Extracted insights (durable)
 - Streams are time-shifts of the same rotation set across the 2026–27 clerkship year (block-level year rule: the doc dates the Dec block to 2026).
 - Section A is column-aligned (OBG…PEDS, 2 wks each). Section B = MEDCORE (4 wks) → PSYCH (4 wks) → Surgery block (subspecialties permute per student → one Surgery span).
-- Mapped to app rotations: Internal Medicine (MEDCORE), Psychiatry, Surgery, OB/GYN, Pediatrics. **Not** in these blocks: Anesthesia, Emergency, medicine/tract selectives, Neurology, Family Medicine — students add those.
+- Mapped to app study rotations: Internal Medicine (MEDCORE), Psychiatry, Surgery, OB/GYN, Pediatrics.
+- Also captured as **informational blocks** (no deck yet — `EXTRA_BLOCKS` in `lib/schedule.js`): Anesthesia, Emergency Medicine, Medicine Selective. They drive "what you're on now" + exam countdowns but aren't study tiles.
+- **Not** in these two blocks: tract selectives, Neurology, Family Medicine — students add those.
 - Exam dates were not cohort-uniform in the source → left for the user to enter.
 
 ## Open questions / cautions
