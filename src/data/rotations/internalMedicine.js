@@ -3,7 +3,7 @@
 export default {
   id: 'internal-medicine',
   name: 'Internal Medicine',
-  emoji: '🩺',
+  icon: 'activity',
   blurb: 'Workhorse rotation: acute management, chronic disease, and the daily presentation.',
   checklist: [
     'CTU (KGH Connell 9/10): pass = 60% on the ~100-MCQ exit exam',

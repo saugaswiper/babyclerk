@@ -43,7 +43,7 @@ export default function Schedule() {
   return (
     <div className="study-shell">
       <div className="page-head">
-        <h1>🗓️ Your schedule</h1>
+        <h1>Your schedule</h1>
         <p className="sub">
           Enter your rotation blocks and exam dates. BabyClerk highlights the rotation you’re on now and
           counts down to each exam. Optional — everything works without it, and it saves automatically.

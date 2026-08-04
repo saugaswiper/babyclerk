@@ -17,7 +17,7 @@ export default function Notes() {
   return (
     <div className="study-shell">
       <div className="page-head">
-        <h1>📖 {rotation.name} — Notes</h1>
+        <h1>{rotation.name} — Notes</h1>
         <p className="sub">Condensed, high-yield revision for the topics you’ll be quizzed on.</p>
       </div>
 

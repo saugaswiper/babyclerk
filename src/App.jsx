@@ -16,6 +16,7 @@ import SignIn from './pages/SignIn.jsx'
 import Schedule from './pages/Schedule.jsx'
 import Progress from './pages/Progress.jsx'
 import { AuthProvider, useAuth } from './lib/auth.jsx'
+import Icon from './components/Icon.jsx'
 
 function TopBar() {
   const navigate = useNavigate()
@@ -23,33 +24,37 @@ function TopBar() {
   const isHome = location.pathname === '/'
   const { enabled, user, status } = useAuth()
 
-  const dot = user ? (status === 'error' ? '🔴' : status === 'syncing' ? '🟡' : '🟢') : ''
-
   return (
     <header className="topbar">
       <Link to="/" className="brand">
-        <span className="logo">🩺</span>
+        <span className="logo"><Icon name="pulse" size={18} strokeWidth={2.2} /></span>
         <span>BabyClerk</span>
       </Link>
       <span className="spacer" />
       {!isHome && (
         <button className="back-link" onClick={() => navigate(-1)}>
-          ← Back
+          <Icon name="arrow-left" size={16} /> Back
         </button>
       )}
       <Link to="/search" className="icon-btn" title="Search" aria-label="Search">
-        🔍
+        <Icon name="search" />
       </Link>
       <Link to="/progress" className="icon-btn" title="Progress" aria-label="Progress">
-        📈
+        <Icon name="chart" />
       </Link>
       {enabled && (
-        <Link to="/signin" className="icon-btn" title={user ? `Signed in: ${user.email}` : 'Sign in'} aria-label="Account">
-          {user ? `👤${dot}` : '👤'}
+        <Link
+          to="/signin"
+          className="icon-btn acct"
+          title={user ? `Signed in: ${user.email}` : 'Sign in'}
+          aria-label="Account"
+        >
+          <Icon name="user" />
+          {user && <span className={`sync-dot ${status}`} />}
         </Link>
       )}
       <Link to="/settings" className="icon-btn" title="Settings" aria-label="Settings">
-        ⚙️
+        <Icon name="settings" />
       </Link>
     </header>
   )

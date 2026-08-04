@@ -59,7 +59,7 @@ export default function ScheduleTimeline({ schedule }) {
             <strong style={{ color: 'var(--text)' }}>{current.label}</strong> now · rotation {idx} of {entries.length}
           </>
         ) : today > max ? (
-          <>Clerkship complete 🎉</>
+          <>Clerkship complete</>
         ) : (
           <>Starts {fmt(entries[0].start)}</>
         )}

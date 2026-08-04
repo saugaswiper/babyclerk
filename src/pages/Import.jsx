@@ -153,7 +153,7 @@ export default function Import() {
   return (
     <div className="study-shell">
       <div className="page-head">
-        <h1>📥 {rotation.name} — Import</h1>
+        <h1>{rotation.name} — Import</h1>
         <p className="sub">Bring in your own cards from Anki exports, spreadsheets, or JSON.</p>
       </div>
 

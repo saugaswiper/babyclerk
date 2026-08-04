@@ -2,7 +2,7 @@
 export default {
   id: 'surgery',
   name: 'Surgery',
-  emoji: '🔪',
+  icon: 'scissors',
   blurb: 'Acute abdomen, peri-operative care, and the surgical sieve under pressure.',
   checklist: [
     'Arrive ~10 min early and print the list for the whole team (rounds can start 5:30AM)',

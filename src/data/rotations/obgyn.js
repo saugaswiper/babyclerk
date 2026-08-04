@@ -2,7 +2,7 @@
 export default {
   id: 'obgyn',
   name: 'Obstetrics & Gynaecology',
-  emoji: '🤰',
+  icon: 'heart',
   blurb: 'Two patients at once, obstetric emergencies, and the menstrual-cycle backbone.',
   checklist: [
     'Always think “could she be pregnant?” — βhCG early',

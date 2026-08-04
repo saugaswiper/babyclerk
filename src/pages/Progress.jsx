@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import { rotations, getRotation } from '../data/rotations/index.js'
 import { getAttempts, summarize } from '../lib/attempts.js'
 import { weakTopics } from '../lib/mastery.js'
+import Icon from '../components/Icon.jsx'
 
 function pct(correct, n) {
   return n ? Math.round((correct / n) * 100) : 0
@@ -15,8 +16,10 @@ function rotationName(id) {
   return getRotation(id)?.name || id
 }
 function TrendMark({ trend }) {
-  if (trend === 'improving') return <span title="Improving" style={{ color: 'var(--primary)' }}>↑</span>
-  if (trend === 'declining') return <span title="Slipping" style={{ color: 'var(--danger)' }}>↓</span>
+  if (trend === 'improving')
+    return <Icon name="trend-up" size={15} title="Improving" style={{ color: 'var(--good)', verticalAlign: '-2px' }} />
+  if (trend === 'declining')
+    return <Icon name="trend-down" size={15} title="Slipping" style={{ color: 'var(--danger)', verticalAlign: '-2px' }} />
   return null
 }
 
@@ -30,18 +33,18 @@ export default function Progress() {
 
   // Rotations in their canonical order, only those with attempts.
   const rows = rotations
-    .map((r) => ({ id: r.id, name: r.name, emoji: r.emoji, e: byRotation[r.id] }))
+    .map((r) => ({ id: r.id, name: r.name, icon: r.icon, e: byRotation[r.id] }))
     .filter((r) => r.e && r.e.n > 0)
 
   if (total === 0) {
     return (
       <div className="study-shell">
         <div className="page-head">
-          <h1>📈 Your progress</h1>
+          <h1>Your progress</h1>
           <p className="sub">Answer some flashcards and quizzes and this page fills in — it tracks how you do per rotation and surfaces your weakest topics so you know exactly where to focus.</p>
         </div>
         <div className="card result-card">
-          <div className="big">🌱</div>
+          <div className="big"><Icon name="seedling" size={52} strokeWidth={1.6} /></div>
           <h2>Nothing tracked yet</h2>
           <p className="muted">Start a flashcard session or a quiz and come back.</p>
           <div className="btn-row" style={{ justifyContent: 'center', marginTop: 14 }}>
@@ -56,7 +59,7 @@ export default function Progress() {
   return (
     <div className="study-shell">
       <div className="page-head">
-        <h1>📈 Your progress</h1>
+        <h1>Your progress</h1>
         <p className="sub">Based on {total} answered question{total === 1 ? '' : 's'}. This is the data your future weak-area coaching will run on.</p>
       </div>
 
@@ -69,7 +72,7 @@ export default function Progress() {
 
       {weak.length > 0 && (
         <div className="card" style={{ marginBottom: 16 }}>
-          <label className="section-title" style={{ marginTop: 0 }}>🎯 Focus here — your weakest topics</label>
+          <label className="section-title" style={{ marginTop: 0 }}>Focus here — your weakest topics</label>
           <ul className="weak-list">
             {weak.map((t) => {
               const p = Math.round(t.wAcc * 100)
@@ -101,7 +104,10 @@ export default function Progress() {
           const p = pct(r.e.correct, r.e.n)
           return (
             <Link key={r.id} to={`/r/${r.id}`} className="acc-row">
-              <span className="acc-label">{r.emoji} {r.name}</span>
+              <span className="acc-label" style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+                <Icon name={r.icon} size={16} style={{ color: 'var(--primary)', flex: 'none' }} />
+                {r.name}
+              </span>
               <span className="acc-bar">
                 <span style={{ width: `${p}%`, background: accColor(p) }} />
               </span>

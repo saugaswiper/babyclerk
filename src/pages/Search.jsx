@@ -75,7 +75,7 @@ export default function Search() {
   return (
     <div className="study-shell">
       <div className="page-head">
-        <h1>🔍 Search</h1>
+        <h1>Search</h1>
         <p className="sub">Look anything up fast — every card, viva question, MCQ, and note.</p>
       </div>
 

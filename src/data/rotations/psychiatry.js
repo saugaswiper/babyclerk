@@ -2,7 +2,7 @@
 export default {
   id: 'psychiatry',
   name: 'Psychiatry',
-  emoji: '🧠',
+  icon: 'brain',
   blurb: 'Risk assessment, the mental state exam, and the Ontario Mental Health Act.',
   checklist: [
     'Be fluent in the Mental State Examination (MSE) structure',

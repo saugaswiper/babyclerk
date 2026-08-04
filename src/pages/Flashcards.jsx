@@ -6,6 +6,7 @@ import { review } from '../lib/srs.js'
 import { sessionFor, noteIntroduced } from '../lib/scheduler.js'
 import { logAttempt } from '../lib/attempts.js'
 import CardFace from '../components/CardFace.jsx'
+import Icon from '../components/Icon.jsx'
 
 export default function Flashcards() {
   const { rotationId } = useParams()
@@ -97,7 +98,7 @@ export default function Flashcards() {
   return (
     <div className="study-shell">
       <div className="page-head">
-        <h1>🃏 {rotation.name} — Flashcards</h1>
+        <h1>{rotation.name} — Flashcards</h1>
         <p className="sub">Tap the card to reveal the answer, then rate how well you knew it.</p>
       </div>
 
@@ -146,7 +147,7 @@ export default function Flashcards() {
         </>
       ) : (
         <div className="card result-card">
-          <div className="big">✓</div>
+          <div className="big"><Icon name="check-circle" size={54} strokeWidth={1.6} /></div>
           <h2>{mode === 'due' ? 'All caught up!' : 'Deck complete'}</h2>
           <p className="muted">
             {reviewed > 0

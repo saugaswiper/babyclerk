@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { getRotationMerged } from '../lib/customContent.js'
+import Icon from '../components/Icon.jsx'
 
 function shuffle(arr) {
   const a = [...arr]
@@ -52,7 +53,7 @@ export default function Viva() {
   return (
     <div className="study-shell">
       <div className="page-head">
-        <h1>🗣️ {rotation.name} — Viva Drills</h1>
+        <h1>{rotation.name} — Viva Drills</h1>
         <p className="sub">Answer out loud as if your tutor just asked you, then reveal the model answer.</p>
       </div>
 
@@ -77,18 +78,18 @@ export default function Viva() {
 
           <div className="btn-row" style={{ marginTop: 16, justifyContent: 'space-between' }}>
             <button className="btn ghost" onClick={prev} disabled={idx === 0}>
-              ← Previous
+              <Icon name="arrow-left" size={16} /> Previous
             </button>
             <span className="muted" style={{ alignSelf: 'center' }}>
               {idx + 1} / {order.length}
             </span>
             {atEnd ? (
               <button className="btn" onClick={reshuffle}>
-                Shuffle ↺
+                <Icon name="shuffle" size={16} /> Shuffle
               </button>
             ) : (
               <button className="btn primary" onClick={next}>
-                Next →
+                Next <Icon name="arrow-right" size={16} />
               </button>
             )}
           </div>

@@ -69,7 +69,7 @@ export default function Settings() {
   return (
     <div className="study-shell">
       <div className="page-head">
-        <h1>⚙️ Settings</h1>
+        <h1>Settings</h1>
         <p className="sub">Connect your Anthropic API key to generate fresh questions with AI.</p>
       </div>
 
@@ -79,7 +79,7 @@ export default function Settings() {
           Enter your rotation blocks and exam dates to get current-rotation focus and exam countdowns on
           the home screen.
         </p>
-        <Link className="btn" to="/schedule">🗓️ Edit schedule</Link>
+        <Link className="btn" to="/schedule">Edit schedule</Link>
       </div>
 
       {enabled && (
@@ -161,7 +161,7 @@ export default function Settings() {
 
         <div className="btn-row" style={{ marginTop: 18 }}>
           <button className="btn primary" onClick={save}>
-            {saved ? 'Saved ✓' : 'Save'}
+            {saved ? 'Saved' : 'Save'}
           </button>
           <Link className="btn ghost" to="/">
             Done

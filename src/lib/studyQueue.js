@@ -21,7 +21,7 @@ export function collectDue(now = Date.now()) {
       entries.push({
         rotationId: r.id,
         rotationName: r.name,
-        emoji: r.emoji,
+        icon: r.icon,
         card,
         isNew: isNew(srs[card.id]),
       })

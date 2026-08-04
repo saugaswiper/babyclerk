@@ -95,7 +95,7 @@ export default function IOCreate() {
   return (
     <div className="study-shell">
       <div className="page-head">
-        <h1>🖼️ {rotation.name} — Image occlusion</h1>
+        <h1>{rotation.name} — Image occlusion</h1>
         <p className="sub">Upload an image, drag to draw boxes over what you want to hide, then save.</p>
       </div>
 

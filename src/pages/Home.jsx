@@ -14,6 +14,7 @@ import {
   isExtraBlock,
 } from '../lib/schedule.js'
 import { weakTopics } from '../lib/mastery.js'
+import Icon from '../components/Icon.jsx'
 
 export default function Home() {
   const schedule = getSchedule()
@@ -43,18 +44,28 @@ export default function Home() {
 
   return (
     <>
-      <div className="page-head">
-        <h1>Pick a rotation</h1>
-        <p className="sub">
-          Clerkship prep for Queen’s &amp; the MCCQE — drill flashcards, viva questions, MCQs and
-          high-yield notes so you’re never caught out on the wards.
-        </p>
-      </div>
+      <section className="hero">
+        <svg className="hero-ecg" viewBox="0 0 240 48" preserveAspectRatio="none" fill="none" aria-hidden="true">
+          <path
+            pathLength="1"
+            d="M0 26 H44 l4 -3 l3 8 l5 -24 l5 36 l4 -17 l3 0 H124 l4 -3 l3 8 l5 -24 l5 36 l4 -17 l3 0 H240"
+            stroke="currentColor"
+            strokeWidth="2.5"
+            strokeLinejoin="round"
+            strokeLinecap="round"
+          />
+        </svg>
+        <div className="hero-body">
+          <span className="hero-eyebrow">Queen’s clerkship · MCCQE</span>
+          <h1>Know exactly what to study today.</h1>
+          <p>Spaced-repetition decks, weak-spot targeting, and your rotation schedule — in one calm place.</p>
+        </div>
+      </section>
 
       {currentExtra && (
         <Link to="/schedule" className="card tile" style={{ marginBottom: 16 }}>
           <h3 style={{ display: 'flex', alignItems: 'center', gap: 10, margin: 0 }}>
-            <span style={{ fontSize: '1.3rem' }}>📍</span>
+            <Icon name="pin" size={20} style={{ color: 'var(--primary)' }} />
             On {currentExtra} now
           </h3>
           <p style={{ margin: '4px 0 0' }}>No deck for this rotation yet — you can still track its dates and exam.</p>
@@ -68,7 +79,7 @@ export default function Home() {
           style={{ marginBottom: 16, borderColor: examColor(nextExam.days) }}
         >
           <h3 style={{ display: 'flex', alignItems: 'center', gap: 10, margin: 0 }}>
-            <span style={{ fontSize: '1.3rem' }}>⏰</span>
+            <Icon name="clock" size={20} style={{ color: examColor(nextExam.days) }} />
             {examName(nextExam)} exam {countdown(nextExam.days)}
           </h3>
           <p style={{ margin: '4px 0 0' }}>{examNudge(nextExam.days)}</p>
@@ -77,18 +88,18 @@ export default function Home() {
 
       {totalDue > 0 && (
         <Link to="/study" className="card tile" style={{ marginBottom: 16, borderColor: 'var(--primary)' }}>
-          <h3 style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-            <span className="tile-emoji" style={{ fontSize: '1.4rem' }}>▶</span>
+          <h3 style={{ display: 'flex', alignItems: 'center', gap: 10, margin: 0 }}>
+            <Icon name="play" size={20} style={{ color: 'var(--primary)' }} />
             Study due now — {totalDue} card{totalDue === 1 ? '' : 's'}
           </h3>
-          <p>One session, every rotation. Ten minutes and you’re caught up.</p>
+          <p style={{ margin: '4px 0 0' }}>One session, every rotation. Ten minutes and you’re caught up.</p>
         </Link>
       )}
 
       {weak.length > 0 && (
         <Link to="/progress" className="card tile" style={{ marginBottom: 16 }}>
           <h3 style={{ display: 'flex', alignItems: 'center', gap: 10, margin: 0 }}>
-            <span style={{ fontSize: '1.3rem' }}>🎯</span>
+            <Icon name="target" size={20} style={{ color: 'var(--accent)' }} />
             Your weak spots
           </h3>
           <p style={{ margin: '4px 0 0' }}>
@@ -97,6 +108,7 @@ export default function Home() {
         </Link>
       )}
 
+      <div className="section-title">Pick a rotation</div>
       <div className="grid">
         {ordered.map(({ r, due }) => {
           const isCurrent = r.id === currentId
@@ -109,7 +121,7 @@ export default function Home() {
               style={isCurrent ? { borderColor: 'var(--primary)' } : undefined}
             >
               {isCurrent && <span className="badge-now">On rotation now</span>}
-              <span className="tile-emoji">{r.emoji}</span>
+              <span className="tile-ico"><Icon name={r.icon} size={24} /></span>
               <h3>{r.name}</h3>
               <p>{r.blurb}</p>
               <div className="tile-stat">
@@ -132,8 +144,9 @@ export default function Home() {
           <Link to="/schedule">Edit your rotation schedule →</Link>
         </p>
       ) : (
-        <Link to="/schedule" className="card" style={{ marginTop: 16, display: 'block' }}>
-          🗓️ <strong>Set your rotation schedule</strong> — get current-rotation focus and exam countdowns.
+        <Link to="/schedule" className="card" style={{ marginTop: 16, display: 'flex', alignItems: 'center', gap: 10 }}>
+          <Icon name="calendar" size={20} style={{ color: 'var(--primary)', flex: 'none' }} />
+          <span><strong>Set your rotation schedule</strong> — get current-rotation focus and exam countdowns.</span>
         </Link>
       )}
 

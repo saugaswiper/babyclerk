@@ -2,7 +2,7 @@
 export default {
   id: 'neurology',
   name: 'Neurology',
-  emoji: '⚡',
+  icon: 'zap',
   blurb: 'Localise the lesion, the time-critical stroke pathway, and the neuro exam.',
   checklist: [
     'Be slick and systematic at the cranial nerve & peripheral neuro exam',

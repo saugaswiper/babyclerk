@@ -77,7 +77,7 @@ export default function Quiz() {
       // Missed it → turn this question into a flashcard, due now.
       const added = addMissCard(rotation.id, q)
       if (added) setMissAdded((n) => n + 1)
-      setMissMsg(added ? '➕ Added to your flashcards for review' : '✓ Already in your flashcards')
+      setMissMsg(added ? 'Added to your flashcards for review' : 'Already in your flashcards')
     }
   }
 
@@ -109,7 +109,7 @@ export default function Quiz() {
           </p>
           {missAdded > 0 && (
             <p style={{ color: 'var(--primary)', fontWeight: 600 }}>
-              ➕ {missAdded} missed question{missAdded === 1 ? '' : 's'} added to your flashcards — due now.
+              {missAdded} missed question{missAdded === 1 ? '' : 's'} added to your flashcards — due now.
             </p>
           )}
           <div className="btn-row" style={{ justifyContent: 'center', marginTop: 14 }}>
@@ -133,7 +133,7 @@ export default function Quiz() {
   return (
     <div className="study-shell">
       <div className="page-head">
-        <h1>✅ {rotation.name} — Quiz</h1>
+        <h1>{rotation.name} — Quiz</h1>
         <p className="sub">One best answer. You’ll get an explanation after each question.</p>
       </div>
 

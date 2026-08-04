@@ -2,16 +2,17 @@ import { useParams, Link } from 'react-router-dom'
 import { getRotationMerged } from '../lib/customContent.js'
 import { readStored } from '../lib/useLocalStorage.js'
 import { countToday } from '../lib/scheduler.js'
+import Icon from '../components/Icon.jsx'
 
 const MODES = [
-  { slug: 'notes', icon: '📖', name: 'Notes', desc: 'High-yield topic notes' },
-  { slug: 'flashcards', icon: '🃏', name: 'Flashcards', desc: 'Spaced-repetition recall' },
-  { slug: 'viva', icon: '🗣️', name: 'Viva Drills', desc: 'Tutor-style Q&A' },
-  { slug: 'quiz', icon: '✅', name: 'Quiz', desc: 'MCQs with explanations' },
-  { slug: 'checklist', icon: '📋', name: 'Prep Checklist', desc: 'Be rotation-ready' },
-  { slug: 'generate', icon: '✨', name: 'AI Generate', desc: 'Fresh questions on demand' },
-  { slug: 'import', icon: '📥', name: 'Import', desc: 'Add your own cards' },
-  { slug: 'io', icon: '🖼️', name: 'Image Occlusion', desc: 'Make image hide-cards' },
+  { slug: 'notes', icon: 'book', name: 'Notes', desc: 'High-yield topic notes' },
+  { slug: 'flashcards', icon: 'cards', name: 'Flashcards', desc: 'Spaced-repetition recall' },
+  { slug: 'viva', icon: 'chat', name: 'Viva Drills', desc: 'Tutor-style Q&A' },
+  { slug: 'quiz', icon: 'check-circle', name: 'Quiz', desc: 'MCQs with explanations' },
+  { slug: 'checklist', icon: 'clipboard', name: 'Prep Checklist', desc: 'Be rotation-ready' },
+  { slug: 'generate', icon: 'sparkles', name: 'AI Generate', desc: 'Fresh questions on demand' },
+  { slug: 'import', icon: 'download', name: 'Import', desc: 'Add your own cards' },
+  { slug: 'io', icon: 'image', name: 'Image Occlusion', desc: 'Make image hide-cards' },
 ]
 
 export default function RotationHome() {
@@ -41,8 +42,9 @@ export default function RotationHome() {
   return (
     <>
       <div className="page-head">
-        <h1>
-          {rotation.emoji} {rotation.name}
+        <h1 style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+          <span className="tile-ico" style={{ width: 36, height: 36 }}><Icon name={rotation.icon} size={22} /></span>
+          {rotation.name}
         </h1>
         <p className="sub">{rotation.blurb}</p>
       </div>
@@ -50,7 +52,7 @@ export default function RotationHome() {
       <div className="grid mode-grid">
         {MODES.map((m) => (
           <Link key={m.slug} to={`/r/${rotation.id}/${m.slug}`} className="card tile mode-tile">
-            <span className="ico">{m.icon}</span>
+            <span className="ico"><Icon name={m.icon} size={22} /></span>
             <span className="meta">
               <h3>{m.name}</h3>
               <p>

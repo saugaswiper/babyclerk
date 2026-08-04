@@ -5,6 +5,7 @@ import { readStored, writeStored } from '../lib/useLocalStorage.js'
 import { review } from '../lib/srs.js'
 import { noteIntroduced } from '../lib/scheduler.js'
 import CardFace from '../components/CardFace.jsx'
+import Icon from '../components/Icon.jsx'
 
 // One session across every rotation: all due cards, graded back into each
 // rotation's own spaced-repetition schedule.
@@ -62,14 +63,14 @@ export default function StudyToday() {
 
   const perRotation = useMemo(() => {
     const m = new Map()
-    for (const e of queue) m.set(e.emoji + ' ' + e.rotationName, (m.get(e.emoji + ' ' + e.rotationName) || 0) + 1)
+    for (const e of queue) m.set(e.rotationName, (m.get(e.rotationName) || 0) + 1)
     return [...m.entries()]
   }, [queue])
 
   return (
     <div className="study-shell">
       <div className="page-head">
-        <h1>▶ Study due</h1>
+        <h1>Study due</h1>
         <p className="sub">
           Every card that’s due right now, across all rotations.
           {focused && ' Ordered so your weak topics and soonest exams come first.'}
@@ -85,7 +86,7 @@ export default function StudyToday() {
           <div className="flashcard" onClick={() => setFlipped((f) => !f)} role="button" tabIndex={0}>
             <span className="face-label">{flipped ? 'Answer' : 'Question'}</span>
             <span className="topic-chip">
-              {current.emoji} {current.card.topic || current.rotationName}
+              {current.card.topic || current.rotationName}
             </span>
             <CardFace card={current.card} flipped={flipped} />
             {!flipped && <div className="hint">Tap or press Space to flip</div>}
@@ -118,7 +119,7 @@ export default function StudyToday() {
         </>
       ) : (
         <div className="card result-card">
-          <div className="big">✓</div>
+          <div className="big"><Icon name="check-circle" size={54} strokeWidth={1.6} /></div>
           <h2>{loaded && reviewed > 0 ? 'Session complete' : 'All caught up!'}</h2>
           <p className="muted">
             {reviewed > 0

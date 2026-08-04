@@ -22,7 +22,7 @@ export default function Checklist() {
   return (
     <div className="study-shell">
       <div className="page-head">
-        <h1>📋 {rotation.name} — Prep Checklist</h1>
+        <h1>{rotation.name} — Prep Checklist</h1>
         <p className="sub">
           {doneCount} / {rotation.checklist.length} done — the essentials to walk in confident.
         </p>

@@ -203,6 +203,13 @@ a.card:hover, button.card:hover { transform: translateY(-2px); box-shadow: var(-
 .tile:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); border-color: color-mix(in srgb, var(--primary) 40%, var(--border)); }
 .tile:hover::before { transform: scaleY(1); }
 .tile .tile-emoji { font-size: 1.9rem; line-height: 1; }
+.tile-ico {
+  width: 42px; height: 42px; border-radius: 12px;
+  display: grid; place-items: center;
+  background: linear-gradient(145deg, var(--primary-soft), color-mix(in srgb, var(--primary-soft) 55%, var(--surface)));
+  color: var(--primary);
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--primary) 14%, transparent);
+}
 .tile h3 { margin: 0; font-size: 1.06rem; letter-spacing: -0.01em; }
 .tile p { margin: 0; color: var(--text-soft); font-size: 0.88rem; }
 
@@ -369,6 +376,41 @@ a.card:hover, button.card:hover { transform: translateY(-2px); box-shadow: var(-
 @media (max-width: 480px) {
   .sched-grid { grid-template-columns: 1fr; }
 }
+
+/* ---------- Home hero (signature: clinical monitor + ECG) ---------- */
+.hero {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius-lg);
+  background:
+    radial-gradient(120% 140% at 100% -20%, rgba(45, 212, 191, 0.22), transparent 55%),
+    linear-gradient(135deg, var(--primary-strong), #0c2b28 58%, #081b19);
+  color: #fff;
+  padding: 22px 22px 26px;
+  margin-bottom: 18px;
+  box-shadow: var(--shadow);
+}
+.hero-eyebrow {
+  font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.16em;
+  font-weight: 800; color: #7cead9;
+}
+.hero h1 { margin: 8px 0 6px; font-size: clamp(1.55rem, 5.5vw, 2.05rem); letter-spacing: -0.03em; line-height: 1.08; }
+.hero p { margin: 0; color: rgba(255, 255, 255, 0.82); font-size: 0.94rem; max-width: 48ch; }
+.hero-body { position: relative; z-index: 1; }
+.hero-ecg {
+  position: absolute; left: 0; right: 0; bottom: -2px;
+  width: 100%; height: 54px;
+  color: #5eead4; opacity: 0.45;
+  pointer-events: none;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .hero-ecg path {
+    stroke-dasharray: 1;
+    stroke-dashoffset: 1;
+    animation: ecg-draw 1.7s cubic-bezier(0.4, 0, 0.2, 1) 0.15s forwards;
+  }
+}
+@keyframes ecg-draw { to { stroke-dashoffset: 0; } }
 
 /* ---------- Headings ---------- */
 .page-head { margin-bottom: 20px; }
@@ -618,3 +660,12 @@ code {
 }
 .icon-btn:hover { background: var(--surface-2); color: var(--primary); }
 .icon-btn:active { transform: translateY(1px); }
+.icon-btn.acct { position: relative; }
+.sync-dot {
+  position: absolute; top: 5px; right: 5px;
+  width: 9px; height: 9px; border-radius: 50%;
+  border: 2px solid var(--surface); background: var(--good);
+}
+.sync-dot.syncing { background: var(--accent); }
+.sync-dot.error { background: var(--danger); }
+.sync-dot.idle { background: var(--text-faint); }

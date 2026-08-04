@@ -2,7 +2,7 @@
 export default {
   id: 'family-medicine',
   name: 'Family Medicine',
-  emoji: '🏠',
+  icon: 'home',
   blurb: 'Undifferentiated presentations, chronic disease, prevention, and safety-netting.',
   checklist: [
     'Master the consultation structure (e.g. Calgary-Cambridge)',

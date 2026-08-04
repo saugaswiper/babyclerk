@@ -72,7 +72,7 @@ export default function Generate() {
   return (
     <div className="study-shell">
       <div className="page-head">
-        <h1>✨ {rotation.name} — AI Generate</h1>
+        <h1>{rotation.name} — AI Generate</h1>
         <p className="sub">Create fresh questions on demand, then save them into your deck.</p>
       </div>
 
@@ -205,7 +205,7 @@ export default function Generate() {
           <div className="btn-row" style={{ justifyContent: 'center', marginTop: 8 }}>
             {added ? (
               <Link className="btn primary" to={`/r/${rotation.id}/${kind === 'mcqs' ? 'quiz' : bucketFor(kind)}`}>
-                Added ✓ — study them
+                Added — study them
               </Link>
             ) : (
               <button className="btn primary" onClick={addToDeck}>

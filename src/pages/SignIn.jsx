@@ -61,7 +61,7 @@ export default function SignIn() {
       {sent ? (
         <div className="card">
           <p style={{ marginTop: 0 }}>
-            ✉️ Check <strong>{email}</strong> for a sign-in link. Open it on this device to finish.
+            Check <strong>{email}</strong> for a sign-in link. Open it on this device to finish.
           </p>
           <button className="btn ghost" onClick={() => setSent(false)}>Use a different email</button>
         </div>

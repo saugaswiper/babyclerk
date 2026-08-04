@@ -2,7 +2,7 @@
 export default {
   id: 'pediatrics',
   name: 'Paediatrics',
-  emoji: '🧸',
+  icon: 'smile',
   blurb: 'Sick child recognition, developmental milestones, and weight-based everything.',
   checklist: [
     'Complete + log the 12 Aquifer/CLIPP cases on Elentra',
