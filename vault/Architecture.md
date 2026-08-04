@@ -44,6 +44,9 @@ The engine reads the union. Progress (SRS state, quiz bests, checklists) is keye
 - **Base path:** anything constructing URLs must use `import.meta.env.BASE_URL`.
 - **No secrets in the bundle** beyond the Supabase **publishable** (anon) key, which is safe by design (RLS enforces isolation).
 
+## Tests
+`npm test` (vitest, config in `vitest.config.js`) runs `src/**/*.test.js` in a node environment against the plain-JS engine modules — no react/PWA plugins involved. Covered today: `rotationPhase` (the phase ladder and its date boundaries) and `scheduler` (allowance → due counts → session ordering). The invariant these exist to protect: **new-card load may be scaled by the calendar, reviews never are.**
+
 ## Known scaling watch-items
 - Image-occlusion cards embed data-URI images → can grow the sync blob. Watch payload size (see [[Sync-and-Accounts]]); may need to offload images to storage later.
 - Progress blob is whole-object upsert today. Fine at current scale; revisit if it gets large (Phase 4 attempt log will add volume — see [[Roadmap]]).

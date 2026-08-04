@@ -72,7 +72,10 @@ npm install
 npm run dev      # start the dev server (http://localhost:5173)
 npm run build    # production build into dist/
 npm run preview  # preview the production build
+npm test         # run the engine tests (vitest)
 ```
+
+Tests cover the scheduling engine in `src/lib/` — the spaced-repetition budget and the rotation-phase pacing above, where a silent regression would quietly change how much you study. `npm run test:watch` reruns them as you edit.
 
 ## Add or edit content
 

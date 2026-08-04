@@ -11,12 +11,13 @@ BabyClerk — a clerkship study companion. Goal: make clerkship a breeze for any
 - **Stack:** React + Vite SPA, **HashRouter**, PWA (Workbox), Supabase backend. See [[Architecture]].
 - **Host:** GitHub Pages under base path `/babyclerk/`. Use `import.meta.env.BASE_URL` for any constructed URL.
 - **Build:** `npm run build` — **must pass before deploy.** `npm run dev` for local.
+- **Tests:** `npm test` (vitest) covers the scheduling engine in `src/lib/` — the SRS budget and rotation-phase pacing. Note `npm run lint` has never worked: the script is declared but ESLint was never added as a dependency and there's no flat config.
 - **Supabase project id:** `wyroabplbanturiersjm`. BabyClerk owns **only** the `progress` table — do not touch the other app's tables (`profiles`, `searches`, …). See [[Data-Model]].
 
 ## Workflow
 1. Understand the task against [[Roadmap]] / [[Backlog]]. If it's a new decision, check [[Decisions]] first.
 2. Make focused, reversible changes (see [[Principles]] "ship small, ship verified").
-3. `npm run build` — green before you ship.
+3. `npm test` and `npm run build` — both green before you ship. If you change how much or when a student studies, add a test that fails without your change.
 4. Commit with a clear message; push to the dev branch (`git push -u origin claude/clerkship-study-app-5ib66x`). Retry pushes with backoff on network errors.
 5. **Update this vault in the same change** if you touched architecture, data model, features, or roadmap. The vault is code's memory — stale docs are worse than none.
 6. Only open a PR if the user asks.
