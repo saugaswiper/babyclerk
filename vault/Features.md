@@ -38,13 +38,15 @@ Shipped + planned features with status. Keep in sync with [[Roadmap]] (this is t
 - ✅ **Rotation schedule + exam dates** (`/schedule`, synced)
 - ✅ **Current-rotation prioritization** on home (+ "On rotation now" badge)
 - ✅ **Exam countdowns** (soonest-exam banner + per-tile pills, color-coded)
-- 🔨 **Exam-proximity intensity ramp** (messaging done; auto new-card load = Phase 5)
+- ✅ **Schedule-paced new-card budget** (`rotationPhase.js`) — the block you're on gets full pace, one starting within 3 weeks (or with an exam still ahead) gets a lighter load, finished blocks go review-only, and the MCCQE window reopens every deck. Toggle in Settings; no-op until a schedule exists
+- ✅ **Exam-proximity intensity ramp** (proximity messaging + new-card load)
+- ✅ **"Next up" prep tile** on home — the block starting soonest, with its checklist progress
 - ✅ **Attempt log** (per-answer telemetry: flashcards + MCQs, synced, clearable)
 - ✅ **Weak-area dashboard** (`/progress`): overall accuracy, weakest topics, by-rotation; home teaser
 - 🔨 **Topic tagging** — uses cards' existing `topic` strings; normalized ontology open (OD3)
 - ✅ **Mastery model** — recency-weighted accuracy + confidence + trend (↑/↓); powers insights + prioritizer
 - 🔨 **Weak-area targeting** — "Study due" queue orders by weakness + exam proximity (shipped); AI-generate related questions still ⬜
-- ⬜ **Adaptive pacing**
+- 🔨 **Adaptive pacing** — date/phase-driven load shipped; tuning to *performance* + time available still ⬜
 - ⬜ **AI tutor** (explain miss, quiz-me, generate from weak spot)
 - ⬜ **Exam readiness forecast** + "what to expect" by rotation/date
 

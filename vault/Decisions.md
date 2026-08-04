@@ -61,6 +61,11 @@ Key decisions and *why*, so future sessions don't re-litigate them. Add a dated 
 **Context:** User asked whether exact per-person schedules could be incorporated; chose "stream preset is enough."
 **Consequence:** For studying, the stream preset gives exact rotation-date windows (what drives prioritization). Per-person detail is out of scope because it's name-keyed (PII we strip for the public repo) and finer than the one-block-per-rotation model. If revisited, do it as a **private personal import** (own data, synced to the user's account only, never committed) — not public data. See [[Resources/Curriculum/Queens-MEDS2028-Schedules]].
 
+### D12 — The schedule paces new cards; it never touches reviews
+**Decision:** Scale each rotation's *daily new-card budget* by its phase on the schedule (`current` ×1 · `exam` ×0.75 · `upcoming`/MCCQE `sweep` ×0.5 · `later`/`undated` ×0.25 · `done` ×0), applied at the single `newAllowance` chokepoint. **Reviews are never scaled or deferred.**
+**Context:** A flat per-rotation limit meant 7 rotations × 20 = up to 140 new cards a day, most of them for blocks months away — the opposite of "know exactly what to study today" ([[Principles]]). User asked for cards due and prep to follow the current and upcoming rotations.
+**Consequence:** On a rotation, the day's new material is dominated by that rotation (measured: 116 → 50 cards due for a fresh Stream 1 clerk on Internal Medicine, 40% of it Internal Medicine). Three deliberate guards: (1) reviews stay on SM-2 time, so finishing a block never erases it; (2) nothing ahead of you drops to zero, so entering a schedule early doesn't empty the app; (3) a finished block reopens when its exam or the MCCQE comes into range. No schedule entered → identical to the old behaviour, and a Settings toggle turns it off outright. See [[AI-Personalization-Engine]] Layer 3.
+
 ## Open decisions (unresolved — resolve with the user)
 - **OD1 — Montis license (downgraded).** Reported as a free/community deck; **cleared for you + classmates**. Before a wide public launch, record the actual license text + attribution. See [[Licensing-and-Copyright]].
 - ~~**OD2 — AI cost model.**~~ **Resolved (D10): user's own key (BYO).** Revisit a hosted tier only if a less-technical public audience needs zero-setup AI.

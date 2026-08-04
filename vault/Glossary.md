@@ -3,6 +3,7 @@
 ## App terms
 - **Study Due** — the cross-rotation queue of cards due for review right now.
 - **Daily new-card budget** (`newLimit`) — cap on how many *new* cards are introduced per day, so the queue never explodes.
+- **Rotation phase** — where a rotation sits on your schedule today (`current`, `exam`, `upcoming`, `sweep`, `later`, `undated`, `done`). Scales that rotation's new-card budget. See [[AI-Personalization-Engine]] Layer 3.
 - **Attempt log** — planned per-answer event record powering personalization. See [[Data-Model]].
 - **Mastery model** — per-topic estimate of how well the student knows a topic. See [[AI-Personalization-Engine]].
 - **Sync blob** — the JSON of all synced progress for one user, stored in Supabase `progress.data`. See [[Sync-and-Accounts]].

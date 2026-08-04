@@ -1,7 +1,9 @@
 import { useParams, Link } from 'react-router-dom'
 import { getRotationMerged } from '../lib/customContent.js'
 import { readStored } from '../lib/useLocalStorage.js'
-import { countToday } from '../lib/scheduler.js'
+import { countToday, introducedToday } from '../lib/scheduler.js'
+import { rotationPlan } from '../lib/rotationPhase.js'
+import { prepProgress } from '../lib/checklist.js'
 import Icon from '../components/Icon.jsx'
 
 const MODES = [
@@ -30,6 +32,9 @@ export default function RotationHome() {
 
   const srsState = readStored(`srs:${rotation.id}`, {})
   const due = countToday(rotation.flashcards, srsState, rotation.id)
+  const plan = rotationPlan(rotation.id)
+  const prep = prepProgress(rotation.id, rotation.checklist)
+  const newLeft = Math.max(0, plan.newLimit - introducedToday(rotation.id))
 
   const counts = {
     notes: rotation.notes.length,
@@ -49,6 +54,18 @@ export default function RotationHome() {
         <p className="sub">{rotation.blurb}</p>
       </div>
 
+      {plan.phase !== 'off' && (
+        <div className="card" style={{ marginBottom: 16 }}>
+          <strong>{plan.label}</strong>
+          <p className="muted" style={{ margin: '4px 0 0', fontSize: '0.88rem' }}>
+            {plan.note}{' '}
+            {plan.newLimit > 0
+              ? `${newLeft} of ${plan.newLimit} new card${plan.newLimit === 1 ? '' : 's'} left today.`
+              : 'New cards are paused — reviews still come back on schedule.'}
+          </p>
+        </div>
+      )}
+
       <div className="grid mode-grid">
         {MODES.map((m) => (
           <Link key={m.slug} to={`/r/${rotation.id}/${m.slug}`} className="card tile mode-tile">
@@ -62,6 +79,7 @@ export default function RotationHome() {
                     {' · '}
                     {counts[m.slug]} {m.slug === 'flashcards' ? 'cards' : m.slug === 'quiz' ? 'Qs' : 'items'}
                     {m.slug === 'flashcards' && due > 0 ? ` · ${due} due` : ''}
+                    {m.slug === 'checklist' && prep.left > 0 ? ` · ${prep.left} to do` : ''}
                   </>
                 )}
               </p>

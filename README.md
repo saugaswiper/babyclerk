@@ -43,6 +43,22 @@ The app ships with **~1,929 flashcards** from the **Montis Complete Clerkship** 
 
 A **daily new-card limit** (default 20 per rotation, set in Settings) introduces new cards as a steady trickle rather than dumping the whole deck as "due" at once. Reviews of cards you've already seen are never capped.
 
+## Pacing that follows your rotations
+
+Once you've entered a **schedule** (Settings → Edit schedule, or load your program's preset), BabyClerk paces new cards to where each rotation sits on your calendar:
+
+| Where the rotation sits | New cards per day |
+|---|---|
+| You're on it now | full limit |
+| Finished, but its exam is still within 30 days | ¾ |
+| Starts within 3 weeks — or the MCCQE is within 60 days | ½ |
+| Further off, or no dates entered | ¼ |
+| Finished, no exam ahead | none — reviews only |
+
+So a day on Internal Medicine is mostly Internal Medicine, instead of an even split across seven rotations you aren't on. Two things this deliberately does **not** do: it never touches **reviews** (once you've seen a card, spaced repetition brings it back on time regardless of rotation), and it never leaves a deck at zero while it's still ahead of you. The home screen also surfaces a **Next up** tile with the prep checklist for the block you're about to start.
+
+Turn it off with *Pace to my schedule* in Settings. With no schedule entered it does nothing at all.
+
 ## Importing your own cards
 
 The **Import** tab accepts:

@@ -13,6 +13,8 @@ import {
   EXTRA_BLOCKS,
   isExtraBlock,
 } from '../lib/schedule.js'
+import { rotationPlan, nextUp, LEAD_DAYS } from '../lib/rotationPhase.js'
+import { prepProgress } from '../lib/checklist.js'
 import { weakTopics } from '../lib/mastery.js'
 import Icon from '../components/Icon.jsx'
 
@@ -25,16 +27,28 @@ export default function Home() {
   const stats = rotations.map((r) => {
     const merged = getRotationMerged(r.id)
     const srsState = readStored(`srs:${r.id}`, {})
-    return { r: merged, due: countToday(merged.flashcards, srsState, r.id) }
+    return {
+      r: merged,
+      due: countToday(merged.flashcards, srsState, r.id),
+      plan: rotationPlan(r.id, { schedule }),
+      prep: prepProgress(r.id, merged.checklist),
+    }
   })
   const totalDue = stats.reduce((n, s) => n + s.due, 0)
 
-  // Current rotation floats to the top; everything else keeps its order.
-  const ordered = [...stats].sort((a, b) => {
-    if (a.r.id === currentId) return -1
-    if (b.r.id === currentId) return 1
-    return 0
-  })
+  // Heaviest phase first (current → exam → priming → paused), original order on
+  // ties. With no schedule every rotation weighs the same, so nothing moves.
+  const ordered = stats
+    .map((s, i) => ({ s, i }))
+    .sort((a, b) => b.s.plan.weight - a.s.plan.weight || a.i - b.i)
+    .map((x) => x.s)
+
+  const focus = stats.find((s) => s.plan.phase === 'current')
+
+  // The block you should be getting ready for, once it's close enough to matter.
+  const next = nextUp(schedule)
+  const nextPrep = next && next.startsIn <= LEAD_DAYS ? next : null
+  const nextStats = nextPrep ? stats.find((s) => s.r.id === nextPrep.id) : null
 
   const nextExam = exams[0]
   const weak = weakTopics(undefined, { min: 3, limit: 3 })
@@ -92,7 +106,32 @@ export default function Home() {
             <Icon name="play" size={20} style={{ color: 'var(--primary)' }} />
             Study due now — {totalDue} card{totalDue === 1 ? '' : 's'}
           </h3>
-          <p style={{ margin: '4px 0 0' }}>One session, every rotation. Ten minutes and you’re caught up.</p>
+          <p style={{ margin: '4px 0 0' }}>
+            {focus
+              ? `One session, every rotation — new material weighted to ${focus.r.name} while you’re on it.`
+              : 'One session, every rotation. Ten minutes and you’re caught up.'}
+          </p>
+        </Link>
+      )}
+
+      {nextPrep && (
+        <Link
+          to={nextStats ? `/r/${nextStats.r.id}/checklist` : '/schedule'}
+          className="card tile"
+          style={{ marginBottom: 16 }}
+        >
+          <h3 style={{ display: 'flex', alignItems: 'center', gap: 10, margin: 0 }}>
+            <Icon name="clipboard" size={20} style={{ color: 'var(--primary)' }} />
+            Next up: {nextStats ? nextStats.r.name : EXTRA_BLOCKS[nextPrep.id] || nextPrep.id} — starts{' '}
+            {countdown(nextPrep.startsIn)}
+          </h3>
+          <p style={{ margin: '4px 0 0' }}>
+            {nextStats
+              ? nextStats.prep.left > 0
+                ? `${nextStats.prep.left} prep item${nextStats.prep.left === 1 ? '' : 's'} left, and its cards have started mixing in. Tap to get ready.`
+                : 'Prep checklist done — its cards are already mixing into your daily queue.'
+              : 'No deck for this block yet — check your dates and exam on the schedule.'}
+          </p>
         </Link>
       )}
 
@@ -110,9 +149,13 @@ export default function Home() {
 
       <div className="section-title">Pick a rotation</div>
       <div className="grid">
-        {ordered.map(({ r, due }) => {
-          const isCurrent = r.id === currentId
+        {ordered.map(({ r, due, plan, prep }) => {
+          const isCurrent = plan.phase === 'current'
           const examDays = examDaysFor(r.id, schedule)
+          const examPill = examDays != null && examDays <= 30
+          // The badge and the exam pill already say it — don't say it twice.
+          const showPhase = plan.short && !isCurrent && !(plan.phase === 'exam' && examPill)
+          const showPrep = prep.left > 0 && (isCurrent || plan.phase === 'upcoming')
           return (
             <Link
               key={r.id}
@@ -128,7 +171,9 @@ export default function Home() {
                 <span>{r.flashcards.length} cards</span>
                 <span>{r.mcqs.length} MCQs</span>
                 {due > 0 && <span className="due">{due} due</span>}
-                {examDays != null && examDays <= 30 && (
+                {showPrep && <span>{prep.left} to prep</span>}
+                {showPhase && <span>{plan.short}</span>}
+                {examPill && (
                   <span className="pill-exam" style={{ background: examColor(examDays) }}>
                     exam {countdown(examDays)}
                   </span>
@@ -146,7 +191,10 @@ export default function Home() {
       ) : (
         <Link to="/schedule" className="card" style={{ marginTop: 16, display: 'flex', alignItems: 'center', gap: 10 }}>
           <Icon name="calendar" size={20} style={{ color: 'var(--primary)', flex: 'none' }} />
-          <span><strong>Set your rotation schedule</strong> — get current-rotation focus and exam countdowns.</span>
+          <span>
+            <strong>Set your rotation schedule</strong> — pace new cards to the block you’re on, prep for the
+            next one, and count down to each exam.
+          </span>
         </Link>
       )}
 

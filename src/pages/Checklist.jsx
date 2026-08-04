@@ -1,11 +1,13 @@
 import { useParams, Link } from 'react-router-dom'
 import { getRotation } from '../data/rotations/index.js'
 import { useLocalStorage } from '../lib/useLocalStorage.js'
+import { rotationPlan } from '../lib/rotationPhase.js'
 
 export default function Checklist() {
   const { rotationId } = useParams()
   const rotation = getRotation(rotationId)
   const [checked, setChecked] = useLocalStorage(`checklist:${rotationId}`, {})
+  const plan = rotationPlan(rotationId)
 
   if (!rotation) {
     return (
@@ -25,6 +27,7 @@ export default function Checklist() {
         <h1>{rotation.name} — Prep Checklist</h1>
         <p className="sub">
           {doneCount} / {rotation.checklist.length} done — the essentials to walk in confident.
+          {plan.phase === 'upcoming' && ` ${plan.note}`}
         </p>
       </div>
 

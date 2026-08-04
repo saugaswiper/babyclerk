@@ -21,7 +21,7 @@ Optional cloud layer that lets progress follow a student across devices. **Never
 | `checklist:*` | logical OR of ticks |
 | `quizbest:*` | `max` |
 | `newlog:*` | same date → max count; else latest date |
-| `model`, `newLimit` | keep this device's value (device pref) |
+| `model`, `newLimit`, `adaptiveBudget` | keep this device's value (device pref) |
 | default | keep local if present, else remote |
 
 This guarantees studying offline on two devices then syncing loses nothing — it only ever *adds* progress. This is a [[Principles|core principle]]; don't weaken it for convenience.

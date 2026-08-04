@@ -7,7 +7,8 @@ Where every piece of state lives. **`localStorage` is the source of truth; Supab
 |---|---|---|
 | `babyclerk:apiKey` | Anthropic API key | ❌ **never** |
 | `babyclerk:model` | selected Claude model (device pref) | ✅ (keep-local on conflict) |
-| `babyclerk:newLimit` | daily new-card budget (device pref) | ✅ (keep-local on conflict) |
+| `babyclerk:newLimit` | daily new-card budget, per rotation at full pace (device pref) | ✅ (keep-local on conflict) |
+| `babyclerk:adaptiveBudget` | `'1'`/`'0'` — scale that budget by rotation phase (device pref, default on) | ✅ (keep-local on conflict) |
 | `babyclerk:srs:<deckOrScope>` | SM-2 state per card `{ id: {due, interval, ease, reps, …} }` | ✅ merge |
 | `babyclerk:custom:<scope>` | imported/AI/IO/miss cards `{flashcards, viva, mcqs}` | ✅ union merge |
 | `babyclerk:quizbest:<id>` | best quiz score | ✅ max |
@@ -27,7 +28,7 @@ Where every piece of state lives. **`localStorage` is the source of truth; Supab
 - **Miss-derived** — auto-created from wrong answers.
 
 ## SRS state (SM-2)
-Per card: `due` (date), `interval` (days), `ease` (factor), `reps` (successful reps), plus lapse tracking. New cards are gated by the **daily new-card budget** (`newLimit` + `newlog`) so the queue never explodes (see [[Principles]] "trust the schedule"). Cross-rotation due items feed the "Study Due" queue.
+Per card: `due` (date), `interval` (days), `ease` (factor), `reps` (successful reps), plus lapse tracking. New cards are gated by the **daily new-card budget** (`newLimit` + `newlog`) so the queue never explodes (see [[Principles]] "trust the schedule"). That budget is then scaled per rotation by its **schedule phase** (`src/lib/rotationPhase.js`, D12) — reviews are never scaled, only the new-card tap. Cross-rotation due items feed the "Study Due" queue.
 
 ## Supabase: `progress` table
 ```

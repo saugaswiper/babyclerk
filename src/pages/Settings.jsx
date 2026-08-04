@@ -1,6 +1,16 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { getApiKey, setApiKey, getModel, setModel, MODEL_OPTIONS, getNewLimit, setNewLimit } from '../lib/settings.js'
+import {
+  getApiKey,
+  setApiKey,
+  getModel,
+  setModel,
+  MODEL_OPTIONS,
+  getNewLimit,
+  setNewLimit,
+  isAdaptiveBudget,
+  setAdaptiveBudget,
+} from '../lib/settings.js'
 import { useAuth } from '../lib/auth.jsx'
 import { getAttempts, clearAttempts } from '../lib/attempts.js'
 
@@ -9,6 +19,7 @@ export default function Settings() {
   const [key, setKey] = useState(getApiKey())
   const [model, setModelState] = useState(getModel())
   const [newLimit, setNewLimitState] = useState(getNewLimit())
+  const [adaptive, setAdaptiveState] = useState(isAdaptiveBudget())
   const [saved, setSaved] = useState(false)
   const [backupMsg, setBackupMsg] = useState('')
 
@@ -16,6 +27,7 @@ export default function Settings() {
     setApiKey(key.trim())
     setModel(model)
     setNewLimit(Number(newLimit))
+    setAdaptiveBudget(adaptive)
     setSaved(true)
     setTimeout(() => setSaved(false), 2000)
   }
@@ -154,10 +166,30 @@ export default function Settings() {
           onChange={(e) => setNewLimitState(e.target.value)}
         />
         <p className="muted" style={{ fontSize: '0.82rem', marginTop: 6 }}>
-          How many brand-new cards a rotation introduces each day (default 20). Keeps the big deck a
-          steady trickle instead of a wall. Reviews of cards you’ve already seen are never capped. Set
-          to 0 to study reviews only.
+          How many brand-new cards a rotation introduces each day when you’re on it (default 20). Keeps
+          the big deck a steady trickle instead of a wall. Reviews of cards you’ve already seen are never
+          capped. Set to 0 to study reviews only.
         </p>
+
+        <label className="section-title" htmlFor="adaptive">
+          Pace to my schedule
+        </label>
+        <label htmlFor="adaptive" style={{ display: 'flex', gap: 10, alignItems: 'flex-start', cursor: 'pointer' }}>
+          <input
+            id="adaptive"
+            type="checkbox"
+            checked={adaptive}
+            onChange={(e) => setAdaptiveState(e.target.checked)}
+            style={{ marginTop: 3, flex: 'none' }}
+          />
+          <span className="muted" style={{ fontSize: '0.82rem' }}>
+            Scale that limit to where each rotation sits on your{' '}
+            <Link to="/schedule" style={{ color: 'var(--primary)', fontWeight: 600 }}>schedule</Link>: full pace
+            on the block you’re on, half for one starting within three weeks or with an exam still ahead, and
+            new cards paused for blocks that are finished or months away. Reviews always come back on time
+            either way. Does nothing until you’ve entered a schedule.
+          </span>
+        </label>
 
         <div className="btn-row" style={{ marginTop: 18 }}>
           <button className="btn primary" onClick={save}>

@@ -26,8 +26,9 @@ How BabyClerk is built and shipped. Reflects the current state; update in the sa
 ## App structure (high level)
 - `src/pages/*` — route screens (Home, rotation views, StudyToday, Search, Settings, SignIn, IOCreate, …)
 - `src/lib/*` — engine + services:
-  - `settings.js` — API key, model, new-card limit (device prefs)
+  - `settings.js` — API key, model, new-card limit, adaptive-pacing toggle (device prefs)
   - spaced-repetition engine (SM-2) + due-queue logic
+  - `schedule.js` / `rotationPhase.js` — rotation blocks + exam dates, and the phase → daily new-card budget mapping every due count flows through (D12)
   - `supabaseClient.js`, `auth.jsx`, `sync.js`, `syncConfig.js` — accounts & sync
 - Content lives in bundled data modules (decks, rotation notes, checklists).
 

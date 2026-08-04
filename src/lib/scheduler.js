@@ -2,7 +2,7 @@
 // trickles in instead of dumping ~1,900 cards as "due" at once.
 import { isNew, isReviewDue, todayStr } from './srs.js'
 import { readStored, writeStored } from './useLocalStorage.js'
-import { getNewLimit } from './settings.js'
+import { newLimitFor } from './rotationPhase.js'
 
 // How many new cards have already been introduced in this rotation today.
 export function introducedToday(rotationId, now = Date.now()) {
@@ -19,9 +19,11 @@ export function noteIntroduced(rotationId, k = 1, now = Date.now()) {
   writeStored(`newlog:${rotationId}`, { date: today, count })
 }
 
-// New cards still allowed today for this rotation.
+// New cards still allowed today for this rotation. The ceiling is scaled by
+// where the rotation sits on your schedule (see rotationPhase.js), so the block
+// you're on leads and ones long past or far off stay at reviews only.
 export function newAllowance(rotationId, now = Date.now()) {
-  return Math.max(0, getNewLimit() - introducedToday(rotationId, now))
+  return Math.max(0, newLimitFor(rotationId, { now }) - introducedToday(rotationId, now))
 }
 
 // Ordered session for one rotation: reviews due first, then today's new cards.

@@ -31,17 +31,18 @@ export function setSchedule(next) {
 }
 
 // Local YYYY-MM-DD (string comparison works for these, so no timezone math needed).
-export function todayStr() {
-  const d = new Date()
+// `now` is injectable so date-dependent logic stays testable.
+export function todayStr(now = Date.now()) {
+  const d = new Date(now)
   const m = String(d.getMonth() + 1).padStart(2, '0')
   const day = String(d.getDate()).padStart(2, '0')
   return `${d.getFullYear()}-${m}-${day}`
 }
 
 // Whole days from today until dateStr (negative = past). null if no/invalid date.
-export function daysUntil(dateStr) {
+export function daysUntil(dateStr, now = Date.now()) {
   if (!dateStr) return null
-  const today = new Date(todayStr() + 'T00:00:00')
+  const today = new Date(todayStr(now) + 'T00:00:00')
   const target = new Date(dateStr + 'T00:00:00')
   if (Number.isNaN(target.getTime())) return null
   return Math.round((target - today) / 86400000)
@@ -55,8 +56,8 @@ export function countdown(days) {
   return `in ${days} days`
 }
 
-export function getCurrentRotationId(schedule = getSchedule()) {
-  const today = todayStr()
+export function getCurrentRotationId(schedule = getSchedule(), now = Date.now()) {
+  const today = todayStr(now)
   for (const [id, r] of Object.entries(schedule.rotations)) {
     if (r.start && r.end && r.start <= today && today <= r.end) return id
   }
@@ -64,25 +65,25 @@ export function getCurrentRotationId(schedule = getSchedule()) {
 }
 
 // Future exams, soonest first: [{ rotationId, date, days, label? }]
-export function getUpcomingExams(schedule = getSchedule()) {
+export function getUpcomingExams(schedule = getSchedule(), now = Date.now()) {
   const out = []
   for (const [id, r] of Object.entries(schedule.rotations)) {
     if (r.exam) {
-      const days = daysUntil(r.exam)
+      const days = daysUntil(r.exam, now)
       if (days != null && days >= 0) out.push({ rotationId: id, date: r.exam, days })
     }
   }
   if (schedule.mccqe) {
-    const days = daysUntil(schedule.mccqe)
+    const days = daysUntil(schedule.mccqe, now)
     if (days != null && days >= 0) out.push({ rotationId: null, date: schedule.mccqe, days, label: 'MCCQE' })
   }
   return out.sort((a, b) => a.days - b.days)
 }
 
 // Days until this rotation's exam (future only), or null.
-export function examDaysFor(rotationId, schedule = getSchedule()) {
+export function examDaysFor(rotationId, schedule = getSchedule(), now = Date.now()) {
   const exam = schedule.rotations[rotationId]?.exam
-  const d = daysUntil(exam)
+  const d = daysUntil(exam, now)
   return d != null && d >= 0 ? d : null
 }
 

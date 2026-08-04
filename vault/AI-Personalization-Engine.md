@@ -26,8 +26,12 @@ Nothing personalizes without data. See [[Data-Model]] "attempt log."
 - ✅ Rules-based and transparent — every number traces to countable attempts, so a student can see *why*. Sophistication (Bayesian/ELO/learned) comes later. **Explainability > cleverness** held.
 - Consumed by `/progress` (the read) and `orderForFocus` (Layer 3). Latency is captured in the log for future use.
 
-## Layer 3 — Prioritize (the daily decision) — 🔨 first version shipped
-`orderForFocus` (in `src/lib/studyQueue.js`) reorders the "Study due" queue by topic-weakness (from the attempt log) + exam proximity (from the schedule), reviews still ahead of new cards. This is Layer 3's first real implementation — reorder only, no scheduling change. Remaining: weight into the *daily budget* and generation.
+## Layer 3 — Prioritize (the daily decision) — ✅ order + budget shipped
+Two halves, both now real:
+- **Order** — `orderForFocus` (`src/lib/studyQueue.js`) reorders the "Study due" queue by topic-weakness (attempt log) + exam proximity (schedule), reviews still ahead of new cards. Reorder only; timing untouched.
+- **Budget** — `src/lib/rotationPhase.js` scales each rotation's *daily new-card allowance* by where that rotation sits on the calendar (`current` ×1 · `exam` ×0.75 · `upcoming`/`sweep` ×0.5 · `later`/`undated` ×0.25 · `done` ×0). `newAllowance` is the single chokepoint, so home counts, per-rotation counts, and the cross-rotation queue all follow. See **D12**.
+
+**Reviews are never rescheduled by this** — only the new-card tap opens and closes. Once a card is seen, SM-2 owns it, so finishing a block can't erase what you learned on it. Remaining for this layer: tuning the budget on *performance* (not just dates) and on time available, and feeding it into generation.
 
 Given mastery + the calendar, decide **what to do now**:
 - Weak topics get more weight.

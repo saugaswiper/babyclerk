@@ -2,6 +2,7 @@
 const KEY_API = 'babyclerk:apiKey'
 const KEY_MODEL = 'babyclerk:model'
 const KEY_NEWLIMIT = 'babyclerk:newLimit'
+const KEY_ADAPTIVE = 'babyclerk:adaptiveBudget'
 
 export const DEFAULT_MODEL = 'claude-opus-4-8'
 export const DEFAULT_NEW_LIMIT = 20
@@ -20,6 +21,20 @@ export function getNewLimit() {
 
 export function setNewLimit(n) {
   localStorage.setItem(KEY_NEWLIMIT, String(Math.max(0, n | 0)))
+}
+
+// Scale that limit by where each rotation sits on the schedule (rotationPhase.js).
+// On by default; with no schedule entered it changes nothing either way.
+export function isAdaptiveBudget() {
+  try {
+    return localStorage.getItem(KEY_ADAPTIVE) !== '0'
+  } catch {
+    return true
+  }
+}
+
+export function setAdaptiveBudget(on) {
+  localStorage.setItem(KEY_ADAPTIVE, on ? '1' : '0')
 }
 
 export const MODEL_OPTIONS = [

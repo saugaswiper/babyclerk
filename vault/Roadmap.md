@@ -40,7 +40,8 @@ The app understands *where the student is in time*.
 - ✅ Home screen reprioritizes to the **current rotation** (floats to top, "On rotation now" badge)
 - ✅ **Exam countdowns**: soonest-exam banner + per-tile exam pills, color-coded by proximity
 - ✅ **School schedule presets**: `/schedule` can prefill rotation dates from a program's schedule — first one shipped: Queen's MEDS 2028 (Streams 1–3), de-identified cohort dates only. See [[Resources/Curriculum/Queens-MEDS2028-Schedules]].
-- 🔨 **Intensity ramp**: proximity messaging shipped (nudges by days-out); auto-adjusting new-card load is Phase 5
+- ✅ **Intensity ramp**: proximity messaging (nudges by days-out) **+ auto-adjusting new-card load** — each rotation's daily new-card budget scales to its phase on your schedule (`src/lib/rotationPhase.js`, D12)
+- ✅ **"Next up" prep**: the block starting soonest surfaces on home with its checklist progress
 - ⬜ "What to expect" per rotation/exam given the date (static first, AI later)
 - ⬜ Realistic daily plan to "cover it all before exam day"
 - Feeds directly into [[AI-Personalization-Engine]]. Schedule stored as `babyclerk:schedule`, synced (latest-edit-wins) — see [[Data-Model]].
@@ -58,7 +59,7 @@ You can't personalize what you don't measure. **Prerequisite for Phase 5.**
 The system that learns *you*.
 - 🔨 **Weak-area targeting**: the "Study due" queue now **orders** cards so weak topics + imminent-exam rotations come first (reorder only — reviews still precede new cards; timing untouched). Next: auto-generate related questions for the weakest topic.
 - 🔨 **AI generation** (user's key — D10): on-demand flashcards/cloze/viva/MCQs, now with **grounded generation** — paste a source and cards are built strictly from it, paraphrased + provenance-tagged. This is also the mechanism for authoring the original core (ground on open sources). Next: wire it to the mastery model ("quiz me on my weakest topic").
-- ⬜ **Adaptive pacing**: new-card load & mix auto-tune to performance + time available
+- 🔨 **Adaptive pacing**: new-card load now auto-tunes to **schedule phase** (D12). Tuning to *performance* and time available is still open
 - ⬜ **AI tutor**: explain a miss, "quiz me on X," generate practice from a fumbled topic
 - ⬜ **Exam forecast**: given date + performance, predict readiness and what to hit next
 - ⬜ Feedback loop: generated questions flow back into the attempt log and mastery model
