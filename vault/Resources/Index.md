@@ -4,7 +4,7 @@ Catalog of everything in the [[README|Resource Library]]. Add a row when you add
 
 | Resource | Category | Status | Informs | License |
 |---|---|---|---|---|
-| _example: MCCQE Part I objectives_ | Curriculum | raw | topic ontology, coverage | open |
+| [[Curriculum/Queens-MEDS2028-Schedules\|Queen's MEDS 2028 stream schedules]] | Curriculum | applied | schedule presets, rotation dates | institutional |
 
 > Delete the example row once you add real resources. Keep newest at the top.
 

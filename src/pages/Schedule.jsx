@@ -2,13 +2,30 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { rotations } from '../data/rotations/index.js'
 import { getSchedule, setSchedule, daysUntil, countdown } from '../lib/schedule.js'
+import { QUEENS_MEDS2028 } from '../data/queensSchedule.js'
 
 export default function Schedule() {
   const [sched, setSched] = useState(getSchedule)
+  const [preset, setPreset] = useState('')
+  const [presetMsg, setPresetMsg] = useState('')
 
   function persist(next) {
     setSched(next)
     setSchedule(next)
+  }
+
+  function applyPreset(streamId) {
+    const stream = QUEENS_MEDS2028.streams[streamId]
+    if (!stream) return
+    const merged = { ...sched.rotations }
+    for (const [rid, win] of Object.entries(stream.rotations)) {
+      // Fill start/end from the preset; keep any exam date already set.
+      merged[rid] = { ...(merged[rid] || {}), start: win.start, end: win.end }
+    }
+    persist({ ...sched, rotations: merged })
+    setPresetMsg(
+      `Loaded ${QUEENS_MEDS2028.label} — ${stream.label}. Dates prefilled below; review against your official schedule and add exam dates.`
+    )
   }
   function updateRotation(id, field, value) {
     persist({
@@ -30,6 +47,33 @@ export default function Schedule() {
           Enter your rotation blocks and exam dates. BabyClerk highlights the rotation you’re on now and
           counts down to each exam. Optional — everything works without it, and it saves automatically.
         </p>
+      </div>
+
+      <div className="card" style={{ marginBottom: 16 }}>
+        <label className="section-title" style={{ marginTop: 0 }}>Quick start — load your program’s schedule</label>
+        <p className="muted" style={{ margin: '0 0 10px', fontSize: '0.85rem' }}>
+          Prefill rotation dates from the {QUEENS_MEDS2028.label} clerkship schedule. Pick your stream, then
+          review and tweak below (surgery subspecialties, electives, and exam dates are yours to add).
+        </p>
+        <div className="btn-row" style={{ alignItems: 'center' }}>
+          <select
+            className="text-input"
+            style={{ maxWidth: 200 }}
+            value={preset}
+            onChange={(e) => setPreset(e.target.value)}
+          >
+            <option value="">Choose your stream…</option>
+            {Object.entries(QUEENS_MEDS2028.streams).map(([id, s]) => (
+              <option key={id} value={id}>{s.label}</option>
+            ))}
+          </select>
+          <button className="btn primary" disabled={!preset} onClick={() => applyPreset(preset)}>
+            Load
+          </button>
+        </div>
+        {presetMsg && (
+          <p className="muted" style={{ marginTop: 10, fontSize: '0.82rem', color: 'var(--primary)' }}>{presetMsg}</p>
+        )}
       </div>
 
       <div className="card" style={{ marginBottom: 16 }}>

@@ -39,6 +39,7 @@ The app understands *where the student is in time*.
 - ✅ **Exam dates** per rotation + MCCQE
 - ✅ Home screen reprioritizes to the **current rotation** (floats to top, "On rotation now" badge)
 - ✅ **Exam countdowns**: soonest-exam banner + per-tile exam pills, color-coded by proximity
+- ✅ **School schedule presets**: `/schedule` can prefill rotation dates from a program's schedule — first one shipped: Queen's MEDS 2028 (Streams 1–3), de-identified cohort dates only. See [[Resources/Curriculum/Queens-MEDS2028-Schedules]].
 - 🔨 **Intensity ramp**: proximity messaging shipped (nudges by days-out); auto-adjusting new-card load is Phase 5
 - ⬜ "What to expect" per rotation/exam given the date (static first, AI later)
 - ⬜ Realistic daily plan to "cover it all before exam day"
