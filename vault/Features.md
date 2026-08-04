@@ -24,7 +24,9 @@ Shipped + planned features with status. Keep in sync with [[Roadmap]] (this is t
 - ✅ **Design system** — refined tokens (layered depth, radii, focus rings), tactile buttons, tinted answer buttons, polished tiles/cards/topbar, dark-mode tuned, `prefers-reduced-motion` respected
 - ✅ **No emojis** — replaced app-wide with a cohesive custom **SVG icon set** (`components/Icon.jsx`): crisp, theme-aware, offline-safe. Each rotation has an `icon` id.
 - ✅ **Signature hero** (Home) — clinical-monitor gradient + **ECG pulse line** drawn on load (per Anthropic frontend-design skill: hero-as-thesis, signature element, restraint). No stock photos — offline-first PWA
-- ✅ **Calendar-style schedule timeline** (`ScheduleTimeline`) — rotations as bars across a month ruler with a "today" marker + overall clerkship progress; on `/schedule`
+- ✅ **Calendar-style schedule timeline** (`ScheduleTimeline`) — **colour-coded per rotation** (done=faded, current=ringed), month ruler, "today" marker + overall progress
+- ✅ **Visual schedule editor** — big stream-picker cards (span + colour preview) as the primary flow; colour-coded rotation rows show dates as readable text with an Edit/Add toggle (date-typing is secondary). Dates **verified against the source spreadsheets**.
+- ✅ **Animated ECG page background** on Home (subtle, full-page, reduced-motion safe) — the signature motif as ambient backdrop
 - Note: deliberately **no heavy 3D/animation deps** (Three.js/GSAP/etc.) — conflicts with offline-first/ward-ready ([[Principles]]); motion is CSS-only
 
 ## Accounts & platform

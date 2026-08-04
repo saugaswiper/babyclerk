@@ -44,17 +44,20 @@ export default function Home() {
 
   return (
     <>
-      <section className="hero">
-        <svg className="hero-ecg" viewBox="0 0 240 48" preserveAspectRatio="none" fill="none" aria-hidden="true">
+      <div className="home-ecg" aria-hidden="true">
+        <svg viewBox="0 0 480 90" preserveAspectRatio="none" fill="none">
           <path
-            pathLength="1"
-            d="M0 26 H44 l4 -3 l3 8 l5 -24 l5 36 l4 -17 l3 0 H124 l4 -3 l3 8 l5 -24 l5 36 l4 -17 l3 0 H240"
+            d="M0 45 H64 l6 -5 l5 14 l8 -40 l8 58 l6 -27 l5 0 H240 H304 l6 -5 l5 14 l8 -40 l8 58 l6 -27 l5 0 H480"
             stroke="currentColor"
-            strokeWidth="2.5"
+            strokeWidth="2"
             strokeLinejoin="round"
             strokeLinecap="round"
           />
         </svg>
+      </div>
+
+      <div className="home-content">
+      <section className="hero">
         <div className="hero-body">
           <span className="hero-eyebrow">Queen’s clerkship · MCCQE</span>
           <h1>Know exactly what to study today.</h1>
@@ -154,6 +157,7 @@ export default function Home() {
         Tip: start with <strong>Notes</strong> to learn, then <strong>Flashcards</strong> &amp;{' '}
         <strong>Viva</strong> to drill, then <strong>Quiz</strong> to test yourself.
       </p>
+      </div>
     </>
   )
 }

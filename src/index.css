@@ -324,17 +324,12 @@ a.card:hover, button.card:hover { transform: translateY(-2px); box-shadow: var(-
   min-width: 7px; border-radius: 7px;
   box-shadow: var(--shadow-sm);
 }
-.tl-bar.past {
-  background: color-mix(in srgb, var(--good) 20%, var(--surface));
-  border: 1px solid color-mix(in srgb, var(--good) 38%, var(--border));
-}
-.tl-bar.current {
-  background: linear-gradient(180deg, color-mix(in srgb, var(--primary) 90%, white), var(--primary));
-  box-shadow: var(--ring), var(--shadow-sm);
-}
-.tl-bar.upcoming {
-  background: var(--primary-soft);
-  border: 1px solid color-mix(in srgb, var(--primary) 24%, var(--border));
+.tl-bar.past { opacity: 0.42; }
+.tl-bar.current { box-shadow: var(--ring), var(--shadow-sm); }
+.tl-bar.upcoming { opacity: 0.95; }
+.tl-cdot {
+  display: inline-block; width: 9px; height: 9px; border-radius: 3px;
+  margin-right: 7px; vertical-align: -1px; flex: none;
 }
 .tl-today {
   position: absolute; top: -3px; bottom: -3px; width: 2px;
@@ -351,9 +346,8 @@ a.card:hover, button.card:hover { transform: translateY(-2px); box-shadow: var(-
 }
 .tl-legend span { display: inline-flex; align-items: center; gap: 6px; }
 .tl-dot { width: 11px; height: 11px; border-radius: 4px; display: inline-block; }
-.tl-dot.past { background: color-mix(in srgb, var(--good) 30%, var(--surface)); border: 1px solid color-mix(in srgb, var(--good) 40%, var(--border)); }
-.tl-dot.current { background: var(--primary); }
-.tl-dot.upcoming { background: var(--primary-soft); border: 1px solid color-mix(in srgb, var(--primary) 24%, var(--border)); }
+.tl-dot.faded { background: var(--text-faint); opacity: 0.5; }
+.tl-dot.ring { background: var(--primary); box-shadow: 0 0 0 2px color-mix(in srgb, var(--primary) 30%, transparent); }
 .tl-dot.today-dot { background: var(--accent); border-radius: 2px; transform: rotate(45deg); width: 9px; height: 9px; }
 
 /* Schedule editor date grid */
@@ -377,40 +371,55 @@ a.card:hover, button.card:hover { transform: translateY(-2px); box-shadow: var(-
   .sched-grid { grid-template-columns: 1fr; }
 }
 
-/* ---------- Home hero (signature: clinical monitor + ECG) ---------- */
-.hero {
-  position: relative;
-  overflow: hidden;
-  border-radius: var(--radius-lg);
-  background:
-    radial-gradient(120% 140% at 100% -20%, rgba(45, 212, 191, 0.22), transparent 55%),
-    linear-gradient(135deg, var(--primary-strong), #0c2b28 58%, #081b19);
-  color: #fff;
-  padding: 22px 22px 26px;
-  margin-bottom: 18px;
-  box-shadow: var(--shadow);
+/* ---------- Home: ECG page background + hero ---------- */
+.home-ecg {
+  position: fixed; inset: 0; z-index: 0;
+  overflow: hidden; pointer-events: none;
+  color: var(--primary); opacity: 0.08;
 }
-.hero-eyebrow {
-  font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.16em;
-  font-weight: 800; color: #7cead9;
-}
-.hero h1 { margin: 8px 0 6px; font-size: clamp(1.55rem, 5.5vw, 2.05rem); letter-spacing: -0.03em; line-height: 1.08; }
-.hero p { margin: 0; color: rgba(255, 255, 255, 0.82); font-size: 0.94rem; max-width: 48ch; }
-.hero-body { position: relative; z-index: 1; }
-.hero-ecg {
-  position: absolute; left: 0; right: 0; bottom: -2px;
-  width: 100%; height: 54px;
-  color: #5eead4; opacity: 0.45;
-  pointer-events: none;
-}
+.home-ecg svg { position: absolute; top: 50%; left: 0; width: 200%; height: 58%; transform: translate(0, -50%); }
 @media (prefers-reduced-motion: no-preference) {
-  .hero-ecg path {
-    stroke-dasharray: 1;
-    stroke-dashoffset: 1;
-    animation: ecg-draw 1.7s cubic-bezier(0.4, 0, 0.2, 1) 0.15s forwards;
-  }
+  .home-ecg svg { animation: ecg-scroll 18s linear infinite; }
 }
-@keyframes ecg-draw { to { stroke-dashoffset: 0; } }
+@keyframes ecg-scroll {
+  from { transform: translate(0, -50%); }
+  to { transform: translate(-50%, -50%); }
+}
+.home-content { position: relative; z-index: 1; }
+
+.hero { position: relative; padding: 6px 2px 14px; margin-bottom: 6px; }
+.hero-eyebrow { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.16em; font-weight: 800; color: var(--primary); }
+.hero h1 { margin: 8px 0 6px; font-size: clamp(1.65rem, 6vw, 2.2rem); letter-spacing: -0.03em; line-height: 1.06; }
+.hero p { margin: 0; color: var(--text-soft); font-size: 0.98rem; max-width: 52ch; }
+.hero-body { position: relative; z-index: 1; }
+
+/* ---------- Schedule: stream cards + rotation rows ---------- */
+.stream-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 6px; }
+@media (max-width: 520px) { .stream-cards { grid-template-columns: 1fr; } }
+.stream-card {
+  text-align: left; display: flex; flex-direction: column; gap: 6px;
+  padding: 14px; border-radius: var(--radius-sm);
+  border: 1px solid var(--border); background: var(--surface);
+  box-shadow: var(--shadow-sm);
+  transition: border-color 0.12s ease, transform 0.06s ease, box-shadow 0.12s ease;
+}
+.stream-card:hover { border-color: var(--primary); transform: translateY(-2px); box-shadow: var(--shadow); }
+.stream-card.active { border-color: var(--primary); box-shadow: var(--ring); }
+.stream-top { display: flex; align-items: center; justify-content: space-between; color: var(--primary); }
+.stream-top strong { color: var(--text); font-size: 1rem; }
+.stream-span { font-size: 0.78rem; }
+.stream-dots { display: flex; gap: 3px; flex-wrap: wrap; }
+.stream-dots i { width: 12px; height: 8px; border-radius: 2px; display: inline-block; }
+
+.sched-row { margin-bottom: 10px; padding: 14px 16px; }
+.sched-row-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.sched-row-name { font-weight: 700; font-size: 0.96rem; display: flex; align-items: center; }
+.sched-edit { padding: 6px 14px; font-size: 0.85rem; flex: none; }
+
+.linklike {
+  background: none; border: none; padding: 0; cursor: pointer;
+  color: var(--primary); font-weight: 600; font-size: inherit; text-decoration: underline;
+}
 
 /* ---------- Headings ---------- */
 .page-head { margin-bottom: 20px; }

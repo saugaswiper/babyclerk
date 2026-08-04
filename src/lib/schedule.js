@@ -19,6 +19,23 @@ export function isExtraBlock(id) {
   return Object.prototype.hasOwnProperty.call(EXTRA_BLOCKS, id)
 }
 
+// Distinct, accessible color per rotation for the calendar/timeline.
+export const ROTATION_COLORS = {
+  'internal-medicine': '#0f766e',
+  surgery: '#4f46e5',
+  pediatrics: '#d97706',
+  obgyn: '#db2777',
+  psychiatry: '#7c3aed',
+  neurology: '#0891b2',
+  'family-medicine': '#16a34a',
+  anesthesia: '#64748b',
+  emergency: '#dc2626',
+  medSelective: '#a16207',
+}
+export function rotationColor(id) {
+  return ROTATION_COLORS[id] || 'var(--primary)'
+}
+
 // Shape: { updatedAt, mccqe: 'YYYY-MM-DD'|'', rotations: { [id]: { start, end, exam } } }
 export function getSchedule() {
   const s = readStored(KEY, null)

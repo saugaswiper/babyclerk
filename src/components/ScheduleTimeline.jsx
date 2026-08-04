@@ -1,5 +1,5 @@
 import { Fragment } from 'react'
-import { EXTRA_BLOCKS } from '../lib/schedule.js'
+import { EXTRA_BLOCKS, rotationColor } from '../lib/schedule.js'
 import { getRotation } from '../data/rotations/index.js'
 
 // A compact, calendar-style Gantt of the rotation schedule: each rotation is a
@@ -89,12 +89,15 @@ export default function ScheduleTimeline({ schedule }) {
             const st = statusOf(e)
             return (
               <Fragment key={e.id}>
-                <span className="tl-name" title={`${fmt(e.start)} – ${fmt(e.end)}`}>{e.label}</span>
+                <span className="tl-name" title={`${fmt(e.start)} – ${fmt(e.end)}`}>
+                  <i className="tl-cdot" style={{ background: rotationColor(e.id) }} />
+                  {e.label}
+                </span>
                 <div className="tl-track">
                   {inRange && <span className="tl-today" style={{ left: `${todayPct}%` }} />}
                   <span
                     className={`tl-bar ${st}`}
-                    style={{ left: `${left}%`, width: `${width}%` }}
+                    style={{ left: `${left}%`, width: `${width}%`, background: rotationColor(e.id) }}
                     title={`${e.label}: ${fmt(e.start)} – ${fmt(e.end)}${e.hasDeck ? '' : ' (no deck)'}`}
                   />
                 </div>
@@ -105,10 +108,10 @@ export default function ScheduleTimeline({ schedule }) {
       </div>
 
       <div className="tl-legend muted">
-        <span><i className="tl-dot past" /> done</span>
-        <span><i className="tl-dot current" /> now</span>
-        <span><i className="tl-dot upcoming" /> upcoming</span>
+        <span><i className="tl-dot faded" /> done</span>
+        <span><i className="tl-dot ring" /> current</span>
         <span><i className="tl-dot today-dot" /> today</span>
+        <span>each colour = a rotation</span>
       </div>
     </div>
   )
