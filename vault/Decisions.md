@@ -56,6 +56,11 @@ Key decisions and *why*, so future sessions don't re-litigate them. Add a dated 
 **Context:** User chose BYO-key over a hosted proxy, and wants to generate content from open-source resources.
 **Consequence:** No hosted AI cost to fund; AI features stay optional (core study needs no key). Grounding makes output evidence-based. **Licensing rule:** ground *public/shippable* content only on openly-licensed/public-domain sources (paraphrase + record provenance); personal grounding on any legally-held source is fine. See [[Content-Strategy]], [[Licensing-and-Copyright]].
 
+### D11 — Schedules are stream-level, not per-person
+**Decision:** Incorporate schedules at the **stream** level only (cohort-uniform major-rotation dates). Do **not** build per-individual/intra-tract schedules (specific surgery subspecialty order, tract selective, hospital location, vacation placement).
+**Context:** User asked whether exact per-person schedules could be incorporated; chose "stream preset is enough."
+**Consequence:** For studying, the stream preset gives exact rotation-date windows (what drives prioritization). Per-person detail is out of scope because it's name-keyed (PII we strip for the public repo) and finer than the one-block-per-rotation model. If revisited, do it as a **private personal import** (own data, synced to the user's account only, never committed) — not public data. See [[Resources/Curriculum/Queens-MEDS2028-Schedules]].
+
 ## Open decisions (unresolved — resolve with the user)
 - **OD1 — Montis license (downgraded).** Reported as a free/community deck; **cleared for you + classmates**. Before a wide public launch, record the actual license text + attribution. See [[Licensing-and-Copyright]].
 - ~~**OD2 — AI cost model.**~~ **Resolved (D10): user's own key (BYO).** Revisit a hosted tier only if a less-technical public audience needs zero-setup AI.
