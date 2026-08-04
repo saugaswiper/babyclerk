@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { rotations } from '../data/rotations/index.js'
 import { getSchedule, setSchedule, daysUntil, countdown, EXTRA_BLOCKS } from '../lib/schedule.js'
 import { QUEENS_MEDS2028 } from '../data/queensSchedule.js'
+import ScheduleTimeline from '../components/ScheduleTimeline.jsx'
 
 export default function Schedule() {
   const [sched, setSched] = useState(getSchedule)
@@ -48,6 +49,8 @@ export default function Schedule() {
           counts down to each exam. Optional — everything works without it, and it saves automatically.
         </p>
       </div>
+
+      <ScheduleTimeline schedule={sched} />
 
       <div className="card" style={{ marginBottom: 16 }}>
         <label className="section-title" style={{ marginTop: 0 }}>Quick start — load your program’s schedule</label>

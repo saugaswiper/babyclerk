@@ -20,6 +20,11 @@ Shipped + planned features with status. Keep in sync with [[Roadmap]] (this is t
 - ⬜ **Deck manager** (enable/disable, tag, per-source counts)
 - ⬜ **Original verified core** (shippable baseline) — see [[Content-Strategy]]
 
+## Look & feel
+- ✅ **Design system** — refined tokens (layered depth, radii, focus rings), tactile buttons, tinted answer buttons, polished tiles/cards/topbar, dark-mode tuned, `prefers-reduced-motion` respected
+- ✅ **Calendar-style schedule timeline** (`ScheduleTimeline`) — rotations as bars across a month ruler with a "today" marker + overall clerkship progress; on `/schedule`
+- Note: deliberately **no heavy 3D/animation deps** (Three.js/GSAP/etc.) — conflicts with offline-first/ward-ready ([[Principles]]); motion is CSS-only
+
 ## Accounts & platform
 - ✅ **PWA**: offline, installable, app-like
 - ✅ **Backup / restore** (JSON export-import)

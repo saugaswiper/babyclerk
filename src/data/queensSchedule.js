@@ -25,7 +25,7 @@ export const QUEENS_MEDS2028 = {
     '1': {
       label: 'Stream 1',
       rotations: {
-        internalMedicine: { start: '2026-09-14', end: '2026-10-11' },
+        'internal-medicine': { start: '2026-09-14', end: '2026-10-11' },
         psychiatry: { start: '2026-10-12', end: '2026-11-08' },
         surgery: { start: '2026-11-09', end: '2027-01-17' },
         obgyn: { start: '2027-01-18', end: '2027-01-31' },
@@ -38,7 +38,7 @@ export const QUEENS_MEDS2028 = {
     '2': {
       label: 'Stream 2',
       rotations: {
-        internalMedicine: { start: '2027-01-18', end: '2027-02-14' },
+        'internal-medicine': { start: '2027-01-18', end: '2027-02-14' },
         psychiatry: { start: '2027-02-15', end: '2027-03-14' },
         surgery: { start: '2027-03-15', end: '2027-05-09' },
         obgyn: { start: '2027-05-24', end: '2027-06-06' },
@@ -56,7 +56,7 @@ export const QUEENS_MEDS2028 = {
         emergency: { start: '2026-10-12', end: '2026-10-25' },
         medSelective: { start: '2026-10-26', end: '2026-11-22' },
         pediatrics: { start: '2026-11-23', end: '2026-12-06' },
-        internalMedicine: { start: '2027-05-24', end: '2027-06-20' },
+        'internal-medicine': { start: '2027-05-24', end: '2027-06-20' },
         psychiatry: { start: '2027-06-21', end: '2027-07-18' },
         surgery: { start: '2027-07-19', end: '2027-09-12' },
       },
