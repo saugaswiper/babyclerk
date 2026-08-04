@@ -28,7 +28,8 @@ Live, prioritized next actions. This is the "what to pick up next" list — keep
 - [ ] **Deck sharing / cohorts** (license-gated).
 
 ## Decisions to get from the user (see [[Decisions]] open items)
-- [ ] OD1 Montis license · OD2 AI cost model · OD3 topic ontology · OD4 original content sourcing
+- [x] OD1 Montis license (free/community, cleared for classmates) · [x] OD2 AI cost (BYO key, D10)
+- [ ] OD3 topic ontology · OD4 original content sourcing
 
 ## Watch-items (not tasks yet)
 - Sync blob size (IO images, future attempt log) — [[Architecture]], [[Sync-and-Accounts]].

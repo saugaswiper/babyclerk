@@ -13,7 +13,8 @@
 - **We complement, not replace, UWorld/AMBOSS** (a [[Vision]] non-goal to replace them).
 
 ## Current state
-- Baseline today leans on a **bundled third-party deck (Montis)**. For a launchable public product we need an **original/openly-licensed core** as the default baseline (see [[Roadmap]] Phase 2). Treat replacing/verifying the baseline as pre-launch work.
+- Baseline today leans on a **bundled third-party deck (Montis)** — free/community, cleared for classmates; verify license before wide public launch (see [[Licensing-and-Copyright]]).
+- **Grounded generation shipped** (D10): the AI Generate flow can build cards strictly from pasted source text (paraphrased, provenance-tagged, user's key). This is the concrete **mechanism for authoring the original core** — ground on openly-licensed sources from the [[Resources/README|Resource Library]], review, then bundle with attribution. For a launchable public product, use this to grow an original/openly-licensed default baseline (see [[Roadmap]] Phase 2).
 
 ## Quality bar (see [[Principles]] "evidence-first")
 - Accurate, high-yield, traceable. A wrong fact is worse than a missing one.

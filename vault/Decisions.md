@@ -51,9 +51,14 @@ Key decisions and *why*, so future sessions don't re-litigate them. Add a dated 
 **Context:** User asked "can we use MCP instead of an API key for less tech-savvy users."
 **Consequence:** Reframed as OD2 (AI cost model) — a spending decision. See [[AI-Personalization-Engine]], [[Sync-and-Accounts]].
 
+### D10 — AI generation: user's key (BYO), grounded on sources
+**Decision:** AI generation runs on the **user's own Anthropic key** (BYO — resolves OD2). It also supports **grounded generation**: paste source text and cards are built strictly from it (paraphrased, per-item provenance).
+**Context:** User chose BYO-key over a hosted proxy, and wants to generate content from open-source resources.
+**Consequence:** No hosted AI cost to fund; AI features stay optional (core study needs no key). Grounding makes output evidence-based. **Licensing rule:** ground *public/shippable* content only on openly-licensed/public-domain sources (paraphrase + record provenance); personal grounding on any legally-held source is fine. See [[Content-Strategy]], [[Licensing-and-Copyright]].
+
 ## Open decisions (unresolved — resolve with the user)
 - **OD1 — Montis license (downgraded).** Reported as a free/community deck; **cleared for you + classmates**. Before a wide public launch, record the actual license text + attribution. See [[Licensing-and-Copyright]].
-- **OD2 — AI cost model.** User-supplied key only, or a hosted allowance/tier? Shapes Phase 5/6 economics.
+- ~~**OD2 — AI cost model.**~~ **Resolved (D10): user's own key (BYO).** Revisit a hosted tier only if a less-technical public audience needs zero-setup AI.
 - **OD3 — Topic ontology.** Adopt an existing med-ed taxonomy or author our own? Blocks clean weak-area targeting.
 - **OD4 — Original content sourcing.** Author from scratch, curate open banks, or AI-generate-then-verify — and who verifies?
 

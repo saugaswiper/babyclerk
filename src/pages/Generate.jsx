@@ -22,6 +22,8 @@ export default function Generate() {
   const [kind, setKind] = useState('flashcards')
   const [topic, setTopic] = useState('')
   const [count, setCount] = useState(5)
+  const [source, setSource] = useState('')
+  const [sourceName, setSourceName] = useState('')
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
   const [results, setResults] = useState(null)
@@ -51,6 +53,8 @@ export default function Generate() {
         topic: topic.trim(),
         kind,
         count: Number(count),
+        source: source.trim(),
+        sourceName: sourceName.trim(),
       })
       setResults(items)
     } catch (e) {
@@ -112,9 +116,39 @@ export default function Generate() {
           ))}
         </select>
 
+        <label className="section-title" htmlFor="source">Ground in a source (optional)</label>
+        <p className="muted" style={{ fontSize: '0.82rem', margin: '0 0 8px' }}>
+          Paste reference text and cards will be built <strong>only</strong> from it — paraphrased, each tagged
+          with where it came from. Best with open guidelines/curriculum or your own notes. For anything you’ll
+          share publicly, use openly-licensed sources only.
+        </p>
+        <input
+          id="sourceName"
+          className="text-input"
+          placeholder="Source name (optional) — e.g. “WHO hypertension guideline 2023”"
+          value={sourceName}
+          onChange={(e) => setSourceName(e.target.value)}
+          style={{ marginBottom: 8 }}
+        />
+        <textarea
+          id="source"
+          className="text-input"
+          placeholder="Paste source text here to ground the questions (leave blank for general generation)…"
+          value={source}
+          onChange={(e) => setSource(e.target.value)}
+          rows={5}
+          style={{ resize: 'vertical', fontFamily: 'inherit' }}
+        />
+        {source.trim() && (
+          <p className="muted" style={{ fontSize: '0.78rem', marginTop: 6 }}>
+            Grounded mode on · {source.trim().length.toLocaleString()} chars
+            {source.trim().length > 16000 ? ' (will be truncated to 16,000)' : ''}
+          </p>
+        )}
+
         <div className="btn-row" style={{ marginTop: 18 }}>
           <button className="btn primary" onClick={run} disabled={!hasKey || loading}>
-            {loading ? 'Generating…' : 'Generate'}
+            {loading ? 'Generating…' : source.trim() ? 'Generate from source' : 'Generate'}
           </button>
           <Link className="btn ghost" to={`/r/${rotation.id}`}>
             Back to {rotation.name}
@@ -134,6 +168,9 @@ export default function Generate() {
           {results.map((it, i) => (
             <div key={i} className="card" style={{ marginBottom: 10 }}>
               {it.topic && <span className="pill" style={{ marginBottom: 6, display: 'inline-block' }}>{it.topic}</span>}
+              {it.source && (
+                <span className="muted" style={{ fontSize: '0.72rem', marginLeft: 8 }}>· from: {it.source}</span>
+              )}
               {kind === 'flashcards' && (
                 <>
                   <p style={{ fontWeight: 700, margin: '0 0 6px' }}>{it.front}</p>
