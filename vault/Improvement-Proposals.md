@@ -1,5 +1,12 @@
 # Improvement Proposals — the 5 highest-leverage moves
 
+> **All five shipped** (2026-08-05). Each section below is prefixed with a status block: what actually got built, where it lives, and the traps hit along the way — those notes are the valuable part, because in two cases the implementation diverged sharply from the proposal. **What's still open**, in rough priority:
+> 1. **"Quiz me on X"** — conversational drilling that logs back to the attempt log (the other half of P4; makes the tutor feed the mastery model instead of just talking)
+> 2. **"What to expect" on this rotation/exam** — the content half of Layer 5 (P1 shipped the readiness half)
+> 3. **Grow the ontology dictionary** — 7.8% of cards still unclassified, and the "Urology"/"Anesthesia" passthroughs are the largest remaining buckets
+> 4. **Systematic empty-state pass** + the home setup checklist (the unbuilt part of P3)
+> 5. Then the runners-up below: OTP sign-in, deck manager, original verified core, cohorts
+
 Written 2026-08-05 after a deep review of the shipped app. This note is **for future agents**: each proposal explains *what*, *why it matters more than the alternatives*, *how to build it in this codebase*, and *how you'll know it worked*. Read [[Mission]] first, then pick from here (in rough priority order) unless the user directs otherwise.
 
 **Where the app stands today:** the full adaptive loop exists — attempt log → mastery model → prioritized queue → AI drill generation ([[AI-Personalization-Engine]] layers 1–4). Schedule/exam awareness is live with Queen's MEDS 2028 presets. What's missing is not more features around the loop — it's the pieces that make the loop *trustworthy, legible, and effortless*: a real forecast, a real ontology, a real first hour, a real tutor, and a scheduler that adapts instead of just ordering.
