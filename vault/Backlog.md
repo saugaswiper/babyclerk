@@ -15,7 +15,7 @@ Live, prioritized next actions. This is the "what to pick up next" list — keep
 - [x] **Attempt log** schema + writes on every answer. Shipped (`babyclerk:attempts`, synced). ([[Data-Model]])
 - [x] **Weak-area dashboard** — shipped (`/progress` + home teaser).
 - [x] **Mastery model** — shipped (`src/lib/mastery.js`): recency-weighted accuracy, confidence, trend. Feeds `/progress` + `orderForFocus`.
-- [ ] **Topic ontology (OD3)** — normalized cross-rotation tags so the same concept clusters. Sharpens weak-area targeting.
+- [x] **Topic ontology (OD3)** — shipped (P2/D13): `src/data/ontology.js` classifies cards into ~110 concepts (68% coverage), stored on each attempt. Enables cross-rotation weakness on `/progress`. Ongoing: grow the dictionary; 7.8% of cards still unclassified.
 - [x] **Weak-area targeting in the study queue** — shipped: `orderForFocus` orders "Study due" by topic-weakness + exam proximity (reorder only). First use of the log to *act*.
 - [x] **Exam-proximity in the prioritizer** — folded into `orderForFocus` (imminent-exam rotations rise).
 - [ ] **Deck manager** (enable/disable, per-source counts).
@@ -31,7 +31,7 @@ Live, prioritized next actions. This is the "what to pick up next" list — keep
 
 ## Decisions to get from the user (see [[Decisions]] open items)
 - [x] OD1 Montis license (free/community, cleared for classmates) · [x] OD2 AI cost (BYO key, D10)
-- [ ] OD3 topic ontology · OD4 original content sourcing
+- [x] OD3 topic ontology (D13) · [ ] OD4 original content sourcing
 
 ## Watch-items (not tasks yet)
 - Sync blob size (IO images, future attempt log) — [[Architecture]], [[Sync-and-Accounts]].

@@ -68,6 +68,7 @@ export default function Quiz() {
       rotation: rotation.id,
       kind: 'mcq',
       cardId: q.id || null,
+      card: q, // lets the attempt record a normalized concept
       topic: q.topic || null,
       correct: i === q.answer,
       latencyMs: Date.now() - shownAt.current,

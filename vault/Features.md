@@ -42,10 +42,11 @@ Shipped + planned features with status. Keep in sync with [[Roadmap]] (this is t
 - ✅ **Rotation schedule + exam dates** (`/schedule`, synced)
 - ✅ **Current-rotation prioritization** on home (+ "On rotation now" badge)
 - ✅ **Exam countdowns** (soonest-exam banner + per-tile pills, color-coded)
-- 🔨 **Exam-proximity intensity ramp** (messaging done; auto new-card load = Phase 5)
+- ✅ **Exam-proximity intensity ramp** — messaging plus the auto-adjusting new-card load (adaptive pacing)
 - ✅ **Attempt log** (per-answer telemetry: flashcards + MCQs, synced, clearable)
 - ✅ **Weak-area dashboard** (`/progress`): overall accuracy, weakest topics, by-rotation; home teaser
-- 🔨 **Topic tagging** — uses cards' existing `topic` strings; normalized ontology open (OD3)
+- ✅ **Topic ontology** (`src/data/ontology.js`) — the decks' `topic` strings are lecture labels (190 cards say "Urology", 172 say "Peds"), so cards are classified into ~110 real concepts by keyword-matching their own text. 68% map to a concept; 158 in use vs 61 raw strings. Resolved at write time onto each attempt; pre-ontology attempts fall back to `topic`.
+- ✅ **Cross-rotation weakness** (`/progress`) — concepts you're failing in more than one block, surfaced above the per-rotation list
 - ✅ **Mastery model** — recency-weighted accuracy + confidence + trend (↑/↓); powers insights + prioritizer
 - ✅ **Weak-area targeting** — "Study due" queue orders by weakness + exam proximity; **"Drill my weak spot"** on `/progress` AI-generates targeted cards for the weakest topic (closes the loop)
 - ✅ **Exam readiness forecast** (`src/lib/forecast.js`) — "% ready today" from per-card recall decay + coverage, plus a pace verdict (on track / tight / behind) and a one-tap "raise pace to N/day" fix. Shown on `/r/:id`, in the home exam banner, and as a cross-rotation list on `/progress`. Deterministic, offline, fully explainable.

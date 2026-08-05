@@ -24,7 +24,24 @@ Written 2026-08-05 after a deep review of the shipped app. This note is **for fu
 
 ---
 
-## P2 · Topic Ontology — the knowledge graph under the mastery model (resolves OD3)
+## P2 · Topic Ontology — the knowledge graph under the mastery model (resolves OD3) — ✅ SHIPPED
+
+> **Status: shipped** — `src/data/ontology.js` (the dictionary) + `src/lib/ontology.js` (the resolver).
+>
+> **⚠️ The proposal below was written on a wrong premise. Read this instead.** I assumed the problem was *fragmentation* — that "Pre-eclampsia", "pre-eclampsia/HELLP" and "Hypertension in pregnancy" were splitting one concept into three weak spots. Measuring the actual corpus showed the opposite: there are only **61 distinct topic strings across 1,929 cards**, and they're *lecture-section labels*, not concepts — 190 cards say "Urology", 172 say "Peds", 147 say "Psychiatry", 133 say "Toronto Notes". The real failure was that the weak-area dashboard could only ever tell a student **"you're weak at… Peds."**
+>
+> So the shipped design is a **classifier**, not a merge table:
+> - `TOPIC_ALIASES` normalizes the topic strings that *are* concepts and merges genuine duplicates ("Pain Meds" / "Pain Medication Dosing" / "Acute and Chronic Pain" → `pain-management`; "ECG Bootcamp" / "ECG Review" → `ecg`).
+> - `OPAQUE_TOPICS` / `BROAD_TOPICS` mark labels that carry no signal or too little of it.
+> - `CONCEPTS` (~110 entries) are matched by **word-boundary keyword search against the card's own text**, which splits the mega-buckets. Deterministic, offline, no API cost — important, because AI-classifying 1,929 cards would spend the user's money on a build-time job.
+> - **Measured result: 68% of cards resolve to a real concept, 24% pass through as their topic, 7.8% unclassified — 158 distinct concepts in use, up from 61 strings.** Re-run the coverage check after editing the dictionary.
+>
+> **Where the concept is stored matters.** It's computed at **write time** in `logAttempt` (which now takes `card`) and saved on the attempt as `concept`/`conceptId`. The attempt log is append-only history and cards aren't available when reading it back, so read-time normalization was impossible. Pre-ontology attempts have no concept and fall back to `topic` — `topicKeyOf()` in `attempts.js` is the single place that decision lives.
+>
+> **Two consistency traps, both hit and fixed:** the prioritizer (`orderForFocus`) was looking up mastery by `card.topic` while mastery had become concept-keyed — it must call `conceptFor()` the same way. And `StudyToday`, the app's *primary* study path, turned out never to have called `logAttempt` at all, so cross-rotation sessions produced no telemetry whatsoever. Both fixed in the same change.
+>
+> Also shipped: **cross-rotation weakness** on `/progress` (`crossRotationWeakness()`) — concepts you're failing in more than one block, which is the payoff the ontology existed for. Original proposal below.
+
 
 **What.** Replace free-text `topic` strings with a curated, normalized concept list (~150–250 clerkship concepts, each with `id`, `label`, `rotations: []`, `aliases: []`, optional MCC presentation mapping). Existing card topics map onto it via an alias table; unmapped topics degrade gracefully to today's behavior.
 

@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { rotations, getRotation } from '../data/rotations/index.js'
-import { getAttempts, summarize } from '../lib/attempts.js'
+import { getAttempts, summarize, crossRotationWeakness } from '../lib/attempts.js'
 import { weakTopics } from '../lib/mastery.js'
 import { getApiKey, getModel } from '../lib/settings.js'
 import { generateItems } from '../lib/generate.js'
@@ -33,6 +33,7 @@ export default function Progress() {
   const attempts = getAttempts()
   const { byRotation, total } = summarize(attempts)
   const weak = weakTopics(attempts, { min: 3, limit: 8 })
+  const crossWeak = crossRotationWeakness(attempts, { min: 6, limit: 4 })
 
   const [busyKey, setBusyKey] = useState(null)
   const [drillMsg, setDrillMsg] = useState(null)
@@ -121,6 +122,31 @@ export default function Progress() {
           <span className="muted">overall accuracy · {overallCorrect}/{total} correct</span>
         </div>
       </div>
+
+      {crossWeak.length > 0 && (
+        <div className="card" style={{ marginBottom: 16 }}>
+          <label className="section-title" style={{ marginTop: 0 }}>Following you between rotations</label>
+          <ul className="weak-list">
+            {crossWeak.map((c) => (
+              <li key={c.conceptId}>
+                <div className="weak-item">
+                  <span className="weak-topic">{c.topic}</span>
+                  <span className="weak-meta">
+                    <span className="muted">{c.rotations.map((r) => rotationName(r)).join(' · ')}</span>
+                    <span style={{ color: accColor(Math.round(c.acc * 100)), fontWeight: 700 }}>
+                      {Math.round(c.acc * 100)}%
+                    </span>
+                  </span>
+                </div>
+              </li>
+            ))}
+          </ul>
+          <p className="muted" style={{ fontSize: '0.8rem', margin: '10px 0 0' }}>
+            Concepts you&apos;ve met in more than one rotation and are getting wrong in each — these are
+            worth more than a weak spot that only bites in one block.
+          </p>
+        </div>
+      )}
 
       {readinessSection}
 

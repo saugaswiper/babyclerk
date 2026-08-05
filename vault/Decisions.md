@@ -66,10 +66,15 @@ Key decisions and *why*, so future sessions don't re-litigate them. Add a dated 
 **Context:** SM-2's single ease factor spirals downward on repeated failures ("ease hell"), punishing exactly the struggling student this app exists for; FSRS separates *stability* from *difficulty* and schedules from an explicit target retention.
 **Consequence:** Better retention per review across every card, and real per-card recall probabilities for the readiness forecast (which now uses FSRS retrievability when `s` exists and falls back to the SM-2 heuristic otherwise). Defaulting to Adaptive touches existing study history, which is only acceptable *because* the migration is non-destructive and one click reverts it — keep it that way. **Do not mix FSRS versions:** 4.5 weights require 4.5's linear initial-difficulty formula (see [[Improvement-Proposals]] P5 for the bug this caused).
 
+### D13 — Topic ontology: our own concept dictionary, keyword-classified at write time (resolves OD3)
+**Decision:** Author our own clerkship concept list (`src/data/ontology.js`, ~110 concepts) rather than adopting an external med-ed taxonomy, and resolve each card to a concept **deterministically** — topic aliases first, then word-boundary keyword matching against the card's own text. The concept is written onto the attempt record (`concept`, `conceptId`) at **log time**; the append-only attempt log is never rewritten, and old attempts fall back to their `topic` via `topicKeyOf()`.
+**Context:** Measurement, not assumption: the decks carry only **61 distinct topic strings over 1,929 cards**, and most are lecture-section labels ("Urology" ×190, "Peds" ×172, "Toronto Notes" ×133). Mastery rolled up by those can only say "you're weak at Peds". An external taxonomy is far heavier than this corpus needs, and AI classification would spend the user's API budget on a build-time job.
+**Consequence:** 158 concepts in use; 68% of cards map to a real one, 24% pass through, 7.8% unclassified — measurable and improvable by editing one file. Unlocks **cross-rotation weakness** ("you're weak on UTIs in both surgery and paeds"), sharper Drill prompts, and a stable vocabulary for future AI features. **Anything that reads mastery must resolve cards through `conceptFor()`** — mixing raw topics with concept keys silently breaks the prioritizer (it did once). See [[Improvement-Proposals]] P2 for the measured coverage method.
+
 ## Open decisions (unresolved — resolve with the user)
 - **OD1 — Montis license (downgraded).** Reported as a free/community deck; **cleared for you + classmates**. Before a wide public launch, record the actual license text + attribution. See [[Licensing-and-Copyright]].
 - ~~**OD2 — AI cost model.**~~ **Resolved (D10): user's own key (BYO).** Revisit a hosted tier only if a less-technical public audience needs zero-setup AI.
-- **OD3 — Topic ontology.** Adopt an existing med-ed taxonomy or author our own? Blocks clean weak-area targeting.
+- ~~**OD3 — Topic ontology.**~~ **Resolved (D13): our own concept dictionary, keyword-classified.** Revisit only if mapping to formal MCC objectives becomes a requirement.
 - **OD4 — Original content sourcing.** Author from scratch, curate open banks, or AI-generate-then-verify — and who verifies?
 
 Related: [[Roadmap]] · [[Backlog]]

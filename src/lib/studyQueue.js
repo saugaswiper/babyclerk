@@ -9,6 +9,7 @@ import { isNew } from './srs.js'
 import { getAttempts } from './attempts.js'
 import { masteryLookup, topicMastery } from './mastery.js'
 import { getSchedule, examDaysFor } from './schedule.js'
+import { conceptFor } from './ontology.js'
 
 // Everything to study now, across rotations — reviews due + each rotation's
 // remaining daily new-card allowance.
@@ -58,7 +59,10 @@ export function orderForFocus(
   }
 
   const score = (e) => {
-    const acc = topicAcc(e.rotationId, e.card.topic)
+    // Mastery is keyed by normalized concept, so the card must be resolved the
+    // same way — looking up its raw topic string would miss almost every time.
+    const concept = conceptFor(e.card, e.rotationId)
+    const acc = topicAcc(e.rotationId, concept?.label || e.card.topic)
     const weakness = acc == null ? 0.3 : 1 - acc // unknown topics sit neutral
     return weakness + examBoost(e.rotationId)
   }

@@ -14,8 +14,9 @@ study/answer → attempt log → mastery model → prioritizer → next best act
 
 ## Layer 1 — Measure (foundation, [[Roadmap]] Phase 4)
 Nothing personalizes without data. See [[Data-Model]] "attempt log."
-- **Attempt log:** every answer → `{card_id, topic, kind, correct, latency_ms, ts, rotation}`. Append-only, local-first, synced.
-- **Topic ontology:** every card/MCQ tagged with a topic + system/rotation. Rolling accuracy computes per topic. (Open question: adopt existing med-ed taxonomy vs. roll our own — see [[Roadmap]].)
+- ✅ **Attempt log:** every answer → `{card_id, topic, concept, conceptId, kind, correct, latency_ms, ts, rotation}`. Append-only, local-first, synced. Written from **all three** study surfaces — `Flashcards`, `Quiz` and `StudyToday`. (`StudyToday` is the app's main study path and was silently missing from this list until the ontology work; if you add a fourth surface, wire it up.)
+- ✅ **Topic ontology** (`src/data/ontology.js`, resolved by `src/lib/ontology.js` — decision D13): the decks' own `topic` strings are lecture-section labels, so each card is classified into one of ~110 real clerkship concepts by keyword-matching its text. Resolved at **write** time onto the attempt, because the log is append-only and cards aren't available on read. 68% of cards map to a concept, 24% pass through as their topic, 7.8% are unclassified.
+  - **Anything reading mastery must resolve cards through `conceptFor()`** — mixing raw topic strings with concept keys silently breaks lookups (it broke `orderForFocus` once).
 - Latency matters: slow-but-correct ≠ mastered.
 
 ## Layer 2 — Model (mastery estimation) — ✅ first version shipped

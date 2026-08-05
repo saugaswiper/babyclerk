@@ -1,10 +1,12 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { collectDue, orderForFocus, hasFocusData } from '../lib/studyQueue.js'
 import { readStored, writeStored } from '../lib/useLocalStorage.js'
 import { review } from '../lib/srs.js'
 import { noteIntroduced } from '../lib/scheduler.js'
+import { logAttempt } from '../lib/attempts.js'
 import CardFace from '../components/CardFace.jsx'
+import ExplainMiss from '../components/ExplainMiss.jsx'
 import Icon from '../components/Icon.jsx'
 
 // One session across every rotation: all due cards, graded back into each
@@ -24,11 +26,29 @@ export default function StudyToday() {
 
   const current = queue[0] || null
 
+  // Reset the latency timer whenever a new card comes up.
+  const shownAt = useRef(Date.now())
+  useEffect(() => {
+    shownAt.current = Date.now()
+  }, [current?.card?.id])
+
   const grade = (g) => {
     if (!current) return
     const key = `srs:${current.rotationId}`
     const map = readStored(key, {})
     if (!map[current.card.id]) noteIntroduced(current.rotationId) // first time seen → today's new budget
+    // This is the app's main study path, so its answers have to reach the
+    // attempt log too — otherwise the mastery model never sees them.
+    logAttempt({
+      rotation: current.rotationId,
+      kind: 'flashcard',
+      cardId: current.card.id,
+      card: current.card,
+      topic: current.card.topic || null,
+      correct: g !== 'again',
+      grade: g,
+      latencyMs: Date.now() - shownAt.current,
+    })
     map[current.card.id] = review(map[current.card.id], g)
     writeStored(key, map)
     setReviewed((n) => n + 1)
@@ -91,6 +111,15 @@ export default function StudyToday() {
             <CardFace card={current.card} flipped={flipped} />
             {!flipped && <div className="hint">Tap or press Space to flip</div>}
           </div>
+
+          {flipped && (
+            <ExplainMiss
+              key={current.card.id}
+              kind="flashcard"
+              card={current.card}
+              rotationName={current.rotationName}
+            />
+          )}
 
           {flipped ? (
             <div className="rate-row">

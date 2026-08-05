@@ -51,6 +51,7 @@ export default function Flashcards() {
       rotation: rotationId,
       kind: 'flashcard',
       cardId: current.id,
+      card: current, // lets the attempt record a normalized concept
       topic: current.topic || null,
       correct: g !== 'again', // recalled (hard/good) vs failed (again)
       grade: g,
