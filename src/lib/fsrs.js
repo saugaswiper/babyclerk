@@ -87,6 +87,16 @@ export function fromSm2(state) {
   return { s: Math.max(MIN_STABILITY, state.interval), d: clampD(10 - ((ease - 1.3) * 9) / 2.2) }
 }
 
+// Exact inverse of the ease→difficulty mapping above. Adaptive reviews use this
+// to keep the legacy `ease` field coherent with FSRS difficulty instead of
+// nudging it independently — nudging it only ever ratchets *down* (there's no
+// "easy" button to raise it), which would rebuild ease hell inside the Classic
+// fallback, the very thing FSRS is here to avoid.
+export function easeFromDifficulty(d) {
+  const ease = 1.3 + ((10 - clampD(d)) * 2.2) / 9
+  return Math.round(ease * 100) / 100
+}
+
 /**
  * One FSRS review. Returns the next {s, d, interval} — the caller owns `due`,
  * `last`, `reps` and the legacy SM-2 fields.

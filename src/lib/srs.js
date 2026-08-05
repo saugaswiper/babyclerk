@@ -8,7 +8,7 @@
 // FSRS never discards the SM-2 fields — so switching modes in either direction
 // is safe, and migration happens lazily on each card's next review.
 // `due` is an ISO date string; a card is "due" when due <= now.
-import { fsrsReview } from './fsrs.js'
+import { fsrsReview, easeFromDifficulty } from './fsrs.js'
 import { getScheduler } from './settings.js'
 
 const DAY = 24 * 60 * 60 * 1000
@@ -69,7 +69,9 @@ function adaptiveReview(state, grade, now) {
     last: now,
     reps: grade === 'again' ? 0 : (prev.reps || 0) + 1,
     // Keep the SM-2 field maintained so switching back to 'classic' still works.
-    ease: grade === 'again' ? Math.max(1.3, (prev.ease ?? 2.5) - 0.2) : (prev.ease ?? 2.5),
+    // Derived from FSRS difficulty rather than nudged, so it recovers when you
+    // recover — see easeFromDifficulty().
+    ease: easeFromDifficulty(d),
   }
   // A failed card comes back this session; its FSRS interval still governs the
   // next real review once it's recalled.
