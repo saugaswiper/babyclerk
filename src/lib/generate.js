@@ -173,3 +173,105 @@ export async function generateItems({ apiKey, model, rotationName, topic, kind, 
   if (!items.length) throw new Error('No items were generated. Try again or adjust the topic.')
   return items
 }
+
+// ---------------------------------------------------------------------------
+// Long-form material (a textbook chapter, lecture notes, a guideline PDF's text)
+//
+// One request can only ground on SOURCE_LIMIT characters, so a chapter has to be
+// split. Chunks break on blank lines first so a section's argument stays intact;
+// only a single oversized paragraph gets hard-split.
+// ---------------------------------------------------------------------------
+
+const CHUNK_TARGET = 7000 // comfortably under SOURCE_LIMIT, so nothing truncates
+
+export function chunkSource(text, max = CHUNK_TARGET) {
+  const clean = (text || '').trim()
+  if (!clean) return []
+  if (clean.length <= max) return [clean]
+
+  const paras = clean.split(/\n\s*\n/)
+  const chunks = []
+  let buf = ''
+
+  const flush = () => {
+    if (buf.trim()) chunks.push(buf.trim())
+    buf = ''
+  }
+
+  for (const para of paras) {
+    if (para.length > max) {
+      // A single wall of text — split it on sentence ends where we can.
+      flush()
+      let rest = para
+      while (rest.length > max) {
+        const window = rest.slice(0, max)
+        const cut = Math.max(window.lastIndexOf('. '), window.lastIndexOf('\n'))
+        const at = cut > max * 0.5 ? cut + 1 : max
+        chunks.push(rest.slice(0, at).trim())
+        rest = rest.slice(at)
+      }
+      buf = rest
+      continue
+    }
+    if (buf.length + para.length + 2 > max) flush()
+    buf += (buf ? '\n\n' : '') + para
+  }
+  flush()
+  return chunks
+}
+
+/**
+ * Generate across a long source, one chunk at a time.
+ *
+ * Every item comes back tagged `private: true`. These are built from material
+ * the student legally holds but cannot redistribute (a textbook they bought),
+ * so the cards are theirs to study and no one else's to receive — see
+ * vault/Licensing-and-Copyright.md.
+ *
+ * A failed chunk is recorded and skipped rather than aborting the run: losing
+ * section 7 of 12 shouldn't throw away the six that worked.
+ */
+export async function generateFromMaterial({
+  apiKey,
+  model,
+  rotationName,
+  kind,
+  source,
+  sourceName,
+  perChunk = 6,
+  onProgress,
+}) {
+  const chunks = chunkSource(source)
+  if (!chunks.length) throw new Error('Paste some material first.')
+
+  const items = []
+  const failures = []
+
+  for (let i = 0; i < chunks.length; i++) {
+    onProgress?.({ index: i, total: chunks.length, items: items.length })
+    try {
+      const batch = await generateItems({
+        apiKey,
+        model,
+        rotationName,
+        kind,
+        count: perChunk,
+        source: chunks[i],
+        sourceName: sourceName ? `${sourceName} (section ${i + 1})` : `Section ${i + 1}`,
+      })
+      for (const it of batch) {
+        items.push({ ...it, private: true, material: sourceName || 'My material' })
+      }
+    } catch (e) {
+      failures.push({ index: i + 1, message: e?.message || 'failed' })
+    }
+  }
+
+  onProgress?.({ index: chunks.length, total: chunks.length, items: items.length })
+  if (!items.length) {
+    throw new Error(
+      failures[0]?.message || 'Nothing could be generated from that material. Try a smaller excerpt.'
+    )
+  }
+  return { items, chunks: chunks.length, failures }
+}

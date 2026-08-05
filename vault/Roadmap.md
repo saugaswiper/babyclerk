@@ -70,7 +70,7 @@ Turn it into a product others rely on.
 - ⬜ Reliability: error handling, sync conflict UX, empty states, accessibility pass
 - ⬜ Cost model: keep it viable (AI usage via user key vs. hosted tier — open question, see [[Backlog]])
 - ⬜ Distribution: shareable link, PWA install prompts, maybe app-store wrapper
-- ⬜ Growth loops: deck sharing, class cohorts (opt-in)
+- ⬜ Growth loops: deck sharing, class cohorts (opt-in). **Must read through `getShareableCustom()`** — private material from the "My material" flow can never be included. See [[Licensing-and-Copyright]].
 - ⬜ Analytics against the [[Vision]] success metrics
 
 ---

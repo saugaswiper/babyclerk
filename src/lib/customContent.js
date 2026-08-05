@@ -49,6 +49,49 @@ export function appendCustom(rotationId, kind, items) {
   return current[kind]
 }
 
+// Cards built from material the student legally holds but may not redistribute
+// — a textbook they bought, lecture slides, a purchased Q-bank. Studying them is
+// fine; passing them on is not (see vault/Licensing-and-Copyright.md).
+//
+// This gate exists *before* the feature it guards. Deck sharing and cohorts
+// ([[Roadmap]] Phase 6) must read through `getShareableCustom` and never
+// `loadCustom`, so private material can't leak the day sharing ships. Backup
+// export is deliberately NOT filtered: that file goes to the user's own device.
+export function isPrivateItem(item) {
+  return item?.private === true
+}
+
+export function getShareableCustom(rotationId) {
+  const c = loadCustom(rotationId)
+  return {
+    flashcards: c.flashcards.filter((i) => !isPrivateItem(i)),
+    viva: c.viva.filter((i) => !isPrivateItem(i)),
+    mcqs: c.mcqs.filter((i) => !isPrivateItem(i)),
+  }
+}
+
+// How many private cards this rotation holds, and which sources they came from.
+export function privateSummary(rotationId) {
+  const c = loadCustom(rotationId)
+  const all = [...c.flashcards, ...c.viva, ...c.mcqs].filter(isPrivateItem)
+  const sources = [...new Set(all.map((i) => i.material).filter(Boolean))]
+  return { count: all.length, sources }
+}
+
+// Remove everything derived from one source (e.g. you no longer want that book's
+// cards in your deck).
+export function removeMaterial(rotationId, materialName) {
+  const c = loadCustom(rotationId)
+  let removed = 0
+  for (const kind of ['flashcards', 'viva', 'mcqs']) {
+    const before = c[kind].length
+    c[kind] = c[kind].filter((i) => !(isPrivateItem(i) && i.material === materialName))
+    removed += before - c[kind].length
+  }
+  saveCustom(rotationId, c)
+  return removed
+}
+
 export function deleteCustom(rotationId, kind, itemId) {
   const current = loadCustom(rotationId)
   current[kind] = current[kind].filter((it) => it.id !== itemId)

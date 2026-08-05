@@ -25,6 +25,21 @@ Before a **wide public launch**, still do one thing: locate and record Montis's 
 ## Does a desktop app bypass this?
 **No.** Copyright turns on *distribution*, not *format* — shipping a deck inside a downloadable `.dmg`/`.exe` you hand to others is still redistributing it (arguably more clearly than a web app). A standalone app only helps for **purely personal use** (you, your machine, a deck you legally hold). The clean path to sharing widely without the deck is the import model: ship the app without the deck, let each user import their own copy. See [[Decisions]] D8.
 
+## Studying from material you own (the "My material" flow)
+`/r/:id/material` (`src/pages/Material.jsx`) exists so a student can study from a **textbook they bought** — Toronto Notes, their school's slides, a purchased Q-bank — without any of it touching what we distribute. It chunks a long paste, generates from each section (paraphrased, per-section provenance), and stamps every card `private: true` plus a `material` label.
+
+**The gate is in code, ahead of the feature it guards.** `getShareableCustom()` in `lib/customContent.js` filters private items out; **deck sharing and cohorts ([[Roadmap]] Phase 6) must read through it and never through `loadCustom`.** Backup export is deliberately *not* filtered — that file goes to the user's own device, which is the same private context.
+
+Rules for this flow:
+| | |
+|---|---|
+| Study privately from your own copy | ✅ yes — this is what the flow is for |
+| Sync to the student's own account | ✅ yes — their row, RLS-isolated, same as any progress |
+| Commit to the repo / bundle in the build | ❌ never |
+| Include in a shared deck | ❌ never — enforced by `getShareableCustom` |
+
+Note on the existing deck: ~133 bundled OB/GYN cards carry the topic label "Toronto Notes"/"Toronto Notes+". Those are a *source label* on a student's own paraphrased cards, not reproduced book text (spot-checked: factual, reworded). Facts aren't copyrightable; the book's expression is. Covered by the Montis question (OD1), not a separate exposure — but if anyone ever finds a bundled card that reproduces a table or passage verbatim, remove it.
+
 ## Import stays clean
 Import features (text/CSV/cloze/JSON/file, UWorld-misses) are legally fine **because the user supplies their own content and it never leaves their device/account**. Keep it that way: imported content must never be uploaded to a shared/public store or exposed to other users. (Deck *sharing* — [[Roadmap]] Phase 6 — must gate on the sharer having the right to share.)
 

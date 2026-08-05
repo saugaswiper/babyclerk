@@ -17,6 +17,7 @@ Shipped + planned features with status. Keep in sync with [[Roadmap]] (this is t
 ## Content authoring & extension
 - ✅ **Import**: text / CSV / cloze / JSON / file
 - ✅ **AI card generation** (Anthropic API, user key) — incl. **grounded generation** from pasted source text (paraphrased + provenance-tagged)
+- ✅ **Study from your own material** (`/r/:id/material`) — paste a textbook chapter or lecture notes; it chunks into sections, generates per section with provenance, and marks every card **private** (never bundled, never shareable — `getShareableCustom` enforces it). Per-source removal built in. See [[Licensing-and-Copyright]].
 - ✅ **Image-occlusion creator** (`IOCreate`)
 - ✅ **Misses → cards** (wrong answers become review cards)
 - ⬜ **Deck manager** (enable/disable, tag, per-source counts)

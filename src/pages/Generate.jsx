@@ -4,6 +4,7 @@ import { getRotation } from '../data/rotations/index.js'
 import { getApiKey, getModel } from '../lib/settings.js'
 import { generateItems } from '../lib/generate.js'
 import { appendCustom } from '../lib/customContent.js'
+import GeneratedItem from '../components/GeneratedItem.jsx'
 
 const KINDS = [
   { id: 'flashcards', label: 'Flashcards' },
@@ -166,40 +167,7 @@ export default function Generate() {
         <>
           <div className="section-title">Preview ({results.length})</div>
           {results.map((it, i) => (
-            <div key={i} className="card" style={{ marginBottom: 10 }}>
-              {it.topic && <span className="pill" style={{ marginBottom: 6, display: 'inline-block' }}>{it.topic}</span>}
-              {it.source && (
-                <span className="muted" style={{ fontSize: '0.72rem', marginLeft: 8 }}>· from: {it.source}</span>
-              )}
-              {kind === 'flashcards' && (
-                <>
-                  <p style={{ fontWeight: 700, margin: '0 0 6px' }}>{it.front}</p>
-                  <p className="muted" style={{ margin: 0 }}>{it.back}</p>
-                </>
-              )}
-              {kind === 'cloze' && (
-                <p style={{ margin: 0 }}>{it.cloze}</p>
-              )}
-              {kind === 'viva' && (
-                <>
-                  <p style={{ fontWeight: 700, margin: '0 0 6px' }}>{it.question}</p>
-                  <p className="muted" style={{ margin: 0 }}>{it.answer}</p>
-                </>
-              )}
-              {kind === 'mcqs' && (
-                <>
-                  <p style={{ fontWeight: 700, margin: '0 0 6px' }}>{it.question}</p>
-                  <ol type="A" style={{ margin: '0 0 6px', paddingLeft: 20 }}>
-                    {it.options?.map((o, j) => (
-                      <li key={j} style={{ fontWeight: j === it.answer ? 700 : 400, color: j === it.answer ? 'var(--good)' : 'inherit' }}>
-                        {o}
-                      </li>
-                    ))}
-                  </ol>
-                  <p className="muted" style={{ margin: 0 }}>{it.explanation}</p>
-                </>
-              )}
-            </div>
+            <GeneratedItem key={i} kind={kind} item={it} />
           ))}
 
           <div className="btn-row" style={{ justifyContent: 'center', marginTop: 8 }}>

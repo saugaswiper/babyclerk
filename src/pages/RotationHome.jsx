@@ -14,6 +14,7 @@ const MODES = [
   { slug: 'quiz', icon: 'check-circle', name: 'Quiz', desc: 'MCQs with explanations' },
   { slug: 'checklist', icon: 'clipboard', name: 'Prep Checklist', desc: 'Be rotation-ready' },
   { slug: 'generate', icon: 'sparkles', name: 'AI Generate', desc: 'Fresh questions on demand' },
+  { slug: 'material', icon: 'book', name: 'My material', desc: 'Cards from your own textbook or notes' },
   { slug: 'import', icon: 'download', name: 'Import', desc: 'Add your own cards' },
   { slug: 'io', icon: 'image', name: 'Image Occlusion', desc: 'Make image hide-cards' },
 ]

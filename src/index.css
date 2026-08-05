@@ -297,6 +297,41 @@ a.card:hover, button.card:hover { transform: translateY(-2px); box-shadow: var(-
 .acc-bar > span { display: block; height: 100%; border-radius: 999px; transition: width 0.4s cubic-bezier(0.22, 1, 0.36, 1); }
 .acc-val { flex: 0 0 auto; font-size: 0.85rem; font-weight: 700; }
 
+/* Generated-item preview + "my material" flow */
+.gen-item { margin-bottom: 10px; }
+.gen-meta { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-bottom: 8px; }
+.gen-src { font-size: 0.72rem; }
+.gen-q { font-weight: 700; margin: 0 0 6px; }
+.pill.private {
+  background: color-mix(in srgb, var(--accent) 16%, var(--surface));
+  color: var(--accent);
+  border: 1px solid color-mix(in srgb, var(--accent) 34%, transparent);
+}
+.notice-private {
+  margin-bottom: 16px;
+  border-color: color-mix(in srgb, var(--accent) 34%, var(--border));
+  background: color-mix(in srgb, var(--accent) 5%, var(--surface));
+}
+.notice-private h3 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 8px;
+  font-size: 0.95rem;
+}
+.notice-private h3 > svg { color: var(--accent); flex: none; }
+.notice-private p { margin: 0; font-size: 0.86rem; line-height: 1.6; color: var(--text-muted); }
+.mat-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border-soft);
+  font-size: 0.9rem;
+}
+.mat-row:last-child { border-bottom: none; }
+
 /* Segmented control */
 .seg-row {
   display: inline-flex;

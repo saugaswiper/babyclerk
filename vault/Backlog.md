@@ -27,7 +27,7 @@ Live, prioritized next actions. This is the "what to pick up next" list — keep
 - [x] **First-run onboarding** — shipped (P3): `/welcome`, stream → pace → ready.
 - [ ] **Multi-school profiles**.
 - [ ] **Accessibility + reliability pass**; export/delete my data.
-- [ ] **Deck sharing / cohorts** (license-gated).
+- [ ] **Deck sharing / cohorts** (license-gated) — the gate already exists: `getShareableCustom()` filters private material. Use it, never `loadCustom`.
 
 ## Decisions to get from the user (see [[Decisions]] open items)
 - [x] OD1 Montis license (free/community, cleared for classmates) · [x] OD2 AI cost (BYO key, D10)

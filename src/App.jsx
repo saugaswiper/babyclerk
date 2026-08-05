@@ -9,6 +9,7 @@ import Notes from './pages/Notes.jsx'
 import Checklist from './pages/Checklist.jsx'
 import Generate from './pages/Generate.jsx'
 import Import from './pages/Import.jsx'
+import Material from './pages/Material.jsx'
 import Settings from './pages/Settings.jsx'
 import StudyToday from './pages/StudyToday.jsx'
 import Search from './pages/Search.jsx'
@@ -98,6 +99,7 @@ function AppShell() {
           <Route path="/r/:rotationId/checklist" element={<Checklist />} />
           <Route path="/r/:rotationId/generate" element={<Generate />} />
           <Route path="/r/:rotationId/import" element={<Import />} />
+          <Route path="/r/:rotationId/material" element={<Material />} />
           <Route path="/r/:rotationId/io" element={<IOCreate />} />
           <Route path="/settings" element={<Settings />} />
           <Route path="/study" element={<StudyToday />} />
