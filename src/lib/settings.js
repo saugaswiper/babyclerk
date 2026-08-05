@@ -2,6 +2,7 @@
 const KEY_API = 'babyclerk:apiKey'
 const KEY_MODEL = 'babyclerk:model'
 const KEY_NEWLIMIT = 'babyclerk:newLimit'
+const KEY_SCHEDULER = 'babyclerk:scheduler'
 
 export const DEFAULT_MODEL = 'claude-opus-4-8'
 export const DEFAULT_NEW_LIMIT = 20
@@ -20,6 +21,21 @@ export function getNewLimit() {
 
 export function setNewLimit(n) {
   localStorage.setItem(KEY_NEWLIMIT, String(Math.max(0, n | 0)))
+}
+
+// 'adaptive' = FSRS memory model + exam-aware daily load. 'classic' = the
+// original SM-2 scheduler and a fixed budget. Switching is safe either way:
+// both schedulers maintain the same card fields. See vault/Features.md.
+export function getScheduler() {
+  try {
+    return localStorage.getItem(KEY_SCHEDULER) === 'classic' ? 'classic' : 'adaptive'
+  } catch {
+    return 'adaptive'
+  }
+}
+
+export function setScheduler(mode) {
+  localStorage.setItem(KEY_SCHEDULER, mode === 'classic' ? 'classic' : 'adaptive')
 }
 
 export const MODEL_OPTIONS = [

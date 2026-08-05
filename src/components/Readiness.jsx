@@ -66,9 +66,18 @@ export function ReadinessCard({ f, onBudgetChange }) {
         </p>
       )}
 
+      {f.pace?.adjusted && (
+        <p className="rdy-pace">
+          <Icon name="shuffle" size={14} />
+          <span><strong>Today&apos;s pace: {f.pace.budget} new cards.</strong> {f.pace.reason}</span>
+        </p>
+      )}
+
       <div className="rdy-actions">
         <Link className="btn primary" to={`/r/${f.rotationId}/flashcards`}>Study now</Link>
-        {f.extraPerDay > 0 && (
+        {/* Don't offer a bump that fights the pacing engine: not while it's
+            deliberately tapering, and not when it already raised the load. */}
+        {f.extraPerDay > 0 && f.strategy !== 'consolidate' && !(f.pace?.adjusted && f.pace.budget >= f.perDayNeeded) && (
           <button className="btn" onClick={raise}>
             Raise pace to {f.perDayNeeded}/day
           </button>

@@ -40,7 +40,7 @@ The app understands *where the student is in time*.
 - ✅ Home screen reprioritizes to the **current rotation** (floats to top, "On rotation now" badge)
 - ✅ **Exam countdowns**: soonest-exam banner + per-tile exam pills, color-coded by proximity
 - ✅ **School schedule presets**: `/schedule` can prefill rotation dates from a program's schedule — first one shipped: Queen's MEDS 2028 (Streams 1–3), de-identified cohort dates only. See [[Resources/Curriculum/Queens-MEDS2028-Schedules]].
-- 🔨 **Intensity ramp**: proximity messaging shipped (nudges by days-out); auto-adjusting new-card load is Phase 5
+- ✅ **Intensity ramp**: proximity messaging plus the auto-adjusting new-card load (Phase 5 adaptive pacing) — both shipped
 - ⬜ "What to expect" per rotation/exam given the date (static first, AI later)
 - ✅ Realistic daily plan to "cover it all before exam day" — the readiness forecast states the required cards/day and can set it (Phase 5 entry below)
 - Feeds directly into [[AI-Personalization-Engine]]. Schedule stored as `babyclerk:schedule`, synced (latest-edit-wins) — see [[Data-Model]].
@@ -58,7 +58,7 @@ You can't personalize what you don't measure. **Prerequisite for Phase 5.**
 The system that learns *you*.
 - 🔨 **Weak-area targeting**: the "Study due" queue now **orders** cards so weak topics + imminent-exam rotations come first (reorder only — reviews still precede new cards; timing untouched). Next: auto-generate related questions for the weakest topic.
 - 🔨 **AI generation** (user's key — D10): on-demand flashcards/cloze/viva/MCQs, grounded generation from pasted source, AND **"Drill my weak spot"** — one tap on `/progress` generates 5 fresh cards on the mastery model's weakest topic and adds them to the deck (closes measure→model→generate→measure). Next: exam-readiness forecast (Layer 5).
-- ⬜ **Adaptive pacing**: new-card load & mix auto-tune to performance + time available
+- ✅ **Adaptive pacing** (`src/lib/pacing.js`): new-card load auto-tunes to coverage + exam proximity — raised up to 2× when behind with time left, tapered to 70/40/0% inside 14/7/3 days. Paired with the **FSRS-4.5** memory model (`src/lib/fsrs.js`) replacing SM-2, migrating lazily and reversibly via the Settings toggle.
 - 🔨 **AI tutor**: ✅ **explain a miss** (grounded on the card itself — `src/lib/tutor.js`), ✅ generate practice from a fumbled topic ("Drill my weak spot"). Remaining: ⬜ "quiz me on X" conversational drilling that logs its answers back into the attempt log.
 - ✅ **Exam forecast** (Layer 5, readiness half): given the exam date + your review history, `src/lib/forecast.js` computes "% ready today", whether your daily pace covers the deck in time, and the cards/day that closes the gap. No AI, offline, explainable. Remaining: the "what to expect on this rotation/exam" content half.
 - ⬜ Feedback loop: generated questions flow back into the attempt log and mastery model

@@ -1,6 +1,9 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { getApiKey, setApiKey, getModel, setModel, MODEL_OPTIONS, getNewLimit, setNewLimit } from '../lib/settings.js'
+import {
+  getApiKey, setApiKey, getModel, setModel, MODEL_OPTIONS,
+  getNewLimit, setNewLimit, getScheduler, setScheduler,
+} from '../lib/settings.js'
 import { useAuth } from '../lib/auth.jsx'
 import { getAttempts, clearAttempts } from '../lib/attempts.js'
 
@@ -9,6 +12,7 @@ export default function Settings() {
   const [key, setKey] = useState(getApiKey())
   const [model, setModelState] = useState(getModel())
   const [newLimit, setNewLimitState] = useState(getNewLimit())
+  const [scheduler, setSchedulerState] = useState(getScheduler())
   const [saved, setSaved] = useState(false)
   const [backupMsg, setBackupMsg] = useState('')
 
@@ -160,6 +164,37 @@ export default function Settings() {
           How many brand-new cards a rotation introduces each day (default 20). Keeps the big deck a
           steady trickle instead of a wall. Reviews of cards you’ve already seen are never capped. Set
           to 0 to study reviews only.
+        </p>
+
+        <label className="section-title">Scheduling</label>
+        <div className="seg-row" role="group" aria-label="Scheduler">
+          <button
+            className={`seg ${scheduler === 'adaptive' ? 'on' : ''}`}
+            onClick={() => { setScheduler('adaptive'); setSchedulerState('adaptive') }}
+          >
+            Adaptive
+          </button>
+          <button
+            className={`seg ${scheduler === 'classic' ? 'on' : ''}`}
+            onClick={() => { setScheduler('classic'); setSchedulerState('classic') }}
+          >
+            Classic
+          </button>
+        </div>
+        <p className="muted" style={{ fontSize: '0.82rem', marginTop: 6 }}>
+          {scheduler === 'adaptive' ? (
+            <>
+              <strong>Adaptive</strong> uses FSRS — it tracks how durable each memory is and how hard the
+              material is for you separately, so struggling cards stop spiralling into endless short
+              intervals. It also flexes the daily new-card count: harder when you&apos;re behind on
+              coverage, lighter in the two weeks before an exam so the session becomes review.
+            </>
+          ) : (
+            <>
+              <strong>Classic</strong> is the original SM-2 scheduler with a fixed daily new-card count.
+              Switching back and forth is safe — both keep the same card history.
+            </>
+          )}
         </p>
 
         <div className="btn-row" style={{ marginTop: 18 }}>

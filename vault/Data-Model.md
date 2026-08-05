@@ -8,7 +8,7 @@ Where every piece of state lives. **`localStorage` is the source of truth; Supab
 | `babyclerk:apiKey` | Anthropic API key | ❌ **never** |
 | `babyclerk:model` | selected Claude model (device pref) | ✅ (keep-local on conflict) |
 | `babyclerk:newLimit` | daily new-card budget (device pref) | ✅ (keep-local on conflict) |
-| `babyclerk:srs:<deckOrScope>` | SM-2 state per card `{ id: {due, interval, ease, reps, …} }` | ✅ merge |
+| `babyclerk:srs:<deckOrScope>` | Review state per card `{ id: {due, interval, ease, reps, last, s?, d?} }` — `s`/`d` are FSRS stability & difficulty, added on a card's first adaptive review; the SM-2 fields stay maintained so the Classic toggle works both ways | ✅ merge |
 | `babyclerk:custom:<scope>` | imported/AI/IO/miss cards `{flashcards, viva, mcqs}` | ✅ union merge |
 | `babyclerk:quizbest:<id>` | best quiz score | ✅ max |
 | `babyclerk:checklist:<id>` | rotation checklist ticks `{idx: bool}` | ✅ OR merge |

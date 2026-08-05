@@ -6,8 +6,10 @@
 // See vault/Improvement-Proposals.md (P1) and vault/AI-Personalization-Engine.md
 // (Layer 5 — forecast).
 import { readStored } from './useLocalStorage.js'
-import { getNewLimit } from './settings.js'
 import { getSchedule, daysUntil } from './schedule.js'
+import { lastReviewedAt } from './srs.js'
+import { retrievability } from './fsrs.js'
+import { dailyBudgetFor } from './pacing.js'
 
 const DAY = 86400000
 
@@ -21,13 +23,17 @@ const RISK_RECALL = 0.6
 const LEARNING_STABILITY = 0.5
 
 // Probability you'd recall this card at time `atMs`, assuming no further review.
+// Once FSRS has touched a card we have a real stability estimate and use its
+// forgetting curve; otherwise we fall back to the SM-2 heuristic above.
 export function recallAt(state, atMs) {
   if (!state) return 0
-  const dueMs = new Date(state.due).getTime()
-  if (!Number.isFinite(dueMs)) return 0
-  const stability = state.interval > 0 ? state.interval : LEARNING_STABILITY
-  const lastReviewMs = dueMs - stability * DAY
+  const lastReviewMs = lastReviewedAt(state)
+  if (lastReviewMs == null) return 0
   const elapsedDays = Math.max(0, (atMs - lastReviewMs) / DAY)
+
+  if (state.s > 0) return Math.min(1, retrievability(elapsedDays, state.s))
+
+  const stability = state.interval > 0 ? state.interval : LEARNING_STABILITY
   return Math.min(1, Math.pow(RETAIN_AT_INTERVAL, elapsedDays / stability))
 }
 
@@ -52,8 +58,13 @@ export function forecastRotation(rotationId, cards, opts = {}) {
 
   const schedule = opts.schedule || getSchedule()
   const srsState = opts.srsState || readStored(`srs:${rotationId}`, {})
-  const budget = opts.newLimit != null ? opts.newLimit : getNewLimit()
   const now = opts.now || Date.now()
+
+  // What the app will actually introduce today, and why.
+  const pace = dailyBudgetFor(rotationId, cards, srsState, { schedule, newLimit: opts.newLimit })
+  // Project with whichever is higher: adaptive pacing raising the load is real
+  // progress, but its deliberate pre-exam taper shouldn't read as falling behind.
+  const budget = Math.max(pace.base, pace.budget)
 
   const target = targetFor(rotationId, schedule)
   const daysLeft = target ? daysUntil(target.date) : null
@@ -96,15 +107,24 @@ export function forecastRotation(rotationId, cards, opts = {}) {
   }
   const projectedCoverage = projectedSeen / deck
 
-  // The verdict is about *pace*, not about readinessAtTarget — that number
-  // assumes you stop studying entirely, so it would flag almost everyone.
+  // Close to the exam, adaptive pacing tapers new cards on purpose: the goal
+  // stops being "cover the deck" and becomes "hold what you know". Judging that
+  // phase on coverage would call every student behind for doing the right thing.
+  const strategy = pace.adjusted && pace.budget < pace.base ? 'consolidate' : 'cover'
+
   const verdict = !target
     ? 'no-target'
-    : onPace
-      ? 'on-track'
-      : projectedCoverage >= 0.85
-        ? 'tight'
-        : 'behind'
+    : strategy === 'consolidate'
+      ? readinessNow >= 0.7
+        ? 'on-track'
+        : readinessNow >= 0.45
+          ? 'tight'
+          : 'behind'
+      : onPace
+        ? 'on-track'
+        : projectedCoverage >= 0.85
+          ? 'tight'
+          : 'behind'
 
   const f = {
     rotationId,
@@ -129,6 +149,8 @@ export function forecastRotation(rotationId, cards, opts = {}) {
     onPace,
     extraPerDay,
     verdict,
+    strategy,
+    pace,
   }
   f.headline = headlineFor(f)
   return f
@@ -141,6 +163,16 @@ export function headlineFor(f) {
     return `You've met ${p(f.coverage)}% of this deck. Add an exam date on your schedule to get a pace plan.`
   }
   const by = f.targetKind === 'exam' ? 'by exam day' : f.targetKind === 'mccqe' ? 'by the MCCQE' : 'by the end of the block'
+
+  // Consolidation phase: chasing coverage now would cost you the material you
+  // already have, so the sentence is about retention, not the deck.
+  if (f.strategy === 'consolidate') {
+    const left = `${f.daysLeft} day${f.daysLeft === 1 ? '' : 's'} out`
+    if (f.readinessNow >= 0.7) return `${left} and holding at ${p(f.readinessNow)}%. Keep clearing reviews — that's the whole job now.`
+    if (f.remaining === 0) return `${left}. You've met the whole deck; reviews are what lift you from ${p(f.readinessNow)}% now.`
+    return `${left} at ${p(f.readinessNow)}% recall. You've met ${p(f.coverage)}% of the deck — from here, reviewing that beats racing through the rest.`
+  }
+
   if (f.remaining === 0) {
     return f.atRisk > 0
       ? `You've met the whole deck — ${f.atRisk} card${f.atRisk === 1 ? '' : 's'} need at least one more review ${by}. Keep clearing due cards and you're set.`

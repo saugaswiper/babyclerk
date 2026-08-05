@@ -78,7 +78,16 @@ Written 2026-08-05 after a deep review of the shipped app. This note is **for fu
 
 ---
 
-## P5 · Adaptive Scheduler — FSRS-grade memory model + load that responds to the calendar
+## P5 · Adaptive Scheduler — FSRS-grade memory model + load that responds to the calendar — ✅ SHIPPED
+
+> **Status: shipped.** `src/lib/fsrs.js` (FSRS-4.5, no dependency), `src/lib/pacing.js`, Settings toggle Adaptive/Classic defaulting to Adaptive. Hard-won notes for future agents:
+>
+> - **Do not mix FSRS versions.** The first implementation paired FSRS-5's *exponential* initial-difficulty formula with FSRS-4.5's 17 weights; `D0` clamped to 1.0 for every card, the `(11 − D)` term maxed out, and intervals ran away (4d → 23d → 109d → 437d). FSRS-4.5 uses **linear** `D0(g) = w4 − (g−3)·w5` and no `(10−D)/9` damping. Verified good-every-time now reads 4d → 15d → 50d → 149d, and difficulty stays near 5.
+> - **State is a superset, never a replacement.** FSRS adds `{s, d, last}` and keeps `{ease, interval, due, reps}` maintained, so Classic ⇄ Adaptive works in both directions and old cards migrate lazily on next review. `lastReviewedAt()` in `srs.js` infers `last` for pre-migration cards from `due − interval`.
+> - **Pacing and the forecast must agree.** The taper made the readiness card contradict itself ("you need 45/day" next to "today's pace: 14"). Fixed with `strategy: 'cover' | 'consolidate'` on the forecast: in consolidate mode the verdict is graded on *readiness* rather than coverage, the headline talks about retention, and the manual "raise pace" button is hidden so it can't fight the engine.
+>
+> Original proposal below.
+
 
 **What.** Two coupled upgrades to the scheduling core: **(1)** replace SM-2 with **FSRS** (Free Spaced Repetition Scheduler — open-source MIT algorithm, the modern Anki default) for meaningfully better retention-per-review; **(2)** **adaptive pacing** — the daily new-card budget stops being a global constant and responds to the schedule: ramp new cards early in a rotation, shift to review-heavy as the exam approaches (the intensity ramp promised in [[Features]]), throttle after overload days, and split the budget across rotations by exam proximity.
 

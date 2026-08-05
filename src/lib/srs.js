@@ -1,8 +1,18 @@
-// A lightweight SM-2-style spaced-repetition scheduler.
-// Each card's review state is { ease, interval, due, reps }.
+// Spaced repetition. Two schedulers live here:
+//
+//   'adaptive' (default) — FSRS-4.5, see fsrs.js
+//   'classic'            — the original SM-2-style scheduler, kept as an escape hatch
+//
+// A card's state is { ease, interval, due, reps, last } plus { s, d } once FSRS
+// has touched it. Both schedulers maintain `interval`/`due`/`reps`/`last`, and
+// FSRS never discards the SM-2 fields — so switching modes in either direction
+// is safe, and migration happens lazily on each card's next review.
 // `due` is an ISO date string; a card is "due" when due <= now.
+import { fsrsReview } from './fsrs.js'
+import { getScheduler } from './settings.js'
 
 const DAY = 24 * 60 * 60 * 1000
+const LAPSE_DELAY = 10 * 60 * 1000 // re-show a failed card later in the same session
 
 export function freshState() {
   return { ease: 2.5, interval: 0, due: new Date().toISOString(), reps: 0 }
@@ -29,15 +39,52 @@ export function todayStr(now = Date.now()) {
   return `${d.getFullYear()}-${d.getMonth() + 1}-${d.getDate()}`
 }
 
-// grade: 'again' (0) | 'hard' (3) | 'good' (5)
+// When was this card last reviewed? Cards from before `last` existed infer it
+// from their due date and interval, which is exactly how they were scheduled.
+export function lastReviewedAt(state) {
+  if (!state) return null
+  if (state.last) return state.last
+  const due = Date.parse(state.due)
+  if (!Number.isFinite(due)) return null
+  const span = state.interval > 0 ? state.interval : 0.5
+  return due - span * DAY
+}
+
+// grade: 'again' | 'hard' | 'good'
 export function review(state, grade, now = Date.now()) {
-  const s = state ? { ...state } : freshState()
+  return getScheduler() === 'classic' ? sm2Review(state, grade, now) : adaptiveReview(state, grade, now)
+}
+
+function adaptiveReview(state, grade, now) {
+  const last = lastReviewedAt(state)
+  const elapsedDays = last != null ? Math.max(0, (now - last) / DAY) : 0
+  const { s, d, interval } = fsrsReview(state, grade, elapsedDays)
+
+  const prev = state || freshState()
+  const next = {
+    ...prev,
+    s,
+    d,
+    interval,
+    last: now,
+    reps: grade === 'again' ? 0 : (prev.reps || 0) + 1,
+    // Keep the SM-2 field maintained so switching back to 'classic' still works.
+    ease: grade === 'again' ? Math.max(1.3, (prev.ease ?? 2.5) - 0.2) : (prev.ease ?? 2.5),
+  }
+  // A failed card comes back this session; its FSRS interval still governs the
+  // next real review once it's recalled.
+  next.due = new Date(grade === 'again' ? now + LAPSE_DELAY : now + interval * DAY).toISOString()
+  return next
+}
+
+function sm2Review(state, grade, now = Date.now()) {
+  const s = state ? { ...state, last: now } : { ...freshState(), last: now }
 
   if (grade === 'again') {
     s.ease = Math.max(1.3, s.ease - 0.2)
     s.interval = 0
     s.reps = 0
-    s.due = new Date(now + 10 * 60 * 1000).toISOString() // 10 min — same session
+    s.due = new Date(now + LAPSE_DELAY).toISOString() // same session
     return s
   }
 

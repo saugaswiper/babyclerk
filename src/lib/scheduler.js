@@ -2,7 +2,7 @@
 // trickles in instead of dumping ~1,900 cards as "due" at once.
 import { isNew, isReviewDue, todayStr } from './srs.js'
 import { readStored, writeStored } from './useLocalStorage.js'
-import { getNewLimit } from './settings.js'
+import { dailyBudgetFor } from './pacing.js'
 
 // How many new cards have already been introduced in this rotation today.
 export function introducedToday(rotationId, now = Date.now()) {
@@ -19,15 +19,23 @@ export function noteIntroduced(rotationId, k = 1, now = Date.now()) {
   writeStored(`newlog:${rotationId}`, { date: today, count })
 }
 
+// Today's budget for this rotation. With adaptive pacing on, `cards`/`stateMap`
+// let it account for coverage and exam proximity; without them it falls back to
+// the flat preference.
+export function budgetFor(rotationId, cards, stateMap) {
+  return dailyBudgetFor(rotationId, cards, stateMap)
+}
+
 // New cards still allowed today for this rotation.
-export function newAllowance(rotationId, now = Date.now()) {
-  return Math.max(0, getNewLimit() - introducedToday(rotationId, now))
+export function newAllowance(rotationId, now = Date.now(), cards, stateMap) {
+  const { budget } = dailyBudgetFor(rotationId, cards, stateMap)
+  return Math.max(0, budget - introducedToday(rotationId, now))
 }
 
 // Ordered session for one rotation: reviews due first, then today's new cards.
 export function sessionFor(cards, stateMap, rotationId, now = Date.now()) {
   const reviews = cards.filter((c) => isReviewDue(stateMap[c.id], now))
-  const allowance = newAllowance(rotationId, now)
+  const allowance = newAllowance(rotationId, now, cards, stateMap)
   const news = allowance > 0 ? cards.filter((c) => isNew(stateMap[c.id])).slice(0, allowance) : []
   return { reviews, news, all: [...reviews, ...news] }
 }
@@ -41,5 +49,5 @@ export function countToday(cards, stateMap, rotationId, now = Date.now()) {
     if (isReviewDue(st, now)) reviews++
     else if (isNew(st)) newLeft++
   }
-  return reviews + Math.min(newLeft, newAllowance(rotationId, now))
+  return reviews + Math.min(newLeft, newAllowance(rotationId, now, cards, stateMap))
 }
