@@ -93,7 +93,10 @@ export const CONCEPTS = [
   // ---- Anesthesia (the 127-card bucket) ----
   { id: 'asa-classification', label: 'ASA classification', rotations: ['surgery'], terms: ['asa class', 'asa classification'] },
   { id: 'airway-management', label: 'Airway management', rotations: null, terms: ['mallampati', 'intubation', 'laryngoscopy', 'bag mask', 'lma', 'difficult airway', 'rsi', 'rapid sequence'] },
-  { id: 'local-anesthetics', label: 'Local anesthetics', rotations: ['surgery'], terms: ['lidocaine', 'bupivacaine', 'local anesthetic', 'last', 'ropivacaine'] },
+  // No bare "last" for Local Anesthetic Systemic Toxicity: it matched 14 cards
+  // in the corpus and every one of them was the English word ("how long does it
+  // last", "headache lasts 4-72h").
+  { id: 'local-anesthetics', label: 'Local anesthetics', rotations: ['surgery'], terms: ['lidocaine', 'bupivacaine', 'local anesthetic', 'anesthetic systemic toxicity', 'ropivacaine'] },
   { id: 'general-anesthesia', label: 'Induction & maintenance agents', rotations: ['surgery'], terms: ['propofol', 'ketamine', 'sevoflurane', 'etomidate', 'induction agent', 'volatile'] },
   { id: 'neuromuscular-blockade', label: 'Neuromuscular blockade', rotations: ['surgery'], terms: ['succinylcholine', 'rocuronium', 'neuromuscular block', 'sugammadex', 'paralytic'] },
   { id: 'regional-anesthesia', label: 'Regional & neuraxial', rotations: null, terms: ['spinal anesthe', 'epidural', 'nerve block', 'neuraxial'] },
@@ -108,7 +111,10 @@ export const CONCEPTS = [
   { id: 'anxiety-disorders', label: 'Anxiety disorders', rotations: ['psychiatry'], terms: ['gad', 'panic disorder', 'panic attack', 'anxiety disorder', 'ocd', 'phobia', 'ptsd'] },
   { id: 'suicide-risk', label: 'Suicide & risk assessment', rotations: ['psychiatry'], terms: ['suicid', 'self-harm', 'risk assessment', 'sadpersons'] },
   { id: 'mental-status-exam', label: 'Mental status exam', rotations: ['psychiatry'], terms: ['mental status exam', 'mse', 'affect vs mood', 'thought form', 'thought content'] },
-  { id: 'antipsychotics', label: 'Antipsychotics', rotations: ['psychiatry'], terms: ['antipsychotic', 'clozapine', 'olanzapine', 'risperidone', 'haloperidol', 'eps', 'tardive', 'nms', 'neuroleptic malignant'] },
+  // "eps" is dropped: in this corpus it hits migraine "5 eps w the following
+  // criteria" (episodes) more often than extrapyramidal symptoms, and the real
+  // EPS cards are already caught by "antipsychotic" / "tardive" / "risperidone".
+  { id: 'antipsychotics', label: 'Antipsychotics', rotations: ['psychiatry'], terms: ['antipsychotic', 'clozapine', 'olanzapine', 'risperidone', 'haloperidol', 'extrapyramidal', 'tardive', 'nms', 'neuroleptic malignant'] },
   { id: 'antidepressants', label: 'Antidepressants', rotations: ['psychiatry'], terms: ['ssri', 'snri', 'antidepressant', 'sertraline', 'fluoxetine', 'serotonin syndrome', 'mao'] },
   { id: 'mood-stabilizers', label: 'Mood stabilizers', rotations: ['psychiatry'], terms: ['lithium', 'valproate', 'lamotrigine', 'mood stabili'] },
   { id: 'substance-use', label: 'Substance use & withdrawal', rotations: null, terms: ['withdrawal', 'alcohol use disorder', 'opioid use', 'substance use', 'ciwa', 'delirium tremens', 'naloxone'] },
@@ -138,7 +144,7 @@ export const CONCEPTS = [
   { id: 'peds-vasculitis', label: 'IgA vasculitis & ITP', rotations: ['pediatrics'], terms: ['iga vasculitis', 'henoch', 'itp', 'palpable purpura', 'immune thrombocytopen'] },
   { id: 'intussusception', label: 'Intussusception', rotations: null, terms: ['intussuception', 'intussusception', 'currant jelly'] },
   { id: 'peds-neuro', label: 'Headache, ataxia & brain tumours', rotations: ['pediatrics'], terms: ['headache in children', 'cerebellitis', 'ataxia', 'brain tumour', 'brain tumor', 'hydrocephalus'] },
-  { id: 'cystic-fibrosis', label: 'Cystic fibrosis', rotations: null, terms: ['cystic fibrosis', 'sweat chloride', ' cf'] },
+  { id: 'cystic-fibrosis', label: 'Cystic fibrosis', rotations: null, terms: ['cystic fibrosis', 'sweat chloride', 'cf'] },
   { id: 'sickle-cell', label: 'Sickle cell disease', rotations: null, terms: ['sickle cell', 'sickling', 'acute chest syndrome'] },
   { id: 'nephrotic', label: 'Nephrotic syndrome', rotations: null, terms: ['nephrotic', 'minimal change', 'hypoalbumin', 'proteinuria'] },
   { id: 'genetic-syndromes', label: 'Genetic syndromes', rotations: null, terms: ['turner syndrome', 'down syndrome', 'fragile x', 'trisomy', 'intellectual disability', 'inheritance pattern'] },
@@ -170,7 +176,9 @@ export const CONCEPTS = [
   { id: 'esophageal', label: 'Esophageal disorders', rotations: ['surgery'], terms: ['achalasia', 'zenker', 'esophagitis', 'dysphagia', 'esophageal'] },
   { id: 'ibd', label: 'Inflammatory bowel disease', rotations: null, terms: ['ulcerative colitis', 'crohn', 'ibd', 'uc vs cd'] },
   { id: 'diverticular', label: 'Diverticular disease', rotations: ['surgery'], terms: ['diverticulitis', 'diverticulosis', 'diverticulum', 'diverticular'] },
-  { id: 'pvd', label: 'Peripheral vascular disease', rotations: ['surgery'], terms: ['pvd', 'peripheral vascular', 'claudication', 'abi', 'critical limb'] },
+  // "abi" removed — it only ever matched "ability" / "abilify", never an
+  // ankle-brachial index.
+  { id: 'pvd', label: 'Peripheral vascular disease', rotations: ['surgery'], terms: ['pvd', 'peripheral vascular', 'claudication', 'ankle-brachial', 'critical limb'] },
   { id: 'thyroid-neck', label: 'Thyroid & neck masses', rotations: ['surgery'], terms: ['thyroid nodule', 'neck mass', 'hot vs cold nodule', 'goitre', 'goiter'] },
   { id: 'fractures', label: 'Fractures', rotations: null, terms: ['fracture', 'salter-harris', 'salter harris', 'compartment syndrome', 'cast'] },
   { id: 'hip-dysplasia', label: 'Developmental dysplasia of the hip', rotations: null, terms: ['dysplasia of the hip', 'ddh', 'ortolani', 'barlow'] },

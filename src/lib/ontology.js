@@ -20,14 +20,30 @@ import {
   conceptLabel,
 } from '../data/ontology.js'
 
-// Pre-compile one word-boundary regex per term. Terms are short and the set is
-// small (~350), so a linear scan per card is well under a millisecond.
+// Pre-compile one regex per term. Terms are short and the set is small (~350),
+// so a linear scan per card is well under a millisecond.
+//
+// Every term is anchored at the start. The *end* is where it gets interesting:
+// long terms are deliberate stems that must match their inflections ("neonat" →
+// neonatal/neonate, "vaccin" → vaccine/vaccination), so they stay open-ended.
+// Short terms are abbreviations, and leaving those open-ended is how "abi" (ABI)
+// matched "ability" and "ips" (the prenatal screen) matched "ipsilateral". So
+// abbreviations get a hard end boundary, with an optional plural s to keep
+// "UTIs" and "IUDs" working.
+const ABBREV_MAX = 4
+const escape = (t) => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+
+function termRegex(t) {
+  // Consume an optional plural s, *then* require a non-word char. Putting the
+  // `s?` inside the lookahead instead would cancel it out — `(?!s?[a-z0-9])`
+  // rejects "UTIs", because the empty branch of `s?` lets `[a-z0-9]` match the s.
+  const tail = t.length <= ABBREV_MAX ? 's?(?![a-z0-9])' : ''
+  return new RegExp(`(^|[^a-z0-9])${escape(t)}${tail}`, 'i')
+}
+
 const MATCHERS = CONCEPTS.map((c) => ({
   concept: c,
-  terms: c.terms.map((t) => ({
-    len: t.length,
-    re: new RegExp(`(^|[^a-z0-9])${t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}`, 'i'),
-  })),
+  terms: c.terms.map((t) => ({ len: t.length, re: termRegex(t) })),
 }))
 
 function cardText(card) {
