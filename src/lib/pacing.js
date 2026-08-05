@@ -9,7 +9,7 @@
 //
 // See vault/Improvement-Proposals.md (P5).
 import { getNewLimit, getScheduler } from './settings.js'
-import { getSchedule, daysUntil } from './schedule.js'
+import { getSchedule, daysUntil, countdown } from './schedule.js'
 
 const MAX_MULTIPLIER = 2 // never more than double the chosen pace
 
@@ -36,17 +36,21 @@ export function dailyBudgetFor(rotationId, cards, stateMap, opts = {}) {
   const daysLeft = targetDays(rotationId, schedule)
   if (daysLeft == null) return plain
 
+  // `countdown` handles the 0/1-day cases ("today"/"tomorrow") — plain
+  // interpolation gives "Exam in 0 days" on the morning of the exam.
+  const when = `Exam ${countdown(daysLeft)}`
+
   // Final stretch: stop feeding in new material, consolidate what's there.
   if (daysLeft <= 3) {
-    return { budget: 0, base, adjusted: true, reason: `Exam in ${daysLeft} day${daysLeft === 1 ? '' : 's'} — reviews only, no new cards.` }
+    return { budget: 0, base, adjusted: true, reason: `${when} — reviews only, no new cards.` }
   }
   if (daysLeft <= 7) {
     const budget = Math.max(1, Math.round(base * 0.4))
-    return { budget, base, adjusted: true, reason: `Exam in ${daysLeft} days — easing off new cards to make room for review.` }
+    return { budget, base, adjusted: true, reason: `${when} — easing off new cards to make room for review.` }
   }
   if (daysLeft <= 14) {
     const budget = Math.max(1, Math.round(base * 0.7))
-    return { budget, base, adjusted: true, reason: `Exam in ${daysLeft} days — tapering new cards as review load builds.` }
+    return { budget, base, adjusted: true, reason: `${when} — tapering new cards as review load builds.` }
   }
 
   // Still time to cover ground: push harder if coverage is behind schedule.

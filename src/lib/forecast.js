@@ -167,7 +167,8 @@ export function headlineFor(f) {
   // Consolidation phase: chasing coverage now would cost you the material you
   // already have, so the sentence is about retention, not the deck.
   if (f.strategy === 'consolidate') {
-    const left = `${f.daysLeft} day${f.daysLeft === 1 ? '' : 's'} out`
+    // "0 days out" is how this reads on the morning of the exam without this.
+    const left = f.daysLeft === 0 ? 'Exam day' : f.daysLeft === 1 ? 'Exam tomorrow' : `${f.daysLeft} days out`
     if (f.readinessNow >= 0.7) return `${left} and holding at ${p(f.readinessNow)}%. Keep clearing reviews — that's the whole job now.`
     if (f.remaining === 0) return `${left}. You've met the whole deck; reviews are what lift you from ${p(f.readinessNow)}% now.`
     return `${left} at ${p(f.readinessNow)}% recall. You've met ${p(f.coverage)}% of the deck — from here, reviewing that beats racing through the rest.`
