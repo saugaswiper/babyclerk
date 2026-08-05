@@ -79,7 +79,10 @@ export default function Settings() {
           Enter your rotation blocks and exam dates to get current-rotation focus and exam countdowns on
           the home screen.
         </p>
-        <Link className="btn" to="/schedule">Edit schedule</Link>
+        <div className="btn-row">
+          <Link className="btn" to="/schedule">Edit schedule</Link>
+          <Link className="btn ghost" to="/welcome">Run setup again</Link>
+        </div>
       </div>
 
       {enabled && (

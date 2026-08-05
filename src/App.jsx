@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import { Routes, Route, Link, useNavigate, useLocation } from 'react-router-dom'
 import Home from './pages/Home.jsx'
 import RotationHome from './pages/RotationHome.jsx'
@@ -15,13 +16,16 @@ import IOCreate from './pages/IOCreate.jsx'
 import SignIn from './pages/SignIn.jsx'
 import Schedule from './pages/Schedule.jsx'
 import Progress from './pages/Progress.jsx'
+import Welcome from './pages/Welcome.jsx'
+import { needsOnboarding } from './lib/onboarding.js'
 import { AuthProvider, useAuth } from './lib/auth.jsx'
 import Icon from './components/Icon.jsx'
 
 function TopBar() {
   const navigate = useNavigate()
   const location = useLocation()
-  const isHome = location.pathname === '/'
+  // Nothing to go back to during first-run setup.
+  const isHome = location.pathname === '/' || location.pathname === '/welcome'
   const { enabled, user, status } = useAuth()
 
   return (
@@ -68,7 +72,18 @@ export default function App() {
   )
 }
 
+// Send a genuinely new visitor through setup once, and only from the home
+// route — a shared deep link should still open what it points at.
+function useFirstRunRedirect() {
+  const navigate = useNavigate()
+  const { pathname } = useLocation()
+  useEffect(() => {
+    if (pathname === '/' && needsOnboarding()) navigate('/welcome', { replace: true })
+  }, [pathname, navigate])
+}
+
 function AppShell() {
+  useFirstRunRedirect()
   return (
     <div className="app">
       <TopBar />
@@ -90,6 +105,7 @@ function AppShell() {
           <Route path="/signin" element={<SignIn />} />
           <Route path="/schedule" element={<Schedule />} />
           <Route path="/progress" element={<Progress />} />
+          <Route path="/welcome" element={<Welcome />} />
           <Route path="*" element={<Home />} />
         </Routes>
       </main>

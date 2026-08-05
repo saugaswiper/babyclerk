@@ -65,7 +65,7 @@ The system that learns *you*.
 
 ## Phase 6 — Launch, scale & polish ⬜
 Turn it into a product others rely on.
-- ⬜ First-run onboarding (pick school/rotations, set dates, seed decks)
+- ✅ **First-run onboarding** (`src/pages/Welcome.jsx`, route `/welcome`): stream → pace → ready, ~60 seconds to a personalized, date-aware home screen. Entry is gated by `needsOnboarding()` (`src/lib/onboarding.js`): only fires on `/` for someone with no `onboarded` flag, no schedule, and no attempts — so existing users and deep links are never hijacked. The school step is where a second school's preset plugs in (see multi-school below).
 - ⬜ Multi-school support: school profiles as data (Queen's is the first profile) — see [[Personas]] P3
 - ⬜ Reliability: error handling, sync conflict UX, empty states, accessibility pass
 - ⬜ Cost model: keep it viable (AI usage via user key vs. hosted tier — open question, see [[Backlog]])

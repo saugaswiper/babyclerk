@@ -40,7 +40,10 @@ Written 2026-08-05 after a deep review of the shipped app. This note is **for fu
 
 ---
 
-## P3 · First-Hour Experience — onboarding that reaches "aha" in 60 seconds
+## P3 · First-Hour Experience — onboarding that reaches "aha" in 60 seconds — ✅ SHIPPED (part 1)
+
+> **Status: the onboarding flow is shipped** — `src/pages/Welcome.jsx` + `src/lib/onboarding.js`, route `/welcome`, re-runnable from Settings. The guard (`needsOnboarding()`) deliberately requires *all three* of: no `onboarded` flag, no schedule, no attempts — pre-onboarding users must never be interrupted. **Still open: the systematic empty-state pass** described below (each empty state should sell the feature and offer the one action that unlocks it), and the "setup checklist" card on home. Original proposal below.
+
 
 **What.** A one-time, skippable first-run flow (3 steps, one screen each): **(1)** Who are you — Queen's MEDS 2028 stream picker (reusing the `/schedule` stream cards) or "I'll set dates later"; **(2)** Pace — daily new-card budget with a recommendation; **(3)** Land on a home screen that immediately shows *their* current rotation on top, *their* exam countdown, and a "Start today's 10 minutes" button. Plus **empty-state repair** throughout: `/progress` before data, Drill without an API key, home without a schedule should each *sell the feature and offer the one action that unlocks it* (some of this exists; make it systematic).
 

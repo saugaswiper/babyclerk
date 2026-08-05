@@ -297,6 +297,71 @@ a.card:hover, button.card:hover { transform: translateY(-2px); box-shadow: var(-
 .acc-bar > span { display: block; height: 100%; border-radius: 999px; transition: width 0.4s cubic-bezier(0.22, 1, 0.36, 1); }
 .acc-val { flex: 0 0 auto; font-size: 0.85rem; font-weight: 700; }
 
+/* First-run setup */
+.welcome { max-width: 620px; }
+.wl-steps {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+  margin-bottom: 26px;
+  font-size: 0.76rem;
+  font-weight: 650;
+  letter-spacing: 0.03em;
+  color: var(--text-faint);
+}
+.wl-step { display: inline-flex; align-items: center; gap: 7px; }
+.wl-step i {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--surface-3);
+  border: 1px solid var(--border);
+  transition: background 0.2s ease;
+}
+.wl-step.on { color: var(--primary); }
+.wl-step.on i { background: var(--primary); border-color: var(--primary); }
+.wl-step.done i { background: var(--good); border-color: var(--good); }
+@media (prefers-reduced-motion: no-preference) {
+  .wl-panel { animation: rise-in 0.4s cubic-bezier(0.22, 1, 0.36, 1) both; }
+}
+.wl-panel h1 { font-size: clamp(1.7rem, 5vw, 2.3rem); letter-spacing: -0.02em; margin: 0 0 8px; }
+.wl-panel .sub { margin-bottom: 22px; }
+.wl-actions { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; margin-top: 22px; }
+
+.wl-paces { display: flex; flex-direction: column; gap: 10px; }
+.wl-pace {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  padding: 14px 16px;
+  text-align: left;
+  background: var(--surface);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius);
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  transition: border-color 0.15s ease, background 0.15s ease, transform 0.12s ease;
+}
+.wl-pace:hover { border-color: var(--primary); transform: translateY(-1px); }
+.wl-pace.active { border-color: var(--primary); background: color-mix(in srgb, var(--primary) 6%, var(--surface)); }
+.wl-pace-n {
+  flex: none;
+  width: 46px;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--primary);
+  font-variant-numeric: tabular-nums;
+}
+.wl-pace-body { flex: 1; display: flex; flex-direction: column; gap: 3px; }
+.wl-pace-body .muted { font-size: 0.83rem; }
+
+.wl-summary { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 14px; }
+.wl-summary li { display: flex; align-items: flex-start; gap: 12px; line-height: 1.55; }
+.wl-summary li > svg { flex: none; margin-top: 2px; }
+
 /* Exam readiness forecast */
 .readiness { margin-bottom: 18px; border-width: 1.5px; }
 .rdy-head {

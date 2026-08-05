@@ -52,7 +52,7 @@ Shipped + planned features with status. Keep in sync with [[Roadmap]] (this is t
 - ⬜ **"What to expect"** by rotation/date (the other half of Layer 5)
 
 ## Launch (see [[Roadmap]] Phase 6)
-- ⬜ First-run onboarding
+- ✅ **First-run onboarding** (`/welcome`) — 3 steps: stream picker (writes the schedule) → daily pace (writes `newLimit`) → a "you're set" summary naming your current/next rotation and today's card count, landing straight in a session. Guarded by `needsOnboarding()` so it only ever catches genuinely new visitors; re-runnable from Settings.
 - ⬜ Multi-school profiles
 - ⬜ Accessibility + reliability pass
 - ⬜ Deck sharing / cohorts (opt-in, license-gated)
