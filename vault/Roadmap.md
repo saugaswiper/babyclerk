@@ -57,7 +57,7 @@ You can't personalize what you don't measure. **Prerequisite for Phase 5.**
 ## Phase 5 — Adaptive AI tutor 🔨 (the moat — see [[AI-Personalization-Engine]])
 The system that learns *you*.
 - 🔨 **Weak-area targeting**: the "Study due" queue now **orders** cards so weak topics + imminent-exam rotations come first (reorder only — reviews still precede new cards; timing untouched). Next: auto-generate related questions for the weakest topic.
-- 🔨 **AI generation** (user's key — D10): on-demand flashcards/cloze/viva/MCQs, now with **grounded generation** — paste a source and cards are built strictly from it, paraphrased + provenance-tagged. This is also the mechanism for authoring the original core (ground on open sources). Next: wire it to the mastery model ("quiz me on my weakest topic").
+- 🔨 **AI generation** (user's key — D10): on-demand flashcards/cloze/viva/MCQs, grounded generation from pasted source, AND **"Drill my weak spot"** — one tap on `/progress` generates 5 fresh cards on the mastery model's weakest topic and adds them to the deck (closes measure→model→generate→measure). Next: exam-readiness forecast (Layer 5).
 - ⬜ **Adaptive pacing**: new-card load & mix auto-tune to performance + time available
 - ⬜ **AI tutor**: explain a miss, "quiz me on X," generate practice from a fumbled topic
 - ⬜ **Exam forecast**: given date + performance, predict readiness and what to hit next

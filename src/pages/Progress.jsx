@@ -1,7 +1,11 @@
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { rotations, getRotation } from '../data/rotations/index.js'
 import { getAttempts, summarize } from '../lib/attempts.js'
 import { weakTopics } from '../lib/mastery.js'
+import { getApiKey, getModel } from '../lib/settings.js'
+import { generateItems } from '../lib/generate.js'
+import { appendCustom } from '../lib/customContent.js'
 import Icon from '../components/Icon.jsx'
 
 function pct(correct, n) {
@@ -27,6 +31,32 @@ export default function Progress() {
   const attempts = getAttempts()
   const { byRotation, total } = summarize(attempts)
   const weak = weakTopics(attempts, { min: 3, limit: 8 })
+
+  const [busyKey, setBusyKey] = useState(null)
+  const [drillMsg, setDrillMsg] = useState(null)
+  const hasKey = !!getApiKey()
+
+  async function drill(t) {
+    const key = `${t.rotation}-${t.topic}`
+    setBusyKey(key)
+    setDrillMsg(null)
+    try {
+      const items = await generateItems({
+        apiKey: getApiKey(),
+        model: getModel(),
+        rotationName: rotationName(t.rotation),
+        topic: t.topic,
+        kind: 'flashcards',
+        count: 5,
+      })
+      appendCustom(t.rotation, 'flashcards', items)
+      setDrillMsg({ rotation: t.rotation, text: `Added ${items.length} fresh ${t.topic} card${items.length === 1 ? '' : 's'} to ${rotationName(t.rotation)}.` })
+    } catch (e) {
+      setDrillMsg({ error: true, text: e?.message || 'Generation failed — check your API key in Settings.' })
+    } finally {
+      setBusyKey(null)
+    }
+  }
 
   const overallCorrect = attempts.reduce((n, a) => n + (a.correct ? 1 : 0), 0)
   const overallPct = pct(overallCorrect, total)
@@ -76,24 +106,50 @@ export default function Progress() {
           <ul className="weak-list">
             {weak.map((t) => {
               const p = Math.round(t.wAcc * 100)
+              const key = `${t.rotation}-${t.topic}`
               return (
-                <li key={`${t.rotation}-${t.topic}`}>
-                  <Link to={`/r/${t.rotation}/flashcards`} className="weak-item">
+                <li key={key}>
+                  <div className="weak-item">
                     <span className="weak-topic">
                       {t.topic} <TrendMark trend={t.trend} />
                     </span>
                     <span className="weak-meta">
-                      <span className="muted">{rotationName(t.rotation)}</span>
+                      <Link to={`/r/${t.rotation}/flashcards`} className="muted" title={`Study ${rotationName(t.rotation)}`}>
+                        {rotationName(t.rotation)}
+                      </Link>
                       <span style={{ color: accColor(p), fontWeight: 700 }}>{p}%</span>
+                      {hasKey && (
+                        <button className="btn ghost weak-drill" disabled={!!busyKey} onClick={() => drill(t)}>
+                          {busyKey === key ? 'Generating…' : 'Drill'}
+                        </button>
+                      )}
                     </span>
-                  </Link>
+                  </div>
                 </li>
               )
             })}
           </ul>
+          {drillMsg && (
+            <div className="explain" style={{ marginTop: 10, borderColor: drillMsg.error ? 'var(--danger)' : 'var(--primary)' }}>
+              {drillMsg.text}{' '}
+              {!drillMsg.error && (
+                <Link to={`/r/${drillMsg.rotation}/flashcards`} style={{ fontWeight: 700, color: 'var(--primary)' }}>
+                  Study now →
+                </Link>
+              )}
+            </div>
+          )}
           <p className="muted" style={{ fontSize: '0.8rem', margin: '10px 0 0' }}>
-            Recency-weighted — recent answers count more. Only topics answered ≥3 times are ranked.
-            ↑ improving · ↓ slipping.
+            {hasKey ? (
+              'Drill generates 5 fresh AI cards on that topic (your API key) and adds them to the deck — so your weakest areas turn into practice.'
+            ) : (
+              <>
+                Add your Anthropic API key in{' '}
+                <Link to="/settings" style={{ color: 'var(--primary)', fontWeight: 700 }}>Settings</Link>{' '}
+                to generate targeted practice from your weak spots.
+              </>
+            )}{' '}
+            Recency-weighted; only topics answered ≥3 times are ranked. ↑ improving · ↓ slipping.
           </p>
         </div>
       )}

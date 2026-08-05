@@ -273,6 +273,7 @@ a.card:hover, button.card:hover { transform: translateY(-2px); box-shadow: var(-
 .weak-list li:last-child .weak-item { border-bottom: none; }
 .weak-topic { font-weight: 650; }
 .weak-meta { display: flex; align-items: center; gap: 10px; font-size: 0.85rem; white-space: nowrap; }
+.weak-drill { padding: 4px 12px; font-size: 0.78rem; flex: none; }
 .acc-row {
   display: flex;
   align-items: center;
