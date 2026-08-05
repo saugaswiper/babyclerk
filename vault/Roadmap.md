@@ -59,7 +59,7 @@ The system that learns *you*.
 - 🔨 **Weak-area targeting**: the "Study due" queue now **orders** cards so weak topics + imminent-exam rotations come first (reorder only — reviews still precede new cards; timing untouched). Next: auto-generate related questions for the weakest topic.
 - 🔨 **AI generation** (user's key — D10): on-demand flashcards/cloze/viva/MCQs, grounded generation from pasted source, AND **"Drill my weak spot"** — one tap on `/progress` generates 5 fresh cards on the mastery model's weakest topic and adds them to the deck (closes measure→model→generate→measure). Next: exam-readiness forecast (Layer 5).
 - ⬜ **Adaptive pacing**: new-card load & mix auto-tune to performance + time available
-- ⬜ **AI tutor**: explain a miss, "quiz me on X," generate practice from a fumbled topic
+- 🔨 **AI tutor**: ✅ **explain a miss** (grounded on the card itself — `src/lib/tutor.js`), ✅ generate practice from a fumbled topic ("Drill my weak spot"). Remaining: ⬜ "quiz me on X" conversational drilling that logs its answers back into the attempt log.
 - ✅ **Exam forecast** (Layer 5, readiness half): given the exam date + your review history, `src/lib/forecast.js` computes "% ready today", whether your daily pace covers the deck in time, and the cards/day that closes the gap. No AI, offline, explainable. Remaining: the "what to expect on this rotation/exam" content half.
 - ⬜ Feedback loop: generated questions flow back into the attempt log and mastery model
 

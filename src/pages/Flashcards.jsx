@@ -6,6 +6,7 @@ import { review } from '../lib/srs.js'
 import { sessionFor, noteIntroduced } from '../lib/scheduler.js'
 import { logAttempt } from '../lib/attempts.js'
 import CardFace from '../components/CardFace.jsx'
+import ExplainMiss from '../components/ExplainMiss.jsx'
 import Icon from '../components/Icon.jsx'
 
 export default function Flashcards() {
@@ -119,6 +120,10 @@ export default function Flashcards() {
             <CardFace card={current} flipped={flipped} />
             {!flipped && <div className="hint">Tap or press Space to flip</div>}
           </div>
+
+          {flipped && (
+            <ExplainMiss key={current.id} kind="flashcard" card={current} rotationName={rotation.name} />
+          )}
 
           {flipped ? (
             <div className="rate-row">

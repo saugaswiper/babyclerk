@@ -59,7 +59,10 @@ Written 2026-08-05 after a deep review of the shipped app. This note is **for fu
 
 ---
 
-## P4 · AI Tutor Moments — "explain my miss" at the point of failure
+## P4 · AI Tutor Moments — "explain my miss" at the point of failure — ✅ SHIPPED (part 1)
+
+> **Status: "Explain this" is shipped** — `src/lib/tutor.js` + `src/components/ExplainMiss.jsx`, wired into `Quiz` (on a wrong answer) and `Flashcards` (on any revealed card). Design notes worth keeping: the prompt is grounded **only** on that card's own text, `effort: 'low'` with `max_tokens: 1024` keeps it cheap, image-occlusion cards render no button (nothing to ground on), and cloze cards flatten via `clozeFront`/`clozeReveal`. **Still open: "Quiz me on X"** — the conversational drill that logs answers back into the attempt log (`kind: 'tutor'`), which is what makes the tutor feed the mastery model rather than just talk. Original proposal below.
+
 
 **What.** Bring AI into the *moment of learning*, not just deck-building. Two moves: **(1) Explain my miss** — after a wrong MCQ/flashcard answer, one tap streams a short, targeted explanation of *why the right answer is right and why your choice was wrong*, grounded in the card's own content (stem/options/explanation/back) so it stays factual; **(2) Quiz me on X** — a conversational rapid-fire drill on any topic from `/progress` or a rotation page, where each response is judged, logged to the attempt log, and feeds the mastery model.
 

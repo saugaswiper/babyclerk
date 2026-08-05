@@ -3,6 +3,7 @@ import { useParams, Link } from 'react-router-dom'
 import { getRotationMerged, addMissCard } from '../lib/customContent.js'
 import { useLocalStorage } from '../lib/useLocalStorage.js'
 import { logAttempt } from '../lib/attempts.js'
+import ExplainMiss from '../components/ExplainMiss.jsx'
 
 function shuffle(arr) {
   const a = [...arr]
@@ -171,6 +172,15 @@ export default function Quiz() {
               <strong>{picked === q.answer ? 'Correct.' : 'Not quite.'}</strong> {q.explanation}
               {missMsg && (
                 <div style={{ marginTop: 8, color: 'var(--primary)', fontWeight: 600 }}>{missMsg}</div>
+              )}
+              {picked !== q.answer && (
+                <ExplainMiss
+                  key={`${q.id || idx}-${picked}`}
+                  kind="mcq"
+                  card={q}
+                  chosen={picked}
+                  rotationName={rotation.name}
+                />
               )}
             </div>
           )}

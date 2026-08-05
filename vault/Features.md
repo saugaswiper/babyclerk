@@ -48,7 +48,8 @@ Shipped + planned features with status. Keep in sync with [[Roadmap]] (this is t
 - ✅ **Weak-area targeting** — "Study due" queue orders by weakness + exam proximity; **"Drill my weak spot"** on `/progress` AI-generates targeted cards for the weakest topic (closes the loop)
 - ✅ **Exam readiness forecast** (`src/lib/forecast.js`) — "% ready today" from per-card recall decay + coverage, plus a pace verdict (on track / tight / behind) and a one-tap "raise pace to N/day" fix. Shown on `/r/:id`, in the home exam banner, and as a cross-rotation list on `/progress`. Deterministic, offline, fully explainable.
 - ⬜ **Adaptive pacing** (auto-tune the budget instead of suggesting it)
-- ⬜ **AI tutor** (explain miss, quiz-me, generate from weak spot)
+- ✅ **AI tutor — "Explain this"** (`src/lib/tutor.js`): at a wrong MCQ or a revealed flashcard, one tap returns why the answer is right, why yours isn't, and a memory hook — grounded strictly on that card's own text. Gated on the user's API key; never auto-fires.
+- ⬜ **AI tutor — "Quiz me on X"** (conversational drilling that logs back to the attempt log)
 - ⬜ **"What to expect"** by rotation/date (the other half of Layer 5)
 
 ## Launch (see [[Roadmap]] Phase 6)

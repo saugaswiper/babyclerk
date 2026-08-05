@@ -297,6 +297,43 @@ a.card:hover, button.card:hover { transform: translateY(-2px); box-shadow: var(-
 .acc-bar > span { display: block; height: 100%; border-radius: 999px; transition: width 0.4s cubic-bezier(0.22, 1, 0.36, 1); }
 .acc-val { flex: 0 0 auto; font-size: 0.85rem; font-weight: 700; }
 
+/* Tutor: explain-a-miss */
+.tutor-cta { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin-top: 12px; }
+.tutor-cta .btn { display: inline-flex; align-items: center; gap: 7px; padding: 5px 13px; font-size: 0.82rem; }
+.tutor-hint { font-size: 0.78rem; }
+.tutor-err { font-size: 0.8rem; color: var(--danger); }
+.tutor-box {
+  margin-top: 14px;
+  padding: 14px 16px;
+  border-radius: var(--radius-sm);
+  border: 1px solid color-mix(in srgb, var(--accent) 34%, var(--border));
+  background: color-mix(in srgb, var(--accent) 6%, var(--surface));
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+.tutor-box p { margin: 0 0 9px; }
+.tutor-box p:last-child { margin-bottom: 0; }
+.tutor-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 9px;
+  font-size: 0.68rem;
+  font-weight: 750;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.tutor-hook {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding-top: 9px;
+  border-top: 1px solid color-mix(in srgb, var(--accent) 20%, transparent);
+  font-weight: 600;
+}
+.tutor-hook > svg { flex: none; margin-top: 3px; color: var(--accent); }
+
 /* First-run setup */
 .welcome { max-width: 620px; }
 .wl-steps {

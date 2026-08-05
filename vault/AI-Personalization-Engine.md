@@ -38,8 +38,8 @@ Given mastery + the calendar, decide **what to do now**:
 ## Layer 4 — Generate (AI targeted practice)
 This is where Claude earns its place (Anthropic API, user key — see [[Architecture]]):
 - **Weak-area questions:** "generate 5 questions on [weak topic] at [difficulty]," grounded in the student's misses.
-- **Explain a miss:** on-demand tutor explanation for a wrong answer.
-- **"Quiz me on X":** conversational drilling.
+- ✅ **Explain a miss** — shipped (`src/lib/tutor.js`, `components/ExplainMiss.jsx`). Appears on a wrong MCQ and on any revealed flashcard. Grounded **strictly on the card itself** (stem, options, keyed answer, existing explanation, and what the student picked) — the model clarifies material the app already ships instead of inventing medicine, which keeps hallucination risk and licensing exposure low. Returns three short fields: why the answer is right, why yours isn't / what it's confused with, and a one-line hook. Image-occlusion cards are skipped (nothing textual to ground on); cloze cards flatten to front/back. Never auto-fires — every call spends the student's own key.
+- ⬜ **"Quiz me on X":** conversational drilling.
 - **Feedback loop:** generated questions flow *back* into the attempt log + mastery model, so the system learns from AI-driven practice too.
 - Guardrails: generated content is marked, verifiable, and never presented as authoritative fact without traceability (see [[Content-Strategy]], [[Principles]]).
 

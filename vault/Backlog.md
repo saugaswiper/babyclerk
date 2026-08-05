@@ -22,7 +22,7 @@ Live, prioritized next actions. This is the "what to pick up next" list — keep
 - [ ] **Cloze** as first-class engine card type.
 
 ## Later
-- [ ] **AI tutor** actions: explain-a-miss, quiz-me, generate-from-weak-spot. ([[AI-Personalization-Engine]])
+- [x] **AI tutor**: explain-a-miss (P4) and generate-from-weak-spot both shipped. Still open: **quiz-me** (conversational drilling that feeds the attempt log). ([[AI-Personalization-Engine]])
 - [x] **Exam readiness forecast** — shipped (P1). Still open: **"what to expect" per rotation/exam** (the content half of Layer 5).
 - [x] **First-run onboarding** — shipped (P3): `/welcome`, stream → pace → ready.
 - [ ] **Multi-school profiles**.
