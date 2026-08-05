@@ -10,6 +10,7 @@ This is the **single source of truth** for BabyClerk. Any coding agent (or human
 - [[Vision]] — the north star and what "success" means
 - [[Principles]] — the non-negotiables (product + engineering)
 - [[Roadmap]] — phased plan: **Now / Next / Later**
+- [[Improvement-Proposals]] — **the 5 highest-leverage next moves**, fully specced for future agents
 - [[Agent-Guide]] — how to work in this repo (deploy, branch, guardrails)
 - [[Backlog]] — the live prioritized task list
 

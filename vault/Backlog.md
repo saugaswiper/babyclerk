@@ -2,6 +2,8 @@
 
 Live, prioritized next actions. This is the "what to pick up next" list — keep it current; move done items to [[Features]]/[[Roadmap]] status. Ordered by leverage.
 
+> 🧭 **Big-picture next moves live in [[Improvement-Proposals]]** — 5 specced, prioritized proposals (P1 forecast · P2 ontology · P3 onboarding · P4 tutor · P5 FSRS/pacing). Pick from there for significant work; this list tracks the granular items.
+
 ## Now (highest leverage)
 - [x] **OD1 (Montis license)** — resolved: free/community deck, cleared for you + classmates. Before wide public launch, record the actual license text + attribution. See [[Licensing-and-Copyright]].
 - [ ] **Decide OD2 (AI cost model)** — hosted proxy (you pay, no user key) vs. keep BYO-key optional. Blocks the "no API key for users" work. See [[Decisions]] D9.

@@ -2,7 +2,7 @@
 
 Phased path from "great study tool" (where we are) to "adaptive tutor that makes clerkship a breeze" (the [[Vision]]). Horizon: **real launchable product**.
 
-Legend: ✅ done · 🔨 in progress · ⬜ planned. Keep statuses current — this note is the plan of record. Detailed per-feature status lives in [[Features]]; concrete next actions in [[Backlog]].
+Legend: ✅ done · 🔨 in progress · ⬜ planned. Keep statuses current — this note is the plan of record. Detailed per-feature status lives in [[Features]]; concrete next actions in [[Backlog]]; the 5 specced high-leverage proposals (forecast, ontology, onboarding, tutor, FSRS/pacing) in [[Improvement-Proposals]].
 
 ---
 
