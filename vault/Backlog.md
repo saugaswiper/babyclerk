@@ -23,7 +23,7 @@ Live, prioritized next actions. This is the "what to pick up next" list — keep
 
 ## Later
 - [ ] **AI tutor** actions: explain-a-miss, quiz-me, generate-from-weak-spot. ([[AI-Personalization-Engine]])
-- [ ] **Exam readiness forecast** + "what to expect" per rotation.
+- [x] **Exam readiness forecast** — shipped (P1). Still open: **"what to expect" per rotation/exam** (the content half of Layer 5).
 - [ ] **First-run onboarding** (school, rotations, dates, seed decks).
 - [ ] **Multi-school profiles**.
 - [ ] **Accessibility + reliability pass**; export/delete my data.

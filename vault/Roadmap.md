@@ -42,7 +42,7 @@ The app understands *where the student is in time*.
 - ✅ **School schedule presets**: `/schedule` can prefill rotation dates from a program's schedule — first one shipped: Queen's MEDS 2028 (Streams 1–3), de-identified cohort dates only. See [[Resources/Curriculum/Queens-MEDS2028-Schedules]].
 - 🔨 **Intensity ramp**: proximity messaging shipped (nudges by days-out); auto-adjusting new-card load is Phase 5
 - ⬜ "What to expect" per rotation/exam given the date (static first, AI later)
-- ⬜ Realistic daily plan to "cover it all before exam day"
+- ✅ Realistic daily plan to "cover it all before exam day" — the readiness forecast states the required cards/day and can set it (Phase 5 entry below)
 - Feeds directly into [[AI-Personalization-Engine]]. Schedule stored as `babyclerk:schedule`, synced (latest-edit-wins) — see [[Data-Model]].
 
 ## Phase 4 — Performance telemetry (the data foundation) 🔨 (core shipped)
@@ -60,7 +60,7 @@ The system that learns *you*.
 - 🔨 **AI generation** (user's key — D10): on-demand flashcards/cloze/viva/MCQs, grounded generation from pasted source, AND **"Drill my weak spot"** — one tap on `/progress` generates 5 fresh cards on the mastery model's weakest topic and adds them to the deck (closes measure→model→generate→measure). Next: exam-readiness forecast (Layer 5).
 - ⬜ **Adaptive pacing**: new-card load & mix auto-tune to performance + time available
 - ⬜ **AI tutor**: explain a miss, "quiz me on X," generate practice from a fumbled topic
-- ⬜ **Exam forecast**: given date + performance, predict readiness and what to hit next
+- ✅ **Exam forecast** (Layer 5, readiness half): given the exam date + your review history, `src/lib/forecast.js` computes "% ready today", whether your daily pace covers the deck in time, and the cards/day that closes the gap. No AI, offline, explainable. Remaining: the "what to expect on this rotation/exam" content half.
 - ⬜ Feedback loop: generated questions flow back into the attempt log and mastery model
 
 ## Phase 6 — Launch, scale & polish ⬜

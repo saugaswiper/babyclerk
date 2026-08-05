@@ -43,13 +43,19 @@ This is where Claude earns its place (Anthropic API, user key — see [[Architec
 - **Feedback loop:** generated questions flow *back* into the attempt log + mastery model, so the system learns from AI-driven practice too.
 - Guardrails: generated content is marked, verifiable, and never presented as authoritative fact without traceability (see [[Content-Strategy]], [[Principles]]).
 
-## Layer 5 — Forecast (date-aware "what to expect")
+## Layer 5 — Forecast (date-aware "what to expect") 🔨
 The calendar-aware tutor:
-- From the **rotation schedule + exam dates** (Phase 3), plus mastery, produce:
-  - **"What to expect on this rotation"**: high-yield topics, common presentations, what preceptors/exams emphasize.
-  - **"What to expect on this exam"**: topic blueprint + your predicted weak spots on it.
-  - **Readiness estimate**: "you're ~70% ready for the Peds exam; hit these 4 topics."
+- ✅ **Readiness estimate** — shipped (`src/lib/forecast.js`, `components/Readiness.jsx`). Deterministic, offline, no AI:
+  - Per-card recall is modelled from SRS state as `0.9^(elapsed / interval)` — SM-2 already targets ~90% recall at the interval, so the interval *is* the stability estimate. Cards never met count as 0.
+  - **Readiness today** = mean recall across the whole deck (not just seen cards) — so coverage and retention are folded into one honest number.
+  - **Pace**: at the current daily new-card budget, what fraction of the deck you'll have met by the target date; `perDayNeeded` and `extraPerDay` give the fix, exposed as a one-tap "raise pace" button.
+  - **Target** per rotation: its exam → its end date → the MCCQE, first future one wins.
+  - **Verdict** (`on-track`/`tight`/`behind`) is gated on *pace only*. `readinessAtTarget` is computed but deliberately not gated on or surfaced: it assumes you stop studying entirely, so it would flag nearly everyone.
+  - Surfaces: readiness card on `/r/:id`, pace line in the home exam banner, cross-rotation list on `/progress`.
+- ⬜ **"What to expect on this rotation"**: high-yield topics, common presentations, what preceptors/exams emphasize.
+- ⬜ **"What to expect on this exam"**: topic blueprint + your predicted weak spots on it.
 - Start with **static rotation/exam profiles** (curated content), layer AI personalization on top. Don't block the feature on the AI being perfect.
+- Next upgrade: once FSRS lands ([[Improvement-Proposals]] P5), swap the `0.9^(t/interval)` heuristic for FSRS retrievability — same UI, real per-card probabilities.
 
 ## Build order (do not skip ahead)
 1. **Schedule & dates** (Phase 3) — cheap, high value, unlocks forecasting.

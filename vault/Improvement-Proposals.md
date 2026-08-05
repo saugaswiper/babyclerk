@@ -6,7 +6,10 @@ Written 2026-08-05 after a deep review of the shipped app. This note is **for fu
 
 ---
 
-## P1 · Exam Readiness Forecast — "Will I be ready?" (Engine Layer 5)
+## P1 · Exam Readiness Forecast — "Will I be ready?" (Engine Layer 5) — ✅ SHIPPED
+
+> **Status: shipped.** `src/lib/forecast.js` + `src/components/Readiness.jsx`, surfaced on `/r/:id`, the home exam banner, and `/progress`. Two notes for whoever picks this up next: the verdict is gated on **pace only** (`readinessAtTarget` assumes you stop studying, so gating on it flags everyone), and `isWorthShowing()` hides untouched decks whose only target is a distant MCCQE. Remaining Layer 5 work is the *content* half — "what to expect on this rotation/exam". See [[AI-Personalization-Engine]] Layer 5 for the model. Original proposal below.
+
 
 **What.** A per-rotation readiness score and a concrete daily plan: given the exam date, the deck size, current mastery, and the daily budget, compute (a) *coverage* — what fraction of the deck you'll have seen at least once by exam day at current pace, (b) *retention* — projected recall of seen material using each card's SRS state, and (c) the gap between the two and today's date. Surface it as one honest sentence + a bar on `/r/:id` and the home exam banner: *"On pace to cover 82% by exam day — add 4 cards/day to close it"*.
 

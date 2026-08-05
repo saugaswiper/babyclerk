@@ -1,7 +1,10 @@
+import { useMemo, useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { getRotationMerged } from '../lib/customContent.js'
 import { readStored } from '../lib/useLocalStorage.js'
 import { countToday } from '../lib/scheduler.js'
+import { forecastRotation, isWorthShowing } from '../lib/forecast.js'
+import { ReadinessCard } from '../components/Readiness.jsx'
 import Icon from '../components/Icon.jsx'
 
 const MODES = [
@@ -18,6 +21,14 @@ const MODES = [
 export default function RotationHome() {
   const { rotationId } = useParams()
   const rotation = getRotationMerged(rotationId)
+
+  // Bumped when the readiness card changes the daily pace, so we recompute.
+  const [tick, setTick] = useState(0)
+  const forecast = useMemo(
+    () => (rotation ? forecastRotation(rotation.id, rotation.flashcards) : null),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [rotation?.id, tick],
+  )
 
   if (!rotation) {
     return (
@@ -48,6 +59,10 @@ export default function RotationHome() {
         </h1>
         <p className="sub">{rotation.blurb}</p>
       </div>
+
+      {isWorthShowing(forecast) && (
+        <ReadinessCard f={forecast} onBudgetChange={() => setTick((t) => t + 1)} />
+      )}
 
       <div className="grid mode-grid">
         {MODES.map((m) => (

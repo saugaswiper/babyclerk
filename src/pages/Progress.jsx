@@ -5,7 +5,9 @@ import { getAttempts, summarize } from '../lib/attempts.js'
 import { weakTopics } from '../lib/mastery.js'
 import { getApiKey, getModel } from '../lib/settings.js'
 import { generateItems } from '../lib/generate.js'
-import { appendCustom } from '../lib/customContent.js'
+import { appendCustom, getRotationMerged } from '../lib/customContent.js'
+import { forecastAll, isWorthShowing } from '../lib/forecast.js'
+import { ReadinessRow } from '../components/Readiness.jsx'
 import Icon from '../components/Icon.jsx'
 
 function pct(correct, n) {
@@ -61,6 +63,25 @@ export default function Progress() {
   const overallCorrect = attempts.reduce((n, a) => n + (a.correct ? 1 : 0), 0)
   const overallPct = pct(overallCorrect, total)
 
+  // Exam readiness across every rotation that has something to count down to.
+  const decks = rotations.map((r) => ({ id: r.id, cards: getRotationMerged(r.id).flashcards }))
+  const forecasts = forecastAll(decks).filter(isWorthShowing)
+  const readinessSection = forecasts.length > 0 && (
+    <div className="card" style={{ marginBottom: 16 }}>
+      <label className="section-title" style={{ marginTop: 0 }}>Exam readiness</label>
+      <div className="rdy-rows">
+        {forecasts.map((f) => {
+          const r = getRotation(f.rotationId)
+          return <ReadinessRow key={f.rotationId} f={f} name={r?.name || f.rotationId} icon={r?.icon} />
+        })}
+      </div>
+      <p className="muted" style={{ fontSize: '0.8rem', margin: '10px 0 0' }}>
+        Projected from your review history — how much you&apos;d recall today, and whether your daily
+        pace covers the deck in time. Open a rotation for the full picture.
+      </p>
+    </div>
+  )
+
   // Rotations in their canonical order, only those with attempts.
   const rows = rotations
     .map((r) => ({ id: r.id, name: r.name, icon: r.icon, e: byRotation[r.id] }))
@@ -73,6 +94,7 @@ export default function Progress() {
           <h1>Your progress</h1>
           <p className="sub">Answer some flashcards and quizzes and this page fills in — it tracks how you do per rotation and surfaces your weakest topics so you know exactly where to focus.</p>
         </div>
+        {readinessSection}
         <div className="card result-card">
           <div className="big"><Icon name="seedling" size={52} strokeWidth={1.6} /></div>
           <h2>Nothing tracked yet</h2>
@@ -99,6 +121,8 @@ export default function Progress() {
           <span className="muted">overall accuracy · {overallCorrect}/{total} correct</span>
         </div>
       </div>
+
+      {readinessSection}
 
       {weak.length > 0 && (
         <div className="card" style={{ marginBottom: 16 }}>

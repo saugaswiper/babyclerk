@@ -46,9 +46,10 @@ Shipped + planned features with status. Keep in sync with [[Roadmap]] (this is t
 - 🔨 **Topic tagging** — uses cards' existing `topic` strings; normalized ontology open (OD3)
 - ✅ **Mastery model** — recency-weighted accuracy + confidence + trend (↑/↓); powers insights + prioritizer
 - ✅ **Weak-area targeting** — "Study due" queue orders by weakness + exam proximity; **"Drill my weak spot"** on `/progress` AI-generates targeted cards for the weakest topic (closes the loop)
-- ⬜ **Adaptive pacing**
+- ✅ **Exam readiness forecast** (`src/lib/forecast.js`) — "% ready today" from per-card recall decay + coverage, plus a pace verdict (on track / tight / behind) and a one-tap "raise pace to N/day" fix. Shown on `/r/:id`, in the home exam banner, and as a cross-rotation list on `/progress`. Deterministic, offline, fully explainable.
+- ⬜ **Adaptive pacing** (auto-tune the budget instead of suggesting it)
 - ⬜ **AI tutor** (explain miss, quiz-me, generate from weak spot)
-- ⬜ **Exam readiness forecast** + "what to expect" by rotation/date
+- ⬜ **"What to expect"** by rotation/date (the other half of Layer 5)
 
 ## Launch (see [[Roadmap]] Phase 6)
 - ⬜ First-run onboarding

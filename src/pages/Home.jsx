@@ -14,6 +14,7 @@ import {
   isExtraBlock,
 } from '../lib/schedule.js'
 import { weakTopics } from '../lib/mastery.js'
+import { forecastRotation, verdictColor } from '../lib/forecast.js'
 import Icon from '../components/Icon.jsx'
 
 export default function Home() {
@@ -25,7 +26,7 @@ export default function Home() {
   const stats = rotations.map((r) => {
     const merged = getRotationMerged(r.id)
     const srsState = readStored(`srs:${r.id}`, {})
-    return { r: merged, due: countToday(merged.flashcards, srsState, r.id) }
+    return { r: merged, srsState, due: countToday(merged.flashcards, srsState, r.id) }
   })
   const totalDue = stats.reduce((n, s) => n + s.due, 0)
 
@@ -38,6 +39,11 @@ export default function Home() {
 
   const nextExam = exams[0]
   const weak = weakTopics(undefined, { min: 3, limit: 3 })
+  // Readiness for the rotation whose exam is next — the "am I on pace" line.
+  const nextExamStat = nextExam?.rotationId ? stats.find((s) => s.r.id === nextExam.rotationId) : null
+  const nextForecast = nextExamStat
+    ? forecastRotation(nextExamStat.r.id, nextExamStat.r.flashcards, { schedule, srsState: nextExamStat.srsState })
+    : null
   // Current block might be a rotation without a deck (Anesthesia/Emergency/…).
   const currentIsContent = rotations.some((r) => r.id === currentId)
   const currentExtra = currentId && !currentIsContent ? EXTRA_BLOCKS[currentId] || currentId : null
@@ -86,6 +92,14 @@ export default function Home() {
             {examName(nextExam)} exam {countdown(nextExam.days)}
           </h3>
           <p style={{ margin: '4px 0 0' }}>{examNudge(nextExam.days)}</p>
+          {nextForecast && (
+            <p className="exam-pace">
+              <strong style={{ color: verdictColor(nextForecast.verdict) }}>
+                {Math.round(nextForecast.readinessNow * 100)}% ready
+              </strong>{' '}
+              · {nextForecast.headline}
+            </p>
+          )}
         </Link>
       )}
 
